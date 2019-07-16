@@ -9,3 +9,6 @@
 ## 2.DOWLOAD:
 
 - FONT FIRACODE
+
+## 3. HOW TO SYNC VSCODE: 
+
