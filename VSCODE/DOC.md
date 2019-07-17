@@ -7,6 +7,7 @@
 - Setting Sync
 - Project snippets
 - Stylelint
+- GraphQL for VSCode
 
 ## 2.DOWLOAD:
 
