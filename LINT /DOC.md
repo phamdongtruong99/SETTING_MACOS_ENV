@@ -1,8 +1,8 @@
 # LINT
 
-## I/HOW TO USE STYLELINT
+## I/ HOW TO USE STYLELINT
 
-### 1.FOR STYLED COMPONENT:
+### 1. FOR STYLED COMPONENT:
 
 Add a .stylelintrc file to the root of your project:
 
