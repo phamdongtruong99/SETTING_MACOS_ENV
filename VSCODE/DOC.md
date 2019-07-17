@@ -8,6 +8,7 @@
 - Project snippets
 - Stylelint
 - GraphQL for VSCode
+- Formatting Toggle
 
 ## 2.DOWLOAD
 
