@@ -14,6 +14,10 @@
   "prettier.singleQuote": true,
   "prettier.eslintIntegration": true,
   "prettier.stylelintIntegration": true,
+  "prettier.tabWidth": 2,
+  "prettier.printWidth": 100,
+  "prettier.trailingComma": "all",
+  "prettier.semi": true,
   "window.zoomLevel": -2,
   "eslint.autoFixOnSave": true,
   "[javascript]": {
@@ -30,10 +34,6 @@
   "typescript.tsc.autoDetect": "off",
   "typescript.validate.enable": false,
   "javascript.validate.enable": false,
-  "prettier.tabWidth": 2,
-  "prettier.printWidth": 100,
-  "prettier.trailingComma": "all",
-  "prettier.semi": true,
   "[html]": {
     "editor.defaultFormatter": "vscode.html-language-features"
   },
