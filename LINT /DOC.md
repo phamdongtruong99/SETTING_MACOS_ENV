@@ -2,7 +2,7 @@
 
 ## I/ HOW TO USE STYLELINT
 
-### 1. FOR STYLED COMPONENT:
+### 1. FOR STYLED COMPONENT
 
 Install:
 
@@ -49,3 +49,7 @@ Now you can lint your CSS by running the script! 🎉
 ```javascript
  npm run lint:css
 ```
+
+## II/ HOW TO USE MARKDOWNLINT
+
+Link: <https://github.com/DavidAnson/vscode-markdownlint>
