@@ -1,6 +1,6 @@
 # SETTING FOR VSCODE
 
-## 1.DOWNLOAD EXTENSIONS:
+## 1.DOWNLOAD EXTENSIONS
 
 - Live server
 - React Native Full Pack
@@ -9,11 +9,11 @@
 - Stylelint
 - GraphQL for VSCode
 
-## 2.DOWLOAD:
+## 2.DOWLOAD
 
 - FONT FIRACODE
 
-## 3.HOW TO SYNC VSCODE:
+## 3.HOW TO SYNC VSCODE
 
 ## 4.HOW TO USE CODE SNIPPETS
 
