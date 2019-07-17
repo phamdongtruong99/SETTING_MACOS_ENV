@@ -4,6 +4,13 @@
 
 ### 1. FOR STYLED COMPONENT:
 
+Install:
+
+```javascript
+npm install --save-dev stylelint stylelint-processor-styled-components stylelint-config-styled-components stylelint-config-recommended
+
+```
+
 Add a .stylelintrc file to the root of your project:
 
 ```javascript
