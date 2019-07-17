@@ -6,8 +6,9 @@
   "editor.renderLineHighlight": "gutter",
   "editor.tabSize": 2,
   "editor.detectIndentation": true,
-  "editor.tabCompletion": true,
+  "editor.tabCompletion": "on",
   "editor.formatOnSave": true,
+  "prettier.stylelintIntegration": true,
   "workbench.iconTheme": "material-icon-theme",
   "workbench.colorTheme": "Default High Contrast",
   "files.autoSave": "afterDelay",
@@ -21,28 +22,19 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "editor.fontSize": 14,
-  // "typescript.format.insertSpaceAfterFunctionKeywordForAnonymousFunctions": true,
   "javascript.format.insertSpaceAfterFunctionKeywordForAnonymousFunctions": true,
   "terminal.integrated.rendererType": "dom",
   "javascript.updateImportsOnFileMove.enabled": "always",
   "explorer.confirmDragAndDrop": false,
-  "scssLint.runOnTextChange": true,
-  "scssLint.showHighlights": true,
-  "editor.codeActionsOnSaveTimeout": 300,
-  "prettier.stylelintIntegration": true,
-  "sassFormat.indent": 2,
-  "prettier.tabWidth": 2,
   "typescript.format.enable": false,
   "typescript.suggestionActions.enabled": false,
   "typescript.tsc.autoDetect": "off",
-  // disabled typescript to enable optional chaining operator plugins
   "typescript.validate.enable": false,
   "javascript.validate.enable": false,
+  "prettier.tabWidth": 2,
   "prettier.printWidth": 100,
   "prettier.trailingComma": "all",
-  "[scss]": {
-    "editor.defaultFormatter": "sasa.vscode-sass-format"
-  },
+  "prettier.semi": true,
   "[html]": {
     "editor.defaultFormatter": "vscode.html-language-features"
   },
@@ -51,14 +43,10 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "flow.enabled": false,
-  "autoimport.filesToScan": "**/*.{js, css, less}",
   "sync.syncExtensions": false,
-  "[less]": {
-    "editor.defaultFormatter": "michelemelluso.code-beautifier"
-  },
   "[jsonc]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "sync.gist": "",
+  "sync.gist": "ef480108830c863014df47e35067f78c",
   "sync.autoUpload": true
 }
