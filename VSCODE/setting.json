@@ -13,7 +13,6 @@
   "workbench.colorTheme": "Default High Contrast",
   "files.autoSave": "afterDelay",
   "prettier.singleQuote": true,
-  // Use ‘prettier-eslint’ instead of ‘prettier’. Other settings will only be fallbacks in case they could not be inferred from eslint rules.
   "prettier.eslintIntegration": true,
   "window.zoomLevel": -2,
   "eslint.autoFixOnSave": true,
