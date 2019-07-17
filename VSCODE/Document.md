@@ -6,6 +6,7 @@
 - React Native Full Pack
 - Setting Sync
 - Project snippets
+- Stylelint
 
 ## 2.DOWLOAD:
 
