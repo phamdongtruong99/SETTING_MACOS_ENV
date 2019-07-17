@@ -1,6 +1,4 @@
 {
-  "workbench.iconTheme": "material-icon-theme",
-  "workbench.colorTheme": "Default High Contrast",
   "editor.fontFamily": "Fira Code",
   "editor.fontLigatures": true,
   "editor.hideCursorInOverviewRuler": true,
@@ -10,49 +8,57 @@
   "editor.detectIndentation": true,
   "editor.tabCompletion": true,
   "editor.formatOnSave": true,
-  "editor.fontSize": 14,
-  "editor.codeActionsOnSaveTimeout": 300,
-  "[javascript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[scss]": {
-    "editor.defaultFormatter": "sasa.vscode-sass-format"
-  },
-  "[html]": {
-    "editor.defaultFormatter": "vscode.html-language-features"
-  },
-  "[json]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[less]": {
-    "editor.defaultFormatter": "michelemelluso.code-beautifier"
-  },
-  "[jsonc]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.colorTheme": "Default High Contrast",
   "files.autoSave": "afterDelay",
   "prettier.singleQuote": true,
+  // Use ‘prettier-eslint’ instead of ‘prettier’. Other settings will only be fallbacks in case they could not be inferred from eslint rules.
   "prettier.eslintIntegration": true,
-  "prettier.printWidth": 100,
-  "prettier.trailingComma": "all",
-  "prettier.tabWidth": 2,
-  "prettier.stylelintIntegration": true,
   "window.zoomLevel": -2,
   "eslint.autoFixOnSave": true,
+  "[javascript]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.fontSize": 14,
+  // "typescript.format.insertSpaceAfterFunctionKeywordForAnonymousFunctions": true,
   "javascript.format.insertSpaceAfterFunctionKeywordForAnonymousFunctions": true,
   "terminal.integrated.rendererType": "dom",
   "javascript.updateImportsOnFileMove.enabled": "always",
   "explorer.confirmDragAndDrop": false,
   "scssLint.runOnTextChange": true,
   "scssLint.showHighlights": true,
+  "editor.codeActionsOnSaveTimeout": 300,
+  "prettier.stylelintIntegration": true,
   "sassFormat.indent": 2,
+  "prettier.tabWidth": 2,
   "typescript.format.enable": false,
   "typescript.suggestionActions.enabled": false,
   "typescript.tsc.autoDetect": "off",
+  // disabled typescript to enable optional chaining operator plugins
   "typescript.validate.enable": false,
   "javascript.validate.enable": false,
+  "prettier.printWidth": 100,
+  "prettier.trailingComma": "all",
+  "[scss]": {
+    "editor.defaultFormatter": "sasa.vscode-sass-format"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
   "breadcrumbs.enabled": true,
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
   "flow.enabled": false,
   "autoimport.filesToScan": "**/*.{js, css, less}",
-  "sync.syncExtensions": false
+  "sync.syncExtensions": false,
+  "[less]": {
+    "editor.defaultFormatter": "michelemelluso.code-beautifier"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "sync.gist": "",
+  "sync.autoUpload": true
 }
