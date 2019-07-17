@@ -8,12 +8,12 @@
   "editor.detectIndentation": true,
   "editor.tabCompletion": "on",
   "editor.formatOnSave": true,
-  "prettier.stylelintIntegration": true,
   "workbench.iconTheme": "material-icon-theme",
   "workbench.colorTheme": "Default High Contrast",
   "files.autoSave": "afterDelay",
   "prettier.singleQuote": true,
   "prettier.eslintIntegration": true,
+  "prettier.stylelintIntegration": true,
   "window.zoomLevel": -2,
   "eslint.autoFixOnSave": true,
   "[javascript]": {
