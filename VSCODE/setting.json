@@ -1,62 +1,62 @@
 {
-	"editor.fontFamily": "Fira Code",
-	"editor.fontLigatures": true,
-	"editor.hideCursorInOverviewRuler": true,
-	"editor.matchBrackets": false,
-	"editor.renderLineHighlight": "gutter",
-	"editor.tabSize": 2,
-	"editor.detectIndentation": true,
-	"editor.tabCompletion": "on",
-	"editor.formatOnSave": true,
-	"workbench.iconTheme": "material-icon-theme",
-	"workbench.colorTheme": "Default High Contrast",
-	"files.autoSave": "afterDelay",
-	"prettier.singleQuote": true,
-	"prettier.eslintIntegration": true,
-	"prettier.stylelintIntegration": true,
-	"prettier.tabWidth": 2,
-	"prettier.printWidth": 80,
-	"prettier.useTabs": true,
-	"prettier.trailingComma": "all",
-	"prettier.semi": true,
-	"formattingToggle.activateFor": [
-		"formatOnPaste",
-		"formatOnSave",
-		"formatOnType"
-	],
-	"window.zoomLevel": -2,
-	"eslint.autoFixOnSave": true,
-	"eslint.alwaysShowStatus": true,
-	"[javascript]": {
-		"editor.formatOnSave": true,
-		"editor.defaultFormatter": "esbenp.prettier-vscode"
-	},
-	"editor.fontSize": 14,
-	"javascript.format.insertSpaceAfterFunctionKeywordForAnonymousFunctions": true,
-	"terminal.integrated.rendererType": "dom",
-	"javascript.updateImportsOnFileMove.enabled": "always",
-	"explorer.confirmDragAndDrop": false,
-	"typescript.format.enable": false,
-	"typescript.suggestionActions.enabled": false,
-	"typescript.tsc.autoDetect": "off",
-	"typescript.validate.enable": false,
-	"javascript.validate.enable": false,
-	"[html]": {
-		"editor.defaultFormatter": "vscode.html-language-features"
-	},
-	"breadcrumbs.enabled": true,
-	"[json]": {
-		"editor.defaultFormatter": "esbenp.prettier-vscode"
-	},
-	"flow.enabled": false,
-	"sync.syncExtensions": false,
-	"[jsonc]": {
-		"editor.defaultFormatter": "esbenp.prettier-vscode"
-	},
-	"sync.gist": "ef480108830c863014df47e35067f78c",
-	"sync.autoUpload": true,
-	"git.autofetch": true,
-	"editor.formatOnPaste": true,
-	"editor.formatOnType": true,
-	"todohighlight.isEnable": false
+  "editor.fontFamily": "Fira Code",
+  "editor.fontLigatures": true,
+  "editor.hideCursorInOverviewRuler": true,
+  "editor.matchBrackets": false,
+  "editor.renderLineHighlight": "gutter",
+  "editor.tabSize": 2,
+  "editor.detectIndentation": true,
+  "editor.tabCompletion": "on",
+  "editor.formatOnSave": true,
+  "editor.fontSize": 14,
+  "editor.formatOnPaste": true,
+  "editor.formatOnType": true,
+  "editor.codeActionsOnSaveTimeout": 300,
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.colorTheme": "Default High Contrast",
+  "files.autoSave": "afterDelay",
+  "prettier.singleQuote": true,
+  // "prettier.eslintIntegration": true,
+  "prettier.stylelintIntegration": true,
+  "prettier.tabWidth": 2,
+  "prettier.printWidth": 80,
+  "prettier.trailingComma": "all",
+  "prettier.semi": true,
+  "formattingToggle.activateFor": [
+    "formatOnPaste",
+    "formatOnSave",
+    "formatOnType"
+  ],
+  "window.zoomLevel": -1,
+  "eslint.autoFixOnSave": true,
+  "eslint.alwaysShowStatus": true,
+  "[javascript]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "javascript.format.insertSpaceAfterFunctionKeywordForAnonymousFunctions": true,
+  "terminal.integrated.rendererType": "dom",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "explorer.confirmDragAndDrop": false,
+  "typescript.format.enable": false,
+  "typescript.suggestionActions.enabled": false,
+  "typescript.tsc.autoDetect": "off",
+  "typescript.validate.enable": false,
+  "javascript.validate.enable": false,
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "breadcrumbs.enabled": true,
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "flow.enabled": false,
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "sync.gist": "ef480108830c863014df47e35067f78c",
+  "sync.autoUpload": true,
+  "sync.syncExtensions": true,
+  "git.autofetch": true,
+  "todohighlight.isEnable": false
 }
