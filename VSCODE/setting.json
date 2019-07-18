@@ -16,7 +16,6 @@
   "workbench.colorTheme": "Default High Contrast",
   "files.autoSave": "afterDelay",
   "prettier.singleQuote": true,
-  // "prettier.eslintIntegration": true,
   "prettier.stylelintIntegration": true,
   "prettier.tabWidth": 2,
   "prettier.printWidth": 80,

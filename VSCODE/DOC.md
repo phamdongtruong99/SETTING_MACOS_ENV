@@ -9,6 +9,7 @@
 - Stylelint
 - GraphQL for VSCode
 - Formatting Toggle
+- Markdown all in one
 
 ## 2.DOWLOAD
 
