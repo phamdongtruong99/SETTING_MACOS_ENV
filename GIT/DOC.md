@@ -3,7 +3,6 @@
 ### Rule: type(file): body
 
 **type**:
-
   - fix
   - feature
   - docs
@@ -14,7 +13,7 @@
 ### Rule: type/body
 
 **type**:
-
+  - refactor
   - feature
   - fix
   - update
