@@ -7,6 +7,14 @@
 **type**: 
   - fix 
   - feat 
-  - docs 
+  - docs
+  - chore  
   
+## How to namming a branch git 
 
+### Rule: type/body 
+
+**type**:
+  - feat 
+  - fix
+  - 
