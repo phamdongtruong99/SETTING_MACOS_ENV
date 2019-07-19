@@ -2,4 +2,4 @@
 
 # How to write a git commit message
 
-Example: <type>(<file>): <body> 
+Example: type(file): body 
