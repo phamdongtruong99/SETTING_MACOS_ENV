@@ -17,4 +17,5 @@
 **type**:
   - feat 
   - fix
-  - 
+  - update 
+  - add 
