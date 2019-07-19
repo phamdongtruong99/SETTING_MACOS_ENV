@@ -1,21 +1,21 @@
-
-
 ## How to write a git commit message
 
 ### Rule: type(file): body
 
-**type**: 
-  - fix 
-  - feat 
+**type**:
+
+  - fix
+  - feature
   - docs
   - chore  
   
-## How to namming a branch git 
+## How to naming a branch git
 
-### Rule: type/body 
+### Rule: type/body
 
 **type**:
-  - feat 
+
+  - feature
   - fix
-  - update 
-  - add 
+  - update
+  - add
