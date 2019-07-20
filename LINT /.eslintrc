@@ -1,6 +1,11 @@
 {
   "parser": "babel-eslint",
-  "extends": ["airbnb", "prettier", "prettier/react"],
+  "extends": [
+    "airbnb",
+    "prettier",
+    "prettier/react",
+    "plugin:node/recommended"
+  ],
   "env": {
     "browser": true
   },
@@ -16,6 +21,7 @@
     "FormData": true
   },
   "rules": {
+    "no-unused-vars": "warn",
     "jsx-a11y/img-has-alt": "off",
     "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
     "no-use-before-define": 0,

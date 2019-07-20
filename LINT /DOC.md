@@ -53,3 +53,23 @@ Now you can lint your CSS by running the script! 🎉
 ## II/ HOW TO USE MARKDOWNLINT
 
 Link: <https://github.com/DavidAnson/vscode-markdownlint>
+
+## III/ HOW TO USE ESLINT
+
+### DOWLOAD PLUGIN DEVDEPENDENCIES:
+
+**COMMO**:
+
+- eslint
+- eslint-config-prettier
+- eslint-plugin-prettier
+- eslint-config-airbnb
+
+**EXPRESS**:
+
+- eslint-config-node
+- eslint-plugin-node
+
+**REACT**:
+
+- 
