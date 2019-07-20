@@ -10,6 +10,7 @@
 - GraphQL for VSCode
 - Formatting Toggle
 - Markdown all in one
+- Import Cost
 
 ## 2.DOWLOAD
 
