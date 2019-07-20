@@ -70,6 +70,13 @@ Link: <https://github.com/DavidAnson/vscode-markdownlint>
 - eslint-config-node
 - eslint-plugin-node
 
+**REACT**
+
+- babel-eslint
+- eslint-plugin-import
+- eslint-plugin-jsx-a11y
+- eslint-plugin-react
+
 ### ADD SCRIPT IN PACKAGE.JSON
 
 ```javascript
