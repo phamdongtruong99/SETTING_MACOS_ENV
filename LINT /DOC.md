@@ -70,6 +70,8 @@ Link: <https://github.com/DavidAnson/vscode-markdownlint>
 - eslint-config-node
 - eslint-plugin-node
 
-**REACT**:
+### ADD SCRIPT IN PACKAGE.JSON
 
-- 
+```javascript
+  "lint": "./node_modules/.bin/eslint -c .eslintrc --fix ./src"
+```
