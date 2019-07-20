@@ -1,4 +1,4 @@
-## 1.DOWNLOAD APP
+# 1.DOWNLOAD APP
 
 - NVM ( To install Nodejs )
 - NODEJS
