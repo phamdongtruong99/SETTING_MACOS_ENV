@@ -1,20 +1,16 @@
 {
   "import styled from 'styled-component' ": {
-    "prefix": "imsrc",
+    "prefix": "ims",
     "body": [
       "import styled from 'styled-components'; ",
       "",
       "export default styled.div`",
-      "       //code hear",
+      " //code hear",
       "`;"
     ]
   },
   "Proptypes": {
     "prefix": "prop",
     "body": ["propTypes = {", "", "};"]
-  },
-  "import PropTypes from 'prop-types": {
-    "prefix": "improp",
-    "body": ["import PropTypes from 'prop-types';"]
   }
 }
