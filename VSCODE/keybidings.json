@@ -3,5 +3,9 @@
   {
     "key": "cmd+,",
     "command": "workbench.action.openSettingsJson"
+  },
+  {
+    "key": "cmd+/",
+    "command": "workbench.action.openGlobalKeybindingsFile"
   }
 ]
