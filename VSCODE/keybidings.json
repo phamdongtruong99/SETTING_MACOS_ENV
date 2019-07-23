@@ -5,7 +5,7 @@
     "command": "workbench.action.openSettingsJson"
   },
   {
-    "key": "cmd+/",
+    "key": "cmd+shift+,",
     "command": "workbench.action.openGlobalKeybindingsFile"
   }
 ]
