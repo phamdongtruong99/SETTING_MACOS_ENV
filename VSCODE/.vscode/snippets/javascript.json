@@ -12,5 +12,9 @@
   "Proptypes": {
     "prefix": "prop",
     "body": ["propTypes = {", "", "};"]
+  },
+  "document.getElementById()": {
+    "prefix": "getid",
+    "body": ["document.getElementById("]
   }
 }
