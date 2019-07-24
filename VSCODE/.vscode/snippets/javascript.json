@@ -16,5 +16,17 @@
   "document.getElementById()": {
     "prefix": "getid",
     "body": ["document.getElementById("]
+  },
+  "@media all and (max-width: 992px) and (min-width: 768px)": {
+    "prefix": "media992",
+    "body": [
+      "@media all and (max-width: 992px) and (min-width: 768px) {",
+      "",
+      "}"
+    ]
+  },
+  "@media all and (max-width: 768px) {": {
+    "prefix": "media768",
+    "body": ["@media all and (max-width: 768px) {", "", "}"]
   }
 }
