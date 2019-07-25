@@ -38,11 +38,16 @@ alias instagram="open -a 'Google Chrome' https://www.instagram.com/ "
 alias codepen="open -a 'Google Chrome' https://codepen.io/dashboard/ "
 alias codesandbox="open -a 'Google Chrome' https://codesandbox.io/dashboard/recent "
 alias netflix="open -a 'Google Chrome' https://www.netflix.com/browse "
+alias macvim="open -a 'macvim' ";
 alias calendar="open -a 'Calendar' "
 alias xd="open -a 'Adobe XD' "
 alias trash="rm -rf ~/.Trash/*"
 alias git_edit="ga . && gcmsg 'Fix something' && ggpush"
 alias git_init="ga . && gcmsg 'Init project' && ggpush"
+
+git_push () {
+  ga . && gcmsg $1 && ggpush;
+}
 
 
 export NVM_DIR="/Users/shyn/.nvm"
