@@ -1,4 +1,10 @@
-# 1.DOWNLOAD APP
+# SETTING MY MACOS
+
+## 0.ACCOUNT
+
+MK: Tranthaison1231
+
+## 1.DOWNLOAD APP
 
 - NVM ( To install Nodejs )
 - NODEJS
@@ -7,3 +13,5 @@
 - ADOBE PHOTOSHOP
 - ADOBE IILUSTRATOR
 - ADOBE XD
+- The Unachiver
+- XCODE
