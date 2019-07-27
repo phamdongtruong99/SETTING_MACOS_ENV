@@ -27,8 +27,11 @@
     "formatOnSave",
     "formatOnType"
   ],
-  "window.zoomLevel": -1,
+  "window.zoomLevel": -2,
   "files.autoSave": "afterDelay",
+  "files.associations": {
+    "*.json": "jsonc"
+  },
   "eslint.autoFixOnSave": true,
   "eslint.alwaysShowStatus": true,
   "[javascript]": {

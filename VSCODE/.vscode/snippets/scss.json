@@ -1,24 +1,5 @@
 {
-  //-----------------SNIPPETS FOR JAVASCRIPT-------------
-  "import styled from 'styled-component' ": {
-    "prefix": "ims",
-    "body": [
-      "import styled from 'styled-components'; ",
-      "",
-      "export default styled.div`",
-      " //code hear",
-      "`;"
-    ]
-  },
-  "Proptypes": {
-    "prefix": "prop",
-    "body": ["propTypes = {", "", "};"]
-  },
-  "document.getElementById()": {
-    "prefix": "getid",
-    "body": ["document.getElementById("]
-  },
-  //-----------------SNIPPETS FOR STYLE.JS-------------
+  //-----------------SNIPPETS FOR SCSS/CSS-------------
   "CSS RESET": {
     "prefix": "cssreset",
     "body": [
