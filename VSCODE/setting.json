@@ -7,16 +7,16 @@
   "editor.tabSize": 2,
   "editor.detectIndentation": true,
   "editor.tabCompletion": "on",
-  // "editor.formatOnSave": true,
   "editor.fontSize": 14,
   "editor.formatOnPaste": true,
   "editor.formatOnType": true,
+  "editor.formatOnSave": true,
   "editor.codeActionsOnSaveTimeout": 300,
   "workbench.iconTheme": "material-icon-theme",
   "workbench.colorTheme": "Default High Contrast",
-  "files.autoSave": "afterDelay",
   "prettier.singleQuote": true,
-  "prettier.stylelintIntegration": true,
+  "prettier.eslintIntegration": false,
+  "prettier.stylelintIntegration": false,
   "prettier.tabWidth": 2,
   "prettier.printWidth": 80,
   "prettier.bracketSpacing": true,
@@ -27,11 +27,25 @@
     "formatOnSave",
     "formatOnType"
   ],
-  "window.zoomLevel": 0,
+  "window.zoomLevel": -1,
+  "files.autoSave": "afterDelay",
   "eslint.autoFixOnSave": true,
   "eslint.alwaysShowStatus": true,
   "[javascript]": {
     "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "[css]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "javascript.format.insertSpaceAfterFunctionKeywordForAnonymousFunctions": true,
@@ -43,76 +57,12 @@
   "typescript.tsc.autoDetect": "off",
   "typescript.validate.enable": false,
   "javascript.validate.enable": false,
-  "[html]": {
-    "editor.defaultFormatter": "vscode.html-language-features"
-  },
   "breadcrumbs.enabled": true,
-  "[json]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
   "flow.enabled": false,
-  "[jsonc]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
   "sync.gist": "ef480108830c863014df47e35067f78c",
   "sync.autoUpload": true,
   "sync.syncExtensions": true,
   "git.autofetch": true,
   "todohighlight.isEnable": false,
-  "peacock.favoriteColors": [
-    {
-      "name": "Angular Red",
-      "value": "#b52e31"
-    },
-    {
-      "name": "Auth0 Orange",
-      "value": "#eb5424"
-    },
-    {
-      "name": "Azure Blue",
-      "value": "#007fff"
-    },
-    {
-      "name": "C# Purple",
-      "value": "#68217A"
-    },
-    {
-      "name": "Gatsby Purple",
-      "value": "#639"
-    },
-    {
-      "name": "Go Cyan",
-      "value": "#5dc9e2"
-    },
-    {
-      "name": "Java Blue-Gray",
-      "value": "#557c9b"
-    },
-    {
-      "name": "JavaScript Yellow",
-      "value": "#f9e64f"
-    },
-    {
-      "name": "Mandalorian Blue",
-      "value": "#1857a4"
-    },
-    {
-      "name": "Node Green",
-      "value": "#215732"
-    },
-    {
-      "name": "React Blue",
-      "value": "#00b3e6"
-    },
-    {
-      "name": "Something Different",
-      "value": "#832561"
-    },
-    {
-      "name": "Vue Green",
-      "value": "#42b883"
-    }
-  ],
-  "cSpell.userWords": ["Dropdown", "dones", "todos"],
-  "files.autoSave": "afterDelay"
+  "cSpell.enabled": false
 }
