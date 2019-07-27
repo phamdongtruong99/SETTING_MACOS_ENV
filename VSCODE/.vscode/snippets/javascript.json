@@ -18,7 +18,7 @@
     "prefix": "getid",
     "body": ["document.getElementById("]
   },
-  //-----------------SNIPPETS FOR STYLE.JS-------------
+  //-----------------SNIPPETS FOR SCSS/CSS-------------
   "CSS RESET": {
     "prefix": "cssreset",
     "body": [
@@ -72,6 +72,34 @@
       "",
       "[hidden] {",
       "  display: none !important;",
+      "}"
+    ]
+  },
+  "flex-center": {
+    "prefix": "flex-center",
+    "body": [
+      "display: flex;",
+      "align-items: center;",
+      "justify-content: center;"
+    ]
+  },
+  "font-face": {
+    "prefix": "font-face",
+    "body": [
+      "@font-face {",
+      "  font-family: 'Poppins-Regular';",
+      "  src: url('../assets/fonts/');",
+      "}"
+    ]
+  },
+  "@media": {
+    "prefix": "media",
+    "body": [
+      "@media all and (max-width: 992px) and (min-width: 768px) {",
+      "  //",
+      "}",
+      "@media all and (max-width: 768px) {",
+      "  //",
       "}"
     ]
   }
