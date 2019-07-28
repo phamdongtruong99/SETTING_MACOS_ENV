@@ -64,6 +64,10 @@
       "justify-content: center;"
     ]
   },
+  "grid-center": {
+    "prefix": "flex-center",
+    "body": ["display: grid;", "place-items: center;"]
+  },
   "font-face": {
     "prefix": "font-face",
     "body": [
