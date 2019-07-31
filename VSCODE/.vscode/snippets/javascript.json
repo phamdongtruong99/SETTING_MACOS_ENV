@@ -1,5 +1,9 @@
 {
   //-----------------SNIPPETS FOR JAVASCRIPT-------------
+  "console.log ": {
+    "prefix": "log",
+    "body": ["console.log()"]
+  },
   "import styled from 'styled-component' ": {
     "prefix": "ims",
     "body": [

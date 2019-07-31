@@ -12,6 +12,7 @@
 - Markdown all in one
 - Import Cost
 - Docker
+- VSCODE ICON
 
 ## 2.DOWLOAD
 
