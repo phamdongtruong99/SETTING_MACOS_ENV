@@ -15,7 +15,7 @@
     ]
   },
   "<Button type='' onClick={}></Button>": {
-    "prefix": "ant-button",
+    "prefix": "ant-btn",
     "body": ["<Button type='' onClick={}></Button>"]
   },
   "Proptypes": {
