@@ -1,9 +1,91 @@
 {
-  //-----------------SNIPPETS FOR JAVASCRIPT-------------
-  "console.log ": {
-    "prefix": "log",
-    "body": ["console.log()"]
+  //-----------------SNIPPETS FOR REDUX------------
+  "Redux saga": {
+    "prefix": "rxsaga",
+    "body": [
+      "import { takeEvery, put, take } from 'redux-saga/effects';",
+      "import {",
+      " action",
+      "} from './actions';",
+      "",
+      "function* saga() {",
+      " try {",
+      "   yield put(action);",
+      " } catch (e) {",
+      "   yield put(getAllContactFailureAction());",
+      " }",
+      "}",
+      "",
+      "export default [",
+      " takeEvery(YourTypes.YOUR_TYPES, saga),",
+      "];"
+    ]
   },
+  "Redux action": {
+    "prefix": "rxaction",
+    "body": [
+      "import { makeConstantCreator, makeActionCreator } from '../../utils/reduxUtils';",
+      "",
+      "export const YourTypes = makeConstantCreator(",
+      " 'YOUR_TYPE',",
+      ");",
+      "",
+      "export const action = () => makeActionCreator(YourTypes.YOUR_TYPE);"
+    ]
+  },
+  "Redux reducer": {
+    "prefix": "rxreducer",
+    "body": [
+      "import { yourTypes } from './actions';",
+      "import { makeReducerCreator } from '../../utils/reduxUtils';",
+      "",
+      "export const initialState = {",
+      "",
+      "};",
+      "",
+      "export const action = (state, { data }) => ({",
+      "",
+      "});",
+      "",
+      "export default makeReducerCreator(initialState, {",
+      " [yourTypes.YOURTYPES]: action,",
+      "});"
+    ]
+  },
+  "Redux react container": {
+    "prefix": "rxcontainer",
+    "body": [
+      "import React, { useEffect } from 'react';",
+      "import { connect } from 'react-redux';",
+      "import PropTypes from 'prop-types';",
+      "",
+      "const index = ({}) => {",
+      " useEffect(() => {",
+      " }, []);",
+      " return (",
+      " //",
+      " );",
+      "};",
+      "",
+      "index.propTypes = {",
+      " //",
+      "};",
+      "",
+      "const mapStateToProps = state => ({",
+      "  props: state.props",
+      "});",
+      "",
+      "const mapDispatchToProps = dispatch => ({",
+      "  action: (params) => dispatch(action(params))",
+      "});",
+      "",
+      "export default connect(",
+      " mapStateToProps,",
+      " mapDispatchToProps,",
+      ")(index);"
+    ]
+  },
+  //-----------------SNIPPETS FOR REACT------------
   "import styled from 'styled-component' ": {
     "prefix": "ims",
     "body": [
@@ -14,13 +96,19 @@
       "`;"
     ]
   },
+  "Proptypes": {
+    "prefix": "prop",
+    "body": ["propTypes = {", "", "};"]
+  },
+  //-----------------SNIPPETS FOR ANT DESIGN--------
   "<Button type='' onClick={}></Button>": {
     "prefix": "ant-btn",
     "body": ["<Button type='primary' onClick={}></Button>"]
   },
-  "Proptypes": {
-    "prefix": "prop",
-    "body": ["propTypes = {", "", "};"]
+  //-----------------SNIPPETS FOR JAVASCRIPT-------------
+  "console.log ": {
+    "prefix": "log",
+    "body": ["console.log()"]
   },
   "document.getElementById()": {
     "prefix": "getid",
