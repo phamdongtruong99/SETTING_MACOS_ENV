@@ -30,7 +30,7 @@
       " 'YOUR_TYPE',",
       ");",
       "",
-      "export const action = () => makeActionCreator(YourTypes.YOUR_TYPE);"
+      "export const action = params => makeActionCreator(YourTypes.YOUR_TYPE, {params});"
     ]
   },
   "Redux reducer": {
