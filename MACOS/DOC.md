@@ -9,7 +9,7 @@ MK: Tranthaison1231
 - NVM ( To install Nodejs )
 - HOMEBREW (<https://brew.sh/)>
 - NODEJS
-- HEROKU  (brew install heroku)
+- HEROKU (brew install heroku/brew/heroku)
 - DOCKER ( <https://hub.docker.com/editions/community/docker-ce-desktop-mac> )
 - VSCODE
 - ADOBE PHOTOSHOP
