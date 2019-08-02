@@ -9,8 +9,8 @@
   "description": "",
   "main": "index.js",
   "engines": {
-    "node": "12.6.0",
-    "npm": "6.9.0"
+    "node": "12.6.0",   // current node version
+    "npm": "6.9.0"  // current npm version
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
