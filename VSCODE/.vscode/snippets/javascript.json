@@ -1,4 +1,16 @@
 {
+  //-----------------SNIPPETS FOR EXPRESS------------
+  "app.listen": {
+    "prefix": "app.listen",
+    "body": [
+      "const { PORT = 5000 } = process.env;",
+      "app.listen(PORT, () => console.log(`Server started on port ${PORT}`));"
+    ]
+  },
+  "app.get": {
+    "prefix": "app.get",
+    "body": ["app.get('/', (req, res) => {", "", "});"]
+  },
   //-----------------SNIPPETS FOR REDUX------------
   "Redux saga": {
     "prefix": "rxsaga",
