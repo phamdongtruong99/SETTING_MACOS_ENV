@@ -1,5 +1,22 @@
 {
   //-----------------SNIPPETS FOR EXPRESS------------
+  "require": {
+    "prefix": "require",
+    "body": ["const name = require('module');"]
+  },
+  "app.post('/', (req, res) => {", "", "});": {
+    "prefix": "app.post",
+    "body": ["app.post('/', (req, res) => {", "", "});"]
+  },
+  "body-parser": {
+    "prefix": "body-parser",
+    "body": [
+      "const bodyParser = require('body-parser');",
+      "",
+      "app.use(bodyParser.json());",
+      ""
+    ]
+  },
   "app.listen": {
     "prefix": "app.listen",
     "body": [
