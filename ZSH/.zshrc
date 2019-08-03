@@ -38,8 +38,9 @@ alias instagram="open -a 'Google Chrome' https://www.instagram.com/ "
 alias codepen="open -a 'Google Chrome' https://codepen.io/dashboard/ "
 alias codesandbox="open -a 'Google Chrome' https://codesandbox.io/dashboard/recent "
 alias netflix="open -a 'Google Chrome' https://www.netflix.com/browse "
-alias macvim="open -a 'macvim' ";
+alias macvim="open -a 'macvim' "
 alias calendar="open -a 'Calendar' "
+alias translate="open -a 'Google Chrome' https://www.google.com/search?q=translate "
 alias xd="open -a 'Adobe XD' "
 alias trash="rm -rf ~/.Trash/*"
 alias git_edit="ga . && gcmsg 'Fix something' && ggpush"
@@ -49,6 +50,9 @@ git_push () {
   ga . && gcmsg $1 && ggpush;
 }
 
+git_push--amend (){
+  ga . && git commit --amend $1 && ggpush -f; 
+}
 
 export NVM_DIR="/Users/shyn/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm

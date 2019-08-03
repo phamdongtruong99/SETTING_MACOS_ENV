@@ -14,6 +14,9 @@
 - Docker
 - VSCODE ICON
 - VIM
+- vscode-style component
+- color picker
+- flutter
 
 ## 2.DOWLOAD
 
