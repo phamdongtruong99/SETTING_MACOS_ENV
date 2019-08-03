@@ -13,6 +13,7 @@
 - Import Cost
 - Docker
 - VSCODE ICON
+- VIM
 
 ## 2.DOWLOAD
 
