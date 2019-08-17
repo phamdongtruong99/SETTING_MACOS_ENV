@@ -18,5 +18,6 @@ MK: Tranthaison1231
 - ADOBE XD
 - The Unachiver
 - XCODE
+- Android studio
 - REACT NATIVE DEBUGGER ( <https://github.com/jhen0409/react-native-debugger/releases> )
 - Flutter ( <https://flutter.dev/docs/get-started/install/macos#update-your-path)> )
