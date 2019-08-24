@@ -14,6 +14,9 @@
 - Docker
 - VSCODE ICON
 - VIM
+- TypeScript Hero
+- TSLint
+- C/C++
 - vscode-style component
 - color picker
 - flutter

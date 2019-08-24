@@ -6,6 +6,7 @@ MK: Tranthaison1231
 
 ## 1.DOWNLOAD APP
 
+- Google Chrome
 - NVM ( To install Nodejs )
 - Git
 - HOMEBREW (<https://brew.sh/)>
@@ -18,6 +19,8 @@ MK: Tranthaison1231
 - ADOBE XD
 - The Unachiver
 - XCODE
+- OH MY ZSH
+- GATSBY (npm install -g gatsby-cli)
 - Android studio
 - REACT NATIVE DEBUGGER ( <https://github.com/jhen0409/react-native-debugger/releases> )
 - Flutter ( <https://flutter.dev/docs/get-started/install/macos#update-your-path)> )

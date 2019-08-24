@@ -3,38 +3,45 @@
   "editor.fontLigatures": true,
   "editor.hideCursorInOverviewRuler": true,
   "editor.matchBrackets": false,
+  "editor.wordBasedSuggestions": true,
   "editor.renderLineHighlight": "gutter",
   "editor.tabSize": 2,
   "editor.detectIndentation": true,
   "editor.tabCompletion": "on",
-  "editor.fontSize": 14,
+  "editor.fontSize": 16,
+  "prettier.singleQuote": true,
+  "prettier.tabWidth": 2,
+  "prettier.printWidth": 80,
+  "prettier.bracketSpacing": true,
+  "prettier.semi": true,
   "editor.formatOnPaste": true,
   "editor.formatOnType": true,
   "editor.formatOnSave": true,
   "editor.codeActionsOnSaveTimeout": 300,
-  "workbench.iconTheme": "material-icon-theme",
-  "workbench.colorTheme": "Default High Contrast",
-  "prettier.singleQuote": true,
-  "prettier.eslintIntegration": false,
-  "prettier.stylelintIntegration": false,
-  "prettier.tabWidth": 2,
-  "prettier.printWidth": 80,
-  "prettier.bracketSpacing": true,
-  "prettier.trailingComma": "all",
-  "prettier.semi": true,
+  "workbench.iconTheme": "vscode-icons",
   "formattingToggle.activateFor": [
     "formatOnPaste",
     "formatOnSave",
     "formatOnType"
   ],
-  "window.zoomLevel": -2,
-  "files.autoSave": "afterDelay",
+  "window.zoomLevel": -1,
+  "files.autoSave": "off",
   "files.associations": {
     "*.json": "jsonc"
   },
   "eslint.autoFixOnSave": true,
   "eslint.alwaysShowStatus": true,
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    { "language": "typescript", "autoFix": true },
+    { "language": "typescriptreact", "autoFix": true }
+  ],
   "[javascript]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[handlebars]": {
     "editor.formatOnSave": true,
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
@@ -42,6 +49,10 @@
     "editor.defaultFormatter": "vscode.html-language-features"
   },
   "[css]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
     "editor.formatOnSave": true,
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
@@ -58,8 +69,8 @@
   "typescript.format.enable": false,
   "typescript.suggestionActions.enabled": false,
   "typescript.tsc.autoDetect": "off",
-  "typescript.validate.enable": false,
-  "javascript.validate.enable": false,
+  "typescript.validate.enable": true,
+  "javascript.validate.enable": true,
   "breadcrumbs.enabled": true,
   "flow.enabled": false,
   "sync.gist": "ef480108830c863014df47e35067f78c",
@@ -67,5 +78,37 @@
   "sync.syncExtensions": true,
   "git.autofetch": true,
   "todohighlight.isEnable": false,
-  "cSpell.enabled": false
+  "cSpell.enabled": false,
+  "editor.lineNumbers": "on",
+  "vim.easymotion": true,
+  "vim.sneak": true,
+  "vim.incsearch": true,
+  "vim.useSystemClipboard": true,
+  "vim.useCtrlKeys": true,
+  "vim.hlsearch": true,
+  "vim.insertModeKeyBindings": [
+    {
+      "before": ["j", "j"],
+      "after": ["<Esc>"]
+    }
+  ],
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": ["<leader>", "d"],
+      "after": ["d", "d"]
+    },
+    {
+      "before": ["<C-n>"],
+      "commands": [":nohl"]
+    }
+  ],
+  "vim.leader": "<space>",
+  "vim.handleKeys": {
+    "<C-a>": false,
+    "<C-f>": false
+  },
+  "vim.startInInsertMode": true,
+  "workbench.colorTheme": "Andromeda Bordered",
+  "C_Cpp.updateChannel": "Insiders",
+  "sync.forceUpload": true
 }
