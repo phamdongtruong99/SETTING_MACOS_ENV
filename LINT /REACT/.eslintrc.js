@@ -17,6 +17,15 @@ module.exports = {
     sourceType: 'module'
   },
   rules: {
+    'react/jsx-curly-newline': [
+      1,
+      {
+        multiline: 'consistent',
+        singleline: 'consistent'
+      }
+    ],
+    'react/state-in-constructor': 0,
+    'react/static-property-placement': 0,
     'react-hooks/rules-of-hooks': 'error',
     'react-hooks/exhaustive-deps': 'warn',
     'react/jsx-filename-extension': [1, { extensions: ['.tsx', '.jsx'] }],
