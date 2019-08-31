@@ -20,7 +20,8 @@
 - vscode-style component
 - color picker
 - flutter
-
+- Gitlens
+- VersionLens
 ## 2.DOWLOAD
 
 - FONT FIRACODE
