@@ -22,7 +22,6 @@ MK: Tranthaison1231
 - OH MY ZSH
   - zsh-syntax-highlighting (git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting)
   - zsh-autosuggestions ( git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions)
-- GATSBY (npm install -g gatsby-cli)
 - Android studio
 - REACT NATIVE DEBUGGER ( <https://github.com/jhen0409/react-native-debugger/releases> )
 - Flutter ( <https://flutter.dev/docs/get-started/install/macos#update-your-path)> )
