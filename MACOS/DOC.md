@@ -25,3 +25,9 @@ MK: Tranthaison1231
 - Android studio
 - REACT NATIVE DEBUGGER ( <https://github.com/jhen0409/react-native-debugger/releases> )
 - Flutter ( <https://flutter.dev/docs/get-started/install/macos#update-your-path)> )
+- Messenger
+- Friendly for Twitter
+- Skyper
+- Trello
+- Gitter
+- Slack

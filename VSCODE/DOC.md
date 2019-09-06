@@ -22,6 +22,9 @@
 - flutter
 - Gitlens
 - VersionLens
+- IntelliSense for CSS class names in HTML
+- CSSTree validation
+- HTML hint
 
 ## 2.DOWLOAD
 

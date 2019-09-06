@@ -24,7 +24,7 @@
     "formatOnSave",
     "formatOnType"
   ],
-  "window.zoomLevel": -1,
+  "window.zoomLevel": -2,
   "files.autoSave": "off",
   "files.associations": {
     "*.json": "jsonc"
@@ -110,5 +110,54 @@
   "vim.startInInsertMode": true,
   "workbench.colorTheme": "Andromeda Bordered",
   "C_Cpp.updateChannel": "Insiders",
-  "sync.forceUpload": true
+  "sync.forceUpload": true,
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "code-runner.runInTerminal": true,
+  "C_Cpp.clang_format_fallbackStyle": "{ BasedOnStyle: Google, ColumnLimit: 80, PointerAlignment: Left}",
+  "[cpp]": {
+    "editor.defaultFormatter": "ms-vscode.cpptools"
+  },
+  "java.errors.incompleteClasspath.severity": "ignore",
+  "java.configuration.checkProjectSettingsExclusions": false,
+  "htmlhint.documentSelector": [
+    "html",
+    "htm",
+    "twig",
+    "pug",
+    "ejs",
+    "hbs",
+    "js"
+  ],
+  "htmlhint.options": {
+    "tagname-lowercase": false,
+    "attr-lowercase": true,
+    "attr-value-double-quotes": true,
+    "doctype-first": true,
+    "src-not-empty": true,
+    "title-require": true,
+    "id-unique": true,
+    "doctype-html5": true,
+    "alt-require": true,
+    "style-disabled": true,
+    "inline-style-disabled": true,
+    "inline-script-disabled": true
+  },
+  "csstree.enable": true,
+  "css.lint.float": "error",
+  "css.lint.boxModel": "error",
+  "css.lint.important": "error",
+  "css.lint.emptyRules": "error",
+  "css.lint.hexColorLength": "error",
+  "css.lint.idSelector": "error",
+  "css.lint.unknownProperties": "error",
+  "css.lint.fontFaceProperties": "error",
+  "scss.lint.float": "error",
+  "scss.lint.boxModel": "error",
+  "scss.lint.important": "error",
+  "scss.lint.emptyRules": "error",
+  "scss.lint.hexColorLength": "error",
+  "scss.lint.idSelector": "error",
+  "scss.lint.unknownProperties": "error",
+  "scss.lint.fontFaceProperties": "error"
 }
