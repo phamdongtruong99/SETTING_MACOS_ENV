@@ -6,8 +6,7 @@
   - fix
   - feature
   - docs
-  - chore  
-  
+  - chore
 ## How to naming a branch git
 
 ### Rule: type/body
