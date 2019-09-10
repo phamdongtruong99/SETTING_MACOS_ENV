@@ -8,12 +8,14 @@ module.exports = {
   ],
   parser: '@typescript-eslint/parser',
   plugins: [
+    'react',
     '@typescript-eslint',
     'jsx-a11y',
     'react-hooks',
     'prettier',
     '@typescript-eslint',
-    'jest'
+    'jest',
+    'eslint-comments'
   ],
   settings: {
     'import/extensions': ['.js', '.jsx', '.ts', '.tsx'],
@@ -35,6 +37,16 @@ module.exports = {
     sourceType: 'module'
   },
   rules: {
+    'prettier/prettier': [
+      'error',
+      {
+        singleQuote: true,
+        tabWidth: 2,
+        printWidth: 80,
+        bracketSpacing: true,
+        semi: true
+      }
+    ],
     'react/jsx-curly-newline': [
       1,
       {
@@ -42,8 +54,17 @@ module.exports = {
         singleline: 'consistent'
       }
     ],
-    'react/state-in-constructor': 0,
-    'react/static-property-placement': 0,
+    // 'react/jsx-curly-newline': [
+    //   1,
+    //   {
+    //     multiline: 'consistent',
+    //     singleline: 'consistent'
+    //   }
+    // ],
+    // 'react/state-in-constructor': 0,
+    // 'react/static-property-placement': 0,
+    'import/no-named-as-default': 0,
+    'import/no-named-as-default-member': 0,
     'react-hooks/rules-of-hooks': 'error',
     'react-hooks/exhaustive-deps': 'warn',
     'react/jsx-filename-extension': [1, { extensions: ['.tsx', '.jsx'] }],
