@@ -25,6 +25,7 @@
 - IntelliSense for CSS class names in HTML
 - CSSTree validation
 - HTML hint
+- Awesome Flutter Snippets
 
 ## 2.DOWLOAD
 
