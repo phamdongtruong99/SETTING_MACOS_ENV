@@ -26,3 +26,8 @@ const useReactRouter = () => {
 };
 
 export default useReactRouter;
+
+// useReactRouter is a React Hook that provides pub - sub behavior for react - router.Unlike the withRouter Higher - Order
+// Component, useReactRouter will re - render your component when the location changes!
+
+// HOW TO USE : const { history, location, match } = useReactRouter();
