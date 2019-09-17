@@ -10,7 +10,7 @@ const MISSING_CONTEXT_ERROR = new Error(
   'useReactRouter may only be called within a <Router /> context.'
 );
 
-const useReactRouter = () => {
+const useReactRouter = () => { 
   const forceUpdate = useForceUpdate();
   if (!__RouterContext) {
     throw INCORRECT_VERSION_ERROR;
