@@ -4,6 +4,7 @@ import useForceUpdate from './useForceUpdate';
 import useEventListener from './useEventListener';
 import useLocalStorage from './useLocalStorage';
 import { useModal, useModalWithData } from './useModal.jsx';
+import useOnScreen from './useOnScreen';
 
 export {
   useInput,
@@ -13,5 +14,8 @@ export {
   useEventListener,
   useLocalStorage,
   useModal,
-  useModalWithData
+  useModalWithData,
+  useOnScreen
 };
+  
+//git : https://codesandbox.io/s/y7kr0vll4v
