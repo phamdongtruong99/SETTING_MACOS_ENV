@@ -8,7 +8,7 @@ export const useModal = (initialMode = false) => {
 
 export const useModalWithData = (
   initialMode = false,
-  initialSelected = null
+  initialSelected = null,
 ) => {
   const [modalOpen, setModalOpen] = useModal(initialMode);
   const [selected, setSelected] = useState(initialSelected);
@@ -18,5 +18,5 @@ export const useModalWithData = (
       setSelected(null);
     }
   };
-  return { modalOpen, setModalOpen, selected, setSelected, setModalState };
+  return [modalOpen, setModalOpen, selected, setSelected, setModalState];
 };

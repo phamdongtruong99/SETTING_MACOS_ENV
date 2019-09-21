@@ -3,14 +3,14 @@ import { __RouterContext } from 'react-router';
 import useForceUpdate from './useForceUpdate';
 
 const INCORRECT_VERSION_ERROR = new Error(
-  'use-react-router may only be used with react-router@^5.'
+  'use-react-router may only be used with react-router@^5.',
 );
 
 const MISSING_CONTEXT_ERROR = new Error(
-  'useReactRouter may only be called within a <Router /> context.'
+  'useReactRouter may only be called within a <Router /> context.',
 );
 
-const useReactRouter = () => { 
+const useReactRouter = () => {
   const forceUpdate = useForceUpdate();
   if (!__RouterContext) {
     throw INCORRECT_VERSION_ERROR;
