@@ -18,4 +18,4 @@ const useMedia = query => {
 
 export default useMedia;
 
-// git: https://stackblitz.com/edit/react-5cmtay?file=useMedia.js
+// git: https://stackblitz.com/edit/use-media?file=index.js
