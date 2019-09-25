@@ -20,6 +20,7 @@ MK: Tranthaison1231
 - The Unachiver
 - XCODE
 - OH MY ZSH
+  - zsh-completions (git clone https://github.com/zsh-users/zsh-completions#oh-my-zsh)
   - zsh-syntax-highlighting (git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting)
   - zsh-autosuggestions ( git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions)
 - Android studio
@@ -31,3 +32,4 @@ MK: Tranthaison1231
 - Trello
 - Gitter
 - Slack
+- Zeplin

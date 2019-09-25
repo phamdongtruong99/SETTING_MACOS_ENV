@@ -1,35 +1,41 @@
 const THEME = {
   palette: {
+    default: {
+      light: '#fff',
+      main: '#1890ff',
+      dark: '#2c3e51cc',
+      contrastText: '#fff',
+    },
     primary: {
       light: '#fff',
       main: '#1890ff',
       dark: '#2c3e51cc',
-      contrastText: '#fff'
+      contrastText: '#fff',
     },
     secondary: {
       light: '#ff7961',
       main: '#f44336',
       dark: '#ba000d',
-      contrastText: '#000'
+      contrastText: '#000',
     },
     warning: {
       light: '#ff7961',
       main: '#faad14',
       dark: '#ba000d',
-      contrastText: '#000'
+      contrastText: '#000',
     },
     success: {
       light: '#ff7961',
       main: '#52c41a',
       dark: '#ba000d',
-      contrastText: '#000'
+      contrastText: '#000',
     },
     error: {
       light: '#ff7961',
       main: '#f5222d',
       dark: '#ba000d',
-      contrastText: '#000'
-    }
+      contrastText: '#000',
+    },
   },
   fonts: {
     primaryRegular: 'Poppins-Regular',
@@ -37,7 +43,7 @@ const THEME = {
     primaryBold: 'Poppins-Bold',
     secondaryRegular: 'Barlow-Regular',
     secondaryMedium: 'Barlow-Medium',
-    secondaryBold: 'Barlow-SemiBold'
+    secondaryBold: 'Barlow-SemiBold',
   },
   fontWeight: {
     thin: 100, // Thin
@@ -48,7 +54,7 @@ const THEME = {
     semibold: 600, // Semibold
     bold: 700, // Bold
     heavy: 800, // Heavy
-    black: 900 // Black
+    black: 900, // Black
   },
   zIndex: {
     affix: 10,
@@ -60,14 +66,14 @@ const THEME = {
     modal: 1300,
     popover: 1360,
     snackbar: 1400,
-    tooltip: 1500
+    tooltip: 1500,
   },
   transitions: {
     easing: {
       easeInOut: 'cubic-bezier(0.4, 0, 0.2, 1)',
       easeOut: 'cubic-bezier(0.0, 0, 0.2, 1)',
       easeIn: 'cubic-bezier(0.4, 0, 1, 1)',
-      sharp: 'cubic-bezier(0.4, 0, 0.6, 1)'
+      sharp: 'cubic-bezier(0.4, 0, 0.6, 1)',
     },
     duration: {
       shortest: 150,
@@ -76,8 +82,8 @@ const THEME = {
       standard: 300,
       complex: 375,
       enteringScreen: 225,
-      leavingScreen: 195
-    }
+      leavingScreen: 195,
+    },
   },
   breakpoints: {
     xs: 0,
@@ -85,8 +91,8 @@ const THEME = {
     md: 768,
     lg: 912,
     xl: 1200,
-    xxl: 1600
-  }
+    xxl: 1600,
+  },
 };
 
 module.exports = THEME;

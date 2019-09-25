@@ -1,4 +1,3 @@
-# If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
@@ -14,6 +13,11 @@ plugins=(
   rake
   rbenv
   ruby
+  zsh-autosuggestions
+  zsh-syntax-highlighting
+  colored-man-pages
+  colorize
+  zsh-completions
 )
 
 source $ZSH/oh-my-zsh.sh
@@ -56,3 +60,5 @@ git_push--amend (){
 
 export NVM_DIR="/Users/shyn/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+
+export PATH="$PATH:/Users/shyn/flutter/bin"
