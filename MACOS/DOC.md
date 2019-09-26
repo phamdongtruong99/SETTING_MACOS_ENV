@@ -7,7 +7,7 @@ MK: Tranthaison1231
 ## 1.DOWNLOAD APP
 
 - Google Chrome
-- NVM ( To install Nodejs )
+- NVM ( To install Nodejs ) ( <https://tecadmin.net/install-nodejs-with-nvm/>)
 - Git
 - HOMEBREW (<https://brew.sh/)>
 - NODEJS
