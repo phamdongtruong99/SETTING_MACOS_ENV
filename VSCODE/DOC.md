@@ -13,6 +13,7 @@
 - Import Cost
 - Docker
 - VSCODE ICON
+- Azure Function
 - VIM
 - TypeScript Hero
 - TSLint
