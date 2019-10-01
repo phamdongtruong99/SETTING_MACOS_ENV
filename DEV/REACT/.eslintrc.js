@@ -25,8 +25,10 @@ module.exports = {
         printWidth: 80,
         bracketSpacing: true,
         semi: true,
+        trailingComma: 'all'
       },
     ],
+    'react/jsx-props-no-spreading': 0,
     'import/prefer-default-export': 0,
     'import/no-named-as-default': 0,
     'import/no-named-as-default-member': 0,
