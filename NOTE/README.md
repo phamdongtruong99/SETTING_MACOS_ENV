@@ -1,0 +1,4 @@
+- Tối 10h check bài OOP
+  - Xem lại bài oop
+  - Bỏ các file vào một forder
+  - Liên hệ thầy Phương để nộp
