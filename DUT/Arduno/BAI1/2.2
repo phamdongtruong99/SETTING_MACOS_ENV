@@ -1,0 +1,19 @@
+// Chạy từ 1-> 8, 8> 1
+
+void setup(){
+  for(int i=2; i <=9; i++){
+    pinMode(i, OUTPUT);
+  }
+}
+
+void loop(){
+  int i = 2;
+  for(i = 2; i < 10; i++){
+    digitalWrite(i, HIGH);
+    delay(100);
+  }
+  for(i = 9; i > 1; i--){
+    digitalWrite(i, LOW);
+    delay(100);
+  }
+}
