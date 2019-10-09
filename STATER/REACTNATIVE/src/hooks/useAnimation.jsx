@@ -8,7 +8,7 @@ const useAnimation = ({ doAnimation, duration }) => {
     console.log(`running useEffect:`, doAnimation);
     Animated.timing(animation, {
       toValue: doAnimation ? 1 : 0,
-      duration
+      duration,
     }).start();
   }, [doAnimation]);
 
