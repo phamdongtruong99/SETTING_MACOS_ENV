@@ -2,3 +2,4 @@
 - Tmux ( brew install tmux)
 - HEROKU (brew install heroku/brew/heroku)
 - Q5 ( brew install qt5 ) -> pip3 install qutebrowser
+- Neovim (brew install neovim)
