@@ -5284,7 +5284,7 @@
      If you have error with eslint: 
 
      ```javascript
-     $ yarn add customize-cra -D
+     $ yarn add babel-eslint -D
      ```
      In .eslintrc.js
      ```
