@@ -5292,9 +5292,7 @@
       parser: "babel-eslint",
      };
      ```
-     ```
      And setting in setting.json
-     ```
      ```
      "javascript.validate.enable": false,
      ```
