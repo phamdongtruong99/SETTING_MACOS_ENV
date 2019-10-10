@@ -5290,9 +5290,11 @@
      ```
      module.exports = {
       parser: "babel-eslint",
-    };
+     };
+     ```
      ```
      And setting in setting.json
      ```
-    "javascript.validate.enable": false,
+     ```
+     "javascript.validate.enable": false,
      ```
