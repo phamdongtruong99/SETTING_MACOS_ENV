@@ -24,7 +24,7 @@
     "formatOnSave",
     "formatOnType"
   ],
-  "window.zoomLevel": -2,
+  "window.zoomLevel": -1,
   "files.autoSave": "off",
   "files.associations": {
     "*.json": "jsonc"
@@ -70,7 +70,7 @@
   "typescript.suggestionActions.enabled": false,
   "typescript.tsc.autoDetect": "off",
   "typescript.validate.enable": true,
-  "javascript.validate.enable": true,
+  "javascript.validate.enable": false,
   "breadcrumbs.enabled": true,
   "flow.enabled": false,
   "sync.gist": "ef480108830c863014df47e35067f78c",
@@ -80,35 +80,6 @@
   "todohighlight.isEnable": false,
   "cSpell.enabled": false,
   "editor.lineNumbers": "on",
-  "vim.easymotion": true,
-  "vim.sneak": true,
-  "vim.incsearch": true,
-  "vim.useSystemClipboard": true,
-  "vim.useCtrlKeys": true,
-  "vim.hlsearch": true,
-  "vim.insertModeKeyBindings": [
-    {
-      "before": ["j", "j"],
-      "after": ["<Esc>"]
-    }
-  ],
-  "vim.normalModeKeyBindingsNonRecursive": [
-    {
-      "before": ["<leader>", "d"],
-      "after": ["d", "d"]
-    },
-    {
-      "before": ["<C-n>"],
-      "commands": [":nohl"]
-    }
-  ],
-  "vim.leader": "<space>",
-  "vim.handleKeys": {
-    "<C-a>": false,
-    "<C-f>": false
-  },
-  "vim.startInInsertMode": true,
-  "workbench.colorTheme": "Andromeda Bordered",
   "C_Cpp.updateChannel": "Insiders",
   "sync.forceUpload": true,
   "editor.suggestSelection": "first",
@@ -159,5 +130,14 @@
   "scss.lint.hexColorLength": "error",
   "scss.lint.idSelector": "error",
   "scss.lint.unknownProperties": "error",
-  "scss.lint.fontFaceProperties": "error"
+  "scss.lint.fontFaceProperties": "error",
+  "workbench.colorTheme": "Material Theme High Contrast",
+  "workbench.sideBar.location": "left",
+  "C_Cpp.default.cppStandard": "c++20",
+  "C_Cpp.default.cStandard": "c11",
+  "code-runner.executorMap": {
+    "cpp": "cd $dir && g++ -std=c++17 $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt"
+  },
+  "terminal.external.osxExec": "iTerm.app",
+  "terminal.integrated.shell.osx": "zsh"
 }
