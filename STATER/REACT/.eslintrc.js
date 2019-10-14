@@ -25,7 +25,7 @@ module.exports = {
         printWidth: 80,
         bracketSpacing: true,
         semi: true,
-        trailingComma: 'all'
+        trailingComma: 'all',
       },
     ],
     'react/jsx-props-no-spreading': 0,
@@ -34,7 +34,7 @@ module.exports = {
     'import/no-named-as-default-member': 0,
     'react-hooks/rules-of-hooks': 'error',
     'react-hooks/exhaustive-deps': 'warn',
-    'react/jsx-filename-extension': [1, { extensions: ['.tsx', '.jsx'] }],
+    'react/jsx-filename-extension': [1, { extensions: ['.js', '.ts'] }],
     'react/jsx-props-no-spreading': 0,
   },
 };
