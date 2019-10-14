@@ -99,3 +99,11 @@ const capitalize = ([first, ...rest], lowerRest = false) =>
   (lowerRest ? rest.join('').toLowerCase() : rest.join(''));
 
 // capitalize('fooBar'); // 'FooBar'
+
+export const isEmpty = value =>
+  value === undefined || value === null || value === '';
+
+// isEmpty(''); // true
+// isEmpty(undefined) // true
+// isEmpty(null) // true
+// isEmpty('12') // false
