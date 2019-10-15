@@ -23,7 +23,8 @@ export const sortByProps = (list, props) => {
   return newList;
 };
 
-export const upperCaseFirstChart = str => str[0].toUpperCase() + str.substring(1);
+export const upperCaseFirstChart = str =>
+  str[0].toUpperCase() + str.substring(1);
 
 export const changeAlias = alias => {
   let str = alias;
@@ -37,7 +38,7 @@ export const changeAlias = alias => {
   str = str.replace(/đ/g, 'd');
   str = str.replace(
     /!|@|%|\^|\*|\(|\)|\+|\=|\<|\>|\?|\/|,|\.|\:|\;|\'| |\"|\&|\#|\[|\]|~|$|_/g,
-    '-'
+    '-',
   );
   str = str.replace(/-+-/g, '-');
   str = str.replace(/^\-+|\-+$/g, '');
@@ -49,7 +50,8 @@ export const validateName = name => {
   return re.test(name);
 };
 
-export const getResourceTitle = string => string.charAt(0).toUpperCase() + string.slice(1);
+export const getResourceTitle = string =>
+  string.charAt(0).toUpperCase() + string.slice(1);
 
 export const formatFormData = (originalData, data) => {
   const newData = {};
@@ -85,8 +87,10 @@ export const getSearch = filter => {
   return Object.keys(params)
     .map(key =>
       params[key]
-        ? `${encodeURIComponent(key)}=${encodeURIComponent(JSON.stringify(params[key]))}`
-        : ''
+        ? `${encodeURIComponent(key)}=${encodeURIComponent(
+            JSON.stringify(params[key]),
+          )}`
+        : '',
     )
     .filter(data => data !== '')
     .join('&');
@@ -128,7 +132,9 @@ export const getFilterFromUrl = searchStr => {
 };
 
 export const getRecordData = (record, source) => {
-  const arrKeys = source ? replaceAll(replaceAll(source, '\\[', '.'), '\\]', '').split('.') : [];
+  const arrKeys = source
+    ? replaceAll(replaceAll(source, '\\[', '.'), '\\]', '').split('.')
+    : [];
   let data = record;
   arrKeys.forEach(key => {
     data = data ? data[key] : data;
@@ -167,7 +173,10 @@ export const formattedRESTData = data => ({
 export const getIdByUrl = props =>
   props.route
     ? props.route
-        .substring(props.route.indexOf(`${props.resource}/`), props.route.lastIndexOf('/edit'))
+        .substring(
+          props.route.indexOf(`${props.resource}/`),
+          props.route.lastIndexOf('/edit'),
+        )
         .replace(`${props.resource}/`, '')
     : props.match.params.id;
 
@@ -194,9 +203,35 @@ export const makeBreadCrumbFromPath = location => {
     BREADCRUMB_LIST.push({
       title: data,
       path: `${
-        BREADCRUMB_LIST.length ? BREADCRUMB_LIST[BREADCRUMB_LIST.length - 1].path : ''
+        BREADCRUMB_LIST.length
+          ? BREADCRUMB_LIST[BREADCRUMB_LIST.length - 1].path
+          : ''
       }/${data}`,
     });
   });
   return BREADCRUMB_LIST;
+};
+
+export const copyStringToClipboard = str => {
+  return new Promise(function(resolve, reject) {
+    try {
+      // Create new element
+      const el = document.createElement('textarea');
+      // Set value (string to be copied)
+      el.value = str;
+      // Set non-editable to avoid focus and move outside of view
+      el.setAttribute('readonly', '');
+      el.style = { position: 'absolute', left: '-9999px' };
+      document.body.appendChild(el);
+      // Select text inside element
+      el.select();
+      // Copy text to clipboard
+      document.execCommand('copy');
+      // Remove temporary element
+      document.body.removeChild(el);
+      resolve(true);
+    } catch (err) {
+      reject(err);
+    }
+  });
 };

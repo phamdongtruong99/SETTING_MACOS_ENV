@@ -20,7 +20,6 @@ const useReactRouter = () => {
   if (!context) {
     throw MISSING_CONTEXT_ERROR;
   }
-  const forceUpdate = useForceUpdate();
   useEffect(() => context.history.listen(forceUpdate), [context]);
   return context;
 };
