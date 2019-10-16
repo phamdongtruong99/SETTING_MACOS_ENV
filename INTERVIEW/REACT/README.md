@@ -338,6 +338,9 @@
 |321| [Can I use javascript urls in react16.9?](#can-i-use-javascript-urls-in-react16.9)|
 |322| [Can I use optional channing in react1?](#can-i-use-optional-channing-in-react)|
 | **REACT SHARE** |
+| **DATE** |
+|1| [How to format day?](https://date-fns.org/v2.5.0/docs/format)|
+
 ## Core React
 
 1. ### What is React?
