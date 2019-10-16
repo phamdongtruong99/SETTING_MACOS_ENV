@@ -220,7 +220,7 @@
 |204| [What is Relay?](#what-is-relay) 
 |   | **React Typescript**
 |1| [How to use TypeScript in create-react-app application?](#how-to-use-typescript-in-create-react-app-application) 
-|2| [How to add type to React Function componet?](#how-to-use-typescript-in-create-react-app-application)
+|2| [How to add type to React Function componet?](https://github.com/tranthaison1231/SETTING_MACOS_ENV/blob/master/INTERVIEW/REACT/REACT_TS.md#how-to-add-type-to-react-function-componet)
 |   | **Miscellaneous** |
 |206| [What are the main features of reselect library?](#what-are-the-main-features-of-reselect-library) |
 |207| [Give an example of reselect usage?](#give-an-example-of-reselect-usage) |
