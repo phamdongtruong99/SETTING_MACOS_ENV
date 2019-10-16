@@ -198,19 +198,19 @@
 |185| [How to add multiple middlewares to Redux?](#how-to-add-multiple-middlewares-to-redux) |
 |186| [How to set initial state in Redux?](#how-to-set-initial-state-in-redux) |
 |187| [How Relay is different from Redux?](#how-relay-is-different-from-redux) |
-|187| [how to use the new React-Redux hooks APIs as an alternative to the traditional connect API.](https://react-redux.js.org/api/hooks) |
+|188| [How to use the new React-Redux hooks APIs as an alternative to the traditional connect API.](https://react-redux.js.org/api/hooks) |
 |   | **React Native** |
-|188| [What is the difference between React Native and React?](#what-is-the-difference-between-react-native-and-react) |
-|189| [How to test React Native apps?](#how-to-test-react-native-apps) |
-|190| [How to do logging in React Native?](#how-to-do-logging-in-react-native) |
-|191| [How to debug your React Native?](#how-to-debug-your-react-native) |
+|1| [What is the difference between React Native and React?](#what-is-the-difference-between-react-native-and-react) |
+|2| [How to test React Native apps?](#how-to-test-react-native-apps) |
+|3| [How to do logging in React Native?](#how-to-do-logging-in-react-native) |
+|4| [How to debug your React Native?](#how-to-debug-your-react-native) |
 |   | **React supported libraries and Integration** |
-|192| [What is reselect and how it works?](#what-is-reselect-and-how-it-works) |
-|193| [What is Flow?](#what-is-flow) |
-|194| [What is the difference between Flow and PropTypes?](#what-is-the-difference-between-flow-and-proptypes) |
-|195| [How to use font-awesome icons in React?](#how-to-use-font-awesome-icons-in-react) |
-|196| [What is React Dev Tools?](#what-is-react-dev-tools) |
-|197| [Why is DevTools not loading in Chrome for local files?](#why-is-devtools-not-loading-in-chrome-for-local-files) |
+|1| [What is reselect and how it works?](#what-is-reselect-and-how-it-works) |
+|2| [What is Flow?](#what-is-flow) |
+|3| [What is the difference between Flow and PropTypes?](#what-is-the-difference-between-flow-and-proptypes) |
+|4| [How to use font-awesome icons in React?](#how-to-use-font-awesome-icons-in-react) |
+|5| [What is React Dev Tools?](#what-is-react-dev-tools) |
+|6| [Why is DevTools not loading in Chrome for local files?](#why-is-devtools-not-loading-in-chrome-for-local-files) |
 |198| [How to use Polymer in React?](#how-to-use-polymer-in-react) |
 |199| [What are the advantages of React over Vue.js?](#what-are-the-advantages-of-react-over-vuejs) |
 |200| [What is the difference between React and Angular?](#what-is-the-difference-between-react-and-angular) |
@@ -337,6 +337,7 @@
 |320| [What is the difference between async mode and concurrent mode?](#what-is-the-difference-between-async-mode-and-concurrent-mode)|
 |321| [Can I use javascript urls in react16.9?](#can-i-use-javascript-urls-in-react16.9)|
 |322| [Can I use optional channing in react1?](#can-i-use-optional-channing-in-react)|
+| **REACT SHARE** |
 ## Core React
 
 1. ### What is React?
