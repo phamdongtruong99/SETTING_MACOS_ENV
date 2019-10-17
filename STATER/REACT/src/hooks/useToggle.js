@@ -1,11 +1,16 @@
-import { useState } from 'react';
+import { useState, useCallback } from 'react';
 
 function useToggle(initialValue) {
-  const [value, setValue] = useState(initialValue);
+  const [open, setOpen] = useState(initialValue);
 
-  const toggleValue = () => setValue(!value);
-
-  return [value, toggleValue];
+  return [open, useCallback(() => setOpen(status => !status))];
 }
 
 export default useToggle;
+
+// const [open, toggle] = useToggle(false);
+
+// <Button onClick={toggle}>Show filters</Button>;
+// {
+//   open && <Filters />;
+// }
