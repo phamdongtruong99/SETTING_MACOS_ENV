@@ -25,3 +25,28 @@ export const sum = (...arr) => [...arr].reduce((acc, val) => acc + val, 0);
 export const uniqueElements = arr => [...new Set(arr)];
 
 // uniqueElements([1, 2, 2, 3, 4, 4, 5]); // [1, 2, 3, 4, 5]
+
+export const flattenArr = arr => {
+  const flattened = [].concat(...arr);
+  return flattened.some(item => Array.isArray(item))
+    ? flattenArr(flattened)
+    : flattened;
+};
+
+// const arr = [11, [22, 33], [44, [55, 66, [77, [88]], 99]]];
+// const flatArr = flattenArray(arr);
+//=> [11, 22, 33, 44, 55, 66, 77, 88, 99]
+
+export const getKey = (arr, keyField) => arr.map(item => item[keyField]);
+
+export const keyBy = (arr, keyField) =>
+  Object.assign({}, ...arr.map(item => ({ [item[keyField]]: item })));
+
+export const convertGetAllData = (response, key = '_id') => {
+  return {
+    data: keyBy(response, key),
+    ids: getKey(response && response.map(data => data[key])),
+  };
+};
+
+// https://repl.it/repls/ScaryOptimalCharmap

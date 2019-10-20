@@ -23,3 +23,15 @@ export const isPlainObject = val =>
 
 //isPlainObject({ a: 1 }); // true
 //isPlainObject(new Map()); // false
+
+const objectToArray = object => {
+  return Object.keys(object).map(e => object[e]);
+};
+
+// objectToArray({
+//   '11': { id: '1', text: 'please add code examples' },
+//   '22': { id: '2', text: 'examples would be great for this article' },
+//   '33': { id: '3', text: 'hi there' },
+// }) = [ { id: '1', text: 'please add code examples' },
+// { id: '2', text: 'examples would be great for this article' },
+// { id: '3', text: 'hi there' } ]
