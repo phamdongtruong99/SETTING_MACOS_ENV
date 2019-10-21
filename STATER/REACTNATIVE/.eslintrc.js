@@ -9,6 +9,15 @@ module.exports = {
     'react',
     'jest',
   ],
+  parserOptions: {
+    ecmaVersion: 2018,
+    ecmaFeatures: {
+      jsx: true,
+      modules: true,
+    },
+    sourceType: 'module',
+    useJSXTextNode: false,
+  },
   rules: {
     'prettier/prettier': [
       'error',
@@ -32,6 +41,6 @@ module.exports = {
     'react/jsx-props-no-spreading': 0,
   },
   env: {
-    jest: true,
+    'react-native/react-native': true,
   },
 };

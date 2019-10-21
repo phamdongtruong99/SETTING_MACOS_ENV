@@ -8,7 +8,6 @@ export default function useTheme(
     const savedTheme = window.localStorage.getItem('theme');
     return savedTheme ? JSON.parse(savedTheme) : defaultTheme;
   }
-
   useEffect(() => {
     window.localStorage.setItem('theme', JSON.stringify(theme));
   }, [theme]);
