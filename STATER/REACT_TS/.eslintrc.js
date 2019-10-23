@@ -4,7 +4,7 @@ module.exports = {
     'prettier',
     'plugin:@typescript-eslint/recommended',
     'prettier/@typescript-eslint',
-    'plugin:import/typescript'
+    'plugin:import/typescript',
   ],
   parser: '@typescript-eslint/parser',
   plugins: [
@@ -13,28 +13,27 @@ module.exports = {
     'jsx-a11y',
     'react-hooks',
     'prettier',
-    '@typescript-eslint',
     'jest',
-    'eslint-comments'
+    'eslint-comments',
   ],
   settings: {
     'import/extensions': ['.js', '.jsx', '.ts', '.tsx'],
     'import/parsers': {
-      '@typescript-eslint/parser': ['.ts', '.tsx']
+      '@typescript-eslint/parser': ['.ts', '.tsx'],
     },
     'import/resolver': {
       node: {
-        extensions: ['.js', '.jsx', '.ts', '.tsx']
-      }
-    }
+        extensions: ['.js', '.jsx', '.ts', '.tsx'],
+      },
+    },
   },
   env: {
     browser: true,
-    jest: true
+    jest: true,
   },
   parserOptions: {
     ecmaVersion: 2018,
-    sourceType: 'module'
+    sourceType: 'module',
   },
   rules: {
     'prettier/prettier': [
@@ -44,15 +43,15 @@ module.exports = {
         tabWidth: 2,
         printWidth: 80,
         bracketSpacing: true,
-        semi: true
-      }
+        semi: true,
+      },
     ],
     'react/jsx-curly-newline': [
       1,
       {
         multiline: 'consistent',
-        singleline: 'consistent'
-      }
+        singleline: 'consistent',
+      },
     ],
     // 'react/jsx-curly-newline': [
     //   1,
@@ -72,6 +71,6 @@ module.exports = {
     '@typescript-eslint/no-unused-vars': 'error',
     '@typescript-eslint/no-useless-constructor': 'error',
     'react/prop-types': 'off',
-    'react/jsx-props-no-spreading': 0
-  }
+    'react/jsx-props-no-spreading': 0,
+  },
 };
