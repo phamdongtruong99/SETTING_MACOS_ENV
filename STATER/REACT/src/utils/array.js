@@ -50,3 +50,9 @@ export const convertGetAllData = (response, key = '_id') => {
 };
 
 // https://repl.it/repls/ScaryOptimalCharmap
+
+export const findLast = (array, fn) => {
+  return reverseArr(array).find(fn);
+};
+
+// findLast([1, 2, 3, 4], n => n % 2 == 1) // -> 3
