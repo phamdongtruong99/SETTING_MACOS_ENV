@@ -1,0 +1,27 @@
+import { get, post, put, del } from './utils';
+
+export async function getAllApi(resource, data) {
+  return get(`${resource.indexOf('/') > -1 ? resource : `${resource}/`}`, data);
+}
+
+export async function getDataByIdApi(resource, id, data) {
+  return get(`${resource}/${id}`, data);
+}
+
+export async function delApi(resource, id) {
+  if (id) {
+    return del(`${resource}/${id}`);
+  }
+  return del(`${resource.indexOf('/') > -1 ? resource : `${resource}/`}`);
+}
+
+export async function postApi(resource, data) {
+  return post(
+    `${resource.indexOf('/') > -1 ? resource : `${resource}/`}`,
+    data,
+  );
+}
+
+export async function putApi(resource, id, data, isCustomApi) {
+  return put(isCustomApi ? resource : `${resource}/${id}`, data);
+}

@@ -5,22 +5,12 @@ export default function useTheme(
 ) {
   const [theme, setTheme] = useState(getInitialTheme);
   function getInitialTheme() {
-    const localTheme = window.localStorage.getItem('theme');
-    if (
-      window.matchMedia &&
-      window.matchMedia('(prefers-color-scheme: dark)').matches &&
-      !localTheme
-    ) {
-      return { mode: 'dark', textZoom: 'normal' };
-    } else {
-      return localTheme ? JSON.parse(localTheme) : defaultTheme;
-    }
+    const savedTheme = window.localStorage.getItem('theme');
+    return savedTheme ? JSON.parse(savedTheme) : defaultTheme;
   }
-
   useEffect(() => {
     window.localStorage.setItem('theme', JSON.stringify(theme));
   }, [theme]);
-
   const toggleDarkMode = () => {
     setTheme(
       theme.mode === 'dark'
@@ -28,6 +18,7 @@ export default function useTheme(
         : { ...theme, mode: 'dark' },
     );
   };
+
   const toggleSizeMode = () => {
     setTheme(
       theme.textZoom === 'normal'
@@ -39,4 +30,4 @@ export default function useTheme(
   return { ...theme, toggleDarkMode, toggleSizeMode };
 }
 
-// ex: https://codesandbox.io/s/ecstatic-ptolemy-bez7q
+// Example: https://codesandbox.io/s/dark-mode-3tylu

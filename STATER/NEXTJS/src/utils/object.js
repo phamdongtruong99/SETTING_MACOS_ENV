@@ -21,6 +21,10 @@ export const isObject = value => {
 export const isPlainObject = val =>
   !!val && typeof val === 'object' && val.constructor === Object;
 
+export const isObjectLike = value => {
+  return typeof value === 'object' && value !== null;
+};
+
 //isPlainObject({ a: 1 }); // true
 //isPlainObject(new Map()); // false
 
