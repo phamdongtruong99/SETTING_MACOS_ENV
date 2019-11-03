@@ -22,3 +22,32 @@ export const isURL = path =>
 
 // isURL('https://google.com'); // true
 // isURL('www.example.com'); // true
+
+export const getQueryParams = (params, url) => {
+  let href = url;
+  //this expression is to get the query strings
+  let reg = new RegExp('[?&]' + params + '=([^&#]*)', 'i');
+  let queryString = reg.exec(href);
+  return queryString ? queryString[1] : null;
+};
+
+// getQueryParams('data', 'http://another-example.com?example=something&data=13'); // "13"
+
+export const getQueryAllParams = url => {
+  let queryParams = {};
+  //create an anchor tag to use the property called search
+  let anchor = document.createElement('a');
+  //assigning url to href of anchor tag
+  anchor.href = url;
+  //search property returns the query string of url
+  let queryStrings = anchor.search.substring(1);
+  let params = queryStrings.split('&');
+
+  for (var i = 0; i < params.length; i++) {
+    var pair = params[i].split('=');
+    queryParams[pair[0]] = decodeURIComponent(pair[1]);
+  }
+  return queryParams;
+};
+
+// getQueryAllParams('http://another-example.com?example=something&data=13'); //{"example": "something", "data": 13}

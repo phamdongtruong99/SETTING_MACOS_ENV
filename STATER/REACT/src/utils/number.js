@@ -11,6 +11,15 @@ export const formatNumber = (number, n, x) => {
 
 // formatNumber(3560283) ; 3.560.283
 
+export const formatNumberByComma = (number, n, x) => {
+  const re = `\\d(?=(\\d{${x || 3}})+${n > 0 ? '\\.' : '$'})`;
+  return Number(number)
+    .toFixed(Math.max(0, ~~n))
+    .replace(new RegExp(re, 'g'), '$&,');
+};
+
+// formatNumberByComma(3560283) ; 3,560,283
+
 export const formatMoney = (number = 0, n, x) => {
   const UNIT = ['', ' K', ' triệu', ' tỉ'];
   let unitRank = 0;

@@ -56,3 +56,22 @@ export const findLast = (array, fn) => {
 };
 
 // findLast([1, 2, 3, 4], n => n % 2 == 1) // -> 3
+
+export const findMostRepeat = array => {
+  if (array.length == 0) return null;
+  let modeMap = {};
+  let maxEl = array[0],
+    maxCount = 1;
+  for (let i = 0; i < array.length; i++) {
+    let el = array[i];
+    if (modeMap[el] == null) modeMap[el] = 1;
+    else modeMap[el]++;
+    if (modeMap[el] > maxCount) {
+      maxEl = el;
+      maxCount = modeMap[el];
+    }
+  }
+  return maxEl;
+};
+
+// findMostRepeat([1, 2, 3, 1, 4, 1]); => 1

@@ -340,6 +340,7 @@
 |320| [What is the difference between async mode and concurrent mode?](#what-is-the-difference-between-async-mode-and-concurrent-mode)|
 |321| [Can I use javascript urls in react16.9?](#can-i-use-javascript-urls-in-react16.9)|
 |322| [Can I use optional channing in react1?](#can-i-use-optional-channing-in-react)|
+|323| [Can I use tailwinCSS with styled component?](#can-i-use-tilwincss-with-styled-component-react)|
 |   | **REACT SHARE** |
 |   |   **DATE** |
 |1| [How to format day?](https://date-fns.org/v2.5.0/docs/format)|
@@ -5304,3 +5305,37 @@
      ```
      "javascript.validate.enable": false,
      ```
+333. ### Can I use tailwinCSS with styled component?
+     Installing:
+     ```
+     $ yarn add customize-cra 
+     $ yarn add react-app-rewired -D
+     $ yarn add @babel/plugin-proposal-optional-chaining -D
+     ```
+     In config-overrides.js
+     ```javascript
+      const { useBabelRc, override } = require('customize-cra');
+      module.exports = override(useBabelRc());
+     ```
+     In .babelrc
+     ```javascript
+     {
+      "plugins": ["@babel/plugin-proposal-optional-chaining"]
+     }
+     ```
+     If you have error with eslint: 
+
+     ```javascript
+     $ yarn add babel-eslint -D
+     ```
+     In .eslintrc.js
+     ```
+     module.exports = {
+      parser: "babel-eslint",
+     };
+     ```
+     And setting in setting.json
+     ```
+     "javascript.validate.enable": false,
+     ```
+

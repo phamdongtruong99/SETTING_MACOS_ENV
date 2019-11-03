@@ -1,0 +1,39 @@
+{
+  "plugins": [
+    [
+      "tailwind-components",
+      {
+        "config": "./src/tailwind.js",
+        "format": "auto"
+      }
+    ],
+    [
+      "transform-react-remove-prop-types",
+      {
+        "removeImport": "true",
+        "ignoreFilenames": ["node_modules"]
+      }
+    ],
+    "@babel/plugin-proposal-optional-chaining",
+    "@babel/plugin-proposal-logical-assignment-operators",
+    [
+      "module-resolver",
+      {
+        "root": ["./src"],
+        "extensions": [".js", ".ts", ".tsx", ".jsx"],
+        "alias": {
+          "api/*": "api/*",
+          "screens/*": "screens/*",
+          "components/*": "components/*",
+          "store/*": "store/*",
+          "utils/*": "utils/*",
+          "locales/*": "locales/*",
+          "constant/*": "constant/*",
+          "hooks/*": "hooks/*",
+          "assets/*": "assets/*",
+          "containers/*": "containers/*"
+        }
+      }
+    ]
+  ]
+}
