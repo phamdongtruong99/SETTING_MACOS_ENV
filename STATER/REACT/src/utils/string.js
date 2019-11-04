@@ -2,6 +2,17 @@
 // import moment from 'moment';
 
 // export const formatUnixToDate = unit => moment.unix(unit).format();
+export const safeParseJSON = str => {
+  let result = null;
+  try {
+    result = JSON.parse(str);
+  } catch (e) {
+    console.error('Failed to parse JSON', e);
+  }
+  return result;
+};
+
+// link: https://thefullsnack.com/posts/0x0b.html
 
 export const upperFirstChar = text => {
   return text.replace(/\w\S*/g, txt => {
@@ -107,3 +118,12 @@ export const isEmpty = value =>
 // isEmpty(undefined) // true
 // isEmpty(null) // true
 // isEmpty('12') // false
+
+export const findLongestWord = str => {
+  var longestWord = str.split(' ').sort(function(a, b) {
+    return b.length - a.length;
+  });
+  return longestWord[0].length;
+};
+
+// findLongestWord('The quick brown fox jumped over the lazy dog'); => jumped

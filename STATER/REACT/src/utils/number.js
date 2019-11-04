@@ -40,3 +40,16 @@ export const formatOrdinalnumber = number => {
 };
 
 // formatOrdinalnumber(1);   //01
+
+export const isPowerOfFour = num => {
+  let lg4 = Math.log(num) / Math.log(4);
+  return lg4 === ~~lg4; // ~~(4.01) = 4 <=> Math.floor(4.01)
+};
+
+// isPowerOfFour(16)  => true
+
+export const randomNumber = (min, max) => {
+  return ~~(Math.random() * (max - min)) + min;
+};
+
+// randomNumber(1, 100) -> 11

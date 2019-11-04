@@ -235,3 +235,7 @@ export const copyStringToClipboard = str => {
     }
   });
 };
+
+export const isClient = typeof window === 'object';
+
+// https://github.com/streamich/react-use/blob/master/src/util.ts
