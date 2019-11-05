@@ -6,22 +6,47 @@ export ZSH="/Users/shyn/.oh-my-zsh"
 ZSH_THEME="robbyrussell"
 
 plugins=(
+  iterm2
   git
+  vi-mode
   bundler
+  command-not-found
+  copydir
+  copyfile
   dotenv
+  docker-compose
   osx
   rake
   rbenv
   ruby
+  common-aliases  
   zsh-autosuggestions
   zsh-syntax-highlighting
   colored-man-pages
   colorize
   zsh-completions
+  yarn
+  npm
+  brew
+  osx
+  dotenv
+  colorize
 )
 
 source $ZSH/oh-my-zsh.sh
 
+#	MAKE TERMINAL BETTER
+#	-----------------------------------------
+
+alias cp="cp -iv"                                               # Preferred 'cp' implentation
+alias mv="mv -iv"                                               # Preferred 'mv' implentation
+alias mkdir="mkdir -pv"                                         # Preferred 'mkdir' implentation
+alias ...='cd ../../'                                           # Go back 2 directory levels
+alias .3='cd ../../../'                                         # Go back 3 directory levels
+alias .4='cd ../../../../'                                      # Go back 4 directory levels
+alias .5='cd ../../../../../'                                   # Go back 5 directory levels
+alias .6='cd ../../../../../../'                                # Go back 6 directory levels
+alias path='echo -e ${PATH//:/\\n}'                             # path:         Echo all executable Paths
 
 alias youtube="open -a 'Google Chrome' http://www.youtube.com "
 alias facebook="open -a 'Google Chrome' http://www.facebook.com "
@@ -49,12 +74,35 @@ alias xd="open -a 'Adobe XD' "
 alias trash="rm -rf ~/.Trash/*"
 alias git_edit="ga . && gcmsg 'Fix something' && ggpush"
 alias git_init="ga . && gcmsg 'Init project' && ggpush"
+alias gi="git init"
+alias yl="yarn lint"
+alias gcl="git clone"
+alias zshrc="code ~/.zshrc"
+#		NETWORKING
+#	---------------------------------------
+alias myip='curl -4 icanhazip.com; curl -6 icanhazip.com'       # myip:             Public facing IP Address
+alias netCons='lsof -i'                                         # netCons:          Show all open TCP/IP sockets
+alias flushDNS='sudo killall -HUP mDNSResponder'                # flushDNS:         Flush out the DNS Cache
+alias lsock='sudo /usr/sbin/lsof -i -P'                         # lsock:            Display open sockets
+alias lsockU='sudo /usr/sbin/lsof -nP | grep UDP'               # lsockU:           Display only open UDP sockets
+alias lsockT='sudo /usr/sbin/lsof -nP | grep TCP'               # lsockT:           Display only open TCP sockets
+alias openPorts='sudo lsof -i | grep LISTEN'                    # openPorts:        All listening connections
+alias showBlocked='sudo ipfw list'                              # showBlocked:      All ipfw rules inc/ blocked IPs
 
-git_push () {
+alias ip4="ip -4"
+alias ip6="ip -6"
+
+#	---------------------------------------
+
+gpush () {
   ga . && gcmsg $1 && ggpush;
 }
 
-git_push--amend (){
+gpull () {
+  git pull $1 $2;
+}
+
+gpush--amend (){
   ga . && git commit --amend $1 && ggpush -f; 
 }
 
