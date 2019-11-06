@@ -1,6 +1,11 @@
 const THEME = {
   primary: '#CC3366',
   secondary: '#FEAC01',
+  warning: '#ffbf00',
+  pendding: '#ffbf00',
+  success: '#00b16a',
+  error: '#f64744',
+  danger: '#f64744',
   color: {
     orange: '#FEAC01', // 0: Orange
     purple: '#42299a', // 1: Purple
@@ -16,13 +21,6 @@ const THEME = {
     google: '#dd4b39', // 9: Google Plus
     googleDark: '#d73925', // 10: Google Plus Darken 5%
     auth0: '#e14615', // 11: Auth0
-  },
-  status: {
-    warning: '#ffbf00',
-    success: '#00b16a',
-    error: '#f64744',
-    errorDark: '#EC3D3A', // 1: Darken 4%
-    errorLight: '#FF5B58', // 2: Lighten 8%
   },
   calendar: [
     '#905', // 0:
