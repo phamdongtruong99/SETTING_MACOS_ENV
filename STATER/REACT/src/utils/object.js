@@ -39,3 +39,7 @@ const objectToArray = object => {
 // }) = [ { id: '1', text: 'please add code examples' },
 // { id: '2', text: 'examples would be great for this article' },
 // { id: '3', text: 'hi there' } ]
+
+export const isNull = value => {
+  return value === null || value === undefined;
+};

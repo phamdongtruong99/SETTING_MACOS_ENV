@@ -54,6 +54,20 @@ module.exports = {
           transform: 'skewY(-15deg)',
         },
       };
+      const filterImage = {
+        '.filter-unsaturated': {
+          filter: 'saturate(0.2)';
+        },
+        '.filter-saturated': {
+          filter: 'saturate(200%)'; 
+        },
+        '.filter-blur-2': {
+          filter: 'blur(2px)';
+        },
+        '.filter-blur-3': {
+          filter: 'blur(3px)';
+        },
+      };
       const animate = {
         // -------------------Animation-------------------//
         '.infinite': {
@@ -92,6 +106,7 @@ module.exports = {
       };
       addUtilities(newUtilities, ['responsive', 'hover']);
       addUtilities(animate, ['responsive', 'hover']);
+      addUtilities(filterImage, ['responsive', 'hover']);
     },
   ],
 };

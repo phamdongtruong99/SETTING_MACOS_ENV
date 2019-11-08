@@ -1,5 +1,5 @@
 import { useCallback, useEffect, useRef, useState } from 'react';
-import debounce from '../utils/debounce';
+import debounce from 'utils/debounce';
 
 const useAddressPredictions(input) {
   const [predictions, setPredictions] = useState([]);
