@@ -1,0 +1,28 @@
+{
+  "name": "root",
+  "version": "0.0.5",
+  "private": true,
+  "scripts": {
+    "start": "react-native start",
+    "test": "jest",
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "android:build": "fastlane android beta",
+    "android:clean": "cd android && ./gradlew clean",
+    "android:devices": "$ANDROID_HOME/platform-tools/adb devices",
+    "android:shake": "$ANDROID_HOME/platform-tools/adb devices | grep '\\t' | awk '{print $1}' | sed 's/\\s//g' | xargs -I {} $ANDROID_HOME/platform-tools/adb -s {} shell input keyevent 82",
+    "ios:createBundle": "react-native bundle --entry-file index.js --platform ios --dev false --bundle-output ios/main.jsbundle --assets-dest ios",
+    "generateIconFontComponent": "./node_modules/.bin/generate-icon ./src/assets/Fonts/IconFont/styles.css --componentName=smartos-app --fontFamily=smartos-app > ./node_modules/react-native-vector-icons/smartos-app.js",
+    "copyIconFontToNodeModules": "cp ./src/assets/Fonts/IconFont/smartos-app.ttf ./node_modules/react-native-vector-icons/smartos-app.ttf",
+    "createIconFont": "yarn run generateIconFontComponent && yarn run copyIconFontToNodeModules",
+    "removeCachedFiles": "rm -rf $TMPDIR/react-* && watchman watch-del-all && rm -rf ios/build/ModuleCache/* && rm -rf ios/build/* && rm -rf node_modules/*",
+    "removeCachedMetro": " npm cache clean --force && rm -rf ~/Library/Caches/com.facebook.ReactNativeBuild && yarn cache clean && rm -rf $TMPDIR/metro-bundler-cache-*",
+    "newclear": "yarn run removeCachedFiles && yarn run removeCachedMetro && yarn add cache clean && yarn run android:clean && yarn run fix-xcode && yarn run createIconFont",
+    "podInstall": "cd ios && rm -rf Pods/* && rm -rf Podfile.lock && pod install && cd .."
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "jest": {
+    "preset": "react-native"
+  }
+}
