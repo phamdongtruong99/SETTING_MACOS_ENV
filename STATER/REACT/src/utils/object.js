@@ -18,6 +18,10 @@ export const isObject = value => {
   return value != null && (type === 'object' || type === 'function');
 };
 
+export const isEmpty = obj => {
+  return !Object.keys(obj).length;
+};
+
 export const isPlainObject = val =>
   !!val && typeof val === 'object' && val.constructor === Object;
 

@@ -87,3 +87,17 @@ export const includes = (item, arr) =>
 // includes(3, [1, 2, 3]); // true
 // includes(3, [1, 2]); // false
 // includes(0, []); // false
+
+export const range = (from, to) =>
+  Array.from({ length: to - from + 1 }).reduce((acc, _, index) => {
+    acc.push(from + index);
+
+    return acc;
+  }, []);
+
+// range(1, 4); -> [1,2,3,4]
+
+export const filterByInterNumber = arr => arr.filter(Number.isSafeInteger);
+
+// filterByInterNumber([null, 's', {}, 0, 1, 1.5, -2, 1, Number.MAX_SAFE_INTEGER + 1]);
+// -> [0, 1, -2, 5]
