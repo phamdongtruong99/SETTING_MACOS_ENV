@@ -8,5 +8,8 @@ cd ~  && git clone https://github.com/tranthaison1231/INIT_ENVIRONMENT && cd INI
 
 # FOR REACT 
 
-+ React + Google analytics: 
-  - https://github.com/tranthaison1231/REACT_REACT-GA
++ React + Google analytics: https://github.com/tranthaison1231/REACT_REACT-GA
+
+# FOR NEXTJS
+
++ NEXTJS + I18NEXT: https://github.com/tranthaison1231/NEXTJS_I18N
