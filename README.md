@@ -9,6 +9,7 @@ cd ~  && git clone https://github.com/tranthaison1231/INIT_ENVIRONMENT && cd INI
 # FOR REACT 
 
 + React + Google analytics: https://github.com/tranthaison1231/REACT_REACT-GA
++ REACT + TS + ELECTRON + TAILWIND + PARCEL: https://github.com/huytd/electron-typescript-react-tailwind-parcel
 
 # FOR NEXTJS
 
