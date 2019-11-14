@@ -6,4 +6,7 @@
 cd ~  && git clone https://github.com/tranthaison1231/INIT_ENVIRONMENT && cd INIT_ENVIRONMENT && ./install.sh
 ```
 
+# FOR REACT 
 
++ React + Google analytics: 
+  - https://github.com/tranthaison1231/REACT_REACT-GA
