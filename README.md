@@ -22,6 +22,7 @@ cd ~  && git clone https://github.com/tranthaison1231/INIT_ENVIRONMENT && cd INI
 
 
 # FOR NESTJS
++ NESJS + MYSQL: https://github.com/tranthaison1231/NESTJS_MYSQL
  ## MYSQL 
   + DOWLOAD MYSQL WORKBENCH: https://dev.mysql.com/downloads/file/?id=490475
   + DOWLOAD MYSQL: https://dev.mysql.com/downloads/mysql/5.7.html
