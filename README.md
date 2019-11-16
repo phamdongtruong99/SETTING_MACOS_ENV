@@ -26,3 +26,7 @@ cd ~  && git clone https://github.com/tranthaison1231/INIT_ENVIRONMENT && cd INI
  ## MYSQL 
   + DOWLOAD MYSQL WORKBENCH: https://dev.mysql.com/downloads/file/?id=490475
   + DOWLOAD MYSQL: https://dev.mysql.com/downloads/mysql/5.7.html
+
+# FOR GATSBYJS
+  + GATSBY + TAILWIND + STYLED COMPONENTS: https://github.com/tranthaison1231/DEVFUN-BLOG
+  + GATSBY + TAILWIND + POSTCSS
