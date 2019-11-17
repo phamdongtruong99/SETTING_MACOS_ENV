@@ -10,6 +10,7 @@ cd ~  && git clone https://github.com/tranthaison1231/INIT_ENVIRONMENT && cd INI
 + REACT STARTER FOR ADMIN: https://github.com/tranthaison1231/STATER_REACT
 + React + Google analytics: https://github.com/tranthaison1231/REACT_REACT-GA
 + REACT + TS + ELECTRON + TAILWIND + PARCEL: https://github.com/huytd/electron-typescript-react-tailwind-parcel
++ REACT + PULL TO REFESH : https://github.com/CuongStf/pull-to-refresh-react
   ## FOR TAILWIND 
     + Tailwind components: https://tailwindcomponents.com/
     + Tailwind template: https://tailwindtemplates.io/
