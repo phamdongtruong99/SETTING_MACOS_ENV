@@ -15,6 +15,7 @@ cd ~  && git clone https://github.com/tranthaison1231/INIT_ENVIRONMENT && cd INI
     + Tailwind components: https://tailwindcomponents.com/
     + Tailwind template: https://tailwindtemplates.io/
     + Tailwind cheatseat: https://nerdcave.com/tailwind-cheat-sheet
+    + Tailwind table: https://github.com/drehimself/tailwindcss-tables
 
 # FOR NEXTJS
 
