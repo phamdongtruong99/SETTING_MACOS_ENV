@@ -9,6 +9,7 @@
     "test": "react-app-rewired test",
     "eject": "react-scripts eject",
     "update": "ncu -u && yarn",
+    "storybook": "start-storybook",
     "lint:css": "stylelint './src/**/*.js'",
     "lint": "eslint src --ext .js,.jsx --fix"
   },
@@ -16,7 +17,11 @@
     "extends": "react-app"
   },
   "browserslist": {
-    "production": [">0.2%", "not dead", "not op_mini all"],
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
     "development": [
       "last 1 chrome version",
       "last 1 firefox version",
@@ -26,6 +31,7 @@
   "devDependencies": {
     "@babel/plugin-proposal-logical-assignment-operators": "^7.2.0",
     "@babel/plugin-proposal-optional-chaining": "^7.6.0",
+    "babel-plugin-transform-remove-console": "^6.9.4",
     "babel-eslint": "^10.0.3",
     "babel-plugin-import": "^1.12.2",
     "babel-plugin-macros": "^2.6.1",

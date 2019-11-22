@@ -40,5 +40,11 @@ module.exports = {
     'react-hooks/exhaustive-deps': 'warn',
     'react/jsx-filename-extension': [1, { extensions: ['.js', '.ts'] }],
     'react/jsx-props-no-spreading': 0,
+    'import/no-extraneous-dependencies': [
+      error,
+      {
+        devDependencies: ['.storybook/**', 'stories/**'],
+      },
+    ],
   },
 };

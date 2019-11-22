@@ -1,9 +1,5 @@
 import THEME from '../theme/theme';
 
-export const toRem = (input, rootSize = 16) => {
-  return `${input / rootSize}rem`;
-};
-
 export const CSS_RESET = `
   html {
     box-sizing: border-box;

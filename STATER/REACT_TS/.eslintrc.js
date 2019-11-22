@@ -15,6 +15,7 @@ module.exports = {
     'prettier',
     'jest',
     'eslint-comments',
+    'eslint-plugin-tsdoc',
   ],
   settings: {
     'import/extensions': ['.js', '.jsx', '.ts', '.tsx'],
@@ -32,6 +33,8 @@ module.exports = {
     jest: true,
   },
   parserOptions: {
+    project: './tsconfig.json',
+    tsconfigRootDir: __dirname,
     ecmaVersion: 2018,
     sourceType: 'module',
   },
