@@ -15,6 +15,7 @@
     "generateIconFontComponent": "./node_modules/.bin/generate-icon ./src/assets/Fonts/IconFont/styles.css --componentName=smartos-app --fontFamily=smartos-app > ./node_modules/react-native-vector-icons/smartos-app.js",
     "copyIconFontToNodeModules": "cp ./src/assets/Fonts/IconFont/smartos-app.ttf ./node_modules/react-native-vector-icons/smartos-app.ttf",
     "createIconFont": "yarn run generateIconFontComponent && yarn run copyIconFontToNodeModules",
+    "clean": "rm -rf $TMPDIR/react-* && watchman watch-del-all && npm cache clean",
     "removeCachedFiles": "rm -rf $TMPDIR/react-* && watchman watch-del-all && rm -rf ios/build/ModuleCache/* && rm -rf ios/build/* && rm -rf node_modules/*",
     "removeCachedMetro": " npm cache clean --force && rm -rf ~/Library/Caches/com.facebook.ReactNativeBuild && yarn cache clean && rm -rf $TMPDIR/metro-bundler-cache-*",
     "newclear": "yarn run removeCachedFiles && yarn run removeCachedMetro && yarn add cache clean && yarn run android:clean && yarn run fix-xcode && yarn run createIconFont",

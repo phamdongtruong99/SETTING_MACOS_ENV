@@ -1,23 +1,39 @@
 import * as express from 'express';
 import { Application } from 'express';
+import logger from './utils/logger';
 
 class App {
   public app: Application;
   public port: number;
 
-  constructor(appInit: { port: number; middleWares: any; controllers: any }) {
+  constructor(appInit: {
+    port: number;
+    databases: any;
+    middleWares: any;
+    controllers: any;
+  }) {
     this.app = express();
     this.port = appInit.port;
 
+    this.connectDatabase(appInit.databases);
     this.middlewares(appInit.middleWares);
     this.routes(appInit.controllers);
-    this.assets();
-    this.template();
+    // this.assets();
+    // this.template();
+  }
+
+  private connectDatabase(databases: {
+    forEach: (arg0: (databases: any) => void) => void;
+  }) {
+    databases.forEach(database => {
+      database.connect();
+    });
   }
 
   private middlewares(middleWares: {
     forEach: (arg0: (middleWare: any) => void) => void;
   }) {
+    this.app.use(express.json());
     middleWares.forEach(middleWare => {
       this.app.use(middleWare);
     });
@@ -41,8 +57,11 @@ class App {
   }
 
   public listen() {
-    this.app.listen(this.port, () => {
-      console.log(`App listening on the http://localhost:${this.port}`);
+    this.app.listen(this.port, (err: string) => {
+      if (err) {
+        logger({ type: 'Error', message: `Server is Error ${err}` });
+      }
+      logger({ type: 'Info', message: `server is listening on ${this.port}` });
     });
   }
 }
