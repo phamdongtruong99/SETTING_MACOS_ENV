@@ -22,7 +22,6 @@ cd ~  && git clone https://github.com/tranthaison1231/INIT_ENVIRONMENT && cd INI
 + NEXTJS + I18NEXT: https://github.com/tranthaison1231/NEXTJS_I18N 
 + (STATER ) NEXTJS + TAILWIND + TS: https://github.com/huytd/nextjs-tailwind-typescript
 
-
 # FOR NESTJS
 + NESJS + MYSQL: https://github.com/tranthaison1231/NESTJS_MYSQL
 
@@ -32,7 +31,8 @@ cd ~  && git clone https://github.com/tranthaison1231/INIT_ENVIRONMENT && cd INI
  ## MYSQL 
   + DOWLOAD MYSQL WORKBENCH: https://dev.mysql.com/downloads/file/?id=490475
   + DOWLOAD MYSQL: https://dev.mysql.com/downloads/mysql/5.7.html
-
+ ## MONGODB 
+  + NESTJS + MONGODB: https://github.com/academind/nestjs-introduction
 # FOR GATSBYJS
   + GATSBY + TAILWIND + STYLED COMPONENTS: https://github.com/tranthaison1231/DEVFUN-BLOG
   + GATSBY + TAILWIND + POSTCSS
