@@ -27,6 +27,7 @@ cd ~  && git clone https://github.com/tranthaison1231/INIT_ENVIRONMENT && cd INI
 
  ## GRAPQL 
   + NESTJS+ GRAPQL + MONGODB: https://github.com/TannerGabriel/Blog/tree/master/nest-graph-ql?source=post_page-----f9ba34e773a3----------------------
+  + VERSION 2: https://github.com/benawad/nest-mongo-graphql
   + TS + GRAPQL: https://github.com/benawad/typescript-graphql-crud-example
  ## MYSQL 
   + DOWLOAD MYSQL WORKBENCH: https://dev.mysql.com/downloads/file/?id=490475
