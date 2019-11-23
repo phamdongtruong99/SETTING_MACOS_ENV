@@ -2,7 +2,6 @@ module.exports = {
   extends: ['airbnb', 'prettier'],
   globals: {
     __PATH_PREFIX__: true,
-    tw: true,
   },
   plugins: [
     'react',
