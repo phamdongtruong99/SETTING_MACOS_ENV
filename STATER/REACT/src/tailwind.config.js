@@ -21,6 +21,10 @@ module.exports = {
       '96': '24rem',
       '128': '32rem',
     },
+    backgroundSize: {
+     '50%': '50%',
+     '16': '4rem',
+    }
   },
   variants: {
     textColor: ['responsive', 'hover', 'focus', 'active', 'group-hover'],

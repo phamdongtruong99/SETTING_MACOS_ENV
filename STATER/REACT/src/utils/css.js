@@ -66,7 +66,13 @@ export const TAILWIND_CSS = `
   .p-0 {
     padding: 0;
   }
-  
+  .cover {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
   /*----------Flex Box------*/
   .flex {
     display: flex;
@@ -179,6 +185,16 @@ export const TAILWIND_CSS = `
   }
   .w-screen {
     width: 100vw;
+  }
+  /*----------------------Background----------------------------*/
+  .bg-auto {
+    background-size: auto;
+  }
+  .bg-cover	{
+    background-size: cover;
+  }
+  .bg-contain {
+    background-size: contain;
   }
   /*-----------------------Box shadow---------------------------*/
   .shadow {
