@@ -20,7 +20,10 @@
     "removeCachedMetro": " npm cache clean --force && rm -rf ~/Library/Caches/com.facebook.ReactNativeBuild && yarn cache clean && rm -rf $TMPDIR/metro-bundler-cache-*",
     "newclear": "yarn run removeCachedFiles && yarn run removeCachedMetro && yarn add cache clean && yarn run android:clean && yarn run fix-xcode && yarn run createIconFont",
     "podInstall": "cd ios && rm -rf Pods/* && rm -rf Podfile.lock && pod install && cd ..",
-    "doctor": "npx @react-native-community/cli doctor"
+    "doctor": "npx @react-native-community/cli doctor",
+    "codePush": "code-push release-react app-ios ios && code-push release-react app-android android",
+    // https://github.com/doananh234/rn-base/blob/master/apps/mobile-app/package.json
+    "codePushProduction": "code-push promote app-ios Staging Production && code-push promote app-android Staging Production"
   },
   "dependencies": {},
   "devDependencies": {},
