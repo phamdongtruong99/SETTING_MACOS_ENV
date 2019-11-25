@@ -21,7 +21,8 @@ cd ~  && git clone https://github.com/tranthaison1231/INIT_ENVIRONMENT && cd INI
 # FOR NEXTJS
 
 + NEXTJS + I18NEXT: https://github.com/tranthaison1231/NEXTJS_I18N 
-+ (STATER ) NEXTJS + TAILWIND + TS: https://github.com/huytd/nextjs-tailwind-typescript
++ (STATER ) NEXTJS + TAILWIND + TS: https://github.com/huytd/nextjs-tailwind-typescript 
++ DOCKER + NEXTJS:https://github.com/tranthaison1231/docker_nextjs
 
 # FOR NESTJS
 + NESJS + MYSQL: https://github.com/tranthaison1231/NESTJS_MYSQL
