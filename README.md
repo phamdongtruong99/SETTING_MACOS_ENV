@@ -41,3 +41,6 @@ cd ~  && git clone https://github.com/tranthaison1231/INIT_ENVIRONMENT && cd INI
   
 # REACT NATIVE 
   + REACT NATIVE STATER: https://github.com/tranthaison1231/RN_STATER
+
+# ELETRON
+  + ELETRON BASE: https://github.com/alexdevero/electron-react-webpack-boilerplate
