@@ -51,3 +51,9 @@ export const getQueryAllParams = url => {
 };
 
 // getQueryAllParams('http://another-example.com?example=something&data=13'); //{"example": "something", "data": 13}
+
+export const getQueryString = url => {
+  return url.split('?')[1];
+};
+
+// getQueryString // http://codexworld.com/index.php?type=product&id=1234 => type=product&id=1234
