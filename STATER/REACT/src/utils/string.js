@@ -127,3 +127,5 @@ export const findLongestWord = str => {
 };
 
 // findLongestWord('The quick brown fox jumped over the lazy dog'); => jumped
+
+export const removeSpace = str => str.replace(/\s/g, '');

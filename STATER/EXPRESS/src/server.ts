@@ -1,10 +1,12 @@
 import App from './app';
 import * as bodyParser from 'body-parser';
-import loggerMiddleware from './middleware/logger';
-import PostsController from './controllers/posts/posts.controller';
-import HomeController from './controllers/home/home.controller';
+import loggerMiddleware from 'middleware/logger';
+import PostsController from 'controllers/posts/posts.controller';
+import HomeController from 'controllers/home/home.controller';
 import cors from 'cors';
-import MongoORM from './db/mongoORM';
+import MongoORM from 'db/mongoORM';
+
+require('dotenv').config();
 
 const options: cors.CorsOptions = {
   allowedHeaders: [
@@ -20,7 +22,7 @@ const options: cors.CorsOptions = {
 };
 
 const app = new App({
-  port: 5000,
+  port: process.env.PORT || 5000,
   controllers: [new HomeController(), new PostsController()],
   databases: [MongoORM],
   middleWares: [

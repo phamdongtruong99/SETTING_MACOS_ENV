@@ -1,3 +1,30 @@
+import { history } from 'redux/store';
+import { isObject } from './object';
+
+export const updateHashUrl = (hash = '') => {
+  if (!history) return;
+  const { location } = history;
+  history.push({ ...location, hash });
+};
+
+export const updateSearchUrl = (search = '') => {
+  if (!history) return;
+  const { location } = history;
+  history.push({ ...location, search });
+};
+
+export const convertJsonToQueryString = params => {
+  const esc = encodeURIComponent;
+  return Object.keys(params)
+    .map(
+      k =>
+        `${esc(k)}=${esc(
+          isObject(params[k]) ? JSON.stringify(params[k]) : params[k],
+        )}`,
+    )
+    .join('&');
+};
+
 export const URLJoin = (...args) =>
   args
     .join('/')

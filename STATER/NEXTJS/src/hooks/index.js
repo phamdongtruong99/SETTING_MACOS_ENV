@@ -1,7 +1,8 @@
 import useAnimation from './useInput';
 import useTheme from './useTheme';
 import useCopyClipBoard from './useCopyClipBoard';
+import useSSR from 'use-ssr';
 
-export { useAnimation, useTheme, useClipboard, useCopyClipBoard };
+export { useSSR, useAnimation, useTheme, useClipboard, useCopyClipBoard };
 
 //git : https://codesandbox.io/s/y7kr0vll4v

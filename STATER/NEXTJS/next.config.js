@@ -1,4 +1,3 @@
-/* eslint-disable */
 require('dotenv').config();
 
 const withLess = require('@zeit/next-less');
@@ -8,7 +7,6 @@ const fs = require('fs');
 const path = require('path');
 const Dotenv = require('dotenv-webpack');
 const themeConfig = require('./config/theme');
-// Where your antd-custom.less file lives
 const themeVariables = lessToJS(
   fs.readFileSync(
     path.resolve(__dirname, './static/assets/antCustom.less'),
@@ -21,6 +19,12 @@ if (typeof require !== 'undefined') {
 }
 
 module.exports = withLess({
+  publicRuntimeConfig: {
+    localeSubpaths:
+      typeof process.env.LOCALE_SUBPATHS === 'string'
+        ? process.env.LOCALE_SUBPATHS
+        : 'none',
+  },
   lessLoaderOptions: {
     javascriptEnabled: true,
     modifyVars: Object.assign(themeVariables, {
@@ -36,8 +40,8 @@ module.exports = withLess({
       '@card-padding-base': '20px',
       '@tabs-horizontal-padding': '20px',
       '@font-family': 'Inter',
-      '@btn-font-weight': 'bold'
-    }) // make your antd custom effective
+      '@btn-font-weight': 'bold',
+    }), // make your antd custom effective
   },
   webpack: (config, { isServer }) => {
     config.plugins = config.plugins || [];
@@ -48,8 +52,8 @@ module.exports = withLess({
       // Read the .env file
       new Dotenv({
         path: path.join(__dirname, '.env'),
-        systemvars: true
-      })
+        systemvars: true,
+      }),
     ];
 
     if (isServer) {
@@ -64,11 +68,21 @@ module.exports = withLess({
             callback();
           }
         },
-        ...(typeof origExternals[0] === 'function' ? [] : origExternals)
+        ...(typeof origExternals[0] === 'function' ? [] : origExternals),
       ];
+
+      // config.module.rules.push({
+      //   test: /\.(png|jpg|gif|svg|eot|ttf|woff|woff2)$/,
+      //   use: {
+      //     loader: 'url-loader',
+      //     options: {
+      //       limit: 100000,
+      //     },
+      //   },
+      // });
       config.module.rules.unshift({
         test: antStyles,
-        use: 'null-loader'
+        use: 'null-loader',
       });
     }
     config.module.rules.push({
@@ -79,16 +93,16 @@ module.exports = withLess({
           options: {
             svgoConfig: {
               plugins: {
-                removeViewBox: false
-              }
-            }
-          }
-        }
-      ]
+                removeViewBox: false,
+              },
+            },
+          },
+        },
+      ],
     });
 
     config.resolve.modules.push(path.resolve('.'));
 
     return config;
-  }
+  },
 });

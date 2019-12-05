@@ -1,0 +1,4 @@
+{
+  "presets": ["next/babel"],
+  "plugins": ["inline-react-svg"] // https://github.com/zeit/next.js/tree/canary/examples/svg-components
+}
