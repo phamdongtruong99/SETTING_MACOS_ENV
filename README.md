@@ -6,6 +6,9 @@
 cd ~  && git clone https://github.com/tranthaison1231/INIT_ENVIRONMENT && cd INIT_ENVIRONMENT &&  sudo bash install.sh
 ```
 
+# EXPRESSJS 
+ + FEATHER JS + SOCKETIO: https://github.com/bradtraversy/livestreamer_project_ideas
+
 # FOR REACT 
 + REACT STARTER FOR ADMIN: https://github.com/tranthaison1231/STATER_REACT
 + React + Google analytics: https://github.com/tranthaison1231/REACT_REACT-GA
