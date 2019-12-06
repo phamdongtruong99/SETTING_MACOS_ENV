@@ -48,3 +48,5 @@ cd ~  && git clone https://github.com/tranthaison1231/INIT_ENVIRONMENT && cd INI
   
 # TOOLING 
   + Conver to CSV: https://github.com/C2FO/fast-csv
+# REACT NATIVE 
+  + REACT_NATIVE_CAMERA: https://github.com/nartc/react-native-camera
