@@ -45,3 +45,6 @@ cd ~  && git clone https://github.com/tranthaison1231/INIT_ENVIRONMENT && cd INI
 
 # ELETRON
   + ELETRON BASE: https://github.com/alexdevero/electron-react-webpack-boilerplate
+  
+# TOOLING 
+  + Conver to CSV: https://github.com/C2FO/fast-csv
