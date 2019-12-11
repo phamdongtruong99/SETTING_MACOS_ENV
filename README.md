@@ -33,6 +33,7 @@ cd ~  && git clone https://github.com/tranthaison1231/INIT_ENVIRONMENT && cd INI
 + NESJS + MYSQL: https://github.com/tranthaison1231/NESTJS_MYSQL
 + NESTJS + WEBSOCKET: https://github.com/brianjohnsonsr/nest.ws.tutorial
 + NESTJS + TYPEORM + POSTREGSQL: https://github.com/tranthaison1231/NESTJS_TYPEPORM
++ NESTJS + TYPEGOOSE: https://github.com/kpfromer/nestjs-typegoose
 
  ## GRAPQL 
   + NESTJS+ GRAPQL + MONGODB: https://github.com/TannerGabriel/Blog/tree/master/nest-graph-ql?source=post_page-----f9ba34e773a3----------------------
