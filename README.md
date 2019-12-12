@@ -12,7 +12,9 @@ cd ~  && git clone https://github.com/tranthaison1231/INIT_ENVIRONMENT && cd INI
 - FEATHER JS + SOCKETIO: https://github.com/bradtraversy/livestreamer_project_ideas
 
 # FOR VUE 
-- AWSOME HOOKS FOR VUE: https://github.com/logaretm/vue-use-web
+- AWSOME HOOKS FOR VUE:
+  - https://github.com/logaretm/vue-use-web 
+  - https://github.com/logaretm/vue-use-form
 - VUE STARTER FOR ADMIN: 
 - VUE + TAILWIND 
 
