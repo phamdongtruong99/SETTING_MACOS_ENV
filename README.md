@@ -11,8 +11,13 @@ cd ~  && git clone https://github.com/tranthaison1231/INIT_ENVIRONMENT && cd INI
 
 - FEATHER JS + SOCKETIO: https://github.com/bradtraversy/livestreamer_project_ideas
 
-# FOR REACT
+# FOR VUE 
+- AWSOME HOOKS FOR VUE: https://github.com/logaretm/vue-use-web
+- VUE STARTER FOR ADMIN: 
+- VUE + TAILWIND 
 
+# FOR REACT
+- AWSOME HOOKS FOR VUE
 - REACT STARTER FOR ADMIN: https://github.com/tranthaison1231/STATER_REACT
 - React + Google analytics: https://github.com/tranthaison1231/REACT_REACT-GA
 - REACT + TS + ELECTRON + TAILWIND + PARCEL: https://github.com/huytd/electron-typescript-react-tailwind-parcel
