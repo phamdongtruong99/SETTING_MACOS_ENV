@@ -80,3 +80,4 @@ cd ~  && git clone https://github.com/tranthaison1231/INIT_ENVIRONMENT && cd INI
 # FLUTTER
 
 - AWSOME FLUTTER: https://github.com/Solido/awesome-flutter
+- STATER FLUTTER: https://github.com/tranthaison1231/STATER_FLUTTER
