@@ -60,3 +60,5 @@ cd ~  && git clone https://github.com/tranthaison1231/INIT_ENVIRONMENT && cd INI
   + Edit area: https://ckeditor.com/docs/ckeditor5/latest/builds/guides/integration/frameworks/react.html
 # REACT NATIVE 
   + REACT_NATIVE_CAMERA: https://github.com/nartc/react-native-camera
+# FLUTTER 
+  + AWSOME FLUTTER: https://github.com/Solido/awesome-flutter
