@@ -10,7 +10,9 @@ cd ~  && git clone https://github.com/tranthaison1231/INIT_ENVIRONMENT && cd INI
 # EXPRESSJS
 
 - FEATHER JS + SOCKETIO: https://github.com/bradtraversy/livestreamer_project_ideas
-- Cloudinary + Multer: https://github.com/jcottam/blog/tree/master/image-uploading-with-node-and-cloudinary
+- Cloudinary + Multer:
+     - https://github.com/jcottam/blog/tree/master/image-uploading-with-node-and-cloudinary
+     - https://github.com/shoaibcode/express-handler/tree/upload-image-part1
 
 # FOR VUE 
 - AWSOME HOOKS FOR VUE:
