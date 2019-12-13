@@ -44,6 +44,7 @@ cd ~  && git clone https://github.com/tranthaison1231/INIT_ENVIRONMENT && cd INI
 # FOR NESTJS
 
 - NESJS + MYSQL: https://github.com/tranthaison1231/NESTJS_MYSQL
+- NEST + CRUD: https://github.com/chnirt/nestjs-restful-best-practice
 - NESTJS + WEBSOCKET: https://github.com/brianjohnsonsr/nest.ws.tutorial
 - NESTJS + TYPEORM + POSTREGSQL: https://github.com/tranthaison1231/NESTJS_TYPEPORM
 - NESTJS + TYPEGOOSE: https://github.com/kpfromer/nestjs-typegoose
