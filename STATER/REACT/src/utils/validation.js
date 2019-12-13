@@ -15,3 +15,12 @@ export const phoneFormat = value => {
   }
   return false;
 };
+
+export const validateRegex = {
+  phone: /^(\+84|0)+([0-9]{9})$/gs,
+  password: /^(?=.*[a-z])(?=.*[0-9])(?=.*\d).{6,}$/g,
+  username: /^([a-z0-9A-Z_-]{3,100})$/g,
+  editBookingId: '#bookings/(.*)/edit',
+  fullName: /^[a-z0-9 ]{3,100}$/iu,
+  number: /^[0-9]+$/iu,
+};

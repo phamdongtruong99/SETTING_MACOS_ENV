@@ -4,17 +4,21 @@ import { reduxBatch } from '@manaflair/redux-batch';
 import { createBrowserHistory } from 'history';
 import { routerMiddleware } from 'connected-react-router';
 import logger from 'redux-logger';
-import rootReducer from './rootReducer';
-import rootSagas from './rootSagas';
+import deferredMiddleware from './ExposedPromiseMiddleware';
+import rootReducer from './reducers';
+import rootSagas from './sagas';
 
 export const history = createBrowserHistory();
 const sagaMiddleware = createSagaMiddleware();
+
 const middleware = [
   ...getDefaultMiddleware(),
+  deferredMiddleware,
   sagaMiddleware,
-  logger,
   routerMiddleware(history),
 ];
+
+process.env.NODE_ENV !== 'production' && middleware.push(logger);
 
 const store = configureStore({
   reducer: rootReducer(history),

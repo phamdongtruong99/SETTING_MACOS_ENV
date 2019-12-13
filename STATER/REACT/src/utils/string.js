@@ -22,6 +22,7 @@ export const upperFirstChar = text => {
 export const lowerFirstChar = text => {
   return text.charAt(0).toLowerCase() + text.substr(1);
 };
+
 export const replaceAll = (text, search, replacement) => {
   return text.replace(new RegExp(search, 'g'), replacement);
 };
@@ -129,3 +130,15 @@ export const findLongestWord = str => {
 // findLongestWord('The quick brown fox jumped over the lazy dog'); => jumped
 
 export const removeSpace = str => str.replace(/\s/g, '');
+
+export const encodeJsonToURI = params => {
+  return Object.keys(params)
+    .map(key => {
+      return `${encodeURIComponent(key)}=${encodeURIComponent(params[key])}`;
+    })
+    .join('&');
+};
+
+export const formatDateTime = text => {
+  return text ? moment(text).format('DD/MM/YY, hh:mmA') : null;
+};
