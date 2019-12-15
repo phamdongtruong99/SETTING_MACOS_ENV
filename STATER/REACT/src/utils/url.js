@@ -14,11 +14,10 @@ export const updateSearchUrl = (search = '') => {
 };
 
 export const convertJsonToQueryString = params => {
-  const esc = encodeURIComponent;
   return Object.keys(params)
     .map(
       k =>
-        `${esc(k)}=${esc(
+        `${encodeURIComponent(k)}=${encodeURIComponent(
           isObject(params[k]) ? JSON.stringify(params[k]) : params[k],
         )}`,
     )

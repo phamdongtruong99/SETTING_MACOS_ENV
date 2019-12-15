@@ -47,3 +47,31 @@ const objectToArray = object => {
 export const isNull = value => {
   return value === null || value === undefined;
 };
+
+export const isValidParams = value => {
+  return value !== '' && value !== undefined;
+};
+
+export const convertObjToSearchStr = params =>
+  `?${Object.keys(params)
+    .map(key =>
+      isValidParams(params[key]) ? `${key}=${JSON.stringify(params[key])}` : '',
+    )
+    .filter(data => data !== '')
+    .join('&')}`;
+
+// convertObjToSearchStr({ limit: 20, abc: 30, fka: 40 }); => ?limit=20&abc=30&kfa=h4
+
+export const convertObjToSearchEncodeStr = params =>
+  `?${Object.keys(params)
+    .map(key =>
+      isValidParams(params[key])
+        ? `${encodeURIComponent(key)}=${encodeURIComponent(
+            JSON.stringify(params[key]),
+          )}`
+        : '',
+    )
+    .filter(data => data !== '')
+    .join('&')}`;
+
+// convertObjToSearchStr({ limit: 20, abc: 30, fka: 40 }); => ?limit=20&abc=30&kfa=h4
