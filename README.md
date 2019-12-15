@@ -24,7 +24,9 @@ cd ~  && git clone https://github.com/tranthaison1231/INIT_ENVIRONMENT && cd INI
 
 # FOR REACT
 - AWSOME HOOKS FOR VUE
-- REACT STARTER FOR ADMIN: https://github.com/tranthaison1231/STATER_REACT
+- REACT STARTER FOR ADMIN: 
+     - https://github.com/tranthaison1231/STATER_REACT
+     - https://github.com/tranthaison1231/REACT_ADMIN_2
 - REACT STATER: 
   - https://github.com/wellyshen/react-cool-starter
 - React + Google analytics: https://github.com/tranthaison1231/REACT_REACT-GA
