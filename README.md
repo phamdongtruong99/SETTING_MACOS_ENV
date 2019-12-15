@@ -53,6 +53,7 @@ cd ~  && git clone https://github.com/tranthaison1231/INIT_ENVIRONMENT && cd INI
 - NESTJS + TYPEORM + POSTREGSQL: https://github.com/tranthaison1231/NESTJS_TYPEPORM
 - NESTJS + TYPEGOOSE: https://github.com/kpfromer/nestjs-typegoose
 - NESTJS + GRAPHQL: https://github.com/chnirt/nestjs-graphql-best-practice
+- NESTJS + PRISMA: https://github.com/fivethree-team/nestjs-prisma-starter
 
 ## GRAPQL
 
