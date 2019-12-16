@@ -13,6 +13,7 @@ cd ~  && git clone https://github.com/tranthaison1231/INIT_ENVIRONMENT && cd INI
 - Cloudinary + Multer:
      - https://github.com/jcottam/blog/tree/master/image-uploading-with-node-and-cloudinary
      - https://github.com/shoaibcode/express-handler/tree/upload-image-part1
+- EXPRESS + REDIS + DOCKER: https://github.com/HugoDF/express-redis-docker
 
 # FOR VUE 
 - AWSOME HOOKS FOR VUE:
