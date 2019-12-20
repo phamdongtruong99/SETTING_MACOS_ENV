@@ -1,5 +1,3 @@
-import THEME from '../theme/theme';
-
 export const CSS_RESET = `
   html {
     box-sizing: border-box;
@@ -53,7 +51,7 @@ export const CSS_RESET = `
   
 `;
 
-export const TAILWIND_CSS = `
+export const CLASS_UTILITY = `
   /*---------- Custom unility class/Taiwin Css: https://tailwindcss.com/docs ------*/
   /*----------Margin, Padding--------------------*/
   .m-p-0 {
@@ -62,6 +60,9 @@ export const TAILWIND_CSS = `
   }
   .m-0 {
     margin: 0;
+  }
+  .ml-16 {
+    margin-left: 16px;
   }
   .p-0 {
     padding: 0;
@@ -76,6 +77,18 @@ export const TAILWIND_CSS = `
   /*----------Flex Box------*/
   .flex {
     display: flex;
+  }
+  .items-center {
+    align-items: center;
+  }
+  .justify-center	{
+    justify-content: center;
+  }
+  .justify-between	{
+    justify-content: space-between;
+  }
+  .justify-around	{
+    justify-content: space-around;
   }
   .flex-row {
     flex-direction: row;
@@ -142,39 +155,58 @@ export const TAILWIND_CSS = `
     bottom: auto;
     left: auto;
   }
-  /*-------------------------Text-------------------------------*/
+  /*-------------------------text-------------------------------*/
   .text-center {
     text-align: center;
   }
   .text-transparent {
     color: transparent;
   }
-  .text-primary {
-    color: ${THEME.primary};
-  }
   .text-black {
     color: #000;
+  }
+  .text-gray-250 {
+    color: #717791;
   }
   .text-white {
     color: #fff;
   }
-  .text-gray-100 {
-    color: ${THEME.color.gray[0]};
+  .text-15 {
+    font-size: 15px;
   }
-  .text-gray-200 {
-    color: ${THEME.color.gray[1]};
+  .text-20 {
+    font-size: 20px;
   }
-  .text-gray-300 {
-    color: ${THEME.color.gray[2]};
+  .truncate-250 {
+    width: 250px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
   }
-  .text-red-100 {
-    color: ${THEME.color.red[0]};
+  .line-clamp-3 {   
+    display: -webkit-box;   
+    -webkit-line-clamp: 3;   
+    -webkit-box-orient: vertical;     
+    overflow: hidden; 
   }
-  .text-red-200 {
-    color: ${THEME.color.red[1]};
+  /*--------------------Line Height----------------------------*/
+  .leading-none	{
+    line-height: 1;
   }
-  .text-red-300 {
-    color: ${THEME.color.red[2]};
+  .leading-tight	{
+    line-height: 1.25;
+  }  
+  .leading-snug	{
+    line-height: 1.375;
+  }
+  .leading-normal	{
+    line-height: 1.5;
+  }
+  .leading-relaxed	{
+    line-height: 1.625;
+  }
+  .leading-loose	{
+    line-height: 2;
   }
   /*-------------------------Width-------------------------------*/
   .w-auto {
@@ -186,6 +218,10 @@ export const TAILWIND_CSS = `
   .w-screen {
     width: 100vw;
   }
+  /*-------------------------Height-------------------------------*/
+  .h-68 {
+    height: 68px;
+  }
   /*----------------------Background----------------------------*/
   .bg-auto {
     background-size: auto;
@@ -195,6 +231,30 @@ export const TAILWIND_CSS = `
   }
   .bg-contain {
     background-size: contain;
+  }
+  .bg-gray-200 {
+    background: #edf2f7;
+  }
+  .bg-gray-250 {
+    background: #eeeff0;
+  }
+  .bg-gray-300 {
+    background-color: #e2e8f0;
+  }
+  .bg-gray-650 {
+    background: #717791;
+  }
+  .opacity-5 {
+    opacity: .05;
+  }
+  .opacity-75	{
+    opacity: .75;
+  }
+  .opacity-50	{
+    opacity: .5;
+  }
+  .opacity-25	{
+    opacity: .25;
   }
   /*-----------------------Box shadow---------------------------*/
   .shadow {

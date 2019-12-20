@@ -142,3 +142,13 @@ export const encodeJsonToURI = params => {
 export const formatDateTime = text => {
   return text ? moment(text).format('DD/MM/YY, hh:mmA') : null;
 };
+
+export const formatDate = text => {
+  return text ? moment(text).format(' DD/MM/YY') : null;
+};
+
+// formatDate(2019-12-15T00:00:00Z) => 15/12/2019
+
+export const formatTime = text => {
+  return text ? moment(text).format('hh:mma') : null;
+};

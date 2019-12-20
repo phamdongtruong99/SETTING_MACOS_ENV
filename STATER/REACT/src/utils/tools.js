@@ -149,15 +149,6 @@ export const convertDataToObj = (formatOnSubmit, record) => {
       ? { ...record[key], ...formatOnSubmit[key](record[key]) }
       : record[key];
   });
-  // const arrKeys = source.split('.');
-  // let data = record;
-  // arrKeys.forEach((key, index) => {
-  //   if (index === arrKeys.index - 1) {
-  //     data[key] = value;
-  //   } else {
-  //     data = data[key];
-  //   }
-  // });
   return newRecord;
 };
 
