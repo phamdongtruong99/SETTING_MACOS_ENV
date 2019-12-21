@@ -7,6 +7,9 @@
 cd ~  && git clone https://github.com/tranthaison1231/INIT_ENVIRONMENT && cd INIT_ENVIRONMENT &&  sudo bash install.sh
 ```
 
+# DOCKER 
+- JEST-CIRCLECI: https://github.com/immint023/jest-circleci
+
 # EXPRESSJS
 
 - FEATHER JS + SOCKETIO: https://github.com/bradtraversy/livestreamer_project_ideas
