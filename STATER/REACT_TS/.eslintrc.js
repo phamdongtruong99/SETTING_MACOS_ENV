@@ -69,8 +69,6 @@ module.exports = {
     'import/no-named-as-default-member': 0,
     'react-hooks/rules-of-hooks': 'error',
     'react-hooks/exhaustive-deps': 'warn',
-    'react/jsx-filename-extension': [1, { extensions: ['.tsx', '.jsx'] }],
-    'react/jsx-fragments': [1, 'element'],
     '@typescript-eslint/no-unused-vars': 'error',
     '@typescript-eslint/no-useless-constructor': 'error',
     'react/prop-types': 'off',

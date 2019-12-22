@@ -4,10 +4,8 @@ import {
   useHistory,
   useRouteMatch,
 } from 'react-router-dom';
-
 import { useMemo } from 'react';
-
-import queryString from 'query-string';
+import { convertParamsToObject } from 'utils/url';
 
 const useRouter = () => {
   const params = useParams();
@@ -18,9 +16,10 @@ const useRouter = () => {
     return {
       push: history.push,
       replace: history.replace,
+      back: history.goBack,
       pathname: location.pathname,
       query: {
-        ...queryString.parse(location.search), // Convert string to object
+        ...convertParamsToObject(location.search), // Convert string to object
         ...params,
       },
       match,
@@ -30,4 +29,4 @@ const useRouter = () => {
   }, [params, match, location, history]);
 };
 
-return useRouter;
+export default useRouter;

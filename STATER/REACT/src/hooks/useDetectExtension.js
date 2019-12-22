@@ -4,8 +4,8 @@ const useDetectExtension = id => {
   const [isDetected, setDetected] = useState(false);
   useEffect(() => {
     try {
-      const iChrome = navigator.userAgent.toLowerCase().indexOf('chrome') > -1;
-      if (!iChrome) {
+      const isChrome = navigator.userAgent.toLowerCase().indexOf('chrome') > -1;
+      if (!isChrome) {
         return;
       }
       const s = document.createElement('img');
