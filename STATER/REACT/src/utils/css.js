@@ -67,6 +67,9 @@ export const CLASS_UTILITY = `
   .p-0 {
     padding: 0;
   }
+  .p-24 {
+    padding: 24px;
+  }
   .cover {
     position: absolute;
     top: 0;
@@ -95,6 +98,9 @@ export const CLASS_UTILITY = `
   }
   .flex-row {
     flex-direction: row;
+  }
+  .flex-wrap {
+    flex-wrap: wrap;
   }
   .flex-row-reverse {
     flex-direction: row-reverse;
@@ -201,6 +207,9 @@ export const CLASS_UTILITY = `
   .border-br-solid-gray-550  {
     border-bottom: 1px solid #e9e9e9;
     border-right: 1px solid #e9e9e9;
+  }
+  .border-t-solid-gray-550 {
+    border-top: 1px solid #e9e9e9;
   }
   .border-b-solid-gray-550 {
     border-bottom: 1px solid #e9e9e9;
