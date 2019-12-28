@@ -40,6 +40,8 @@ cd ~  && git clone https://github.com/tranthaison1231/INIT_ENVIRONMENT && cd INI
 - ESLINT CONFIG: https://www.npmjs.com/package/eslint-config-react-shyn
 - REACT FOR DRAG DROP IMAGE: https://github.com/react-dropzone/react-dropzone
 - REACT FIREBASE + GOOGLE MAP: https://gitlab.com/tranthaison1231/we-collect-we-share
+- REACT + FIREBASE: https://stackblitz.com/edit/reactfire-sample-uhnxkb
+- REACT + REDUX + FIREBASE: https://codesandbox.io/s/zrr0n5m2zp
   ## FOR TAILWIND
   - Tailwind components: https://tailwindcomponents.com/
   - Tailwind template: https://tailwindtemplates.io/
