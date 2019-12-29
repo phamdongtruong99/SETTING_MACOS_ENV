@@ -108,3 +108,7 @@ cd ~  && git clone https://github.com/tranthaison1231/INIT_ENVIRONMENT && cd INI
 - AWSOME FLUTTER: https://github.com/Solido/awesome-flutter
 - STATER FLUTTER: https://github.com/tranthaison1231/STATER_FLUTTER
 - FLUTTER REPONSE UI: https://github.com/themaaz32/Flultter-Reponsive-UI
+
+# HTML-JS-CSS
+
+- Typing game:  https://github.com/WebDevSimplified/JS-Speed-Typing-Game
