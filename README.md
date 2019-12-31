@@ -25,6 +25,7 @@ cd ~  && git clone https://github.com/tranthaison1231/INIT_ENVIRONMENT && cd INI
   - https://github.com/u3u/vue-hooks/blob/dev/src/useDate.ts
 - VUE STARTER FOR ADMIN: 
 - VUE + TAILWIND 
+- VUE TODOLIST: https://github.com/skysan87/vue-todolist
 
 # FOR REACT
 - AWSOME HOOKS FOR VUE
