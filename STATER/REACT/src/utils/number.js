@@ -2,26 +2,18 @@ export const toDecimalMark = num => num.toLocaleString('en-US');
 
 // toDecimalMark(12305030388.9087); // "12,305,030,388.909"
 
-export const formatNumber = (number, n, x) => {
+export const formatNumber = (number, format = '$&.', n, x) => {
   const re = `\\d(?=(\\d{${x || 3}})+${n > 0 ? '\\.' : '$'})`;
   return Number(number)
     .toFixed(Math.max(0, ~~n))
-    .replace(new RegExp(re, 'g'), '$&.');
+    .replace(new RegExp(re, 'g'), format);
 };
 
-// formatNumber(3560283) ; 3.560.283
+// formatNumber(3560283); 3.560.283
+// formatNumber(3560283, '$&,'); 3,560,283
 
-export const formatNumberByComma = (number, n, x) => {
-  const re = `\\d(?=(\\d{${x || 3}})+${n > 0 ? '\\.' : '$'})`;
-  return Number(number)
-    .toFixed(Math.max(0, ~~n))
-    .replace(new RegExp(re, 'g'), '$&,');
-};
-
-// formatNumberByComma(3560283) ; 3,560,283
-
-export const formatMoney = (number = 0, n, x) => {
-  const UNIT = ['', ' K', ' triệu', ' tỉ'];
+export const compactNumber = (number = 0, n, x) => {
+  const UNIT = ['', ' K', ' M', ' B'];
   let unitRank = 0;
   let tmpPrice = Math.abs(number);
   while (1) {
@@ -34,6 +26,8 @@ export const formatMoney = (number = 0, n, x) => {
     .toFixed(1)
     .replace(new RegExp(re, 'g'), '$&,')}${UNIT[unitRank]}`;
 };
+
+// compactNumber(3000000);  // 3.0 M
 
 export const formatOrdinalnumber = number => {
   return number < 10 ? `0${number}` : number;
@@ -53,3 +47,26 @@ export const randomNumber = (min, max) => {
 };
 
 // randomNumber(1, 100) -> 11
+
+export const formatNumberToMoney = (number, n = 0, x = 3) => {
+  const re = `\\d(?=(\\d{${x}})+${n > 0 ? '\\.' : '$'})`;
+  return `${Number(number)
+    .toFixed(Math.max(0, ~~n))
+    .replace(new RegExp(re, 'g'), '$&,')}đ`;
+};
+
+// formatNumberToMoney(2665): 2,655đ
+
+export const currencyFormat = num => {
+  return '$' + num.toFixed(2).replace(/(\d)(?=(\d{3})+(?!\d))/g, '$1,');
+};
+
+// currencyFormat(2665)) // $2,665.00
+
+export const isNumber = number => {
+  return !isNaN(parseFloat(number)) && isFinite(number);
+};
+
+// isNumber(4) // true
+// isNumber(4.4) // true
+// isNumber('4') // false

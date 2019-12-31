@@ -10,6 +10,7 @@ module.exports = {
     'prettier',
     'jest',
     'eslint-comments',
+    'jam3',
   ],
   env: {
     browser: true,
@@ -31,6 +32,7 @@ module.exports = {
         trailingComma: 'all',
       },
     ],
+    'jam3/rule-name': 2
     'react/jsx-props-no-spreading': 0,
     'import/prefer-default-export': 0,
     'import/no-named-as-default': 0,

@@ -1,4 +1,146 @@
 {
+  //-----------------SNIPPETS FOR GATSBY-------------
+  "const router = useRouter()": {
+    "prefix": "useRouter",
+    "body": ["const router = useRouter();"]
+  },
+  "const dispatch = useDispatch()": {
+    "prefix": "dispatch",
+    "body": ["const dispatch = useDispatch();"]
+  },
+  "Import react-redux": {
+    "prefix": "redux",
+    "body": ["import {useSelector, useDispatch } from 'react-redux'"]
+  },
+  "Create hooks": {
+    "prefix": "chook",
+    "body": [
+      "import { useEffect } from 'react';",
+      "",
+      "const $TM_FILENAME_BASE = () => {",
+      "",
+      "};",
+      "",
+      "export default $TM_FILENAME_BASE;"
+    ]
+  },
+  "Create reducer": {
+    "prefix": "credux",
+    "body": [
+      "import { createSlice, createAction } from '@reduxjs/toolkit';",
+      "",
+      "const initialState = {",
+      " data: {},",
+      " isLoading: false,",
+      "};",
+      "",
+      "const { actions, reducer } = createSlice({",
+      " name: '',",
+      " initialState,",
+      " reducers: {",
+      "    getBrandsSuccess: (state, { payload }) => {",
+      "      state.data = payload;",
+      "    },",
+      "    setLoading: (state, { payload }) => {",
+      "      state.isLoading = payload;",
+      "    },",
+      "  },",
+      "});",
+      "",
+      "export const getBrands = createAction('Brands/getBrands');",
+      "export const changeStatusBrand = createAction('Brands/changeStatusBrand');",
+      "export const { getBrandsSuccess setLoading } = actions;",
+      "export default reducer;"
+    ]
+  },
+  "Create component 2": {
+    "prefix": "rafcp",
+    "body": [
+      "import React from 'react';",
+      "import styled from 'styled-components';",
+      "",
+      "export const Styled$TM_FILENAME_BASE = styled.div`",
+      " ",
+      "`;",
+      "const $TM_FILENAME_BASE = () => {",
+      "  return <Styled$TM_FILENAME_BASE> Hello $TM_FILENAME_BASE</Styled$TM_FILENAME_BASE>;",
+      "};",
+      "",
+      "$TM_FILENAME_BASE.propTypes = {};",
+      "",
+      "$TM_FILENAME_BASE.defaultProps = {};",
+      "",
+      "export default $TM_FILENAME_BASE;"
+    ]
+  },
+  "Export default": {
+    "prefix": "export default",
+    "body": ["export default $TM_FILENAME_BASE;"]
+  },
+  "React native shadwo": {
+    "prefix": "shadow",
+    "body": [
+      "shadow-color: #000;",
+      "shadow-offset: 0px 2px;",
+      "shadow-opacity: 0.4;",
+      "shadow-radius: 2px;",
+      "elevation: 6;"
+    ]
+  },
+  "Create react native": {
+    "prefix": "rn",
+    "body": [
+      "import React from 'react';",
+      "import {View, Text} from 'react-native';",
+      "",
+      "const $TM_FILENAME_BASE = () => {",
+      "  return <View><Text> Hello $TM_FILENAME_BASE </Text></View>;",
+      "};",
+      "",
+      "$TM_FILENAME_BASE.propTypes = {};",
+      "",
+      "$TM_FILENAME_BASE.defaultProps = {};",
+      "",
+      "export default $TM_FILENAME_BASE;"
+    ]
+  },
+  "MarkDownRemark Query": {
+    "prefix": "useStaticQueryMarkdown",
+    "body": [
+      "const { sideProjects } = useStaticQuery(graphql`",
+      " query  {",
+      "   sideProjects: allMarkdownRemark(",
+      "     filter: {",
+      "       frontmatter: { template: { eq: 'blog' }, draft: { ne: true } }",
+      "     }",
+      "     sort: { order: DESC, fields: [frontmatter___date] }",
+      "     limit: 11",
+      " ) {",
+      " edges {",
+      "   node {",
+      "      excerpt(pruneLength: 230)",
+      "      fields {",
+      "        slug",
+      "     }",
+      "     frontmatter {",
+      "        title",
+      "        date(formatString: 'MMM DD, YYYY')",
+      "        thumbnail",
+      "        description",
+      "        tags",
+      "        author",
+      "      }",
+      "    }",
+      "  }",
+      "}",
+      "`);"
+    ]
+  },
+  //-----------------Unitily classs-----------------
+  "text-align: left;": {
+    "prefix": "text",
+    "body": ["text-left"]
+  },
   //-----------------SNIPPETS FOR EXPRESS------------
   "Default Props": {
     "prefix": "def",
@@ -66,77 +208,14 @@
       "];"
     ]
   },
-  "Redux action": {
-    "prefix": "rxaction",
-    "body": [
-      "import { makeConstantCreator, makeActionCreator } from '../../utils/reduxUtils';",
-      "",
-      "export const YourTypes = makeConstantCreator(",
-      " 'YOUR_TYPE',",
-      ");",
-      "",
-      "export const action = params => makeActionCreator(YourTypes.YOUR_TYPE, {params});"
-    ]
-  },
-  "Redux reducer": {
-    "prefix": "rxreducer",
-    "body": [
-      "import { yourTypes } from './actions';",
-      "import { makeReducerCreator } from '../../utils/reduxUtils';",
-      "",
-      "export const initialState = {",
-      "",
-      "};",
-      "",
-      "export const action = (state, { data }) => ({",
-      "",
-      "});",
-      "",
-      "export default makeReducerCreator(initialState, {",
-      " [yourTypes.YOURTYPES]: action,",
-      "});"
-    ]
-  },
-  "Redux react container": {
-    "prefix": "rxcontainer",
-    "body": [
-      "import React, { useEffect } from 'react';",
-      "import { connect } from 'react-redux';",
-      "import PropTypes from 'prop-types';",
-      "",
-      "const index = ({}) => {",
-      " useEffect(() => {",
-      " }, []);",
-      " return (",
-      " //",
-      " );",
-      "};",
-      "",
-      "index.propTypes = {",
-      " //",
-      "};",
-      "",
-      "const mapStateToProps = state => ({",
-      "  props: state.props",
-      "});",
-      "",
-      "const mapDispatchToProps = dispatch => ({",
-      "  action: (params) => dispatch(action(params))",
-      "});",
-      "",
-      "export default connect(",
-      " mapStateToProps,",
-      " mapDispatchToProps,",
-      ")(index);"
-    ]
-  },
   //-----------------SNIPPETS FOR REACT------------
+
   "import styled from 'styled-component' ": {
     "prefix": "ims",
     "body": [
       "import styled from 'styled-components'; ",
       "",
-      "export default styled.div`",
+      "export const Styled$TM_FILENAME_BASE = styled.div`",
       " //code hear",
       "`;"
     ]
@@ -153,7 +232,7 @@
   //-----------------SNIPPETS FOR JAVASCRIPT-------------
   "console.log ": {
     "prefix": "log",
-    "body": ["console.log()"]
+    "body": ["console.log('log--', )"]
   },
   "document.getElementById()": {
     "prefix": "getid",
@@ -163,17 +242,14 @@
   "CSS RESET": {
     "prefix": "cssreset",
     "body": [
-      "//--------------------CSS RESET--------------------------",
       "html {",
-      "  box-sizing: border-box;",
+      "box-sizing: border-box;",
       "}",
-      "",
       "*,",
       "*::before,",
       "*::after {",
-      "  box-sizing: inherit;",
+      " box-sizing: inherit;",
       "}",
-      "",
       "body,",
       "h1,",
       "h2,",
@@ -188,13 +264,14 @@
       "pre,",
       "blockquote,",
       "figure,",
+      "img,",
       "hr {",
-      "  margin: 0;",
-      "  padding: 0;",
+      " margin: 0;",
+      " padding: 0;",
       "}",
       "",
       "ul {",
-      "  list-style: none;",
+      " list-style: none;",
       "}",
       "",
       "embed,",
@@ -202,17 +279,36 @@
       "img,",
       "object,",
       "video {",
-      "  display: block;",
-      "  max-width: 100%;",
+      " display: block;",
+      " max-width: 100%;",
       "}",
       "",
       "table {",
-      "  table-layout: fixed;",
-      "  width: 100%;",
+      " table-layout: fixed;",
+      " width: 100%;",
       "}",
       "",
       "[hidden] {",
-      "  display: none !important;",
+      " display: none;",
+      "}",
+      "html,",
+      "body {",
+      " font-size: 80%;",
+      " @media (min-width: 576px) {",
+      "   font-size: 90%;",
+      " }",
+      " @media (min-width: 768px) {",
+      " font-size: 90%;",
+      " }",
+      " @media (min-width: 992px) {",
+      " font-size: 90%;",
+      " }",
+      " @media (min-width: 1200px) {",
+      " font-size: 100%;",
+      " }",
+      " @media (min-width: 1600px) {",
+      "   font-size: 133.33333%;",
+      " }",
       "}"
     ]
   },
@@ -241,5 +337,31 @@
       "@media (min-width: 992px)  { ... }",
       "@media (min-width: 1200px) { ... }"
     ]
+  },
+  //--------------------COLOR-----------------------------
+  "Styled Component": {
+    "prefix": "#fff",
+    "body": ["${props => props.theme.palette.formPrimaryColor}"]
+  },
+  "${props => props.theme.palette.primary};": {
+    "prefix": "primary",
+    "body": ["${props => props.theme.palette.primary};"]
+  },
+  //-------------------i18next-----------------------------
+  "i18next.t('')": {
+    "prefix": "i18n",
+    "body": ["i18next.t('')"]
+  },
+  "onClick={handleOnlick}": {
+    "prefix": "onClick",
+    "body": ["onClick={handleClick}"]
+  },
+  "const handleClick = () => {": {
+    "prefix": "handleClick",
+    "body": ["const handleClick = () => {", "", "};"]
+  },
+  "const handleChange = () => {": {
+    "prefix": "handleChange",
+    "body": ["const handleChange = () => {", "", "};"]
   }
 }

@@ -152,3 +152,15 @@ export const formatDate = text => {
 export const formatTime = text => {
   return text ? moment(text).format('hh:mma') : null;
 };
+
+export const generateRandomAlphaNum = length => {
+  let rdmString = '';
+  while (rdmString.length < length) {
+    rdmString += Math.random()
+      .toString(36)
+      .substr(2);
+  }
+  return rdmString.substr(0, length);
+};
+
+// generateRandomAlphaNum(10) => bsgxfn3w8o

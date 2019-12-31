@@ -8,3 +8,10 @@ export const mergedDateAndTime = (date, time) => {
   const seconds = new Date(time).getSeconds();
   return new Date(year, month, day, hour, minute, seconds);
 };
+
+export const getYesterday = () => {
+  const today = new Date();
+  const yesterday = new Date();
+  yesterday.setDate(today.getDate() - 1);
+  return yesterday;
+};
