@@ -116,3 +116,7 @@ cd ~  && git clone https://github.com/tranthaison1231/INIT_ENVIRONMENT && cd INI
 # HTML-JS-CSS
 
 - Typing game:  https://github.com/WebDevSimplified/JS-Speed-Typing-Game
+
+# EXTENSION 
+
+- REACT-EXTENSION:  https://github.com/aeksco/react-typescript-chrome-extension-starter
