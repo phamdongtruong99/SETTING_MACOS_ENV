@@ -44,6 +44,7 @@ cd ~  && git clone https://github.com/tranthaison1231/INIT_ENVIRONMENT && cd INI
      - https://github.com/jhuleatt/react-roads
 - REACT + FIREBASE: https://stackblitz.com/edit/reactfire-sample-uhnxkb
 - REACT + REDUX + FIREBASE: https://codesandbox.io/s/zrr0n5m2zp
+- REACT + SVG: https://www.youtube.com/watch?v=7bw56feIdh4
   ## FOR TAILWIND
   - Tailwind components: https://tailwindcomponents.com/
   - Tailwind template: https://tailwindtemplates.io/
