@@ -15,3 +15,9 @@ export const getYesterday = () => {
   yesterday.setDate(today.getDate() - 1);
   return yesterday;
 };
+
+export const isLeapYear = year => {
+  return year % 4 === 0 && year % 100 !== 0;
+};
+
+// isLeapYear(2008) // true

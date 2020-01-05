@@ -101,3 +101,28 @@ export const filterByInterNumber = arr => arr.filter(Number.isSafeInteger);
 
 // filterByInterNumber([null, 's', {}, 0, 1, 1.5, -2, 1, Number.MAX_SAFE_INTEGER + 1]);
 // -> [0, 1, -2, 5]
+
+export const DAYS_OF_THE_WEEK = [
+  'MON',
+  'TUE',
+  'WED',
+  'THU',
+  'FRI',
+  'SAT',
+  'SUN',
+];
+
+export const MONTHS = [
+  'JAN',
+  'FEB',
+  'MAR',
+  'APR',
+  'MAY',
+  'JUN',
+  'JUL',
+  'AUG',
+  'SEP',
+  'OCT',
+  'NOV',
+  'DEC',
+];
