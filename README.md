@@ -113,6 +113,7 @@ cd ~  && git clone https://github.com/tranthaison1231/INIT_ENVIRONMENT && cd INI
 - STATER FLUTTER: https://github.com/tranthaison1231/STATER_FLUTTER
 - FLUTTER REPONSE UI: https://github.com/themaaz32/Flultter-Reponsive-UI
 - BMI APP: https://github.com/themaaz32/bmi_app
+- FLUTTER_LIQUID_SWIPE : https://github.com/sagarshende23/flutter_liquid_swipe
 
 # HTML-JS-CSS
 
