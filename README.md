@@ -122,3 +122,7 @@ cd ~  && git clone https://github.com/tranthaison1231/INIT_ENVIRONMENT && cd INI
 # EXTENSION 
 
 - REACT-EXTENSION:  https://github.com/aeksco/react-typescript-chrome-extension-starter
+
+# C# 
+
+- Design Pattern: https://github.com/OngDevTutorials/design-pattern-tutorial
