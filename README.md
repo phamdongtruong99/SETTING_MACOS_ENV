@@ -107,6 +107,7 @@ cd ~  && git clone https://github.com/tranthaison1231/INIT_ENVIRONMENT && cd INI
 # REACT NATIVE
 
 - REACT_NATIVE_CAMERA: https://github.com/nartc/react-native-camera
+- REACT_NATIVE_BOOKING: https://github.com/phamdongtruong99/RN_BASE_1
 
 # FLUTTER
 
