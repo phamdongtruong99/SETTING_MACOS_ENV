@@ -58,6 +58,9 @@ cd ~  && git clone https://github.com/tranthaison1231/INIT_ENVIRONMENT && cd INI
 - (STATER ) NEXTJS + TAILWIND + TS: https://github.com/huytd/nextjs-tailwind-typescript
 - DOCKER + NEXTJS:https://github.com/tranthaison1231/docker_nextjs
 
+# DIANJO 
+- DIANJO + MONGODB: https://github.com/nesdis/djongo
+
 # FOR NESTJS
 
 - NESJS + MYSQL: https://github.com/tranthaison1231/NESTJS_MYSQL
