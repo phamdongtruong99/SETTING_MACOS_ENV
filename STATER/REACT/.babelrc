@@ -1,4 +1,17 @@
 {
+  "presets": [
+    "@babel/preset-react",
+    [
+      "@babel/presets-env",
+      {
+        "targets": {
+          "browsers": {
+            "ie": "11"
+          }
+        }
+      }
+    ]
+  ],
   "plugins": [
     [
       "babel-plugin-styled-components",

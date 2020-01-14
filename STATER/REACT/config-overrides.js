@@ -19,6 +19,13 @@ module.exports = override(
     modifyVars: {
       '@primary-color': THEME.palette.primary,
       '@font-family': THEME.fonts.primary,
+      '@card-shadow': THEME.card.shadow,
+      '@card-radius': '16px',
+      '@border-radius-base': '10px',
+      '@table-header-bg': THEME.background.headerTable,
+      '@table-header-color': THEME.text.headerTable,
+      '@layout-sider-background-light': THEME.background.sidebar,
+      '@input-bg': THEME.background.input,
     },
   }),
 );

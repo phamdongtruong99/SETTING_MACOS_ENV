@@ -27,7 +27,7 @@ export const CSS_RESET = `
    padding: 0;
   }
   
-  ul {
+  ul, ol {
    list-style: none;
   }
   
@@ -48,7 +48,22 @@ export const CSS_RESET = `
   [hidden] {
    display: none;
   }
+
+  @media (prefers-reduced-motion: reduce) {
+    * {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+      scroll-behavior: auto !important;
+    }
+  }
   
+  body {
+    min-height: 100vh;
+    scroll-behavior: smooth;
+    text-rendering: optimizeSpeed;
+    line-height: 1.5;
+  }
 `;
 
 export const CLASS_UTILITY = `
@@ -258,27 +273,28 @@ export const CLASS_UTILITY = `
     bottom: auto;
     left: auto;
   }
+  /*-------------------Object-fit-----------------------------*/
+  .object-contain {
+    object-fit: contain;
+  }
+  .object-cover {
+    object-fit: cover;
+  }
+  .object-fill {
+    object-fit: fill;
+  }
+  .object-none {
+    object-fit: none;
+  }
+  .object-scale-down {
+    object-fit: scale-down;
+  }
   /*-------------------------text-------------------------------*/
   .text-center {
     text-align: center;
   }
   .text-transparent {
     color: transparent;
-  }
-  .text-black {
-    color: #000;
-  }
-  .text-white {
-    color: #fff;
-  }
-  .text-15 {
-    font-size: 15px;
-  }
-  .text-12 {
-    font-size: 12px;
-  }
-  .text-20 {
-    font-size: 20px;
   }
   .truncate-250 {
     width: 250px;
@@ -303,19 +319,6 @@ export const CLASS_UTILITY = `
     border-top-width: 1px;
     border-right-width: 1px;
     border-style: solid;
-  }
-  .border-br-solid-gray-550  {
-    border-bottom: 1px solid #e9e9e9;
-    border-right: 1px solid #e9e9e9;
-  }
-  .border-t-solid-gray-550 {
-    border-top: 1px solid #e9e9e9;
-  }
-  .border-b-solid-gray-550 {
-    border-bottom: 1px solid #e9e9e9;
-  }
-  .border-r-solid-gray-550  {
-    border-right: 1px solid #e9e9e9;
   }
   .border-none {
     border: none;
@@ -413,21 +416,6 @@ export const CLASS_UTILITY = `
   }
   .bg-contain {
     background-size: contain;
-  }
-  .bg-gray-200 {
-    background: #edf2f7;
-  }
-  .bg-gray-250 {
-    background: #eeeff0;
-  }
-  .bg-gray-300 {
-    background-color: #e2e8f0;
-  }
-  .bg-gray-650 {
-    background: #717791;
-  }
-  .bg-white {
-    background-color: #fff;	
   }
   .opacity-5 {
     opacity: .05;

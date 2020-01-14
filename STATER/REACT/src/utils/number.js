@@ -70,3 +70,12 @@ export const isNumber = number => {
 // isNumber(4) // true
 // isNumber(4.4) // true
 // isNumber('4') // false
+
+export const randomFloatNumber = (minValue, maxValue, precision = 2) => {
+  return parseFloat(
+    Math.min(
+      minValue + Math.random() * (maxValue - minValue),
+      maxValue,
+    ).toFixed(precision),
+  );
+};
