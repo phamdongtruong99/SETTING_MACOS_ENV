@@ -53,6 +53,8 @@ cd ~  && git clone https://github.com/tranthaison1231/INIT_ENVIRONMENT && cd INI
   - Tailwind template: https://tailwindtemplates.io/
   - Tailwind cheatseat: https://nerdcave.com/tailwind-cheat-sheet
   - Tailwind table: https://github.com/drehimself/tailwindcss-tables
+  ## MONOREPO
+  - MONOREPO + STORYBOOK: https://github.com/ga12ru12/monorepo
 
 # FOR NEXTJS
 
