@@ -1,8 +1,8 @@
 import * as express from 'express';
 import { Application } from 'express';
-import logger from './utils/logger';
+import logger from '../utils/logger';
 
-class App {
+class Express {
   public app: Application;
   public port: number;
 
@@ -24,7 +24,7 @@ class App {
 
   private connectDatabase(databases: {
     forEach: (arg0: (databases: any) => void) => void;
-  }) {
+  }): void {
     databases.forEach(database => {
       database.connect();
     });
@@ -32,7 +32,7 @@ class App {
 
   private middlewares(middleWares: {
     forEach: (arg0: (middleWare: any) => void) => void;
-  }) {
+  }): void {
     this.app.use(express.json());
     middleWares.forEach(middleWare => {
       this.app.use(middleWare);
@@ -41,22 +41,22 @@ class App {
 
   private routes(controllers: {
     forEach: (arg0: (controller: any) => void) => void;
-  }) {
+  }): void {
     controllers.forEach(controller => {
       this.app.use('/', controller.router);
     });
   }
 
-  private assets() {
+  private assets(): void {
     this.app.use(express.static('public'));
     this.app.use(express.static('views'));
   }
 
-  private template() {
+  private template(): void {
     this.app.set('view engine', 'pug');
   }
 
-  public listen() {
+  public listen(): void {
     this.app.listen(this.port, (err: string) => {
       if (err) {
         logger({ type: 'Error', message: `Server is Error ${err}` });
@@ -66,4 +66,4 @@ class App {
   }
 }
 
-export default App;
+export default Express;

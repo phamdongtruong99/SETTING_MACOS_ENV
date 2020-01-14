@@ -1,10 +1,26 @@
 import 'reflect-metadata';
 import { ConnectionOptions } from 'typeorm';
-
-import '../helpers/env';
+import {
+  MONGO_URL,
+  MYSQL_HOST_DEV,
+  MYSQL_PORT_DEV,
+  MYSQL_USER_DEV,
+  MYSQL_PASSWORD_DEV,
+  MYSQL_DB_NAME_DEV,
+  MYSQL_HOST_TEST,
+  MYSQL_PORT_TEST,
+  MYSQL_USER_TEST,
+  MYSQL_PASSWORD_TEST,
+  MYSQL_DB_NAME_TEST,
+  MYSQL_HOST_PROD,
+  MYSQL_PORT_PROD,
+  MYSQL_USER_PROD,
+  MYSQL_PASSWORD_PROD,
+  MYSQL_DB_NAME_PROD
+} from '@environments';
 
 export const mongoConfig = {
-  mongoURL: process.env.MONGO_URL
+  mongoURL: MONGO_URL
 };
 
 interface MysqlConfig {
@@ -21,26 +37,26 @@ const baseConfig: MysqlConfig = {
 export const mysqlConfig: MysqlConfig = {
   devlopment: {
     ...baseConfig,
-    host: process.env.MYSQL_HOST_DEV,
-    port: process.env.MYSQL_PORT_DEV,
-    username: process.env.MYSQL_USER_DEV,
-    password: process.env.MYSQL_PASSWORD_DEV,
-    database: process.env.MYSQL_DB_NAME_DEV
+    host: MYSQL_HOST_DEV,
+    port: MYSQL_PORT_DEV,
+    username: MYSQL_USER_DEV,
+    password: MYSQL_PASSWORD_DEV,
+    database: MYSQL_DB_NAME_DEV
   },
   test: {
     ...baseConfig,
-    host: process.env.MYSQL_HOST_TEST,
-    port: process.env.MYSQL_PORT_TEST,
-    username: process.env.MYSQL_USER_TEST,
-    password: process.env.MYSQL_PASSWORD_TEST,
-    database: process.env.MYSQL_DB_NAME_TEST
+    host: MYSQL_HOST_TEST,
+    port: MYSQL_PORT_TEST,
+    username: MYSQL_USER_TEST,
+    password: MYSQL_PASSWORD_TEST,
+    database: MYSQL_DB_NAME_TEST
   },
   production: {
     ...baseConfig,
-    host: process.env.MYSQL_HOST_PROD,
-    port: process.env.MYSQL_PORT_PROD,
-    username: process.env.MYSQL_USER_PROD,
-    password: process.env.MYSQL_PASSWORD_PROD,
-    database: process.env.MYSQL_DB_NAME_PROD
+    host: MYSQL_HOST_PROD,
+    port: MYSQL_PORT_PROD,
+    username: MYSQL_USER_PROD,
+    password: MYSQL_PASSWORD_PROD,
+    database: MYSQL_DB_NAME_PROD
   }
 };

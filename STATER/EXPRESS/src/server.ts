@@ -1,34 +1,22 @@
-import App from './app';
+import Express from 'providers/Express';
 import * as bodyParser from 'body-parser';
+import * as cookieParser from 'cookie-parser';
 import loggerMiddleware from 'middleware/logger';
-import PostsController from 'controllers/posts/posts.controller';
-import HomeController from 'controllers/home/home.controller';
-import cors from 'cors';
+import corsMiddleware from 'middleware/cors.middleware';
+import PostController from 'modules/post/post.controller';
 import MongoORM from 'db/mongoORM';
 
 require('dotenv').config();
 
-const options: cors.CorsOptions = {
-  allowedHeaders: [
-    'Origin',
-    'X-Requested-With',
-    'Content-Type',
-    'Accept',
-    'X-Access-Token'
-  ],
-  credentials: true,
-  methods: 'GET,HEAD,OPTIONS,PUT,PATCH,POST,DELETE',
-  preflightContinue: false
-};
-
-const app = new App({
+const app = new Express({
   port: process.env.PORT || 5000,
-  controllers: [new HomeController(), new PostsController()],
+  controllers: [new PostsController()],
   databases: [MongoORM],
   middleWares: [
-    cors(options),
+    corsMiddleware,
     bodyParser.json(),
     bodyParser.urlencoded({ extended: true }),
+    cookieParser(),
     loggerMiddleware
   ]
 });
