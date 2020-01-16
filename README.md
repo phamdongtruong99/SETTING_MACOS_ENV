@@ -62,6 +62,7 @@ cd ~  && git clone https://github.com/tranthaison1231/INIT_ENVIRONMENT && cd INI
 - NEXTJS + I18NEXT: https://github.com/tranthaison1231/NEXTJS_I18N
 - (STATER ) NEXTJS + TAILWIND + TS: https://github.com/huytd/nextjs-tailwind-typescript
 - DOCKER + NEXTJS:https://github.com/tranthaison1231/docker_nextjs
+- NEXT_FIREBASE_TS: https://github.com/rwieruch/nextjs-firebase-authentication
 
 # DIANJO 
 - DIANJO + MONGODB: https://github.com/nesdis/djongo
