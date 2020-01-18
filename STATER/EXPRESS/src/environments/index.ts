@@ -1,6 +1,4 @@
-import * as dotenv from 'dotenv';
 import accessEnv from './accessEnv';
-dotenv.config();
 
 // environment
 export const NODE_ENV: string = accessEnv('NODE_ENV', 'development');

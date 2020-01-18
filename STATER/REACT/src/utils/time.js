@@ -21,3 +21,12 @@ export const isLeapYear = year => {
 };
 
 // isLeapYear(2008) // true
+
+export const syncWait = ms => {
+  const end = Date.now() + ms;
+  while (Date.now() < end) continue;
+};
+
+// https://stackoverflow.com/questions/6921895/synchronous-delay-in-code-execution
+
+export const asyncWait = ms => new Promise(resolve => setTimeout(resolve, ms));

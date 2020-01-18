@@ -1,7 +1,7 @@
 import React from 'react';
 import { ThemeProvider, createGlobalStyle } from 'styled-components';
-import theme from 'theme/theme';
-import Routes from 'routes';
+import theme from '@/theme/theme';
+import Routes from '@/routes';
 
 if (process.env.NODE_ENV !== 'production') {
   const whyDidYouRender = require('@welldone-software/why-did-you-render');

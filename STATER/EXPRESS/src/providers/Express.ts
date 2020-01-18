@@ -18,6 +18,7 @@ class Express {
     this.connectDatabase(appInit.databases);
     this.middlewares(appInit.middleWares);
     this.routes(appInit.controllers);
+    this.handleError();
     // this.assets();
     // this.template();
   }
@@ -50,6 +51,23 @@ class Express {
   private assets(): void {
     this.app.use(express.static('public'));
     this.app.use(express.static('views'));
+  }
+
+  private handleError(): void {
+    this.app.use((req, res, next) => {
+      const error = new Error('Not found');
+      error.status = 404;
+      next(error);
+    });
+
+    this.app.use((error, req, res, next) => {
+      res.status(error.status || 500).send({
+        error: {
+          status: error.status || 500,
+          message: error.message || 'Internal Server Error'
+        }
+      });
+    });
   }
 
   private template(): void {

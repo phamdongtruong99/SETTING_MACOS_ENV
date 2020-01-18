@@ -290,8 +290,17 @@ export const CLASS_UTILITY = `
     object-fit: scale-down;
   }
   /*-------------------------text-------------------------------*/
-  .text-center {
+  .tc {
     text-align: center;
+  }
+  .tl {
+    text-align: left;
+  }
+  .tr {
+    text-align: right;
+  }
+  .tj {
+    text-align: justify;
   }
   .text-transparent {
     color: transparent;
@@ -308,12 +317,18 @@ export const CLASS_UTILITY = `
     -webkit-box-orient: vertical;     
     overflow: hidden; 
   }
-  /*--------------------Border---------------------------------*/
-  .rounded-16 {
-    border-radius: 16px;
+  .underline {
+    text-decoration: underline;
   }
-  .rounded-4 {
-    border-radius: 4px;
+  .strike {
+    text-decoration: line-through;
+  }
+  /*--------------------Border---------------------------------*/
+  .r-1\\/2 {
+    border-radius: 50%;
+  }
+  .r-full {
+    border-radius: 9999px;
   }
   .border-tr {
     border-top-width: 1px;
@@ -417,19 +432,19 @@ export const CLASS_UTILITY = `
   .bg-contain {
     background-size: contain;
   }
-  .opacity-5 {
+  .o-5 {
     opacity: .05;
   }
-  .opacity-70 {
+  .o-70 {
     opacity: .7;
   }
-  .opacity-75	{
+  .o-75	{
     opacity: .75;
   }
-  .opacity-50	{
+  .o-50	{
     opacity: .5;
   }
-  .opacity-25	{
+  .o-25	{
     opacity: .25;
   }
   /*-----------------------Box shadow---------------------------*/
@@ -449,10 +464,28 @@ export const CLASS_UTILITY = `
     box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
   }
   /*--------------------Oveflow----------------------------------*/
-  .overflow-x-hidden {
+  .ovf-x-hidden {
     overflow-x: hidden;
   }
-  .overflow-y-auto {
+  .ovf-y-auto {
     overflow-y: auto;
+  }
+  /*-----------------------Hover---------------------------------*/
+  .grow {
+    -moz-osx-font-smoothing: grayscale;
+    backface-visibility: hidden;
+    transform: translateZ(0);
+    transition: transform 0.25s ease-out;
+    &:hover, &:focus {
+      transform: scale(1.05);
+    }
+  }
+  .dim {
+    opacity: 1;
+    transition: opacity .15s ease-in;
+    &:hover, &:focus {
+      opacity: .5;
+      transition: opacity .15s ease-in;
+    }
   }
 `;
