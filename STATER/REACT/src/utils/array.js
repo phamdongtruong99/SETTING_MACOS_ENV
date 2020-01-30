@@ -58,7 +58,13 @@ export const findLast = (array, fn) => {
 // findLast([1, 2, 3, 4], n => n % 2 == 1) // -> 3
 
 export const findMostRepeat = array => {
-  if (array.length == 0) return null;
+  if (!Array.isArray(arr)) {
+    throw new TypeError('arr must be an array');
+  }
+
+  if (arr.length === 0) {
+    throw new TypeError('arr must not be empty');
+  }
   let modeMap = {};
   let maxEl = array[0],
     maxCount = 1;
@@ -126,3 +132,61 @@ export const MONTHS = [
   'NOV',
   'DEC',
 ];
+
+export const minArr = arr => {
+  if (!Array.isArray(arr)) {
+    throw new TypeError('arr must be an array');
+  }
+
+  if (arr.length === 0) {
+    throw new TypeError('arr must not be empty');
+  }
+
+  let minValue = arr[0];
+  for (let i = 1; i < arr.length; i++) {
+    if (arr[i] < minValue) minValue = arr[i];
+  }
+  return minValue;
+};
+
+// minArr([3,4,5]) => 3
+
+export const maxArr = arr => {
+  if (!Array.isArray(arr)) {
+    throw new TypeError('arr must be an array');
+  }
+
+  if (arr.length === 0) {
+    throw new TypeError('arr must not be empty');
+  }
+
+  let maxValue = arr[0];
+  for (let i = 1; i < arr.length; i++) {
+    if (arr[i] > maxValue) maxValue = arr[i];
+  }
+  return maxValue;
+};
+
+// maxArr([3,4,5]) => 5
+
+export const sumArr = arr => {
+  if (!Array.isArray(arr)) {
+    throw new TypeError('arr must be an array');
+  }
+
+  if (arr.length === 0) {
+    throw new TypeError('arr must not be empty');
+  }
+
+  let sumValue = 0;
+  for (let i = 0; i < arr.length; i++) {
+    sumValue += arr[i];
+  }
+  return sumValue;
+};
+
+// sumArr([3,4,5]) => 12
+
+export const meanArr = arr => sum(arr) / arr.length;
+
+// mean([1, 5, 3, 2, 4]);  => 3

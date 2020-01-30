@@ -323,13 +323,30 @@ export const CLASS_UTILITY = `
   .strike {
     text-decoration: line-through;
   }
-  /*--------------------Border---------------------------------*/
+  //----------------------boder-radius------------
+  .r {
+    border-radius: .25rem;
+  }
+  .r-40 {
+    border-radius: 40px;
+  }
   .r-1\\/2 {
     border-radius: 50%;
   }
   .r-full {
     border-radius: 9999px;
   }
+  .r-t-10 {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  .r-lg {
+    border-radius: .5rem;
+  }
+  .r-full {
+    border-radius: 9999px;
+  }
+  // ----------------------Border------------------
   .border-tr {
     border-top-width: 1px;
     border-right-width: 1px;
@@ -432,6 +449,7 @@ export const CLASS_UTILITY = `
   .bg-contain {
     background-size: contain;
   }
+  //-------------------Opacity--------------------------------*/
   .o-5 {
     opacity: .05;
   }

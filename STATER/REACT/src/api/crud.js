@@ -1,29 +1,30 @@
-import { get, post, put, del } from './utils';
+import { get, post, put, del, getQueryString } from './utils';
 
-export async function getAllApi(resource, data) {
-  return get(`${resource.indexOf('/') > -1 ? resource : `${resource}/`}`, data);
+export async function getAllDataApi(resource, data) {
+  return get(`/${resource}`, data);
 }
 
 export async function getDataByIdApi(resource, id, data) {
-  return get(`${resource}/${id}`, data);
+  return get(`/${resource}/${id}`, data);
 }
 
-export async function delApi(resource, id) {
-  if (id) {
-    return del(`${resource}/${id}`);
+export async function deleteDataApi(resource, id) {
+  if (!id) {
+    throw new TypeError('Id not be undefined');
   }
-  return del(`${resource.indexOf('/') > -1 ? resource : `${resource}/`}`);
+  return del(`/${resource}/${id}`);
 }
 
-export async function postApi(resource, data) {
-  return post(
-    `${resource.indexOf('/') > -1 ? resource : `${resource}/`}`,
-    data,
-  );
+export async function postDataApi(resource, data) {
+  return post(`/${resource}`, data);
 }
 
-export async function putApi(resource, id, data, isCustomApi) {
-  return put(isCustomApi ? resource : `${resource}/${id}`, data);
+export async function putDataApi(resource, id, data) {
+  return put(`/${resource}/${id}`, data);
+}
+
+export async function exportExcelApi(resource, data) {
+  return get(`/${resource}/exportExcel`, data);
 }
 
 export const exportExcel = (resource, query) => {
