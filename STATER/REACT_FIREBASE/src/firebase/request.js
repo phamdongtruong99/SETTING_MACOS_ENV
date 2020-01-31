@@ -1,15 +1,20 @@
 import firebase from 'firebase';
 
-export async function getAllApi(collection, limit = 10) {
+export async function getAllApi(
+  collection,
+  limit = 10,
+  orderBy,
+  sort = 'desc',
+) {
   return firebase
     .firestore()
     .collection(collection)
-    .orderBy('title', 'desc')
+    .orderBy(orderBy, sort)
     .limit(limit)
     .get();
 }
 
-export async function getDataByIdApi(collection, idCollection, subcollection) {
+export async function getByIdApi(collection, idCollection, subcollection) {
   return firebase
     .firestore()
     .collection(collection)
@@ -18,7 +23,7 @@ export async function getDataByIdApi(collection, idCollection, subcollection) {
     .get();
 }
 
-export async function delApi(collection, id) {
+export async function deleteApi(collection, id) {
   return firebase
     .firestore()
     .collection(collection)
@@ -26,11 +31,12 @@ export async function delApi(collection, id) {
     .delete();
 }
 
-export async function postApi(collection, id, update) {
+export async function postApi(collection, data, callback = () => {}) {
   return firebase
     .firestore()
     .collection(collection)
-    .add(data);
+    .add(data)
+    .then(callback);
 }
 
 export async function putApi(collection, id, update) {
