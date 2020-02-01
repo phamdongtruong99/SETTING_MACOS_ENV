@@ -7,10 +7,11 @@
 cd ~  && git clone https://github.com/tranthaison1231/INIT_ENVIRONMENT && cd INIT_ENVIRONMENT &&  sudo bash install.sh
 ```
 
-# DOCKER 
+# BACKEND 
+## DOCKER 
 - JEST-CIRCLECI: https://github.com/immint023/jest-circleci
 
-# EXPRESSJS
+## EXPRESSJS
 
 - FEATHER JS + SOCKETIO: https://github.com/bradtraversy/livestreamer_project_ideas
 - Cloudinary + Multer:
@@ -20,18 +21,18 @@ cd ~  && git clone https://github.com/tranthaison1231/INIT_ENVIRONMENT && cd INI
 - EXPRESS + TYPESCRIPT: https://github.com/mwanago/express-typescript
 - EXPRESS + TYPESCRIPT + GRAPHQL: https://github.com/thmsgbrt/nodejs-typescript-express-apollo-graphql-starter
 
-# C# 
+## C# 
 
 - Design Pattern: https://github.com/OngDevTutorials/design-pattern-tutorial
 
-# GOLANG 
+## GOLANG 
 
 - GO-MONGODB: https://github.com/tranthaison1231/GO_MONGODB
 
-# DIANJO 
+## DIANJO 
 - DIANJO + MONGODB: https://github.com/nesdis/djongo
 
-# FOR NESTJS
+## FOR NESTJS
 
 - NESJS + MYSQL: https://github.com/tranthaison1231/NESTJS_MYSQL
 - NEST + CRUD: https://github.com/chnirt/nestjs-restful-best-practice
@@ -50,18 +51,18 @@ cd ~  && git clone https://github.com/tranthaison1231/INIT_ENVIRONMENT && cd INI
 - VERSION 2: https://github.com/benawad/nest-mongo-graphql
 - TS + GRAPQL: https://github.com/benawad/typescript-graphql-crud-example
 
-## MYSQL
+### MYSQL
 
 - DOWLOAD MYSQL WORKBENCH: https://dev.mysql.com/downloads/file/?id=490475
 - DOWLOAD MYSQL: https://dev.mysql.com/downloads/mysql/5.7.html
 
-## MONGODB
+### MONGODB
 
 - NESTJS + MONGODB: https://github.com/academind/nestjs-introduction
 
 
 
-# ------------------------------------------ FRONT-END ---------------------------------------------------------------------
+#  FRONT-END 
 ## FOR VUE 
 - AWSOME HOOKS FOR VUE:
   - https://github.com/logaretm/vue-use-web 
