@@ -116,12 +116,27 @@ cd ~  && git clone https://github.com/tranthaison1231/INIT_ENVIRONMENT && cd INI
 - GATSBY + TAILWIND + POSTCSS
 - GATSBY + STACKBIT: https://github.com/tranthaison1231/stackbit-blog
 
+## HTML-JS-CSS
+
+- Typing game:  https://github.com/WebDevSimplified/JS-Speed-Typing-Game
+- ATOMIC CSS: https://gist.github.com/tranthaison1231/60cf5b98a8552a030d49cce84c237429
+
+# MOBILE 
 ## REACT NATIVE
 
 - REACT NATIVE STATER: https://github.com/tranthaison1231/RN_STATER
 - REACT_NATIVE_CAMERA: https://github.com/nartc/react-native-camera
 - REACT_NATIVE_BOOKING: https://github.com/phamdongtruong99/RN_BASE_1
 
+## FLUTTER
+
+- AWSOME FLUTTER: https://github.com/Solido/awesome-flutter
+- STATER FLUTTER: https://github.com/tranthaison1231/STATER_FLUTTER
+- FLUTTER REPONSE UI: https://github.com/themaaz32/Flultter-Reponsive-UI
+- BMI APP: https://github.com/themaaz32/bmi_app
+- FLUTTER_LIQUID_SWIPE : https://github.com/sagarshende23/flutter_liquid_swipe
+
+# OTHER 
 ## ELETRON
 
 - ELETRON BASE: https://github.com/alexdevero/electron-react-webpack-boilerplate
@@ -131,30 +146,11 @@ cd ~  && git clone https://github.com/tranthaison1231/INIT_ENVIRONMENT && cd INI
 - Conver to CSV: https://github.com/C2FO/fast-csv
 - Edit area: https://ckeditor.com/docs/ckeditor5/latest/builds/guides/integration/frameworks/react.html
 
-# REACT NATIVE
-
-
-
-# FLUTTER
-
-- AWSOME FLUTTER: https://github.com/Solido/awesome-flutter
-- STATER FLUTTER: https://github.com/tranthaison1231/STATER_FLUTTER
-- FLUTTER REPONSE UI: https://github.com/themaaz32/Flultter-Reponsive-UI
-- BMI APP: https://github.com/themaaz32/bmi_app
-- FLUTTER_LIQUID_SWIPE : https://github.com/sagarshende23/flutter_liquid_swipe
-
-# HTML-JS-CSS
-
-- Typing game:  https://github.com/WebDevSimplified/JS-Speed-Typing-Game
-- ATOMIC CSS: https://gist.github.com/tranthaison1231/60cf5b98a8552a030d49cce84c237429
-
-# EXTENSION 
+## EXTENSION 
 
 - REACT-EXTENSION:  https://github.com/aeksco/react-typescript-chrome-extension-starter
 - REACT-EXTENSION-TYPESCRIPT: https://github.com/thmsgbrt/Chrome-Extension-with-React-and-Typescript-Starter-Pack
 
-
-
-# GOOGLE API 
+## GOOGLE API 
 
 - HOW TO GET GOOGLE CLOUD SERVICE: https://gist.github.com/tranthaison1231/1b25b75e8724cc7c87822fe5d0637a60 
