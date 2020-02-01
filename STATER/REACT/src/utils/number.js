@@ -79,3 +79,39 @@ export const randomFloatNumber = (minValue, maxValue, precision = 2) => {
     ).toFixed(precision),
   );
 };
+
+export const isPalindromeNumber = number => {
+  number = number.toString();
+  if (number < 0) {
+    return false;
+  }
+  let result = 0;
+  let i = 0;
+  let j = number.length - 1;
+  while (i < j) {
+    if (number[i] !== number[j]) {
+      return false;
+    }
+    i++;
+    j--;
+  }
+  return true;
+};
+
+// isPalindromeNumber(123) false
+// isPalindromeNumber(121) true
+
+const reverseInt = n => {
+  let result = 0;
+
+  while (n !== 0) {
+    result = result * 10 + (n % 10);
+    n = parseInt(n / 10);
+  }
+  if (result <= -2147483648 || result >= 2147483647) {
+    return 0;
+  }
+  return result;
+};
+
+// reverseInt(1234) -> 4321
