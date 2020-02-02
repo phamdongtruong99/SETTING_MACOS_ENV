@@ -128,6 +128,7 @@ cd ~  && git clone https://github.com/tranthaison1231/INIT_ENVIRONMENT && cd INI
 - REACT NATIVE STATER: https://github.com/tranthaison1231/RN_STATER
 - REACT_NATIVE_CAMERA: https://github.com/nartc/react-native-camera
 - REACT_NATIVE_BOOKING: https://github.com/phamdongtruong99/RN_BASE_1
+- REACT PUHS NOTIFICATION: https://www.youtube.com/watch?v=Qf8OzB9qJq8&feature=emb_title
 
 ## FLUTTER
 
