@@ -137,6 +137,7 @@ cd ~  && git clone https://github.com/tranthaison1231/INIT_ENVIRONMENT && cd INI
 - FLUTTER REPONSE UI: https://github.com/themaaz32/Flultter-Reponsive-UI
 - BMI APP: https://github.com/themaaz32/bmi_app
 - FLUTTER_LIQUID_SWIPE : https://github.com/sagarshende23/flutter_liquid_swipe
+- SPLASH-SCREEN: https://www.youtube.com/watch?v=BjV4RMkVY6w
 
 # OTHER 
 ## ELETRON
