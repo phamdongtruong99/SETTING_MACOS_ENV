@@ -46,6 +46,7 @@ cd ~  && git clone https://github.com/tranthaison1231/INIT_ENVIRONMENT && cd INI
 - NESTJS + MONGODB: https://github.com/academind/nestjs-introduction/tree/02-mongodb
 - NESTJS + GRAPHQL: https://github.com/AryanJ-NYC/nestjs-graphql-tutorial
 - NESTJS + AUTOMAPPER + TYPEGOOSE: https://github.com/nartc/example-nest-automapper
+- NESTJS + MICROSERVICE: https://github.com/johnbiundo/nest-nats-sample
 
 ## GRAPQL
 
