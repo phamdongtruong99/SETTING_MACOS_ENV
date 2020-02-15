@@ -127,7 +127,7 @@ cd ~  && git clone https://github.com/tranthaison1231/INIT_ENVIRONMENT && cd INI
 
 # MOBILE 
 ## REACT NATIVE
-
+- HANDLE DEEPLINK: https://reactnavigation.org/docs/en/use-linking.html
 - REACT NATIVE STATER: https://github.com/tranthaison1231/RN_STATER
 - REACT_NATIVE_CAMERA: https://github.com/nartc/react-native-camera
 - REACT_NATIVE_BOOKING: https://github.com/phamdongtruong99/RN_BASE_1
