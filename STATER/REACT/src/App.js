@@ -18,6 +18,11 @@ const GlobalStyle = createGlobalStyle``;
 
 const App = () => (
   <ThemeProvider theme={theme}>
+    <Helmet>
+      <meta charSet="utf-8" />
+      <title>My Title</title>
+      <link rel="canonical" href="http://mysite.com/example" />
+    </Helmet>
     <GlobalStyle />
     <Routes />
   </ThemeProvider>

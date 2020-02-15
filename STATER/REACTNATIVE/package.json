@@ -22,9 +22,7 @@
     "podInstall": "cd ios && rm -rf Pods/* && rm -rf Podfile.lock && pod install && cd ..",
     "doctor": "npx @react-native-community/cli doctor",
     "codePush": "code-push release-react app-ios ios && code-push release-react app-android android",
-    // https://github.com/doananh234/rn-base/blob/master/apps/mobile-app/package.json
     "codePushProduction": "code-push promote app-ios Staging Production && code-push promote app-android Staging Production",
-    
   },
   "dependencies": {},
   "devDependencies": {},

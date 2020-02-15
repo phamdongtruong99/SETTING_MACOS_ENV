@@ -106,7 +106,7 @@ export const capitalizeEveryWord = str =>
 
 // capitalizeEveryWord('hello world!'); // 'Hello World!'
 
-const capitalize = ([first, ...rest], lowerRest = false) =>
+export const capitalize = ([first, ...rest], lowerRest = false) =>
   first.toUpperCase() +
   (lowerRest ? rest.join('').toLowerCase() : rest.join(''));
 
@@ -164,3 +164,9 @@ export const generateRandomAlphaNum = length => {
 };
 
 // generateRandomAlphaNum(10) => bsgxfn3w8o
+
+export const compactString = (str, length = 5) => {
+  return `${str.slice(0, length)}...`;
+};
+
+// compactString('abcasasgasg', 5) => abcas...

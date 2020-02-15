@@ -1,30 +1,57 @@
 import { get, post, put, del, getQueryString } from './utils';
 
-export async function getAllDataApi(resource, data) {
-  return get(`/${resource}`, data);
+const PREFIX = '/api/offline';
+
+export async function getAllDataApi(resource, query, customURL, needToken) {
+  return get(`${PREFIX}/${resource}${query}`, null, {}, customURL, needToken);
 }
 
-export async function getDataByIdApi(resource, id, data) {
-  return get(`/${resource}/${id}`, data);
+export async function getDataByIdApi(resource, id, customURL, needToken) {
+  return get(
+    `${PREFIX}/${resource}${id ? `/${id}` : ''}`,
+    null,
+    {},
+    customURL,
+    needToken,
+  );
 }
 
-export async function deleteDataApi(resource, id) {
-  if (!id) {
-    throw new TypeError('Id not be undefined');
-  }
-  return del(`/${resource}/${id}`);
+export async function deleteDataApi(resource, customURL, needToken) {
+  return del(`${PREFIX}/${resource}`, null, {}, customURL, needToken);
 }
 
-export async function postDataApi(resource, data) {
-  return post(`/${resource}`, data);
+export async function deleteDataByIdApi(resource, id, customURL, needToken) {
+  return del(
+    `${PREFIX}/${resource}${id ? `/${id}` : ''}`,
+    null,
+    {},
+    customURL,
+    needToken,
+  );
 }
 
-export async function putDataApi(resource, id, data) {
-  return put(`/${resource}/${id}`, data);
+export async function postDataApi(resource, data, customURL, needToken) {
+  return post(`${PREFIX}/${resource}`, data, {}, customURL, needToken);
 }
 
-export async function exportExcelApi(resource, data) {
-  return get(`/${resource}/exportExcel`, data);
+export async function putDataApi(resource, id, data, customURL, needToken) {
+  return put(
+    `${PREFIX}/${resource}${id ? `/${id}` : ''}`,
+    data,
+    {},
+    customURL,
+    needToken,
+  );
+}
+
+export async function exportExcelApi(resource, data, customURL, needToken) {
+  return get(
+    `${PREFIX}/${resource}/exportExcel`,
+    data,
+    {},
+    customURL,
+    needToken,
+  );
 }
 
 export const exportExcel = (resource, query) => {

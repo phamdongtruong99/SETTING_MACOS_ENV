@@ -2,7 +2,7 @@ import { createConnection } from 'typeorm';
 import { mysqlConfig } from './config';
 import logger from '../utils/logger';
 
-export default class MysqlORM {
+export default class MysqlDB {
   static async connect() {
     try {
       const connection = await createConnection(
