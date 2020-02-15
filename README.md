@@ -47,6 +47,7 @@ cd ~  && git clone https://github.com/tranthaison1231/INIT_ENVIRONMENT && cd INI
 - NESTJS + GRAPHQL: https://github.com/AryanJ-NYC/nestjs-graphql-tutorial
 - NESTJS + AUTOMAPPER + TYPEGOOSE: https://github.com/nartc/example-nest-automapper
 - NESTJS + MICROSERVICE: https://github.com/johnbiundo/nest-nats-sample
+- CONVECTOR +  https://medium.com/swlh/convector-with-nestjs-7e660322d927
 
 ## GRAPQL
 
