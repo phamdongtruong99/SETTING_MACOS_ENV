@@ -109,7 +109,9 @@ cd ~  && git clone https://github.com/tranthaison1231/INIT_ENVIRONMENT && cd INI
 
 ## FOR NEXTJS
 
-- NEXTJS + I18NEXT: https://github.com/tranthaison1231/NEXTJS_I18N
+- NEXTJS + I18NEXT: 
+          - https://github.com/tranthaison1231/NEXTJS_I18N
+          - https://github.com/isaachinman/next-i18next
 - (STATER ) NEXTJS + TAILWIND + TS: https://github.com/huytd/nextjs-tailwind-typescript
 - DOCKER + NEXTJS:https://github.com/tranthaison1231/docker_nextjs
 - NEXT_FIREBASE_TS: https://github.com/rwieruch/nextjs-firebase-authentication
