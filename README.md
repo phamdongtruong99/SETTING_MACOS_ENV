@@ -75,9 +75,9 @@ cd ~  && git clone https://github.com/tranthaison1231/INIT_ENVIRONMENT && cd INI
 - VUE STARTER FOR ADMIN: 
 - VUE + TAILWIND 
 - VUE TODOLIST: https://github.com/skysan87/vue-todolist
+- AWSOME HOOKS FOR VUE
 
 ## FOR REACT
-- AWSOME HOOKS FOR VUE
 - REACT STARTER FOR ADMIN: 
      - https://github.com/tranthaison1231/STATER_REACT
      - https://github.com/tranthaison1231/REACT_ADMIN_2
@@ -97,6 +97,8 @@ cd ~  && git clone https://github.com/tranthaison1231/INIT_ENVIRONMENT && cd INI
 - REACT + REDUX + FIREBASE: https://codesandbox.io/s/zrr0n5m2zp
 - REACT + SVG: https://www.youtube.com/watch?v=7bw56feIdh4
 - ANIMATION: https://github.com/aholachek/mobile-first-animation
+- REACT CALENDAR: 
+     - https://github.com/jquense/react-big-calendar
   ### FOR TAILWIND
   - Tailwind components: https://tailwindcomponents.com/
   - Tailwind template: https://tailwindtemplates.io/
