@@ -116,7 +116,7 @@ cd ~  && git clone https://github.com/tranthaison1231/INIT_ENVIRONMENT && cd INI
 - DOCKER + NEXTJS:https://github.com/tranthaison1231/docker_nextjs
 - NEXT_FIREBASE_TS: https://github.com/rwieruch/nextjs-firebase-authentication
 - NEXT + GRAPHQL: https://github.com/garganurag893/Next.js_GraphQL_Express_Apollo_Boilerplate
-
+- NEXTJS + OPTIMAZED_IMAGES: https://github.com/cyrilwanner/next-optimized-images
 
 
 ## FOR GATSBYJS
