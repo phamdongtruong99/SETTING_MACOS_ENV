@@ -2,6 +2,8 @@
 import { createSlice } from '@reduxjs/toolkit';
 import { capitalize } from 'utils/string';
 
+export const PRIMARY_KEY = '_id';
+
 const crudSlice = ({ name, initialState = {}, reducers = {} }) => {
   const { actions, reducer } = createSlice({
     name: capitalize(name),
@@ -39,15 +41,18 @@ const crudSlice = ({ name, initialState = {}, reducers = {} }) => {
         state.data = payload;
       },
       deleteDataSuccess: (state, { payload }) => {
-        state.allData.filter(data => data._id !== payload._id);
+        state.allData.filter(
+          data => data[PRIMARY_KEY] !== payload[PRIMARY_KEY],
+        );
       },
       editDataSuccess: (state, { payload }) => {
         state.allData = state.allData.map(data => {
-          if (data._id === payload._id) {
-            return { ...payload, key: data.key };
+          if (data[PRIMARY_KEY] === payload[PRIMARY_KEY]) {
+            return { ...data, ...payload, key: data.key };
           }
           return data;
         });
+        state.data = { ...payload, key: state.data.key };
       },
       createDataSuccess: (state, { payload }) => {
         state.allData.push({

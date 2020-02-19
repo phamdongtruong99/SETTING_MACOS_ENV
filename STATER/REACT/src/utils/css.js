@@ -73,104 +73,11 @@ export const CLASS_UTILITY = `
     margin: 0;
     padding: 0;
   }
-  .p-40-32 {
-    padding: 40px 32px 40px 32px;
-  }
   .m-0 {
     margin: 0;
   }
-  .ml-6 {
-    margin-left: 6px;
-  }
-  .ml-24 {
-    margin-left: 24px;
-  }
-  .ml-260 {
-    margin-left: 260px;
-  }
-  .mx-24 {
-    margin-left: 24px;
-    margin-right: 24px;
-  }
-  .mb-4 {
-    margin-bottom: 4px;
-  }
-  .m-14-l-10 {
-    margin: 14px 10px 14px 10px;
-  }
-  .p-33 {
-    padding: 33px;
-  }
-  .px-60 {
-    padding-left: 60px;
-    padding-right: 60px;
-  }
-  .pt-40 {
-    padding-top: 40px;
-  }
-  .ml-19 {
-    margin-left: 19px;
-  }
-  .mb-32 {
-    margin-bottom: 32px;
-  }
-  .mb-40 {
-    margin-bottom: 40px;
-  }
-  .mb-115 {
-    margin-bottom: 115px;
-  }
-  .my-60-92 {
-    margin-top: 60px;
-    margin-bottom: 92px;
-  }
-  .mb-48 {
-    margin-bottom: 48px;
-  }
-  .mb-14 {
-    margin-bottom: 14px;
-  }
-  .mt-19 {
-    margin-top: 19px;
-  }
-  .mt-32 {
-    margin-top: 32px;
-  }
-  .mt-378 {
-    margin-top: 378px;
-  }
-  .mt-39 {
-    margin-top: 39px;
-  }
-  .mt-24 {
-    margin-top: 24px;
-  }
-  .mb-39 {
-    margin-bottom: 39px;
-  }
-  .mb-41 {
-    margin-bottom: 41px;
-  }
-  .m-24 {
-    margin: 24px;
-  }
-  .ml-16 {
-    margin-left: 16px;
-  }
-  .ml-12 {
-    margin-left: 12px;
-  }
-  .mb-47 {
-    margin-bottom: 47px;
-  }
-  .mb-9 {
-    margin-bottom: 9px;
-  }
   .p-0 {
     padding: 0;
-  }
-  .p-24 {
-    padding: 24px;
   }
   .cover {
     position: absolute;
@@ -180,15 +87,22 @@ export const CLASS_UTILITY = `
     left: 0;
   }
   /*----------Flex Box------*/
+  .inline-block	{
+    display: inline-block;
+  }
   .flex {
     display: flex;
   }
   .flex-center {
+    display: flex;
     align-items: center;
     justify-content: center;
   }
-  .inline-block	{
-    display: inline-block;
+  flex-center-column {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
   }
   .items-center {
     align-items: center;
@@ -446,6 +360,11 @@ export const CLASS_UTILITY = `
   .bg-cover	{
     background-size: cover;
   }
+  .bg-cover-auto {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
   .bg-contain {
     background-size: contain;
   }
@@ -505,5 +424,15 @@ export const CLASS_UTILITY = `
       opacity: .5;
       transition: opacity .15s ease-in;
     }
+  }
+  .fade-hide {
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 1s, opacity 1s;
+  }
+  .fade-show {
+    visibility: visible;
+    opacity: 1;
+    transition: visibility 1s, opacity 1s;
   }
 `;

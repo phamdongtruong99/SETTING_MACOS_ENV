@@ -170,3 +170,11 @@ export const compactString = (str, length = 5) => {
 };
 
 // compactString('abcasasgasg', 5) => abcas...
+
+const generateHex = () => {
+  return `#${Math.floor(Math.random() * 256 ** 3)
+    .toString(16)
+    .padStart(6, '0')}`;
+};
+
+// generateHex() => #fff123

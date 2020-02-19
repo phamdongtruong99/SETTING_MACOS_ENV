@@ -9,7 +9,9 @@ export const getGeocode = ({ address, placeId }) => {
   });
 };
 
-export const getLatLng = result =>
+//github.com/wellyshen/use-places-autocomplete#getgeocode
+
+https: export const getLatLng = result =>
   new Promise((resolve, reject) => {
     try {
       const { lat, lng } = result.geometry.location;
@@ -18,3 +20,5 @@ export const getLatLng = result =>
       reject(error);
     }
   });
+
+// https://github.com/wellyshen/use-places-autocomplete#getLatLng

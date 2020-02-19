@@ -1,4 +1,4 @@
-import { get, post, put, del, getQueryString } from './utils';
+import { get, post, put, del, getQueryString } from './request';
 
 const PREFIX = '/api/offline';
 

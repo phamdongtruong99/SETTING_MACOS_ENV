@@ -5,6 +5,6 @@ void configureInjection(String environment) =>
     $initGetIt(environment: environment);
 
 abstract class Env {
-  static const dev = 'dev';
-  static const prod = 'prod';
+  static const String dev = 'dev';
+  static const String prod = 'prod';
 }

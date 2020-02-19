@@ -78,7 +78,11 @@ const crudSaga = (resource, actions, sagas = []) => {
     try {
       const location = yield select(state => state.router.location);
 
-      const response = yield call(postDataApi, resource, payload);
+      const response = yield call(
+        postDataApi,
+        payload.customResource || resource,
+        payload.data,
+      );
       if (response.data) {
         yield put(actions.createDataSuccess(response.data));
         yield put(replace(`${location.pathname}${location.search}`));
