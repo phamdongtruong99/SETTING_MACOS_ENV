@@ -171,10 +171,25 @@ export const compactString = (str, length = 5) => {
 
 // compactString('abcasasgasg', 5) => abcas...
 
-const generateHex = () => {
+export const generateHex = () => {
   return `#${Math.floor(Math.random() * 256 ** 3)
     .toString(16)
     .padStart(6, '0')}`;
 };
 
 // generateHex() => #fff123
+
+export const stripHTMLTags = str => str.replace(/<[^>]*>/g, '');
+
+// stripHTMLTags('<p><em>Hello</em></p>) => Hello
+
+export const bytesToSize = bytes => {
+  if (bytes === 0) return '0 B';
+
+  var k = 1024;
+  var sizes = ['B', 'KB', 'MB', 'GB', 'TB', 'PB', 'EB', 'ZB', 'YB'];
+  var i = Math.floor(Math.log(bytes) / Math.log(k));
+  return (bytes / Math.pow(k, i)).toPrecision(3) + ' ' + sizes[i];
+};
+
+// bytesToSize(12) => "12.0 B"
