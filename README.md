@@ -107,6 +107,7 @@ cd ~  && git clone https://github.com/tranthaison1231/INIT_ENVIRONMENT && cd INI
   - Tailwind table: https://github.com/drehimself/tailwindcss-tables
   ### MONOREPO
   - MONOREPO + STORYBOOK: https://github.com/ga12ru12/monorepo
+  - REACT + MONOREPO + LERNA: https://github.com/tranthaison1231/REACT_MONOREPO_LERNA
 
 ## FOR NEXTJS
 
