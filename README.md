@@ -166,5 +166,5 @@ cd ~  && git clone https://github.com/tranthaison1231/INIT_ENVIRONMENT && cd INI
 - REACT-EXTENSION-TYPESCRIPT: https://github.com/thmsgbrt/Chrome-Extension-with-React-and-Typescript-Starter-Pack
 
 ## GOOGLE API 
-
+- GOOGLE MAP STATIC API: https://developers.google.com/maps/documentation/maps-static/dev-guide#ImageFormats
 - HOW TO GET GOOGLE CLOUD SERVICE: https://gist.github.com/tranthaison1231/1b25b75e8724cc7c87822fe5d0637a60 
