@@ -27,16 +27,6 @@ export const replaceAll = (text, search, replacement) => {
   return text.replace(new RegExp(search, 'g'), replacement);
 };
 
-export const makeActionName = text => {
-  return lowerFirstChar(
-    replaceAll(
-      upperFirstChar(replaceAll(text, '_', ' ').toLowerCase()),
-      ' ',
-      '',
-    ),
-  );
-};
-
 export const formatMoney = (number, n = 2, x = 3) => {
   const re = `\\d(?=(\\d{${x}})+${n > 0 ? '\\.' : '$'})`;
   return Number(number)
@@ -193,3 +183,15 @@ export const bytesToSize = bytes => {
 };
 
 // bytesToSize(12) => "12.0 B"
+
+const uuidv4 = () => {
+  return 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function(c) {
+    var r = (Math.random() * 16) | 0,
+      v = c == 'x' ? r : (r & 0x3) | 0x8;
+    return v.toString(16);
+  });
+};
+
+const sortWord = str => [...str].sort().join('');
+
+// sortWord('abc') => 'cba'

@@ -1,40 +1,41 @@
 import { createGlobalStyle } from 'styled-components';
-import { CSS_RESET, TAILWIND_CSS } from './utils/css';
+import { CSS_RESET, CLASS_UTILITY } from 'utils/css';
 
-export default createGlobalStyle`
+const AppWrapper = createGlobalStyle`
   ${CSS_RESET}
-  ${TAILWIND_CSS}
-  html,
+  ${CLASS_UTILITY}
   body {
-    font-family: ${({ theme }) => theme.fonts.primary};
-    scroll-behavior: smooth;
+    background: ${({ theme }) => theme.background.container};
   }
-
-  /*-----------------Text Color-----------------------------*/
   .text-primary {
     color: ${({ theme }) => theme.palette.primary};
   }
   .text-error {
-    color: ${({ theme }) => theme.palette.error};
+    color: ${({ theme }) => theme.text.error};
   }
   .text-secondary {
     color: ${({ theme }) => theme.palette.secondary};
   }
-  .text-success {
-    color: ${({ theme }) => theme.palette.success};
+  .text-header-table {
+    color: ${({ theme }) => theme.text.headerTable};
   }
   .text-title {
-    color: ${({ theme }) => theme.palette.title};
+    color: ${({ theme }) => theme.text.title};
+  }
+  .text-title {
+    color: ${({ theme }) => theme.text.title};
+  }
+  .text-statistic-value {
+    color: ${({ theme }) => theme.text.statisticValue};
   }
   .text-black {
-    color: ${({ theme }) => theme.palette.black}
+    color: ${({ theme }) => theme.text.black};
   }
-  .text-white {
-    color: ${({ theme }) => theme.palette.white}
-  }
-  /*-----------------Bachkground Color-----------------------*/
   .bg-primary {
     background-color: ${({ theme }) => theme.palette.primary};
+  }
+  .bg-secondary {
+    background-color: ${({ theme }) => theme.palette.secondary};
   }
   .bg-container {
     background: ${({ theme }) => theme.background.container};
@@ -42,41 +43,72 @@ export default createGlobalStyle`
   .bg-error {
     background-color: ${({ theme }) => theme.background.error};
   }
-
-  /*===================== Text Size + Type + Font ================================*/
-  .text-500-14-16 {
-    font: normal 500 14px/16px ${({ theme }) => theme.fonts.primary};
+  .text-600-24px-29px {
+    font: normal 600 24px/29px ${({ theme }) => theme.fonts.primary};
   }
-  .text-600-14-17 {
-    font: normal 600 14px/17px ${({ theme }) => theme.fonts.primary};
-  }
-  .text-600-12-15 {
-    font: normal 600 12px/15px ${({ theme }) => theme.fonts.primary};
-  }
-  .text-600-14-16 {
-    font: normal 600 14px/16px ${({ theme }) => theme.fonts.primary};
-  }
-  .text-600-14-20 {
-    font: normal 600 14px/20px ${({ theme }) => theme.fonts.primary};
-  }
-  .text-14-16 {
-    font: normal normal 14px/16px ${({ theme }) => theme.fonts.primary};
-  }
-  .text-14-18 {
-    font: normal normal 14px/18px ${({ theme }) => theme.fonts.primary};
-  }
-  .text-600-16-19 {
-     font: normal 600 16px/19px ${({ theme }) => theme.fonts.primary};
-  }
-  .text-600-18-22 {
-    font: normal 600 18px/22px ${({ theme }) => theme.fonts.primary};
-  }
-  .text-600-30-36 {
-    font: normal 600 30px/36px ${({ theme }) => theme.fonts.primary};
-  }
-
-  /*---------------------Border ------------------------------*/
   .border-l-4-solid-error {
     border-left: 4px solid ${({ theme }) => theme.border.error};
   }
+  .gradientBackground {
+    background-image: ${({ theme }) =>
+      `linear-gradient(90deg, ${theme.palette.lightPrimary}, ${theme.palette.primary})`};
+  }
+  /* --------------------------Override antd------------- */
+  .ant-card {
+    box-shadow: ${({ theme }) => theme.card.shadow};
+  }
+  .ant-drawer-wrapper-body {
+    height: 100vh;
+  }
+  .card-padding-0 {
+    .ant-card-body {
+      padding: 0px;
+    }
+  }
+  .ant-modal-body {
+    padding: 10px 20px;
+  }
+  .ant-form-item {
+    margin-bottom: 2px;
+  }
+  .ant-card-bordered  {
+    border: 1px solid #e8e8e8;
+    overflow: hidden;
+  }
+  .ant-table-column-title {
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    line-height: 16px;
+  }
+  .ant-calendar-range .ant-calendar-selected-start-date .ant-calendar-date {
+    background: ${({ theme }) => theme.palette.secondary};
+  }
+  .ant-table-pagination.ant-pagination {
+    margin-right: 24px !important;
+    .ant-pagination-prev .ant-pagination-item-link,
+    .ant-pagination-next .ant-pagination-item-link,
+    .ant-pagination-item {
+      background-color: ${({ theme }) => theme.background.input};
+      border-color: ${({ theme }) => theme.background.input};
+    }
+    .ant-pagination-item-active {
+      a {color: ${({ theme }) => theme.text.primary};}
+      border-color: ${({ theme }) => theme.palette.primary};
+    }
+  }
+  form .has-feedback .ant-input-affix-wrapper .ant-input-suffix {
+    padding-right: 26px;
+  }
+  /*----------------- Aimation -----------------*/
+  @keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
 `;
+
+export default AppWrapper;

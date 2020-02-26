@@ -1,58 +1,49 @@
-import { get, post, put, del, getQueryString } from './request';
+import { get, post, put, del, getQueryString } from './utils';
 
 const PREFIX = '/api/offline';
 
-export async function getAllDataApi(resource, query, customURL, needToken) {
-  return get(`${PREFIX}/${resource}${query}`, null, {}, customURL, needToken);
+export async function getAllDataApi(resource, query = '', customURL) {
+  return get(`${PREFIX}/${resource}${query}`, null, customURL);
 }
 
-export async function getDataByIdApi(resource, id, customURL, needToken) {
-  return get(
-    `${PREFIX}/${resource}${id ? `/${id}` : ''}`,
-    null,
-    {},
-    customURL,
-    needToken,
-  );
+export async function getDataByIdApi(resource, id, query, customURL) {
+  return get(`${PREFIX}/${resource}${id ? `/${id}` : ''}`, null, customURL);
 }
 
-export async function deleteDataApi(resource, customURL, needToken) {
-  return del(`${PREFIX}/${resource}`, null, {}, customURL, needToken);
+export async function deleteDataApi(resource, customURL) {
+  return del(`${PREFIX}/${resource}`, null, customURL);
 }
 
-export async function deleteDataByIdApi(resource, id, customURL, needToken) {
-  return del(
-    `${PREFIX}/${resource}${id ? `/${id}` : ''}`,
-    null,
-    {},
-    customURL,
-    needToken,
-  );
+export async function deleteDataByIdApi(resource, id, customURL) {
+  return del(`${PREFIX}/${resource}${id ? `/${id}` : ''}`, null, customURL);
 }
 
-export async function postDataApi(resource, data, customURL, needToken) {
-  return post(`${PREFIX}/${resource}`, data, {}, customURL, needToken);
+export async function postDataApi(resource, data, customURL) {
+  return post(`${PREFIX}/${resource}`, data, customURL);
 }
 
-export async function putDataApi(resource, id, data, customURL, needToken) {
-  return put(
-    `${PREFIX}/${resource}${id ? `/${id}` : ''}`,
-    data,
-    {},
-    customURL,
-    needToken,
-  );
+export async function putDataApi(resource, id, data, customURL) {
+  return put(`${PREFIX}/${resource}${id ? `/${id}` : ''}`, data, customURL);
 }
 
-export async function exportExcelApi(resource, data, customURL, needToken) {
-  return get(
-    `${PREFIX}/${resource}/exportExcel`,
-    data,
-    {},
-    customURL,
-    needToken,
-  );
+export async function exportExcelApi(resource, data, customURL) {
+  return get(`${PREFIX}/${resource}/exportExcel`, data, customURL);
 }
+
+export const uploadPhoto = async request => {
+  try {
+    const data = new FormData();
+    data.append('file', request.file);
+    const response = await post(
+      '/admin/logo',
+      data,
+      'https://upload.cashbagmain.com',
+    );
+    request.onSuccess(response.data);
+  } catch (error) {
+    request.onError(error);
+  }
+};
 
 export const exportExcel = (resource, query) => {
   const request = new XMLHttpRequest();

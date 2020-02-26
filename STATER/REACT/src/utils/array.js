@@ -190,3 +190,21 @@ export const sumArr = arr => {
 export const meanArr = arr => sum(arr) / arr.length;
 
 // mean([1, 5, 3, 2, 4]);  => 3
+
+export const firstDuplicate = arr => {
+  let myArr = [];
+
+  for (let ele of arr) {
+    if (myArr.includes(ele) === false) {
+      myArr.push(ele);
+
+      if (arr.length === myArr.length) {
+        return -1;
+      }
+    } else {
+      return ele;
+    }
+  }
+};
+
+// firstDuplicate([1,2,3,2]) => 2

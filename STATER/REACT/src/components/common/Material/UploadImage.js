@@ -1,6 +1,8 @@
-import React, { useState } from 'react';
-import { Upload, Icon, message } from 'antd';
+import React, { useState, useEffect } from 'react';
+import { Upload, Icon, message, Modal } from 'antd';
 import styled from 'styled-components';
+import PropTypes from 'prop-types';
+import { uploadPhoto } from 'api/crud';
 
 export const StyledUpload = styled(Upload)`
   .ant-upload {
@@ -9,9 +11,12 @@ export const StyledUpload = styled(Upload)`
   }
 `;
 
-const UploadImage = React.forwardRef(() => {
+const UploadImage = ({ onOk, defaultImage }) => {
   const [loading, setLoading] = useState();
-  const [image, setImage] = useState(false);
+  const [image, setImage] = useState(null);
+  useEffect(() => {
+    setImage(defaultImage);
+  }, [defaultImage]);
 
   const uploadButton = (
     <div>
@@ -26,31 +31,31 @@ const UploadImage = React.forwardRef(() => {
       return;
     }
     if (info.file.status === 'done') {
-      message.success(`${info.file.name} file uploaded successfully`);
-      setImage(info.file.response);
       setLoading(false);
+      setImage(info.file.response.url);
+      Modal.confirm({
+        title: 'Do you want upload this photo',
+        onOk() {
+          onOk(info.file.response);
+        },
+        onCancel() {
+          setImage(defaultImage);
+        },
+      });
     } else if (info.file.status === 'error') {
       message.error(`${info.file.name} file upload failed.`);
+      setLoading(false);
     }
   };
-  const fileList = [
-    {
-      uid: '-1',
-      name: 'image.png',
-      status: 'done',
-      url:
-        'https://zos.alipayobjects.com/rmsportal/jkjgkEfvpUPVyRjUImniVslZfWPnJuuZ.png',
-    },
-  ];
+
   return (
     <StyledUpload
       listType="picture-card"
+      name="file"
       showUploadList={false}
-      accept="image/*"
-      action="https://netjs.herokuapp.com/users/uploads"
+      customRequest={uploadPhoto}
       onChange={handleChange}
-      fileList={fileList}
-      defaultFileList={fileList}
+      withCredentials
     >
       {image ? (
         <img src={image} alt="avatar" style={{ width: '100%' }} />
@@ -59,8 +64,11 @@ const UploadImage = React.forwardRef(() => {
       )}
     </StyledUpload>
   );
-});
+};
 
-UploadImage.propTypes = {};
+UploadImage.propTypes = {
+  onOk: PropTypes.func,
+  defaultImage: PropTypes.string,
+};
 
 export default UploadImage;

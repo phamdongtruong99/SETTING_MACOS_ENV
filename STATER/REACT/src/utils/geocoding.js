@@ -11,7 +11,7 @@ export const getGeocode = ({ address, placeId }) => {
 
 //github.com/wellyshen/use-places-autocomplete#getgeocode
 
-https: export const getLatLng = result =>
+export const getLatLng = result =>
   new Promise((resolve, reject) => {
     try {
       const { lat, lng } = result.geometry.location;
