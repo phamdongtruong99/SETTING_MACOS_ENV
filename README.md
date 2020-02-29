@@ -4,7 +4,11 @@
 - Open terminal and type
 
 ```
-cd ~  && git clone https://github.com/tranthaison1231/INIT_ENVIRONMENT && bash ./INIT_ENVIRONMENT/install.sh 
+cd ~  && git clone https://github.com/tranthaison1231/INIT_ENVIRONMENT && bash ./INIT_ENVIRONMENT/step1.sh 
+```
+
+```
+bash ./INIT_ENVIRONMENT/step2.sh 
 ```
 
 # BACKEND 
