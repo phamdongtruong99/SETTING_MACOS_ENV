@@ -8,7 +8,7 @@ cd ~  && git clone https://github.com/tranthaison1231/INIT_ENVIRONMENT && bash .
 ```
 
 ```
-bash ./INIT_ENVIRONMENT/step2.sh 
+cd ~ && bash ./INIT_ENVIRONMENT/step2.sh 
 ```
 
 # BACKEND 
