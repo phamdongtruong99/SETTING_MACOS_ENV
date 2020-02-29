@@ -139,6 +139,7 @@ cd ~ && bash ./INIT_ENVIRONMENT/step2.sh
 
 # MOBILE 
 ## REACT NATIVE
+- STATER-RN-NAVIGATION: https://github.com/tranthaison1231/stater_rn
 - HANDLE DEEPLINK: https://reactnavigation.org/docs/en/use-linking.html
 - REACT NATIVE STATER: https://github.com/tranthaison1231/RN_STATER
 - REACT_NATIVE_CAMERA: https://github.com/nartc/react-native-camera
