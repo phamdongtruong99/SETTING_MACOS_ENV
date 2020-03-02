@@ -55,7 +55,7 @@ cd ~ && bash ./INIT_ENVIRONMENT/step2.sh
 - CONVECTOR +  https://medium.com/swlh/convector-with-nestjs-7e660322d927
 - NESTJS_STATER https://github.com/rjlopezdev
 
-## GRAPQL
+## GRAPHQL
 
 - NESTJS+ GRAPQL + MONGODB: https://github.com/TannerGabriel/Blog/tree/master/nest-graph-ql?source=post_page-----f9ba34e773a3----------------------
 - VERSION 2: https://github.com/benawad/nest-mongo-graphql
