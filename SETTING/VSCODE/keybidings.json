@@ -29,12 +29,12 @@
     "command": "-editor.action.peekDefinition",
     "when": "editorHasDefinitionProvider && editorTextFocus && !inReferenceSearchEditor && !isInEmbeddedEditor"
   },
-  {
+  { 
     "key": "alt+down",
     "command": "workbench.action.terminal.focusNextPane",
     "when": "terminalFocus"
   },
-  {
+  { 
     "key": "alt+right",
     "command": "workbench.action.terminal.focusNextPane",
     "when": "terminalFocus"
@@ -47,64 +47,57 @@
     "key": "cmd+j",
     "command": "-workbench.action.togglePanel"
   },
-  {
-    "key": "ctrl+h",
-    "command": "workbench.action.navigateLeft"
-  },
-  {
-    "key": "ctrl+l",
-    "command": "workbench.action.navigateRight"
-  },
-  {
-    "key": "ctrl+k",
-    "command": "workbench.action.navigateUp"
-  },
-  {
-    "key": "ctrl+j",
-    "command": "workbench.action.navigateDown"
-  },
-  {
-    "key": "shift+cmd+g",
-    "command": "workbench.view.scm"
-  },
-  {
-    "key": "ctrl+shift+g",
-    "command": "-workbench.view.scm"
-  },
-  {
-    "key": "o",
-    "command": "list.select",
-    "when": "explorerViewletVisible && filesExplorerFocus"
-  },
-  {
-    "key": "s",
-    "command": "explorer.openToSide",
-    "when": "explorerViewletFocus && explorerViewletVisible && !inputFocus"
-  },
-  {
-    "key": "enter",
-    "command": "renameFile",
-    "when": "explorerViewletVisible && filesExplorerFocus && !explorerResourceIsRoot && !explorerResourceReadonly && !inputFocus"
-  },
+    {
+        "key": "ctrl+h",
+        "command": "workbench.action.navigateLeft"
+    },
+    {
+        "key": "ctrl+l",
+        "command": "workbench.action.navigateRight"
+    },
+    {
+        "key": "ctrl+k",
+        "command": "workbench.action.navigateUp"
+    },
+    {
+        "key": "ctrl+j",
+        "command": "workbench.action.navigateDown"
+    },
+    {
+      "key": "shift+cmd+g",
+      "command": "workbench.view.scm"
+    },
+    {
+      "key": "ctrl+shift+g",
+      "command": "-workbench.view.scm"
+    },
+    {
+      "key": "s",
+      "command": "explorer.openToSide",
+      "when": "explorerViewletFocus && explorerViewletVisible && !inputFocus"
+    },
+    {
+      "key": "enter",
+      "command": "renameFile",
+      "when": "explorerViewletVisible && filesExplorerFocus && !explorerResourceIsRoot && !explorerResourceReadonly && !inputFocus"
+    },
 
-  {
-    "key": "ctrl+n",
-    "command": "explorer.newFile",
-    "when": "!editorFocus"
-  },
-  {
-    "key": "ctrl+shift+n",
-    "command": "explorer.newFolder",
-    "when": "!editorFocus"
-  },
-  {
-    "key": "ctrl+alt+space",
-    "command": "toggleSuggestionFocus",
-    "when": "editorTextFocus && suggestWidgetVisible"
-  },
-  {
-    "key": "alt+space",
-    "command": "editor.action.triggerSuggest",
-    "when": "editorHasCompletionItemProvider && textInputFocus && !editorReadonly"
-  }
+    {
+      "key": "ctrl+n",  "command": "explorer.newFile",
+      "when": "!editorFocus"  
+    },
+    { 
+      "key": "ctrl+shift+n",  "command": "explorer.newFolder",
+      "when": "!editorFocus"  
+    },
+    {
+        "key": "ctrl+alt+space",
+        "command": "toggleSuggestionFocus",
+        "when": "editorTextFocus && suggestWidgetVisible"
+    },
+    {
+      "key": "alt+space",
+      "command": "editor.action.triggerSuggest",
+      "when": "editorHasCompletionItemProvider && textInputFocus && !editorReadonly"
+    },
 ]
