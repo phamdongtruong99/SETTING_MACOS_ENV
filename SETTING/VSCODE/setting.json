@@ -80,7 +80,7 @@
   "git.autofetch": true,
   "todohighlight.isEnable": false,
   "cSpell.enabled": false,
-  "editor.lineNumbers": "relative",
+  "editor.lineNumbers": "on",
   "sync.forceUpload": true,
   "editor.suggestSelection": "first",
   "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
@@ -113,9 +113,14 @@
   "editor.renderControlCharacters": false,
   "git.untrackedChanges": "separate",
   "gitlens.gitCommands.closeOnFocusOut": true,
-  "gitlens.gitCommands.skipConfirmations": ["fetch:command", "switch:command"],
+  "gitlens.gitCommands.skipConfirmations": [
+    "fetch:command",
+    "switch:command"
+  ],
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true
   },
-  "workbench.colorTheme": "Andromeda"
+  "liveServer.settings.donotShowInfoMsg": true,
+  "go.formatTool": "goimports",
+  "go.useLanguageServer": true,
 }
