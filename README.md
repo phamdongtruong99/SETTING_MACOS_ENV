@@ -151,9 +151,10 @@ cd ~ && bash ./INIT_ENVIRONMENT/step2.sh
 ## FLUTTER
 
 - AWSOME FLUTTER: https://github.com/Solido/awesome-flutter
-- STATER FLUTTER: https://github.com/tranthaison1231/STATER_FLUTTER
+- STARTER FLUTTER: https://github.com/tranthaison1231/STATER_FLUTTER
 - FLUTTER REPONSE UI: https://github.com/themaaz32/Flultter-Reponsive-UI
 - BMI APP: https://github.com/themaaz32/bmi_app
+- FLUTTER + GOOGLE SHEET: https://github.com/theindianappguy/flutter_google_sheets 
 - FLUTTER_LIQUID_SWIPE : https://github.com/sagarshende23/flutter_liquid_swipe
 - SPLASH-SCREEN: https://www.youtube.com/watch?v=BjV4RMkVY6w
 
