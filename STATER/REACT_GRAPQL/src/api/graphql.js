@@ -4,7 +4,7 @@ import { InMemoryCache } from 'apollo-cache-inmemory';
 import { setContext } from 'apollo-link-context';
 import gql from 'graphql-tag';
 
-const httpLink = createHttpLink({ uri: 'https://api.github.com/graphql' });
+const httpLink = createHttpLink({ uri: process.env.REACT_APP_SERVER_URL });
 
 const authLink = setContext((_, { headers }) => {
   const token = '***YOUR_TOKEN**';
