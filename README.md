@@ -157,6 +157,7 @@ cd ~ && bash ./INIT_ENVIRONMENT/step2.sh
 - FLUTTER + GOOGLE SHEET: https://github.com/theindianappguy/flutter_google_sheets 
 - FLUTTER_LIQUID_SWIPE : https://github.com/sagarshende23/flutter_liquid_swipe
 - SPLASH-SCREEN: https://www.youtube.com/watch?v=BjV4RMkVY6w
+- PUSH NOTIFICATION: https://medium.com/flutter-community/push-notifications-in-flutter-using-firebase-c1ebaf45d62f
 
 # OTHER 
 ## ELETRON
