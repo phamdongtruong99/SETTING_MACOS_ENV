@@ -11,6 +11,9 @@ cd ~  && git clone https://github.com/tranthaison1231/INIT_ENVIRONMENT && bash .
 cd ~ && bash ./INIT_ENVIRONMENT/step2.sh 
 ```
 
+# Config fo vim
+-  Vim surround: https://www.youtube.com/watch?v=a2JyLUNG2fc
+
 # BACKEND 
 ## DOCKER 
 - JEST-CIRCLECI: https://github.com/immint023/jest-circleci
