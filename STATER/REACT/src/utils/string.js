@@ -1,7 +1,8 @@
 /* eslint-disable */
 // import moment from 'moment';
 
-// export const formatUnixToDate = unit => moment.unix(unit).format();
+export const formatUnixToDate = unit => moment.unix(unit).format();
+
 export const safeParseJSON = str => {
   let result = null;
   try {
@@ -129,18 +130,14 @@ export const encodeJsonToURI = params => {
     .join('&');
 };
 
-export const formatDateTime = text => {
-  return text ? moment(text).format('DD/MM/YY, hh:mmA') : null;
-};
-
-export const formatDate = text => {
-  return text ? moment(text).format(' DD/MM/YY') : null;
+export const formatDate = (text, type = 'DD/MM/YY') => {
+  return text ? moment(text).format(type) : moment().format(type);
 };
 
 // formatDate(2019-12-15T00:00:00Z) => 15/12/2019
 
-export const formatTime = text => {
-  return text ? moment(text).format('hh:mma') : null;
+export const formatDateUTC = (text, type = 'DD/MM/YY') => {
+  return text ? moment.utc(text).format(type) : moment().format(type);
 };
 
 export const generateRandomAlphaNum = length => {
@@ -184,7 +181,7 @@ export const bytesToSize = bytes => {
 
 // bytesToSize(12) => "12.0 B"
 
-const uuidv4 = () => {
+export const uuidv4 = () => {
   return 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function(c) {
     var r = (Math.random() * 16) | 0,
       v = c == 'x' ? r : (r & 0x3) | 0x8;
@@ -192,6 +189,58 @@ const uuidv4 = () => {
   });
 };
 
-const sortWord = str => [...str].sort().join('');
+export const sortWord = str => [...str].sort().join('');
 
 // sortWord('abc') => 'cba'
+
+export const longestWord = sentence => {
+  return sentence
+    .split(' ')
+    .sort((word, nextWord) => nextWord.length - word.length)[0];
+};
+
+// longestWord("Njoku Samson Ebere"); // Samson
+
+export const hammingDistance = (word, matchingWord) => {
+  let count = 0;
+
+  if (word.length === matchingWord.length) {
+    for (let i = 0; i <= word.length; i++) {
+      if (word.toLowerCase()[i] !== matchingWord.toLowerCase()[i]) {
+        count++;
+      }
+    }
+
+    return count;
+  }
+  return 'unequal word lengths';
+};
+
+// hammingDistance('part', 'path'); // 2
+// hammingDistance('ebere', 'samson'); // 'unequal word lengths'
+
+export const wordPalindrome = word => {
+  let lowerCasedWord = word.toLowerCase();
+  let newWord = [...lowerCasedWord].reduce((total, acc) => acc + total);
+
+  if (newWord === lowerCasedWord) {
+    return true;
+  }
+  return false;
+};
+
+// wordPalindrome('Racecar'); // true
+// wordPalindrome('Race car'); // false
+
+export const vowelsCounter = text => {
+  let counter = 0;
+  let vowels = ['a', 'e', 'i', 'o', 'u'];
+
+  for (char of [...text]) {
+    if (vowels.includes(char)) {
+      counter++;
+    }
+  }
+
+  return counter;
+};
