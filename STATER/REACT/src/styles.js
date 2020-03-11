@@ -2,10 +2,15 @@ import { createGlobalStyle } from 'styled-components';
 import { CSS_RESET, CLASS_UTILITY } from 'utils/css';
 
 const AppWrapper = createGlobalStyle`
-  ${CSS_RESET}
+ ${CSS_RESET}
   ${CLASS_UTILITY}
   body {
     background: ${({ theme }) => theme.background.container};
+  }
+  .hover\\:text-primary {
+    &:hover {
+      color: ${({ theme }) => theme.palette.primary};
+    }
   }
   .text-primary {
     color: ${({ theme }) => theme.palette.primary};
@@ -14,13 +19,10 @@ const AppWrapper = createGlobalStyle`
     color: ${({ theme }) => theme.text.error};
   }
   .text-secondary {
-    color: ${({ theme }) => theme.palette.secondary};
+    color: ${({ theme }) => theme.text.secondary};
   }
   .text-header-table {
     color: ${({ theme }) => theme.text.headerTable};
-  }
-  .text-title {
-    color: ${({ theme }) => theme.text.title};
   }
   .text-title {
     color: ${({ theme }) => theme.text.title};
@@ -34,71 +36,24 @@ const AppWrapper = createGlobalStyle`
   .bg-primary {
     background-color: ${({ theme }) => theme.palette.primary};
   }
-  .bg-secondary {
-    background-color: ${({ theme }) => theme.palette.secondary};
-  }
-  .bg-container {
-    background: ${({ theme }) => theme.background.container};
-  }
-  .bg-error {
-    background-color: ${({ theme }) => theme.background.error};
-  }
-  .text-600-24px-29px {
-    font: normal 600 24px/29px ${({ theme }) => theme.fonts.primary};
-  }
-  .border-l-4-solid-error {
-    border-left: 4px solid ${({ theme }) => theme.border.error};
-  }
   .gradientBackground {
     background-image: ${({ theme }) =>
       `linear-gradient(90deg, ${theme.palette.lightPrimary}, ${theme.palette.primary})`};
   }
-  /* --------------------------Override antd------------- */
-  .ant-card {
-    box-shadow: ${({ theme }) => theme.card.shadow};
+  .bg-error {
+    background-color: ${({ theme }) => theme.background.error};
   }
-  .ant-drawer-wrapper-body {
-    height: 100vh;
+  .bg-container {
+    background: ${({ theme }) => theme.background.container};
   }
-  .card-padding-0 {
-    .ant-card-body {
-      padding: 0px;
-    }
+  .bg-header {
+    background: ${({ theme }) => theme.background.header};
   }
-  .ant-modal-body {
-    padding: 10px 20px;
+  .border-top-split-color {
+    border-top: 1px solid ${({ theme }) => theme.border.colorSplit};
   }
-  .ant-form-item {
-    margin-bottom: 2px;
-  }
-  .ant-card-bordered  {
-    border: 1px solid #e8e8e8;
-    overflow: hidden;
-  }
-  .ant-table-column-title {
-    font-weight: 500;
-    font-family: 'Roboto', sans-serif;
-    font-size: 14px;
-    line-height: 16px;
-  }
-  .ant-calendar-range .ant-calendar-selected-start-date .ant-calendar-date {
-    background: ${({ theme }) => theme.palette.secondary};
-  }
-  .ant-table-pagination.ant-pagination {
-    margin-right: 24px !important;
-    .ant-pagination-prev .ant-pagination-item-link,
-    .ant-pagination-next .ant-pagination-item-link,
-    .ant-pagination-item {
-      background-color: ${({ theme }) => theme.background.input};
-      border-color: ${({ theme }) => theme.background.input};
-    }
-    .ant-pagination-item-active {
-      a {color: ${({ theme }) => theme.text.primary};}
-      border-color: ${({ theme }) => theme.palette.primary};
-    }
-  }
-  form .has-feedback .ant-input-affix-wrapper .ant-input-suffix {
-    padding-right: 26px;
+  .t-500-12px-22px {
+    font: normal 500 12px/22px ${({ theme }) => theme.fonts.primary};
   }
   /*----------------- Aimation -----------------*/
   @keyframes spin {
@@ -108,6 +63,25 @@ const AppWrapper = createGlobalStyle`
     100% {
       transform: rotate(360deg);
     }
+  }
+  /* --------------------------Override antd------------- */
+  .ant-card {
+    box-shadow: ${({ theme }) => theme.card.shadow};
+  }
+  .ant-form-item {
+    margin-bottom: 2px;
+  }
+  .card-padding-body-0 {
+    .ant-card-body {
+      padding: 0px;
+    }
+  }
+  form .has-feedback .ant-input-affix-wrapper .ant-input-suffix {
+    padding-right: 26px;
+  }
+  /*-----------------Add on-----------------------*/
+  .t-500-14px-16px {
+    font: normal 500 14px/16px ${({ theme }) => theme.fonts.primary};
   }
 `;
 
