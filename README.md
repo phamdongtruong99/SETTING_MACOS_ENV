@@ -163,6 +163,7 @@ cd ~ && bash ./INIT_ENVIRONMENT/step2.sh
 - PUSH NOTIFICATION: https://medium.com/flutter-community/push-notifications-in-flutter-using-firebase-c1ebaf45d62f
 - PRACTICE: 
      - https://github.com/thanhniencung/gold-sjc
+     - DICTIONARY APP: https://github.com/samarthagarwal/flictionary
 
 # OTHER 
 ## ELETRON
