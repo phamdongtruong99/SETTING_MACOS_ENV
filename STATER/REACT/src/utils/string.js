@@ -236,7 +236,7 @@ export const vowelsCounter = text => {
   let counter = 0;
   let vowels = ['a', 'e', 'i', 'o', 'u'];
 
-  for (char of [...text]) {
+  for (let char of [...text]) {
     if (vowels.includes(char)) {
       counter++;
     }
@@ -244,3 +244,20 @@ export const vowelsCounter = text => {
 
   return counter;
 };
+
+// vowelsCounter('tran) => 1
+
+export const removeExclamationMarks = str => {
+  return str.replace(/!/g, '');
+};
+
+// removeExclamationMarks('HelloWorld!!') => HelloWorld
+
+export const isPangram = str => {
+  str = str.toLowerCase();
+  return 'abcdefghijklmnopqrstuvwxyz'.split('').every(e => {
+    return str.includes(e);
+  });
+};
+
+// isPangram('qwertyuiopasdfghjklzxcvbnm') => true

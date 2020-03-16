@@ -208,3 +208,11 @@ export const firstDuplicate = arr => {
 };
 
 // firstDuplicate([1,2,3,2]) => 2
+
+export const duplicatedValues = (arr_1, arr_2) => {
+  return [...arr_1].filter(item => new Set(arr_2).has(item));
+};
+
+// var numOne = [0, 2, 4, 6, 8, 8, 9];
+// var numTwo = [1, 2, 3, 4, 5, 6, 9];
+duplicatedValues(numOne, numTwo); // [2,4,6,9]
