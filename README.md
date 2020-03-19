@@ -185,6 +185,9 @@ cd ~ && bash ./INIT_ENVIRONMENT/step2.sh
 - TSCONFIG CLI: https://github.com/tranthaison1231/tsconfig.json
 - GITHUB CLI: https://github.com/tranthaison1231/git-cli
 
+## CIRCLE CI 
+- WITH REACT: https://www.youtube.com/watch?v=slGMKIDg7gM
+
 ## GOOGLE API 
 - GOOGLE MAP STATIC API: https://developers.google.com/maps/documentation/maps-static/dev-guide#ImageFormats
 - HOW TO GET GOOGLE CLOUD SERVICE: https://gist.github.com/tranthaison1231/1b25b75e8724cc7c87822fe5d0637a60 
