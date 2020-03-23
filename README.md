@@ -29,6 +29,9 @@ cd ~ && bash ./INIT_ENVIRONMENT/step2.sh
 - EXPRESS + TYPESCRIPT + GRAPHQL: https://github.com/thmsgbrt/nodejs-typescript-express-apollo-graphql-starter
 - EXPRESS + SPREADSHEET: https://github.com/theoephraim/node-google-spreadsheet
 
+## FIREBASE 
+- FIREBASE FUNCTION: https://github.com/iamshaunjp/firebase-functions/tree/lesson-18
+
 ## C# 
 
 - Design Pattern: https://github.com/OngDevTutorials/design-pattern-tutorial
