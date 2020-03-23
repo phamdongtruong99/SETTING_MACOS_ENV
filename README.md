@@ -60,6 +60,8 @@ cd ~ && bash ./INIT_ENVIRONMENT/step2.sh
 - NESTJS + MICROSERVICE: https://github.com/johnbiundo/nest-nats-sample
 - CONVECTOR +  https://medium.com/swlh/convector-with-nestjs-7e660322d927
 - NESTJS_STATER https://github.com/rjlopezdev
+**TEST**
+     - E2E: https://github.com/kelvin-mai/nest-commerce/blob/master/test/auth.e2e-spec.ts
 
 ## GRAPHQL
 
