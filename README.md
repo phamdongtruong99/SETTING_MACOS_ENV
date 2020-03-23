@@ -29,6 +29,9 @@ cd ~ && bash ./INIT_ENVIRONMENT/step2.sh
 - EXPRESS + TYPESCRIPT + GRAPHQL: https://github.com/thmsgbrt/nodejs-typescript-express-apollo-graphql-starter
 - EXPRESS + SPREADSHEET: https://github.com/theoephraim/node-google-spreadsheet
 
+## FIREBASE 
+- FIREBASE FUNCTION: https://github.com/iamshaunjp/firebase-functions/tree/lesson-18
+
 ## C# 
 
 - Design Pattern: https://github.com/OngDevTutorials/design-pattern-tutorial
@@ -57,6 +60,8 @@ cd ~ && bash ./INIT_ENVIRONMENT/step2.sh
 - NESTJS + MICROSERVICE: https://github.com/johnbiundo/nest-nats-sample
 - CONVECTOR +  https://medium.com/swlh/convector-with-nestjs-7e660322d927
 - NESTJS_STATER https://github.com/rjlopezdev
+- **-------TEST--------------**
+     - E2E: https://github.com/kelvin-mai/nest-commerce/blob/master/test/auth.e2e-spec.ts
 
 ## GRAPHQL
 
@@ -82,6 +87,7 @@ cd ~ && bash ./INIT_ENVIRONMENT/step2.sh
   - https://github.com/logaretm/vue-use-form
   - https://github.com/u3u/vue-hooks/blob/dev/src/useDate.ts
 - VUE STARTER FOR ADMIN: 
+     - https://github.com/trdbau/my-first-admin-web-by-vue
 - VUE + TAILWIND 
 - VUE TODOLIST: https://github.com/skysan87/vue-todolist
 - AWSOME HOOKS FOR VUE
@@ -180,6 +186,13 @@ cd ~ && bash ./INIT_ENVIRONMENT/step2.sh
 
 - REACT-EXTENSION:  https://github.com/aeksco/react-typescript-chrome-extension-starter
 - REACT-EXTENSION-TYPESCRIPT: https://github.com/thmsgbrt/Chrome-Extension-with-React-and-Typescript-Starter-Pack
+
+## CLI 
+- TSCONFIG CLI: https://github.com/tranthaison1231/tsconfig.json
+- GITHUB CLI: https://github.com/tranthaison1231/git-cli
+
+## CIRCLE CI 
+- WITH REACT: https://www.youtube.com/watch?v=slGMKIDg7gM
 
 ## GOOGLE API 
 - GOOGLE MAP STATIC API: https://developers.google.com/maps/documentation/maps-static/dev-guide#ImageFormats
