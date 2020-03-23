@@ -1,3 +1,11 @@
+import { isLength } from './number';
+
+export const isArrayLike = arr => {
+  return arr != null && typeof arr !== 'function' && isLength(arr.length);
+};
+
+// isArrayLike([1, 2, 3]) => true
+
 export const reverseArr = arr => arr.map(arr.pop, [...arr]);
 
 // reverseArr([1, 2, 3]); // [3, 2, 1]
@@ -57,7 +65,7 @@ export const findLast = (array, fn) => {
 
 // findLast([1, 2, 3, 4], n => n % 2 == 1) // -> 3
 
-export const findMostRepeat = array => {
+export const findMostRepeat = arr => {
   if (!Array.isArray(arr)) {
     throw new TypeError('arr must be an array');
   }
@@ -66,10 +74,10 @@ export const findMostRepeat = array => {
     throw new TypeError('arr must not be empty');
   }
   let modeMap = {};
-  let maxEl = array[0],
+  let maxEl = arr[0],
     maxCount = 1;
-  for (let i = 0; i < array.length; i++) {
-    let el = array[i];
+  for (let i = 0; i < arr.length; i++) {
+    let el = arr[i];
     if (modeMap[el] == null) modeMap[el] = 1;
     else modeMap[el]++;
     if (modeMap[el] > maxCount) {
@@ -215,4 +223,18 @@ export const duplicatedValues = (arr_1, arr_2) => {
 
 // var numOne = [0, 2, 4, 6, 8, 8, 9];
 // var numTwo = [1, 2, 3, 4, 5, 6, 9];
-duplicatedValues(numOne, numTwo); // [2,4,6,9]
+// duplicatedValues(numOne, numTwo); // [2,4,6,9]
+
+export const countOccurrences = arr => {
+  let obj = {};
+  for (let ele of arr) {
+    if (obj[ele] !== undefined) {
+      obj[ele] += 1;
+    } else {
+      obj[ele] = 1;
+    }
+  }
+  return obj;
+};
+
+// countOccurrences([1, 3, 5, 1, 1]); => { '1': 3, '3': 1, '5': 1 }

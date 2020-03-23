@@ -1,7 +1,7 @@
 import React from 'react';
 import { Route, Switch } from 'react-router-dom';
-import loadable from 'utils/loadable';
 import Loading from 'components/common/Loading';
+import loadable from 'utils/loadable';
 import Layout from 'components/common/Layout';
 import PrivateRoute from 'pages/utils/PrivateRoute';
 import CreateCompany from 'components/Companies/CreateCompany';

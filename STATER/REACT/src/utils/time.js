@@ -47,3 +47,21 @@ export const formatDuration = ms => {
 };
 
 // formatDuration(1001); // '1 second, 1 millisecond'
+
+export const timeSpent = (callback, showLog = true) => {
+  if (typeof callback !== 'function') {
+    throw new Error('You need to pass a function.');
+  }
+
+  return function(...rest: any) {
+    if (showLog) {
+      console.time(callback.name);
+    }
+    callback(...rest);
+    if (showLog) {
+      console.timeEnd(callback.name);
+    }
+  };
+};
+
+// Time Spent:  https://www.npmjs.com/package/utils-for-js
