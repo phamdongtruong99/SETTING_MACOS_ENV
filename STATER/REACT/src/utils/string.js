@@ -39,9 +39,11 @@ export const formatMoney = (number, n = 2, x = 3) => {
 //   return moment(date).fromNow();
 // };
 
-export const toRandomCase = Array.from(
+export const toRandomCase = str => Array.from(
   str, 
-  c => (Math.random() < 0.5 ? c.toUpperCase() : c.toLowerCase()).join('');
+  c => (Math.random() < 0.5 ? c.toUpperCase() : c.toLowerCase())).join('');
+
+// toRandomCase('Tran Thai Son'); // 'traN ThaI son'
 
 export const toKebabCase = str =>
   str &&
