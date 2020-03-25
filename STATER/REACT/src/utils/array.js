@@ -238,3 +238,12 @@ export const countOccurrences = arr => {
 };
 
 // countOccurrences([1, 3, 5, 1, 1]); => { '1': 3, '3': 1, '5': 1 }
+
+export const chunk = (arr, size) =>
+  Array.from(
+    {
+      length: Math.ceil(arr.length / size),
+    },
+    (v, i) => arr.slice(i * size, i * size + size),
+  );
+
