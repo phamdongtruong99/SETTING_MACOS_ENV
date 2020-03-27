@@ -96,6 +96,8 @@ cd ~ && bash ./INIT_ENVIRONMENT/step2.sh
 - REACT STARTER FOR ADMIN: 
      - https://github.com/tranthaison1231/STATER_REACT
      - https://github.com/tranthaison1231/REACT_ADMIN_2
+- HOOKS: 
+     - REACT WINDOW COMMUNICATION: https://github.com/AvraamMavridis/react-window-communication-hook
 - REACT STATER: 
 - REACT_REDUX: https://github.com/magarcia/todomvc-redux-starter-kit
   - https://github.com/wellyshen/react-cool-starter
