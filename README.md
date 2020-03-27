@@ -99,6 +99,7 @@ cd ~ && bash ./INIT_ENVIRONMENT/step2.sh
 - HOOKS: 
      - REACT WINDOW COMMUNICATION: https://github.com/AvraamMavridis/react-window-communication-hook
      - REACT SCRIPT: https://www.npmjs.com/package/react-script-hook
+     - MOUSE ACTION: https://github.com/dimitrinicolas/use-mouse-action
 - REACT STATER: 
 - REACT_REDUX: https://github.com/magarcia/todomvc-redux-starter-kit
   - https://github.com/wellyshen/react-cool-starter
