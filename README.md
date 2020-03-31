@@ -44,6 +44,11 @@ cd ~ && bash ./INIT_ENVIRONMENT/step2.sh
 ## DIANJO 
 - DIANJO + MONGODB: https://github.com/nesdis/djongo
 
+## DOTNET 
+- DOTNET_LEARN: 
+     - https://github.com/tranthaison1231/DOTNET-LEARN
+
+
 ## FOR NESTJS
 
 - NESJS + MYSQL: https://github.com/tranthaison1231/NESTJS_MYSQL
