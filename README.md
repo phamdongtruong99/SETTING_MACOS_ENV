@@ -56,6 +56,7 @@ cd ~ && bash ./INIT_ENVIRONMENT/step2.sh
 - NESTJS + WEBSOCKET: https://github.com/brianjohnsonsr/nest.ws.tutorial
 - NESTJS + TYPEORM + POSTREGSQL: https://github.com/tranthaison1231/NESTJS_TYPEPORM
 - NESTJS + TYPEGOOSE: https://github.com/kpfromer/nestjs-typegoose
+- NESTJS + MIGRATION: https://github.com/ambroiseRabier/typeorm-nestjs-migration-example
 - NESTJS + GRAPHQL: https://github.com/chnirt/nestjs-graphql-best-practice
     - NESTJS + GRAPHQL + DOCKER: https://github.com/tranthaison1231/NESTJS_GRAPHQL
 - NESTJS + PRISMA: https://github.com/fivethree-team/nestjs-prisma-starter
