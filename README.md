@@ -87,6 +87,8 @@ cd ~ && bash ./INIT_ENVIRONMENT/step2.sh
 
 
 #  FRONT-END 
+## AXIXOS
+ - AXIOS INTERCEPTORS + REFESH TOKEN: https://medium.com/swlh/handling-access-and-refresh-tokens-using-axios-interceptors-3970b601a5da
 ## FOR VUE 
 - AWSOME HOOKS FOR VUE:
   - https://github.com/logaretm/vue-use-web 
