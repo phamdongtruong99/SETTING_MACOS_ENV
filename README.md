@@ -59,6 +59,7 @@ cd ~ && bash ./INIT_ENVIRONMENT/step2.sh
 - NESTJS + MIGRATION: https://github.com/ambroiseRabier/typeorm-nestjs-migration-example
 - NESTJS + GRAPHQL: https://github.com/chnirt/nestjs-graphql-best-practice
     - NESTJS + GRAPHQL + DOCKER: https://github.com/tranthaison1231/NESTJS_GRAPHQL
+    - NESTJS + GRAPHQL + MONGODB: https://github.com/TannerGabriel/Blog/tree/master/nest-graph-ql
 - NESTJS + PRISMA: https://github.com/fivethree-team/nestjs-prisma-starter
 - NESTJS + MONGODB: https://github.com/academind/nestjs-introduction/tree/02-mongodb
 - NESTJS + GRAPHQL: https://github.com/AryanJ-NYC/nestjs-graphql-tutorial
