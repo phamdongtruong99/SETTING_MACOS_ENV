@@ -26,7 +26,10 @@ cd ~ && bash ./INIT_ENVIRONMENT/step2.sh
      - https://github.com/shoaibcode/express-handler/tree/upload-image-part1
 - EXPRESS + REDIS + DOCKER: https://github.com/HugoDF/express-redis-docker
 - EXPRESS + TYPESCRIPT: https://github.com/mwanago/express-typescript
-- EXPRESS + TYPESCRIPT + GRAPHQL: https://github.com/thmsgbrt/nodejs-typescript-express-apollo-graphql-starter
+- EXPRESS + TYPESCRIPT + GRAPHQL: 
+     - https://github.com/thmsgbrt/nodejs-typescript-express-apollo-graphql-starter
+     - https://github.com/benawad/typescript-graphql-crud-example
+     - CLI: https://github.com/benawad/create-graphql-api
 - EXPRESS + SPREADSHEET: https://github.com/theoephraim/node-google-spreadsheet
 
 ## FIREBASE 
