@@ -34,6 +34,7 @@ cd ~ && bash ./INIT_ENVIRONMENT/step2.sh
 
 ## DENO 
      - API - EX: https://github.com/thaisonenouvo/deno-simple-server
+     - REST API: https://github.com/thaisonenouvo/deno-paas
 
 ## FIREBASE 
 - FIREBASE FUNCTION: https://github.com/iamshaunjp/firebase-functions/tree/lesson-18
