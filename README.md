@@ -32,6 +32,9 @@ cd ~ && bash ./INIT_ENVIRONMENT/step2.sh
      - CLI: https://github.com/benawad/create-graphql-api
 - EXPRESS + SPREADSHEET: https://github.com/theoephraim/node-google-spreadsheet
 
+## DENO 
+     - API - EX: https://github.com/thaisonenouvo/deno-simple-server
+
 ## FIREBASE 
 - FIREBASE FUNCTION: https://github.com/iamshaunjp/firebase-functions/tree/lesson-18
 
