@@ -168,6 +168,8 @@ cd ~ && bash ./INIT_ENVIRONMENT/step2.sh
 
 - Typing game:  https://github.com/WebDevSimplified/JS-Speed-Typing-Game
 - ATOMIC CSS: https://gist.github.com/tranthaison1231/60cf5b98a8552a030d49cce84c237429
+- **AMAZING STYLE CSS**:
+     - https://codesandbox.io/s/scroll-snap-spacer-kscrw
 
 # MOBILE 
 ## REACT NATIVE
