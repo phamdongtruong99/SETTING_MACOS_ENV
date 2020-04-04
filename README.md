@@ -14,6 +14,9 @@ cd ~ && bash ./INIT_ENVIRONMENT/step2.sh
 # Config fo vim
 -  Vim surround: https://www.youtube.com/watch?v=a2JyLUNG2fc
 
+# DEVOPS
+- AWS EC2: https://github.com/tranthaison1231/Virtual-Machine
+
 # BACKEND 
 ## DOCKER 
 - JEST-CIRCLECI: https://github.com/immint023/jest-circleci
