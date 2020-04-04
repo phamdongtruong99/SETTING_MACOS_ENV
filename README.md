@@ -193,6 +193,7 @@ cd ~ && bash ./INIT_ENVIRONMENT/step2.sh
 - PRACTICE: 
      - https://github.com/thanhniencung/gold-sjc
      - DICTIONARY APP: https://github.com/samarthagarwal/flictionary
+     - MOTIVATION APP: https://github.com/anoobbava/motivation_on_the_go
 - FLUTTER PDF TEXT: https://github.com/themaaz32/pdf_test
 
 # OTHER 
