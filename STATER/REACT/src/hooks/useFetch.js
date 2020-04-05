@@ -1,28 +1,41 @@
 import { useState, useEffect } from 'react';
 
-const useFetch = url => {
-  const [data, setData] = useState();
-  const [loading, setLoading] = useState(true);
-  const [error, setError] = useState();
+const defaultReadBody = (body) => body.json();
+
+const useFetch = (url, otps = {}, readBody = defaultReadBody) => {
+  const [state, setState] = useState({});
   useEffect(() => {
-    async function fetchData() {
-      setLoading(true);
-      setError();
-      const newData = await fetch(url)
-        .then(res => res.json())
-        .catch(err => {
-          setError(err);
+    let didCleanup = false;
+    const abortController = new AbortController();
+    const fetchData = async () => {
+      try {
+        const response = await fetch(url, {
+          ...otps,
+          signal: abortController.signal,
         });
-      setData(newData);
-      setLoading(false);
-    }
+        if (!response.ok) {
+          throw new Error('status: ' + response.status);
+        }
+        const data = await readBody(response);
+        if (!didCleanup) {
+          setState({ data });
+        }
+      } catch (error) {
+        if (!didCleanup) {
+          setState({ error });
+        }
+      }
+    };
+    setState({ loading: true });
     fetchData();
+    const cleanup = () => {
+      didCleanup = true;
+      abortController.abort();
+      setState({});
+    };
+    return cleanup;
   }, [url]);
-  return {
-    data,
-    loading,
-    error,
-  };
+  return state;
 };
 
 export default useFetch;

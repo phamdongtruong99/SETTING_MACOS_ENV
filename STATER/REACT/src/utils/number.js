@@ -1,3 +1,13 @@
+export const isLength = number => {
+  const MAX_SAFE_INTEGER = 9007199254740991;
+  return (
+    typeof number === 'number' &&
+    number > -1 &&
+    number % 1 == 0 &&
+    number <= MAX_SAFE_INTEGER
+  );
+};
+
 export const toDecimalMark = num => num.toLocaleString('en-US');
 
 // toDecimalMark(12305030388.9087); // "12,305,030,388.909"

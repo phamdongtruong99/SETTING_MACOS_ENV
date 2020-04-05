@@ -14,6 +14,9 @@ cd ~ && bash ./INIT_ENVIRONMENT/step2.sh
 # Config fo vim
 -  Vim surround: https://www.youtube.com/watch?v=a2JyLUNG2fc
 
+# DEVOPS
+- AWS EC2: https://github.com/tranthaison1231/Virtual-Machine
+
 # BACKEND 
 ## DOCKER 
 - JEST-CIRCLECI: https://github.com/immint023/jest-circleci
@@ -26,8 +29,18 @@ cd ~ && bash ./INIT_ENVIRONMENT/step2.sh
      - https://github.com/shoaibcode/express-handler/tree/upload-image-part1
 - EXPRESS + REDIS + DOCKER: https://github.com/HugoDF/express-redis-docker
 - EXPRESS + TYPESCRIPT: https://github.com/mwanago/express-typescript
-- EXPRESS + TYPESCRIPT + GRAPHQL: https://github.com/thmsgbrt/nodejs-typescript-express-apollo-graphql-starter
+- EXPRESS + TYPESCRIPT + GRAPHQL: 
+     - https://github.com/thmsgbrt/nodejs-typescript-express-apollo-graphql-starter
+     - https://github.com/benawad/typescript-graphql-crud-example
+     - CLI: https://github.com/benawad/create-graphql-api
 - EXPRESS + SPREADSHEET: https://github.com/theoephraim/node-google-spreadsheet
+
+## DENO 
+     - API - EX: https://github.com/thaisonenouvo/deno-simple-server
+     - REST API: https://github.com/thaisonenouvo/deno-paas
+
+## FIREBASE 
+- FIREBASE FUNCTION: https://github.com/iamshaunjp/firebase-functions/tree/lesson-18
 
 ## C# 
 
@@ -41,6 +54,11 @@ cd ~ && bash ./INIT_ENVIRONMENT/step2.sh
 ## DIANJO 
 - DIANJO + MONGODB: https://github.com/nesdis/djongo
 
+## DOTNET 
+- DOTNET_LEARN: 
+     - https://github.com/tranthaison1231/DOTNET-LEARN
+
+
 ## FOR NESTJS
 
 - NESJS + MYSQL: https://github.com/tranthaison1231/NESTJS_MYSQL
@@ -48,8 +66,10 @@ cd ~ && bash ./INIT_ENVIRONMENT/step2.sh
 - NESTJS + WEBSOCKET: https://github.com/brianjohnsonsr/nest.ws.tutorial
 - NESTJS + TYPEORM + POSTREGSQL: https://github.com/tranthaison1231/NESTJS_TYPEPORM
 - NESTJS + TYPEGOOSE: https://github.com/kpfromer/nestjs-typegoose
+- NESTJS + MIGRATION: https://github.com/ambroiseRabier/typeorm-nestjs-migration-example
 - NESTJS + GRAPHQL: https://github.com/chnirt/nestjs-graphql-best-practice
     - NESTJS + GRAPHQL + DOCKER: https://github.com/tranthaison1231/NESTJS_GRAPHQL
+    - NESTJS + GRAPHQL + MONGODB: https://github.com/TannerGabriel/Blog/tree/master/nest-graph-ql
 - NESTJS + PRISMA: https://github.com/fivethree-team/nestjs-prisma-starter
 - NESTJS + MONGODB: https://github.com/academind/nestjs-introduction/tree/02-mongodb
 - NESTJS + GRAPHQL: https://github.com/AryanJ-NYC/nestjs-graphql-tutorial
@@ -57,6 +77,8 @@ cd ~ && bash ./INIT_ENVIRONMENT/step2.sh
 - NESTJS + MICROSERVICE: https://github.com/johnbiundo/nest-nats-sample
 - CONVECTOR +  https://medium.com/swlh/convector-with-nestjs-7e660322d927
 - NESTJS_STATER https://github.com/rjlopezdev
+- **-------TEST--------------**
+     - E2E: https://github.com/kelvin-mai/nest-commerce/blob/master/test/auth.e2e-spec.ts
 
 ## GRAPHQL
 
@@ -76,12 +98,15 @@ cd ~ && bash ./INIT_ENVIRONMENT/step2.sh
 
 
 #  FRONT-END 
+## AXIXOS
+ - AXIOS INTERCEPTORS + REFESH TOKEN: https://medium.com/swlh/handling-access-and-refresh-tokens-using-axios-interceptors-3970b601a5da
 ## FOR VUE 
 - AWSOME HOOKS FOR VUE:
   - https://github.com/logaretm/vue-use-web 
   - https://github.com/logaretm/vue-use-form
   - https://github.com/u3u/vue-hooks/blob/dev/src/useDate.ts
 - VUE STARTER FOR ADMIN: 
+     - https://github.com/trdbau/my-first-admin-web-by-vue
 - VUE + TAILWIND 
 - VUE TODOLIST: https://github.com/skysan87/vue-todolist
 - AWSOME HOOKS FOR VUE
@@ -90,6 +115,10 @@ cd ~ && bash ./INIT_ENVIRONMENT/step2.sh
 - REACT STARTER FOR ADMIN: 
      - https://github.com/tranthaison1231/STATER_REACT
      - https://github.com/tranthaison1231/REACT_ADMIN_2
+- HOOKS: 
+     - REACT WINDOW COMMUNICATION: https://github.com/AvraamMavridis/react-window-communication-hook
+     - REACT SCRIPT: https://www.npmjs.com/package/react-script-hook
+     - MOUSE ACTION: https://github.com/dimitrinicolas/use-mouse-action
 - REACT STATER: 
 - REACT_REDUX: https://github.com/magarcia/todomvc-redux-starter-kit
   - https://github.com/wellyshen/react-cool-starter
@@ -139,6 +168,8 @@ cd ~ && bash ./INIT_ENVIRONMENT/step2.sh
 
 - Typing game:  https://github.com/WebDevSimplified/JS-Speed-Typing-Game
 - ATOMIC CSS: https://gist.github.com/tranthaison1231/60cf5b98a8552a030d49cce84c237429
+- **AMAZING STYLE CSS**:
+     - https://codesandbox.io/s/scroll-snap-spacer-kscrw
 
 # MOBILE 
 ## REACT NATIVE
@@ -164,6 +195,7 @@ cd ~ && bash ./INIT_ENVIRONMENT/step2.sh
 - PRACTICE: 
      - https://github.com/thanhniencung/gold-sjc
      - DICTIONARY APP: https://github.com/samarthagarwal/flictionary
+     - MOTIVATION APP: https://github.com/anoobbava/motivation_on_the_go
 - FLUTTER PDF TEXT: https://github.com/themaaz32/pdf_test
 
 # OTHER 
@@ -181,6 +213,14 @@ cd ~ && bash ./INIT_ENVIRONMENT/step2.sh
 - REACT-EXTENSION:  https://github.com/aeksco/react-typescript-chrome-extension-starter
 - REACT-EXTENSION-TYPESCRIPT: https://github.com/thmsgbrt/Chrome-Extension-with-React-and-Typescript-Starter-Pack
 
+## CLI 
+- TSCONFIG CLI: https://github.com/tranthaison1231/tsconfig.json
+- GITHUB CLI: https://github.com/tranthaison1231/git-cli
+
+## CIRCLE CI 
+- WITH REACT: https://www.youtube.com/watch?v=slGMKIDg7gM
+
 ## GOOGLE API 
 - GOOGLE MAP STATIC API: https://developers.google.com/maps/documentation/maps-static/dev-guide#ImageFormats
+- ANALYTICS API: https://morioh.com/p/c6b63f22422d
 - HOW TO GET GOOGLE CLOUD SERVICE: https://gist.github.com/tranthaison1231/1b25b75e8724cc7c87822fe5d0637a60 
