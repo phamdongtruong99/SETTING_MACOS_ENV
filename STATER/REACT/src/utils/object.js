@@ -75,3 +75,22 @@ export const convertObjToSearchEncodeStr = params =>
     .join('&')}`;
 
 // convertObjToSearchStr({ limit: 20, abc: 30, fka: 40 }); => ?limit=20&abc=30&kfa=h4
+
+const getKeys = (obj, arr = []) => {
+  for (let i in obj) {
+    arr.push(i);
+    if (typeof obj[i] === 'object') {
+      getKeys(obj[i], arr);
+      return arr;
+    }
+  }
+};
+// getKeys({
+//   bedroom: {
+//     area: 20,
+//     bed: {
+//       type: 'twin-bed',
+//       price: 100
+//     }
+//   }
+// }) => ['bedroom', 'area', 'bed', 'type', 'price'];

@@ -104,3 +104,9 @@ export const getURLParameters = url =>
 
 // getURLParameters('http://url.com/page?n=Adam&s=Smith'); // {n: 'Adam', s: 'Smith'}
 // getURLParameters('google.com'); // {}
+
+export const domainName = url => {
+  return url.replace(/https*:\/\/|www\./g, '').split('.')[0];
+};
+
+// domainName("http://www.youtube.com") => youtube

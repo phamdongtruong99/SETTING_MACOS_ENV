@@ -215,4 +215,12 @@ export const duplicatedValues = (arr_1, arr_2) => {
 
 // var numOne = [0, 2, 4, 6, 8, 8, 9];
 // var numTwo = [1, 2, 3, 4, 5, 6, 9];
-duplicatedValues(numOne, numTwo); // [2,4,6,9]
+// duplicatedValues(numOne, numTwo); // [2,4,6,9]
+
+export const chunk = (arr, size) =>
+  Array.from(
+    {
+      length: Math.ceil(arr.length / size),
+    },
+    (v, i) => arr.slice(i * size, i * size + size),
+  );

@@ -47,3 +47,6 @@ export const formatDuration = ms => {
 };
 
 // formatDuration(1001); // '1 second, 1 millisecond'
+
+export const getTime = time => new Date(time).getTime();
+// getTime("2020-02-26 00:00:00") => 1582675200000
