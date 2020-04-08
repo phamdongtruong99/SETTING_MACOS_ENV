@@ -24,6 +24,9 @@ cd ~ && bash ./INIT_ENVIRONMENT/step2.sh
 ## EXPRESSJS
 
 - FEATHER JS + SOCKETIO: https://github.com/bradtraversy/livestreamer_project_ideas
+- COOKIE SESSION:
+     - https://github.com/expressjs/cookie-session
+     - https://github.com/expressjs/session
 - Cloudinary + Multer:
      - https://github.com/jcottam/blog/tree/master/image-uploading-with-node-and-cloudinary
      - https://github.com/shoaibcode/express-handler/tree/upload-image-part1
@@ -68,11 +71,11 @@ cd ~ && bash ./INIT_ENVIRONMENT/step2.sh
 - NESTJS + TYPEGOOSE: https://github.com/kpfromer/nestjs-typegoose
 - NESTJS + MIGRATION: https://github.com/ambroiseRabier/typeorm-nestjs-migration-example
 - NESTJS + GRAPHQL: https://github.com/chnirt/nestjs-graphql-best-practice
+    - EXAMPLE: https://github.com/AryanJ-NYC/nestjs-graphql-tutorial
     - NESTJS + GRAPHQL + DOCKER: https://github.com/tranthaison1231/NESTJS_GRAPHQL
     - NESTJS + GRAPHQL + MONGODB: https://github.com/TannerGabriel/Blog/tree/master/nest-graph-ql
 - NESTJS + PRISMA: https://github.com/fivethree-team/nestjs-prisma-starter
 - NESTJS + MONGODB: https://github.com/academind/nestjs-introduction/tree/02-mongodb
-- NESTJS + GRAPHQL: https://github.com/AryanJ-NYC/nestjs-graphql-tutorial
 - NESTJS + AUTOMAPPER + TYPEGOOSE: https://github.com/nartc/example-nest-automapper
 - NESTJS + MICROSERVICE: https://github.com/johnbiundo/nest-nats-sample
 - CONVECTOR +  https://medium.com/swlh/convector-with-nestjs-7e660322d927
