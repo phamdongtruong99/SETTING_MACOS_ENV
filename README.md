@@ -140,6 +140,8 @@ cd ~ && bash ./INIT_ENVIRONMENT/step2.sh
 - REACT + REDUX + FIREBASE: https://codesandbox.io/s/zrr0n5m2zp
 - REACT + SVG: https://www.youtube.com/watch?v=7bw56feIdh4
 - ANIMATION: https://github.com/aholachek/mobile-first-animation
+  ### HOOK: 
+     - useGeolocation: https://github.com/beautifulinteractions/beautiful-react-hooks/blob/master/docs/useGeolocation.md
   ### CALENDAR: 
      - https://github.com/jquense/react-big-calendar
   ### EXCEL 
