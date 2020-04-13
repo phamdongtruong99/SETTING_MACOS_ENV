@@ -125,3 +125,7 @@ const reverseInt = n => {
 };
 
 // reverseInt(1234) -> 4321
+
+const average = (...args) => args.reduce((acc, el) => acc + el, 0) / args.length;
+
+// average(1,2,3,4) => 2.5
