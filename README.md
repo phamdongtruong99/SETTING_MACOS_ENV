@@ -82,6 +82,7 @@ cd ~ && bash ./INIT_ENVIRONMENT/step2.sh
 - ULITY FOR NESTJS: https://github.com/golevelup/nestjs
 - NESTJS COOKIE SESSION: https://github.com/iamolegga/nestjs-cookie-session
 - NESTJS_STATER https://github.com/rjlopezdev
+- NESTJS CACHE: https://www.youtube.com/watch?v=8OTm00NH4MQ
 - **-------TEST--------------**
      - E2E: https://github.com/kelvin-mai/nest-commerce/blob/master/test/auth.e2e-spec.ts
 
