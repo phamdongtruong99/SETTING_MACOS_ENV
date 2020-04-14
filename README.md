@@ -190,6 +190,7 @@ cd ~ && bash ./INIT_ENVIRONMENT/step2.sh
 - REACT_NATIVE_BOOKING: https://github.com/phamdongtruong99/RN_BASE_1
 - REACT PUHS NOTIFICATION: https://www.youtube.com/watch?v=Qf8OzB9qJq8&feature=emb_title
 - REACT_NATIVE_WEBVIEW: https://github.com/amandeepmittal/react-native-examples/tree/master/rnWebViewCustomNav
+- REACT_NATIVE_DEPLOY_BASH: https://github.com/louisneovi/React-Native-Deploy-bash
 
 ## FLUTTER
 
