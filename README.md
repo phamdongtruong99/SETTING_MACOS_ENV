@@ -75,6 +75,7 @@ cd ~ && bash ./INIT_ENVIRONMENT/step2.sh
     - EXAMPLE: https://github.com/AryanJ-NYC/nestjs-graphql-tutorial
     - NESTJS + GRAPHQL + DOCKER: https://github.com/tranthaison1231/NESTJS_GRAPHQL
     - NESTJS + GRAPHQL + MONGODB: https://github.com/TannerGabriel/Blog/tree/master/nest-graph-ql
+    - NESTJS-PRISMA-GRAPHQL: https://github.com/EndyKaufman/typegraphql-prisma-nestjs-example
 - NESTJS + PRISMA: https://github.com/fivethree-team/nestjs-prisma-starter
 - NESTJS + MONGODB: https://github.com/academind/nestjs-introduction/tree/02-mongodb
 - NESTJS + AUTOMAPPER + TYPEGOOSE: https://github.com/nartc/example-nest-automapper
