@@ -246,3 +246,4 @@ export const chunk = (arr, size) =>
     },
     (v, i) => arr.slice(i * size, i * size + size),
   );
+// chunk([1,3,4,5], 3); -> [ [ 1, 3, 4 ], [ 5 ] ]
