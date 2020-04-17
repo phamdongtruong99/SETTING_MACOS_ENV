@@ -206,9 +206,10 @@ cd ~ && bash ./INIT_ENVIRONMENT/step2.sh
 - SPLASH-SCREEN: https://www.youtube.com/watch?v=BjV4RMkVY6w
 - PUSH NOTIFICATION: https://medium.com/flutter-community/push-notifications-in-flutter-using-firebase-c1ebaf45d62f
 - PRACTICE: 
-     - https://github.com/thanhniencung/gold-sjc
+     - GOLD-SJC:  https://github.com/thanhniencung/gold-sjc
      - DICTIONARY APP: https://github.com/samarthagarwal/flictionary
      - MOTIVATION APP: https://github.com/anoobbava/motivation_on_the_go
+     - Discount tour: https://github.com/theindianappguy/discounttour
 - FLUTTER PDF TEXT: https://github.com/themaaz32/pdf_test
 
 # OTHER 
