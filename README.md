@@ -194,7 +194,7 @@ cd ~ && bash ./INIT_ENVIRONMENT/step2.sh
 - REACT PUHS NOTIFICATION: https://www.youtube.com/watch?v=Qf8OzB9qJq8&feature=emb_title
 - REACT_NATIVE_WEBVIEW: https://github.com/amandeepmittal/react-native-examples/tree/master/rnWebViewCustomNav
 - REACT_NATIVE_DEPLOY_BASH: https://github.com/louisneovi/React-Native-Deploy-bash
-
+- LINEAR GRADIENT: https://github.com/react-native-community/react-native-linear-gradient
 ## FLUTTER
 
 - AWSOME FLUTTER: https://github.com/Solido/awesome-flutter
