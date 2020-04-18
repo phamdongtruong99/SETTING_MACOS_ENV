@@ -237,6 +237,7 @@ cd ~ && bash ./INIT_ENVIRONMENT/step2.sh
    - Algorithm: 
         - Priority Queue: https://github.com/davidnguyen179/p-queue-ts
         - https://github.com/loiane/javascript-datastructures-algorithms/tree/third-edition
+        - https://github.com/trekhleb/javascript-algorithms
 
 ## CIRCLE CI 
 - WITH REACT: https://www.youtube.com/watch?v=slGMKIDg7gM
