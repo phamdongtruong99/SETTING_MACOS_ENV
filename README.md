@@ -175,6 +175,7 @@ cd ~ && bash ./INIT_ENVIRONMENT/step2.sh
 - GATSBY + TAILWIND + STYLED COMPONENTS: https://github.com/tranthaison1231/DEVFUN-BLOG
 - GATSBY + TAILWIND + POSTCSS
 - GATSBY + STACKBIT: https://github.com/tranthaison1231/stackbit-blog
+- GATSBY + TRANSFORM + CLOUDINARY: https://github.com/cloudinary-devs/gatsby-transformer-cloudinary
 
 ## HTML-JS-CSS
 
