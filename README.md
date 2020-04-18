@@ -230,6 +230,10 @@ cd ~ && bash ./INIT_ENVIRONMENT/step2.sh
 ## CLI 
 - TSCONFIG CLI: https://github.com/tranthaison1231/tsconfig.json
 - GITHUB CLI: https://github.com/tranthaison1231/git-cli
+- NEXTJS_CODE_GEN: https://github.com/zackkrida/next-codegen
+
+## AI 
+   - Priority Queue: https://github.com/davidnguyen179/p-queue-ts
 
 ## CIRCLE CI 
 - WITH REACT: https://www.youtube.com/watch?v=slGMKIDg7gM
