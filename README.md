@@ -202,6 +202,7 @@ cd ~ && bash ./INIT_ENVIRONMENT/step2.sh
 - STARTER FLUTTER: https://github.com/tranthaison1231/STATER_FLUTTER
 - FLUTTER REPONSE UI: https://github.com/themaaz32/Flultter-Reponsive-UI
 - BMI APP: https://github.com/themaaz32/bmi_app
+- FLUTTER CONNECT FIREBASE: https://viblo.asia/p/lien-ket-firebase-den-app-flutter-cho-android-va-ios-RnB5p6zdZPG
 - FLUTTER + GOOGLE SHEET: https://github.com/theindianappguy/flutter_google_sheets 
 - FLUTTER_LIQUID_SWIPE : https://github.com/sagarshende23/flutter_liquid_swipe
 - SPLASH-SCREEN: https://www.youtube.com/watch?v=BjV4RMkVY6w
