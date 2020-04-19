@@ -192,9 +192,14 @@ cd ~ && bash ./INIT_ENVIRONMENT/step2.sh
 - REACT NATIVE STATER: https://github.com/tranthaison1231/RN_STATER
 - REACT_NATIVE_CAMERA: https://github.com/nartc/react-native-camera
 - REACT_NATIVE_BOOKING: https://github.com/phamdongtruong99/RN_BASE_1
-- REACT PUHS NOTIFICATION:
-     - https://www.youtube.com/watch?v=Sx-KapT-_DU
-     - https://www.youtube.com/watch?v=Qf8OzB9qJq8&feature=emb_title
+- REACT PUSH NOTIFICATION:
+     - FIREBASE CLOUD
+          - https://www.youtube.com/watch?v=03-A9HdyB-Y
+     - ONE SIGNAL
+          - https://www.youtube.com/watch?v=Sx-KapT-_DU
+     - LOCAL: 
+          - https://www.youtube.com/watch?v=z6DEJXYQpP4
+          - https://www.youtube.com/watch?v=Qf8OzB9qJq8&feature=emb_title
 - REACT_NATIVE_WEBVIEW: https://github.com/amandeepmittal/react-native-examples/tree/master/rnWebViewCustomNav
 - REACT_NATIVE_DEPLOY_BASH: https://github.com/louisneovi/React-Native-Deploy-bash
 - LINEAR GRADIENT: https://github.com/react-native-community/react-native-linear-gradient
