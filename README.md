@@ -222,21 +222,23 @@ cd ~ && bash ./INIT_ENVIRONMENT/step2.sh
      - https://pub.dev/packages/easy_localization ( https://www.youtube.com/watch?v=YTFPIujFUHc )
 - **WEBVIEW**: 
      - https://pub.dev/packages/webview_flutter ( https://www.youtube.com/watch?v=Wo0o0wSkn4k )
-- AWSOME FLUTTER: https://github.com/Solido/awesome-flutter
-- STARTER FLUTTER: https://github.com/tranthaison1231/STATER_FLUTTER
-- FLUTTER REPONSE UI: https://github.com/themaaz32/Flultter-Reponsive-UI
-- BMI APP: https://github.com/themaaz32/bmi_app
+- **CLI**: 
+- **STATER**:
+     - AWSOME FLUTTER: https://github.com/Solido/awesome-flutter
+     - STARTER FLUTTER: https://github.com/tranthaison1231/STATER_FLUTTER
+     - BMI APP: https://github.com/themaaz32/bmi_app
+     - GOLD-SJC:  https://github.com/thanhniencung/gold-sjc
+     - DICTIONARY APP: https://github.com/samarthagarwal/flictionary
+     - MOTIVATION APP: https://github.com/anoobbava/motivation_on_the_go
+     - Discount tour: https://github.com/theindianappguy/discounttour
+- **RESPONSIVE UI**:
+     - FLUTTER REPONSE UI: https://github.com/themaaz32/Flultter-Reponsive-UI
 - FLUTTER CONNECT FIREBASE: https://viblo.asia/p/lien-ket-firebase-den-app-flutter-cho-android-va-ios-RnB5p6zdZPG
 - FLUTTER PUSH NOTIFICATION: https://viblo.asia/p/push-notification-trong-flutter-su-dung-firebase-cloud-messaging-WAyK8ojk5xX
 - FLUTTER + GOOGLE SHEET: https://github.com/theindianappguy/flutter_google_sheets 
 - FLUTTER_LIQUID_SWIPE : https://github.com/sagarshende23/flutter_liquid_swipe
 - SPLASH-SCREEN: https://www.youtube.com/watch?v=BjV4RMkVY6w
 - PUSH NOTIFICATION: https://medium.com/flutter-community/push-notifications-in-flutter-using-firebase-c1ebaf45d62f
-- PRACTICE: 
-     - GOLD-SJC:  https://github.com/thanhniencung/gold-sjc
-     - DICTIONARY APP: https://github.com/samarthagarwal/flictionary
-     - MOTIVATION APP: https://github.com/anoobbava/motivation_on_the_go
-     - Discount tour: https://github.com/theindianappguy/discounttour
 - FLUTTER PDF TEXT: https://github.com/themaaz32/pdf_test
 
 # OTHER 
