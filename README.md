@@ -186,16 +186,21 @@ cd ~ && bash ./INIT_ENVIRONMENT/step2.sh
 
 # MOBILE 
 ## REACT NATIVE
-- REACT NAVIGATION 5: https://github.com/benawad/react-navigation-v5-tutorial/tree/master/src
-- STATER-RN-NAVIGATION: https://github.com/tranthaison1231/stater_rn
-- HANDLE DEEPLINK: https://reactnavigation.org/docs/en/use-linking.html
-- REACT NATIVE STATER: https://github.com/tranthaison1231/RN_STATER
-- REACT_NATIVE_CAMERA: https://github.com/nartc/react-native-camera
-- REACT_NATIVE_BOOKING: https://github.com/phamdongtruong99/RN_BASE_1
-- REACT_NATIVE_SPLASH_SCREEN:
+- **ROUTER**: 
+     - REACT NAVIGATION 5: https://github.com/benawad/react-navigation-v5-tutorial/tree/master/src
+
+- **STARTER**:
+     - STATER-RN-NAVIGATION: https://github.com/tranthaison1231/stater_rn
+     - REACT NATIVE STATER: https://github.com/tranthaison1231/RN_STATER
+     - REACT_NATIVE_BOOKING: https://github.com/phamdongtruong99/RN_BASE_1
+- **HANDLE DEEPLINK**:
+     - https://reactnavigation.org/docs/en/use-linking.html
+- **CAMERA**
+     - https://github.com/nartc/react-native-camera
+- **SPLASH_SCREEN**:
      - https://github.com/crazycodeboy/react-native-splash-screen
      - https://medium.com/handlebar-labs/how-to-add-a-splash-screen-to-a-react-native-app-ios-and-android-30a3cec835ae
-- REACT PUSH NOTIFICATION:
+- **PUSH-NOTIFICATION**:
      - FIREBASE CLOUD
           - https://www.youtube.com/watch?v=03-A9HdyB-Y
      - ONE SIGNAL
@@ -203,9 +208,13 @@ cd ~ && bash ./INIT_ENVIRONMENT/step2.sh
      - LOCAL: 
           - https://www.youtube.com/watch?v=z6DEJXYQpP4
           - https://www.youtube.com/watch?v=Qf8OzB9qJq8&feature=emb_title
-- REACT_NATIVE_WEBVIEW: https://github.com/amandeepmittal/react-native-examples/tree/master/rnWebViewCustomNav
-- REACT_NATIVE_DEPLOY_BASH: https://github.com/louisneovi/React-Native-Deploy-bash
-- LINEAR GRADIENT: https://github.com/react-native-community/react-native-linear-gradient
+- **WEBVIEW**: 
+     - https://github.com/amandeepmittal/react-native-examples/tree/master/rnWebViewCustomNav
+- **DEPLOY**:
+     - REACT_NATIVE_DEPLOY_BASH: https://github.com/louisneovi/React-Native-Deploy-bash
+- **LINEAR GRADIENT**: 
+     https://github.com/react-native-community/react-native-linear-gradient
+- **Localization**:
 ## FLUTTER
 - **ROUTER**: 
      - https://pub.dev/packages/auto_route
