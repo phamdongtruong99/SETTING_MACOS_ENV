@@ -192,6 +192,7 @@ cd ~ && bash ./INIT_ENVIRONMENT/step2.sh
 - REACT NATIVE STATER: https://github.com/tranthaison1231/RN_STATER
 - REACT_NATIVE_CAMERA: https://github.com/nartc/react-native-camera
 - REACT_NATIVE_BOOKING: https://github.com/phamdongtruong99/RN_BASE_1
+- REACT_NATIVE_SPLASH_SCREEN: https://github.com/crazycodeboy/react-native-splash-screen
 - REACT PUSH NOTIFICATION:
      - FIREBASE CLOUD
           - https://www.youtube.com/watch?v=03-A9HdyB-Y
