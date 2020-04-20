@@ -207,7 +207,8 @@ cd ~ && bash ./INIT_ENVIRONMENT/step2.sh
 - REACT_NATIVE_DEPLOY_BASH: https://github.com/louisneovi/React-Native-Deploy-bash
 - LINEAR GRADIENT: https://github.com/react-native-community/react-native-linear-gradient
 ## FLUTTER
-
+- **ROUTER**: 
+     - https://pub.dev/packages/auto_route
 - AWSOME FLUTTER: https://github.com/Solido/awesome-flutter
 - STARTER FLUTTER: https://github.com/tranthaison1231/STATER_FLUTTER
 - FLUTTER REPONSE UI: https://github.com/themaaz32/Flultter-Reponsive-UI
