@@ -220,6 +220,8 @@ cd ~ && bash ./INIT_ENVIRONMENT/step2.sh
      - https://pub.dev/packages/auto_route
 - **Localization**:
      - https://pub.dev/packages/easy_localization
+- **WEBVIEW**: 
+     - https://pub.dev/packages/webview_flutter ( https://www.youtube.com/watch?v=Wo0o0wSkn4k )
 - AWSOME FLUTTER: https://github.com/Solido/awesome-flutter
 - STARTER FLUTTER: https://github.com/tranthaison1231/STATER_FLUTTER
 - FLUTTER REPONSE UI: https://github.com/themaaz32/Flultter-Reponsive-UI
