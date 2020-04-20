@@ -219,7 +219,7 @@ cd ~ && bash ./INIT_ENVIRONMENT/step2.sh
 - **ROUTER**: 
      - https://pub.dev/packages/auto_route
 - **Localization**:
-     - https://pub.dev/packages/easy_localization
+     - https://pub.dev/packages/easy_localization ( https://www.youtube.com/watch?v=YTFPIujFUHc )
 - **WEBVIEW**: 
      - https://pub.dev/packages/webview_flutter ( https://www.youtube.com/watch?v=Wo0o0wSkn4k )
 - AWSOME FLUTTER: https://github.com/Solido/awesome-flutter
