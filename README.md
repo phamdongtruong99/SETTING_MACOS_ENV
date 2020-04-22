@@ -129,7 +129,7 @@ cd ~ && bash ./INIT_ENVIRONMENT/step2.sh
      - https://github.com/bvaughn/react-window
      - https://github.com/bvaughn/react-window-infinite-loader
 - **STARTER**:
-     **ADMIN**
+     - **ADMIN**
           - https://github.com/tranthaison1231/STATER_REACT
           - https://github.com/tranthaison1231/REACT_ADMIN_2
 - HOOKS: 
