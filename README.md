@@ -124,9 +124,14 @@ cd ~ && bash ./INIT_ENVIRONMENT/step2.sh
      -  https://github.com/danilowoz/react-content-loader
 - **LOADING IMAGE**
      - https://www.npmjs.com/package/react-progressive-image
-- REACT STARTER FOR ADMIN: 
-     - https://github.com/tranthaison1231/STATER_REACT
-     - https://github.com/tranthaison1231/REACT_ADMIN_2
+- **LAZY LOAD**
+     - https://github.com/bvaughn/react-virtualized
+     - https://github.com/bvaughn/react-window
+     - https://github.com/bvaughn/react-window-infinite-loader
+- **STARTER**:
+     **ADMIN**
+          - https://github.com/tranthaison1231/STATER_REACT
+          - https://github.com/tranthaison1231/REACT_ADMIN_2
 - HOOKS: 
      - REACT WINDOW COMMUNICATION: https://github.com/AvraamMavridis/react-window-communication-hook
      - REACT SCRIPT: https://www.npmjs.com/package/react-script-hook
