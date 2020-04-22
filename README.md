@@ -124,6 +124,8 @@ cd ~ && bash ./INIT_ENVIRONMENT/step2.sh
      - https://github.com/JedWatson/classnames
      - https://lodash.com/docs/4.17.15
      - https://www.npmjs.com/package/query-string
+- **CHART**
+     - http://recharts.org/en-US/
 - **SEKELETON**
      -  https://github.com/danilowoz/react-content-loader
 - **LOADING IMAGE**
