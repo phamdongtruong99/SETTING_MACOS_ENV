@@ -120,6 +120,10 @@ cd ~ && bash ./INIT_ENVIRONMENT/step2.sh
 - AWSOME HOOKS FOR VUE
 
 ## FOR REACT
+- **ULITY**
+     - https://github.com/JedWatson/classnames
+     - https://lodash.com/docs/4.17.15
+     - https://www.npmjs.com/package/query-string
 - **SEKELETON**
      -  https://github.com/danilowoz/react-content-loader
 - **LOADING IMAGE**
