@@ -64,7 +64,7 @@ cd ~ && bash ./INIT_ENVIRONMENT/step2.sh
 
 
 ## FOR NESTJS
-- ** STATER **: 
+- **STATER**: 
      - https://github.com/MohammedAl-Rowad/NestJs-youtube
      - https://github.com/tranthaison1231/NESTJS_TYPEPORM
 - NESJS + MYSQL: https://github.com/tranthaison1231/NESTJS_MYSQL
