@@ -251,6 +251,8 @@ cd ~ && bash ./INIT_ENVIRONMENT/step2.sh
      - Discount tour: https://github.com/theindianappguy/discounttour
 - **RESPONSIVE UI**:
      - FLUTTER REPONSE UI: https://github.com/themaaz32/Flultter-Reponsive-UI
+- **LINEAR GRADIENT**
+     - https://www.notion.so/LINEAR-GRADIENT-c90d862ef922412783e6c4fcc2244491
 - FLUTTER CONNECT FIREBASE: https://viblo.asia/p/lien-ket-firebase-den-app-flutter-cho-android-va-ios-RnB5p6zdZPG
 - FLUTTER PUSH NOTIFICATION: https://viblo.asia/p/push-notification-trong-flutter-su-dung-firebase-cloud-messaging-WAyK8ojk5xX
 - FLUTTER + GOOGLE SHEET: https://github.com/theindianappguy/flutter_google_sheets 
