@@ -122,7 +122,8 @@ cd ~ && bash ./INIT_ENVIRONMENT/step2.sh
 ## FOR REACT
 - **SEKELETON**
      -  https://github.com/danilowoz/react-content-loader
-
+- **LOADING IMAGE**
+     - https://www.npmjs.com/package/react-progressive-image
 - REACT STARTER FOR ADMIN: 
      - https://github.com/tranthaison1231/STATER_REACT
      - https://github.com/tranthaison1231/REACT_ADMIN_2
