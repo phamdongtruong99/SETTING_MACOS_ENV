@@ -120,6 +120,9 @@ cd ~ && bash ./INIT_ENVIRONMENT/step2.sh
 - AWSOME HOOKS FOR VUE
 
 ## FOR REACT
+- **SEKELETON**
+     -  https://github.com/danilowoz/react-content-loader
+
 - REACT STARTER FOR ADMIN: 
      - https://github.com/tranthaison1231/STATER_REACT
      - https://github.com/tranthaison1231/REACT_ADMIN_2
