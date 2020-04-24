@@ -37,6 +37,7 @@ cd ~ && bash ./INIT_ENVIRONMENT/step2.sh
      - https://github.com/benawad/typescript-graphql-crud-example
      - CLI: https://github.com/benawad/create-graphql-api
 - EXPRESS + SPREADSHEET: https://github.com/theoephraim/node-google-spreadsheet
+- RABBITMQ: https://medium.com/better-programming/implementing-rabbitmq-with-node-js-93e15a44a9cc
 
 ## DENO 
      - API - EX: https://github.com/thaisonenouvo/deno-simple-server
