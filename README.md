@@ -301,7 +301,7 @@ cd ~ && bash ./INIT_ENVIRONMENT/step2.sh
    - **Image Classification**:
      - https://github.com/SaschaDittmann/tfjs-customvision
    - **TOOL**:
-     - https://ml5js.org/
+     - https://ml5js.org/ ( Image Classification )
      - https://js.tensorflow.org/api/1.7.2/
 ## WINFORM
      - FASTFOOD: https://github.com/tranthaison1231/WINFORM_FASTFOOD
