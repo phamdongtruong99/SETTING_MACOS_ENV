@@ -241,6 +241,8 @@ cd ~ && bash ./INIT_ENVIRONMENT/step2.sh
      https://github.com/react-native-community/react-native-linear-gradient
 - **Localization**:
 ## FLUTTER
+- **FONT**:
+     - https://github.com/material-foundation/google-fonts-flutter ( https://www.youtube.com/watch?v=CKw0aWRrQfI )
 - **ROUTER**: 
      - https://pub.dev/packages/auto_route
 - **Localization**:
