@@ -190,7 +190,9 @@ cd ~ && bash ./INIT_ENVIRONMENT/step2.sh
 
 
 ## FOR GATSBYJS
-
+- **PRACTICE**:
+     - https://github.com/wesbos/wesbos
+     - https://github.com/wesbos/awesome-uses
 - GATSBY + TAILWIND + STYLED COMPONENTS: https://github.com/tranthaison1231/DEVFUN-BLOG
 - GATSBY + TAILWIND + POSTCSS
 - GATSBY + STACKBIT: https://github.com/tranthaison1231/stackbit-blog
