@@ -298,6 +298,9 @@ cd ~ && bash ./INIT_ENVIRONMENT/step2.sh
         - Priority Queue: https://github.com/davidnguyen179/p-queue-ts
         - https://github.com/loiane/javascript-datastructures-algorithms/tree/third-edition
         - https://github.com/trekhleb/javascript-algorithms
+   -**TOOL**:
+     - https://ml5js.org/
+     - https://js.tensorflow.org/api/1.7.2/
 ## WINFORM
      - FASTFOOD: https://github.com/tranthaison1231/WINFORM_FASTFOOD
 
