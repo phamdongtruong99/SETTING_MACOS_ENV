@@ -10,7 +10,7 @@ import { RolesModule } from './roles/roles.module';
 import { MessagesModule } from './messages/messages.module';
 import { AuthModule } from './auth/auth.module';
 import { APP_INTERCEPTOR } from '@nestjs/core';
-import { LoggingInterceptor } from './shared/logging.interceptor';
+import { LoggingInterceptor } from '../shared/logging.interceptor';
 import { AppGateway } from './app.gateway';
 
 @Module({

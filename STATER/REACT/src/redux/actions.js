@@ -1,4 +1,4 @@
-import { actions as users } from './users';
+import { actions as users } from './modules/users';
 
 const crudAction = {
   users,

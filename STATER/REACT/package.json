@@ -5,7 +5,8 @@
   "dependencies": {},
   "scripts": {
     "start": "react-app-rewired start",
-    "build": "react-app-rewired build",
+    "build": "rm -rf build/ && react-app-rewired build && npm run-script sw",
+    "sw": "cat src/sw.js >> build/service-worker.js",
     "test": "react-app-rewired test",
     "eject": "react-scripts eject",
     "update": "ncu -u && yarn",

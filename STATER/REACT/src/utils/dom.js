@@ -1,4 +1,5 @@
-export const hide = (...el) => [...el].forEach(e => (e.style.display = 'none'));
+export const hide = (...el) =>
+  [...el].forEach((e) => (e.style.display = 'none'));
 
 // hide(document.querySelectorAll('img')); Hides all <img> elements on the page
 
@@ -31,7 +32,7 @@ export const elementIsVisibleInViewport = (el, partiallyVisible = false) => {
 // elementIsVisibleInViewport(el, true); // (partially visible)
 
 export const getImages = (el, includeDuplicates = false) => {
-  const images = [...el.getElementsByTagName('img')].map(img =>
+  const images = [...el.getElementsByTagName('img')].map((img) =>
     img.getAttribute('src'),
   );
   return includeDuplicates ? images : [...new Set(images)];

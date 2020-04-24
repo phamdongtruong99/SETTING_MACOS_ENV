@@ -247,3 +247,19 @@ export const chunk = (arr, size) =>
     (v, i) => arr.slice(i * size, i * size + size),
   );
 // chunk([1,3,4,5], 3); -> [ [ 1, 3, 4 ], [ 5 ] ]
+
+export const findFirstSigleElement = (arr) => {
+  for (let i = 0; i < arr.length; i++) {
+    let j;
+    for (j = 0; j < arr.length; j++) {
+      if (i !== j && arr[i] === arr[j]) {
+        break;
+      }
+    }
+    if (j === arr.length) {
+      return arr[i];
+    }
+  }
+};
+
+// findFirstSigleElement([1,2,1,3,1, 2, 3, 4]) => 4
