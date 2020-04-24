@@ -131,6 +131,10 @@ cd ~ && bash ./INIT_ENVIRONMENT/step2.sh
      - http://recharts.org/en-US/
 - **SEKELETON**
      -  https://github.com/danilowoz/react-content-loader
+- **DRAG DROP**:
+     - https://github.com/react-dnd/react-dnd/
+- **CALENDAR**:
+     - https://github.com/jquense/react-big-calendar
 - **LOADING IMAGE**
      - https://www.npmjs.com/package/react-progressive-image
 - **LAZY LOAD**
