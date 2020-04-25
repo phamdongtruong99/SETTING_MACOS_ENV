@@ -184,6 +184,8 @@ cd ~ && bash ./INIT_ENVIRONMENT/step2.sh
 
 ## FOR NEXTJS
 
+- **STARTER**:
+     - https://github.com/bmvantunes/youtube-2020-march-nextjs-part7
 - NEXTJS + I18NEXT: 
           - https://github.com/tranthaison1231/NEXTJS_I18N
           - https://github.com/isaachinman/next-i18next
