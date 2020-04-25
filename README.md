@@ -75,7 +75,9 @@ cd ~ && bash ./INIT_ENVIRONMENT/step2.sh
      - NESTJS + TYPEORM + POSTREGSQL: https://github.com/tranthaison1231/NESTJS_TYPEPORM
      - NESTJS + TYPEGOOSE: https://github.com/kpfromer/nestjs-typegoose
 - NESTJS + MIGRATION: https://github.com/ambroiseRabier/typeorm-nestjs-migration-example
-- NESTJS + GRAPHQL: https://github.com/chnirt/nestjs-graphql-best-practice
+- **NESTJS + GRAPHQL**: 
+    - https://github.com/chnirt/nestjs-graphql-best-practice
+    - https://github.com/kelvin-mai/nest-ideas-api
     - EXAMPLE: https://github.com/AryanJ-NYC/nestjs-graphql-tutorial
     - NESTJS + GRAPHQL + DOCKER: https://github.com/tranthaison1231/NESTJS_GRAPHQL
     - NESTJS + GRAPHQL + MONGODB: https://github.com/TannerGabriel/Blog/tree/master/nest-graph-ql
