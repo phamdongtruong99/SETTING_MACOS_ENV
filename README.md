@@ -68,11 +68,12 @@ cd ~ && bash ./INIT_ENVIRONMENT/step2.sh
 - **STATER**: 
      - https://github.com/MohammedAl-Rowad/NestJs-youtube
      - https://github.com/tranthaison1231/NESTJS_TYPEPORM
-- NESJS + MYSQL: https://github.com/tranthaison1231/NESTJS_MYSQL
-- NEST + CRUD: https://github.com/chnirt/nestjs-restful-best-practice
-- NESTJS + WEBSOCKET: https://github.com/brianjohnsonsr/nest.ws.tutorial
-- NESTJS + TYPEORM + POSTREGSQL: https://github.com/tranthaison1231/NESTJS_TYPEPORM
-- NESTJS + TYPEGOOSE: https://github.com/kpfromer/nestjs-typegoose
+     - https://github.com/lujakob/nestjs-realworld-example-app
+     - NESJS + MYSQL: https://github.com/tranthaison1231/NESTJS_MYSQL
+     - NEST + CRUD: https://github.com/chnirt/nestjs-restful-best-practice
+     - NESTJS + WEBSOCKET: https://github.com/brianjohnsonsr/nest.ws.tutorial
+     - NESTJS + TYPEORM + POSTREGSQL: https://github.com/tranthaison1231/NESTJS_TYPEPORM
+     - NESTJS + TYPEGOOSE: https://github.com/kpfromer/nestjs-typegoose
 - NESTJS + MIGRATION: https://github.com/ambroiseRabier/typeorm-nestjs-migration-example
 - NESTJS + GRAPHQL: https://github.com/chnirt/nestjs-graphql-best-practice
     - EXAMPLE: https://github.com/AryanJ-NYC/nestjs-graphql-tutorial
