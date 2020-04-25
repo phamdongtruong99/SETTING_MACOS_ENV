@@ -214,6 +214,8 @@ cd ~ && bash ./INIT_ENVIRONMENT/step2.sh
 
 # MOBILE 
 ## REACT NATIVE
+- ** ANIMATION **:
+     - https://viblo.asia/p/react-native-animations-su-dung-animated-api-924lJPvmKPM
 - **ROUTER**: 
      - REACT NAVIGATION 5: https://github.com/benawad/react-navigation-v5-tutorial/tree/master/src
 
