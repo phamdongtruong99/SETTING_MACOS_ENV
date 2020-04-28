@@ -66,6 +66,8 @@ cd ~ && bash ./INIT_ENVIRONMENT/step2.sh
 
 ## FOR NESTJS
 - **CRAWL DATA**:
+     - https://www.npmjs.com/package/nest-crawler
+     - https://github.com/puppeteer/puppeteer
      - https://github.com/jorgealmeidajr/hotel-crawler-nest
 - **AWESOME**: 
      - https://github.com/juliandavidmr/awesome-nestjs
