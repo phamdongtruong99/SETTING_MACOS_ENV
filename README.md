@@ -65,6 +65,8 @@ cd ~ && bash ./INIT_ENVIRONMENT/step2.sh
 
 
 ## FOR NESTJS
+- **CRAWL DATA**:
+     - https://github.com/jorgealmeidajr/hotel-crawler-nest
 - **AWESOME**: 
      - https://github.com/juliandavidmr/awesome-nestjs
 - **STATER**: 
