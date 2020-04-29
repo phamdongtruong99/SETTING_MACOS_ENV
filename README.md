@@ -15,7 +15,10 @@ cd ~ && bash ./INIT_ENVIRONMENT/step2.sh
 -  Vim surround: https://www.youtube.com/watch?v=a2JyLUNG2fc
 
 # DEVOPS
-- AWS EC2: https://github.com/tranthaison1231/Virtual-Machine
+- **VPS**
+     - AZURE (https://portal.azure.com/#blade/HubsExtension/BrowseResourceBlade/resourceType/Microsoft.Compute%2FVirtualMachines)
+     - AWS EC2: https://github.com/tranthaison1231/Virtual-Machine
+- 
 
 # BACKEND 
 ## DOCKER 
