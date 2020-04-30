@@ -1,5 +1,14 @@
 import { isLength } from './number';
 
+export const difference = (array, ...others) => {
+  others.forEach((e) => {
+    array = array.filter((d) => !new Set(e).has(d));
+  });
+  return array;
+};
+
+// difference([1, 2, 3, 4, 5], [5, 2, 10]) => [1,3,4]
+
 export const isArrayLike = (arr) => {
   return arr != null && typeof arr !== 'function' && isLength(arr.length);
 };
