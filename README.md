@@ -146,6 +146,7 @@ cd ~ && bash ./INIT_ENVIRONMENT/step2.sh
      - http://recharts.org/en-US/
 - **SEKELETON**
      -  https://github.com/danilowoz/react-content-loader
+     - https://material-ui.com/components/skeleton/
 - **DRAG DROP**:
      - https://github.com/react-dnd/react-dnd/
 - **CALENDAR**:
