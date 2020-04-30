@@ -145,7 +145,7 @@ cd ~ && bash ./INIT_ENVIRONMENT/step2.sh
 - **CHART**
      - http://recharts.org/en-US/
 - **ANIMATION**: 
-     - https://github.com/airbnb/lottie-web
+     - https://github.com/airbnb/lottie-web ( EXAMPLE: https://github.com/codeaholicguy/lottie-sample )
      - https://lottiefiles.com/
 - **SEKELETON**
      -  https://github.com/danilowoz/react-content-loader
