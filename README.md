@@ -144,6 +144,9 @@ cd ~ && bash ./INIT_ENVIRONMENT/step2.sh
      - https://www.npmjs.com/package/query-string
 - **CHART**
      - http://recharts.org/en-US/
+- **ANIMATION**: 
+     - https://github.com/airbnb/lottie-web
+     - https://lottiefiles.com/
 - **SEKELETON**
      -  https://github.com/danilowoz/react-content-loader
      - https://material-ui.com/components/skeleton/
