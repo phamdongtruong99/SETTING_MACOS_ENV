@@ -206,6 +206,8 @@ cd ~ && bash ./INIT_ENVIRONMENT/step2.sh
 
 - **STARTER**:
      - https://github.com/bmvantunes/youtube-2020-march-nextjs-part7
+- ** TRACKING VIEW **: 
+     - https://tagmanager.google.com/#/home
 - NEXTJS + PRISMA: https://github.com/leerob/next-prisma
 - NEXTJS + I18NEXT: 
           - https://github.com/tranthaison1231/NEXTJS_I18N
