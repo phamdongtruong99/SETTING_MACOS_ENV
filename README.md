@@ -13,6 +13,8 @@ cd ~ && bash ./INIT_ENVIRONMENT/step2.sh
 
 # Config fo vim
 -  Vim surround: https://www.youtube.com/watch?v=a2JyLUNG2fc
+-**SEARCH FILE**: 
+     - https://github.com/junegunn/fzf ( https://www.youtube.com/watch?v=1a5NiMhqAR0 )
 
 # DEVOPS
 - **VPS**:
