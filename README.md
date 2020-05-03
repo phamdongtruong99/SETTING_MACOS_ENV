@@ -78,6 +78,7 @@ cd ~ && bash ./INIT_ENVIRONMENT/step2.sh
      - https://github.com/juliandavidmr/awesome-nestjs
 - **STATER**: 
      - https://github.com/MohammedAl-Rowad/NestJs-youtube
+     - https://github.com/MidoAhmed/nestjs-api-boilerplate
      - https://github.com/tranthaison1231/NESTJS_TYPEPORM
      - https://github.com/lujakob/nestjs-realworld-example-app
      - NESJS + MYSQL: https://github.com/tranthaison1231/NESTJS_MYSQL
