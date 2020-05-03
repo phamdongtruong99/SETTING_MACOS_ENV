@@ -152,6 +152,7 @@ cd ~ && bash ./INIT_ENVIRONMENT/step2.sh
 - **ANIMATION**: 
      - https://github.com/airbnb/lottie-web ( EXAMPLE: https://github.com/codeaholicguy/lottie-sample )
      - https://lottiefiles.com/
+     - SCROLL PERCENTAGE: https://github.com/thebuilder/react-scroll-percentage
 - **SEKELETON**
      -  https://github.com/danilowoz/react-content-loader
      - https://material-ui.com/components/skeleton/
