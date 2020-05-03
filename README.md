@@ -343,6 +343,11 @@ cd ~ && bash ./INIT_ENVIRONMENT/step2.sh
 
 ## CIRCLE CI 
 - WITH REACT: https://www.youtube.com/watch?v=slGMKIDg7gM
+## DESIGN PATTERN: 
+- Publish–subscribe pattern: 
+     - https://medium.com/javascript-in-plain-english/4-useful-javascript-design-patterns-you-should-know-b4e1404e3929
+- Decorator Pattern: 
+     - https://medium.com/javascript-in-plain-english/4-useful-javascript-design-patterns-you-should-know-b4e1404e3929
 
 ## GOOGLE API 
 - GOOGLE MAP STATIC API: https://developers.google.com/maps/documentation/maps-static/dev-guide#ImageFormats
