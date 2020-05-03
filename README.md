@@ -86,7 +86,10 @@ cd ~ && bash ./INIT_ENVIRONMENT/step2.sh
      - NESTJS + WEBSOCKET: https://github.com/brianjohnsonsr/nest.ws.tutorial
      - NESTJS + TYPEORM + POSTREGSQL: https://github.com/tranthaison1231/NESTJS_TYPEPORM
      - NESTJS + TYPEGOOSE: https://github.com/kpfromer/nestjs-typegoose
-- NESTJS + MIGRATION: https://github.com/ambroiseRabier/typeorm-nestjs-migration-example
+- **MIGRATION**: 
+     - https://github.com/ambroiseRabier/typeorm-nestjs-migration-example
+- **DIALOGFLOW**:
+     - https://github.com/adrien2p/nestjs-dialogflow
 - **NESTJS + SEQUELIZE**:
     - https://github.com/kentloog/nestjs-sequelize-typescript
 - **NESTJS + GRAPHQL**: 
