@@ -352,6 +352,8 @@ cd ~ && bash ./INIT_ENVIRONMENT/step2.sh
 - REACT-FIREBASE: 
      - https://medium.com/@codingwithmanny/deploy-react-to-firebase-with-circleci-b8f16c17a28c
      - https://hackernoon.com/reactjs-continuous-deployment-to-firebase-hosting-using-circle-ci-ed31c0aee2ca
+- EXPRESS: 
+     - https://circleci.com/blog/continuous-deployment-of-an-express-graphql-server-to-heroku/
 ## DESIGN PATTERN: 
 - Publish–subscribe pattern: 
      - https://medium.com/javascript-in-plain-english/4-useful-javascript-design-patterns-you-should-know-b4e1404e3929
