@@ -349,7 +349,9 @@ cd ~ && bash ./INIT_ENVIRONMENT/step2.sh
 
 ## CIRCLE CI 
 - WITH REACT: https://www.youtube.com/watch?v=slGMKIDg7gM
-- REACT-FIREBASE: https://medium.com/@codingwithmanny/deploy-react-to-firebase-with-circleci-b8f16c17a28c
+- REACT-FIREBASE: 
+     - https://medium.com/@codingwithmanny/deploy-react-to-firebase-with-circleci-b8f16c17a28c
+     - https://hackernoon.com/reactjs-continuous-deployment-to-firebase-hosting-using-circle-ci-ed31c0aee2ca
 ## DESIGN PATTERN: 
 - Publish–subscribe pattern: 
      - https://medium.com/javascript-in-plain-english/4-useful-javascript-design-patterns-you-should-know-b4e1404e3929
