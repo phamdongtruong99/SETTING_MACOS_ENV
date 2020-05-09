@@ -143,6 +143,7 @@ cd ~ && bash ./INIT_ENVIRONMENT/step2.sh
 - VUE + TAILWIND 
 - VUE TODOLIST: https://github.com/skysan87/vue-todolist
 - AWSOME HOOKS FOR VUE
+- ** SOCKET **: https://codepen.io/Shyn1711/pen/xxbQgRM
 
 ## FOR REACT
 - **ULITY**
