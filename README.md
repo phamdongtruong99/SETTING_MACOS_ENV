@@ -367,3 +367,9 @@ cd ~ && bash ./INIT_ENVIRONMENT/step2.sh
 - HOW TO GET GOOGLE CLOUD SERVICE: https://gist.github.com/tranthaison1231/1b25b75e8724cc7c87822fe5d0637a60 
 ## MY PACKAGE 
 - ESLINT-CONFIG-REACT-SHYN: https://github.com/tranthaison1231/eslint-config-react-shyn
+
+# MANAGER 
+## DIAGRAM (URL) 
+
+## CHART 
+- FLOW CHAT: https://app.diagrams.net/#G1yB_SLMdlZ1D_VPG_sI3d6qcpeLCGQbmp
