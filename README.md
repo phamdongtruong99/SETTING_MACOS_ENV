@@ -286,6 +286,7 @@ cd ~ && bash ./INIT_ENVIRONMENT/step2.sh
      - https://www.youtube.com/watch?v=ppUHGc845LA
 - **FONT**:
      - https://github.com/material-foundation/google-fonts-flutter ( https://www.youtube.com/watch?v=CKw0aWRrQfI )
+     - [Config font](https://www.youtube.com/watch?v=G5hXICK7WK8)
 - **ROUTER**: 
      - https://pub.dev/packages/auto_route
 - **Localization**:
