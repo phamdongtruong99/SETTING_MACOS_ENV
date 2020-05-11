@@ -88,6 +88,7 @@ cd ~ && bash ./INIT_ENVIRONMENT/step2.sh
      - NESTJS + TYPEGOOSE: https://github.com/kpfromer/nestjs-typegoose
 - **MIGRATION**: 
      - https://github.com/ambroiseRabier/typeorm-nestjs-migration-example
+     - [MONGO - SEEDER - FAKER](https://viblo.asia/p/seeder-va-faker-de-tao-du-lieu-mau-cho-mongodb-nodejs-YWOZryANKQ0)
 - **DIALOGFLOW**:
      - https://github.com/adrien2p/nestjs-dialogflow
 - **NESTJS + SEQUELIZE**:
