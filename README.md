@@ -10,18 +10,19 @@ cd ~  && git clone https://github.com/tranthaison1231/INIT_ENVIRONMENT && bash .
 ```
 cd ~ && bash ./INIT_ENVIRONMENT/step2.sh 
 ```
-
+---
 # Config fo vim
 -  Vim surround: https://www.youtube.com/watch?v=a2JyLUNG2fc
 -**SEARCH FILE**: 
      - https://github.com/junegunn/fzf ( https://www.youtube.com/watch?v=1a5NiMhqAR0 )
-
+---
 # DEVOPS
 - **VPS**:
      - AZURE (https://portal.azure.com/#blade/HubsExtension/BrowseResourceBlade/resourceType/Microsoft.Compute%2FVirtualMachines)
      - AWS EC2: https://github.com/tranthaison1231/Virtual-Machine
 - **CI/CD**:
      - JENKINS: Install jenkins on EC2 AWS ( https://www.youtube.com/watch?v=v7tLaDJ-uqg )
+---
 # BACKEND 
 ## DOCKER 
 - JEST-CIRCLECI: https://github.com/immint023/jest-circleci
@@ -131,7 +132,7 @@ cd ~ && bash ./INIT_ENVIRONMENT/step2.sh
 - NESTJS + MONGODB: https://github.com/academind/nestjs-introduction
 
 
-
+---
 #  FRONT-END 
 ## AXIOS
  - AXIOS INTERCEPTORS + REFESH TOKEN: https://medium.com/swlh/handling-access-and-refresh-tokens-using-axios-interceptors-3970b601a5da
@@ -249,6 +250,7 @@ cd ~ && bash ./INIT_ENVIRONMENT/step2.sh
 - **AMAZING STYLE CSS**:
      - https://codesandbox.io/s/scroll-snap-spacer-kscrw
 
+---
 # MOBILE 
 ## REACT NATIVE
 - **MAP**: 
@@ -318,6 +320,8 @@ cd ~ && bash ./INIT_ENVIRONMENT/step2.sh
 - PUSH NOTIFICATION: https://medium.com/flutter-community/push-notifications-in-flutter-using-firebase-c1ebaf45d62f
 - FLUTTER PDF TEXT: https://github.com/themaaz32/pdf_test
 
+
+---
 # OTHER 
 ## OOP 
 - Utility Types: 
