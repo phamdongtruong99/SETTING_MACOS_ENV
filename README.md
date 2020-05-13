@@ -224,6 +224,8 @@ cd ~ && bash ./INIT_ENVIRONMENT/step2.sh
      - https://tagmanager.google.com/#/home
 - **NEXTJS - STRAPI**: 
      - https://github.com/ivandoric/Making-Websites-With-Next.js-And-Strapi
+- **NEXTJS-KNEW-POSTGRES**:
+     - https://github.com/leighhalliday/nextjs-hooks-database
 - NEXTJS + PRISMA: https://github.com/leerob/next-prisma
 - NEXTJS + I18NEXT: 
           - https://github.com/tranthaison1231/NEXTJS_I18N
