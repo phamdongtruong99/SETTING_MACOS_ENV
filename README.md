@@ -95,17 +95,14 @@ cd ~ && bash ./INIT_ENVIRONMENT/step2.sh
      - https://github.com/adrien2p/nestjs-dialogflow
 - **NESTJS + SEQUELIZE**:
     - https://github.com/kentloog/nestjs-sequelize-typescript
-<details>
-<summary>- **NESTJS + GRAPHQL**: </summary>
-     <p>
+- **NESTJS + GRAPHQL**: 
     - https://github.com/chnirt/nestjs-graphql-best-practice
     - https://github.com/kelvin-mai/nest-ideas-api
     - EXAMPLE: https://github.com/AryanJ-NYC/nestjs-graphql-tutorial
     - NESTJS + GRAPHQL + DOCKER: https://github.com/tranthaison1231/NESTJS_GRAPHQL
     - NESTJS + GRAPHQL + MONGODB: https://github.com/TannerGabriel/Blog/tree/master/nest-graph-ql
     - NESTJS-PRISMA-GRAPHQL: https://github.com/EndyKaufman/typegraphql-prisma-nestjs-example
-     </p>
-</details>
+    
 - NESTJS + PRISMA: https://github.com/fivethree-team/nestjs-prisma-starter
 - NESTJS + MONGODB: https://github.com/academind/nestjs-introduction/tree/02-mongodb
 - NESTJS + AUTOMAPPER + TYPEGOOSE: https://github.com/nartc/example-nest-automapper
