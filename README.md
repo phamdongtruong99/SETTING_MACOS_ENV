@@ -86,6 +86,7 @@ cd ~ && bash ./INIT_ENVIRONMENT/step2.sh
      - NESTJS + WEBSOCKET: https://github.com/brianjohnsonsr/nest.ws.tutorial
      - NESTJS + TYPEORM + POSTREGSQL: https://github.com/tranthaison1231/NESTJS_TYPEPORM
      - NESTJS + TYPEGOOSE: https://github.com/kpfromer/nestjs-typegoose
+     - EXAMPLE: https://github.com/kelvin-mai/nest-space-exlporer
 - **MIGRATION**: 
      - https://github.com/ambroiseRabier/typeorm-nestjs-migration-example
      - [MONGO - SEEDER - FAKER](https://viblo.asia/p/seeder-va-faker-de-tao-du-lieu-mau-cho-mongodb-nodejs-YWOZryANKQ0)
