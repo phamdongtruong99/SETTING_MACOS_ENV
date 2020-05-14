@@ -347,6 +347,8 @@ cd ~ && bash ./INIT_ENVIRONMENT/step2.sh
 - TSCONFIG CLI: https://github.com/tranthaison1231/tsconfig.json
 - GITHUB CLI: https://github.com/tranthaison1231/git-cli
 - NEXTJS_CODE_GEN: https://github.com/zackkrida/next-codegen
+- HYGEN: https://www.hygen.io/
+- CLI: https://www.npmjs.com/package/commander
 
 ## AI 
    - Algorithm: 
