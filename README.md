@@ -232,6 +232,7 @@ cd ~ && bash ./INIT_ENVIRONMENT/step2.sh
           - https://github.com/isaachinman/next-i18next
 - (STATER ) NEXTJS + TAILWIND + TS: https://github.com/huytd/nextjs-tailwind-typescript
 - DOCKER + NEXTJS:https://github.com/tranthaison1231/docker_nextjs
+- [NEXT_MONGODB](https://github.com/rivera1294/next-mongodb)
 - NEXT_FIREBASE_TS: https://github.com/rwieruch/nextjs-firebase-authentication
 - NEXT + GRAPHQL: https://github.com/garganurag893/Next.js_GraphQL_Express_Apollo_Boilerplate
 - NEXTJS + OPTIMAZED_IMAGES: https://github.com/cyrilwanner/next-optimized-images
