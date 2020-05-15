@@ -283,6 +283,7 @@ cd ~ && bash ./INIT_ENVIRONMENT/step2.sh
           - https://www.youtube.com/watch?v=z6DEJXYQpP4
           - https://www.youtube.com/watch?v=Qf8OzB9qJq8&feature=emb_title
           - https://www.youtube.com/watch?v=VMti_GgKgwY
+     - [react-native-notifications](https://github.com/wix/react-native-notifications)
 - **WEBVIEW**: 
      - https://github.com/amandeepmittal/react-native-examples/tree/master/rnWebViewCustomNav
 - **DEPLOY**:
