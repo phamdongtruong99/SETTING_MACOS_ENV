@@ -22,6 +22,8 @@ cd ~ && bash ./INIT_ENVIRONMENT/step2.sh
      - AWS EC2: https://github.com/tranthaison1231/Virtual-Machine
 - **CI/CD**:
      - JENKINS: Install jenkins on EC2 AWS ( https://www.youtube.com/watch?v=v7tLaDJ-uqg )
+- **MONITORING**:
+     - https://www.datadoghq.com/
 ---
 # BACKEND 
 ## DOCKER 
