@@ -270,6 +270,7 @@ cd ~ && bash ./INIT_ENVIRONMENT/step2.sh
      - STATER-RN-NAVIGATION: https://github.com/tranthaison1231/stater_rn
      - REACT NATIVE STATER: https://github.com/tranthaison1231/RN_STATER
      - REACT_NATIVE_BOOKING: https://github.com/phamdongtruong99/RN_BASE_1
+     - https://github.com/swiftpipe/RN_Covid19_UI
 - **HANDLE DEEPLINK**:
      - https://reactnavigation.org/docs/en/use-linking.html
 - **CAMERA**
