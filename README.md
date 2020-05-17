@@ -259,6 +259,8 @@ cd ~ && bash ./INIT_ENVIRONMENT/step2.sh
 ---
 # MOBILE 
 ## REACT NATIVE
+- **TAILWIND**:
+    - REACT NATIVE TAILWIND: https://github.com/TVke/react-native-tailwindcss
 - **MAP**: 
      - https://github.com/react-native-community/react-native-maps ( https://www.youtube.com/watch?v=AzjWv1X-uyg )
 - **ANIMATION**:
