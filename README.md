@@ -259,6 +259,8 @@ cd ~ && bash ./INIT_ENVIRONMENT/step2.sh
 ---
 # MOBILE 
 ## REACT NATIVE
+- **LOCATION**:
+    - REACT NATIVE LOCATION: https://github.com/timfpark/react-native-location
 - **TAILWIND**:
     - REACT NATIVE TAILWIND: https://github.com/TVke/react-native-tailwindcss
 - **MAP**: 
