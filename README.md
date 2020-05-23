@@ -333,6 +333,8 @@ cd ~ && bash ./INIT_ENVIRONMENT/step2.sh
 - SPLASH-SCREEN: https://www.youtube.com/watch?v=BjV4RMkVY6w
 - PUSH NOTIFICATION: https://medium.com/flutter-community/push-notifications-in-flutter-using-firebase-c1ebaf45d62f
 - FLUTTER PDF TEXT: https://github.com/themaaz32/pdf_test
+- ** SPLASH SCREEN **: 
+     - https://medium.com/flutter-community/flutter-2019-real-splash-screens-tutorial-16078660c7a1
 
 
 ---
