@@ -203,6 +203,8 @@ cd ~ && bash ./INIT_ENVIRONMENT/step2.sh
 - REACT + SVG: https://www.youtube.com/watch?v=7bw56feIdh4
 - REACT IS IN VIEW PORT: https://github.com/davidnguyen179/react-is-in-viewport
 - ANIMATION: https://github.com/aholachek/mobile-first-animation
+  ### SOCKET:
+     - https://github.com/ManZzup/plguides/tree/master/11-using-websockets-in-your-react-redux-app/chat-app/src
   ### HOOK: 
      - useGeolocation: https://github.com/beautifulinteractions/beautiful-react-hooks/blob/master/docs/useGeolocation.md
   ### CALENDAR: 
