@@ -305,6 +305,8 @@ cd ~ && bash ./INIT_ENVIRONMENT/step2.sh
      https://github.com/react-native-community/react-native-linear-gradient
 - **Localization**:
 ## FLUTTER
+- **FACE DETECTION**:
+     - https://bitbucket.org/mwitiderrick/image-labeler/src/master/
 - **KEYBOARD**:
      - https://www.youtube.com/watch?v=ppUHGc845LA
 - **FONT**:
