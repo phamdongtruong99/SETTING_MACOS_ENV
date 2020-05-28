@@ -329,6 +329,7 @@ cd ~ && bash ./INIT_ENVIRONMENT/step2.sh
      - Discount tour: https://github.com/theindianappguy/discounttour
 - **RESPONSIVE UI**:
      - FLUTTER REPONSE UI: https://github.com/themaaz32/Flultter-Reponsive-UI
+- **DEEPLINKING**: https://medium.com/better-programming/deep-linking-in-flutter-with-firebase-dynamic-links-8a4b1981e1eb
 - **LINEAR GRADIENT**
      - https://www.notion.so/LINEAR-GRADIENT-c90d862ef922412783e6c4fcc2244491
 - FLUTTER CONNECT FIREBASE: https://viblo.asia/p/lien-ket-firebase-den-app-flutter-cho-android-va-ios-RnB5p6zdZPG
