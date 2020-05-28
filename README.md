@@ -220,7 +220,9 @@ cd ~ && bash ./INIT_ENVIRONMENT/step2.sh
   - MONOREPO + STORYBOOK: https://github.com/ga12ru12/monorepo
   - REACT + MONOREPO + LERNA: https://github.com/tranthaison1231/REACT_MONOREPO_LERNA
   ### RECOIJS 
-  - REACT_RECOIJS: https://github.com/cuongnh-1139/recoil-demo
+  - STATER: 
+     - https://github.com/cuongnh-1139/recoil-demo
+     - https://github.com/NVTri1010/recoil-example
 
 ## FOR NEXTJS
 
