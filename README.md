@@ -219,6 +219,7 @@ cd ~ && bash ./INIT_ENVIRONMENT/step2.sh
   ### MONOREPO
   - MONOREPO + STORYBOOK: https://github.com/ga12ru12/monorepo
   - REACT + MONOREPO + LERNA: https://github.com/tranthaison1231/REACT_MONOREPO_LERNA
+  - STATER: https://github.com/react-workspaces/react-workspaces-playground
   ### RECOIJS 
   - STATER: 
      - https://github.com/cuongnh-1139/recoil-demo
