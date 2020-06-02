@@ -44,6 +44,7 @@ cd ~ && bash ./INIT_ENVIRONMENT/step2.sh
      - https://github.com/thmsgbrt/nodejs-typescript-express-apollo-graphql-starter
      - https://github.com/benawad/typescript-graphql-crud-example
      - CLI: https://github.com/benawad/create-graphql-api
+- EXPRESSJS + CACHE + MONGO: https://codeburst.io/implement-caching-with-redis-in-express-js-and-mongodb-9aa09f9146ce
 - EXPRESS + SPREADSHEET: https://github.com/theoephraim/node-google-spreadsheet
 - RABBITMQ: https://medium.com/better-programming/implementing-rabbitmq-with-node-js-93e15a44a9cc
 
