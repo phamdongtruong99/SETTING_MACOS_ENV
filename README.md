@@ -231,6 +231,7 @@ cd ~ && bash ./INIT_ENVIRONMENT/step2.sh
 
 - **STARTER**:
      - https://github.com/bmvantunes/youtube-2020-march-nextjs-part7
+     - https://github.com/tranthaison1231/NEXTJS_BUS_APP
 - **TRACKING VIEW**: 
      - https://tagmanager.google.com/#/home
 - **NEXTJS - STRAPI**: 
