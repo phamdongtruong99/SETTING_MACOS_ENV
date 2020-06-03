@@ -285,6 +285,7 @@ cd ~ && bash ./INIT_ENVIRONMENT/step2.sh
      - REACT NATIVE STATER: https://github.com/tranthaison1231/RN_STATER
      - REACT_NATIVE_BOOKING: https://github.com/phamdongtruong99/RN_BASE_1
      - https://github.com/swiftpipe/RN_Covid19_UI
+     - Netflix: https://github.com/Doha26/MetFlix
 - **FLOATING BUBBLE**:     https://github.com/hybriteq/react-native-floating-bubble
 - **HANDLE DEEPLINK**:
      - https://reactnavigation.org/docs/en/use-linking.html
@@ -333,7 +334,6 @@ cd ~ && bash ./INIT_ENVIRONMENT/step2.sh
      - DICTIONARY APP: https://github.com/samarthagarwal/flictionary
      - MOTIVATION APP: https://github.com/anoobbava/motivation_on_the_go
      - Discount tour: https://github.com/theindianappguy/discounttour
-     - Netflix: https://github.com/Doha26/MetFlix
 - **RESPONSIVE UI**:
      - FLUTTER REPONSE UI: https://github.com/themaaz32/Flultter-Reponsive-UI
 - **DEEPLINKING**: https://medium.com/better-programming/deep-linking-in-flutter-with-firebase-dynamic-links-8a4b1981e1eb
