@@ -308,6 +308,8 @@ cd ~ && bash ./INIT_ENVIRONMENT/step2.sh
      - https://github.com/amandeepmittal/react-native-examples/tree/master/rnWebViewCustomNav
 - **DEPLOY**:
      - REACT_NATIVE_DEPLOY_BASH: https://github.com/louisneovi/React-Native-Deploy-bash
+- **GOOGLE_MAP**:
+     - https://github.com/FaridSafi/react-native-google-places-autocomplete
 - **LINEAR GRADIENT**: 
      https://github.com/react-native-community/react-native-linear-gradient
 - **Localization**:
