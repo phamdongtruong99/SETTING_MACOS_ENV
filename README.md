@@ -314,7 +314,8 @@ cd ~ && bash ./INIT_ENVIRONMENT/step2.sh
      https://github.com/react-native-community/react-native-linear-gradient
 - **Localization**:
 ## FLUTTER
-- ** VALIDATAE PHONENUMBER **
+- **Google Map**: https://medium.com/flutter-community/flutter-creating-a-route-calculator-using-google-maps-71699dd96fb9
+- **VALIDATAE PHONENUMBER **
      - https://pub.dev/packages/libphonenumber
 - **FACE DETECTION**:
      - https://bitbucket.org/mwitiderrick/image-labeler/src/master/
