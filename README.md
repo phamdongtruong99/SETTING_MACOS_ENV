@@ -269,6 +269,8 @@ cd ~ && bash ./INIT_ENVIRONMENT/step2.sh
 ---
 # MOBILE 
 ## REACT NATIVE
+- **MULTIDEX**:
+     - https://www.youtube.com/watch?v=4oVGEgHR3KE&feature=youtu.be
 - **LOCATION**:
     - REACT NATIVE LOCATION: https://github.com/timfpark/react-native-location
 - **TAILWIND**:
