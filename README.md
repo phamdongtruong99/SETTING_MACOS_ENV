@@ -323,6 +323,7 @@ cd ~ && bash ./INIT_ENVIRONMENT/step2.sh
      - https://bitbucket.org/mwitiderrick/image-labeler/src/master/
 - **KEYBOARD**:
      - https://www.youtube.com/watch?v=ppUHGc845LA
+- **FIREBASE**: https://github.com/FirebaseExtended/flutterfire
 - **FONT**:
      - https://github.com/material-foundation/google-fonts-flutter ( https://www.youtube.com/watch?v=CKw0aWRrQfI )
      - [Config font](https://www.youtube.com/watch?v=G5hXICK7WK8)
