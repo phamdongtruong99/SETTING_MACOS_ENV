@@ -342,6 +342,7 @@ cd ~ && bash ./INIT_ENVIRONMENT/step2.sh
      - MOTIVATION APP: https://github.com/anoobbava/motivation_on_the_go
      - Discount tour: https://github.com/theindianappguy/discounttour
      - TINDER: https://github.com/OdongoWaga/chill
+     - Covid 19: https://github.com/abuanwar072/C0VID-19-Flutter-UI
 - **RESPONSIVE UI**:
      - FLUTTER REPONSE UI: https://github.com/themaaz32/Flultter-Reponsive-UI
 - **DEEPLINKING**: https://medium.com/better-programming/deep-linking-in-flutter-with-firebase-dynamic-links-8a4b1981e1eb
