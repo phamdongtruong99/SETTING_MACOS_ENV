@@ -270,6 +270,8 @@ cd ~ && bash ./INIT_ENVIRONMENT/step2.sh
 ---
 # MOBILE 
 ## REACT NATIVE
+
+- **SCROLL BOTTOM SHEET**: https://github.com/rgommezz/react-native-scroll-bottom-sheet
 - **MULTIDEX**:
      - https://www.youtube.com/watch?v=4oVGEgHR3KE&feature=youtu.be
 - **LOCATION**:
