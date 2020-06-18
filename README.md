@@ -178,6 +178,7 @@ cd ~ && bash ./INIT_ENVIRONMENT/step2.sh
      - https://github.com/bvaughn/react-virtualized
      - https://github.com/bvaughn/react-window
      - https://github.com/bvaughn/react-window-infinite-loader
+     - LAZY LOAD IMAGE: https://levelup.gitconnected.com/lazy-loading-images-in-react-for-better-performance-5df73654ea05
 - **STARTER**:
      - **ADMIN**
           - https://github.com/tranthaison1231/STATER_REACT
