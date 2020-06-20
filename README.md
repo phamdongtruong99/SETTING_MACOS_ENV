@@ -165,6 +165,7 @@ cd ~ && bash ./INIT_ENVIRONMENT/step2.sh
      - https://github.com/airbnb/lottie-web ( EXAMPLE: https://github.com/codeaholicguy/lottie-sample )
      - https://lottiefiles.com/
      - SCROLL PERCENTAGE: https://github.com/thebuilder/react-scroll-percentage
+     - ANIMATE ON SCROLL: https://github.com/dbramwell/react-animate-on-scroll
 - **SEKELETON**
      -  https://github.com/danilowoz/react-content-loader
      - https://material-ui.com/components/skeleton/
@@ -266,7 +267,7 @@ cd ~ && bash ./INIT_ENVIRONMENT/step2.sh
 
 - Typing game:  https://github.com/WebDevSimplified/JS-Speed-Typing-Game
 - ATOMIC CSS: https://gist.github.com/tranthaison1231/60cf5b98a8552a030d49cce84c237429
-- https://github.com/michalsnik/aos
+- ANIMATE ON SCROLL: https://github.com/michalsnik/aos
 - **AMAZING STYLE CSS**:
      - https://codesandbox.io/s/scroll-snap-spacer-kscrw
 
