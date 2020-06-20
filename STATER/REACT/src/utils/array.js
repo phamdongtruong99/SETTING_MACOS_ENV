@@ -15,6 +15,18 @@ export const isArrayLike = (arr) => {
 
 // isArrayLike([1, 2, 3]) => true
 
+export const findDuplicates = arr => {
+  let output = [];
+  for(let i = 0; i < arr.length; i++){
+      let index = Math.abs(arr[i]) - 1;
+      if(arr[index] < 0) output.push(index + 1);
+      arr[index] = -arr[index];
+    }
+  return output;
+}
+
+// findDuplicates([1,2,3,1,2]); => [1,2]
+
 export const reverseArr = (arr) => arr.map(arr.pop, [...arr]);
 
 // reverseArr([1, 2, 3]); // [3, 2, 1]
