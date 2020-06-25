@@ -49,9 +49,10 @@ cd ~ && bash ./INIT_ENVIRONMENT/step2.sh
 - RABBITMQ: https://medium.com/better-programming/implementing-rabbitmq-with-node-js-93e15a44a9cc
 
 ## DENO 
-     - API - EX: https://github.com/thaisonenouvo/deno-simple-server
-     - REST API: https://github.com/thaisonenouvo/deno-paas
-
+     - REST API: 
+          - https://github.com/thaisonenouvo/deno-paas
+          - https://github.com/thaisonenouvo/deno-simple-server
+          - https://github.com/OngDev/video-request-app/tree/master/server
 ## FIREBASE 
 - FIREBASE FUNCTION: https://github.com/iamshaunjp/firebase-functions/tree/lesson-18
 
