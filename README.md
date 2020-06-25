@@ -11,11 +11,6 @@ cd ~  && git clone https://github.com/tranthaison1231/INIT_ENVIRONMENT && bash .
 cd ~ && bash ./INIT_ENVIRONMENT/step2.sh 
 ```
 ---
-# Config fo vim
--  Vim surround: https://www.youtube.com/watch?v=a2JyLUNG2fc
--**SEARCH FILE**: 
-     - https://github.com/junegunn/fzf ( https://www.youtube.com/watch?v=1a5NiMhqAR0 )
----
 # DEVOPS
 - **VPS**:
      - AZURE (https://portal.azure.com/#blade/HubsExtension/BrowseResourceBlade/resourceType/Microsoft.Compute%2FVirtualMachines)
@@ -49,10 +44,10 @@ cd ~ && bash ./INIT_ENVIRONMENT/step2.sh
 - RABBITMQ: https://medium.com/better-programming/implementing-rabbitmq-with-node-js-93e15a44a9cc
 
 ## DENO 
-     - REST API: 
-          - https://github.com/thaisonenouvo/deno-paas
-          - https://github.com/thaisonenouvo/deno-simple-server
-          - https://github.com/OngDev/video-request-app/tree/master/server
+- REST API: 
+     - https://github.com/thaisonenouvo/deno-paas
+     - https://github.com/thaisonenouvo/deno-simple-server
+     - https://github.com/OngDev/video-request-app/tree/master/server
 ## FIREBASE 
 - FIREBASE FUNCTION: https://github.com/iamshaunjp/firebase-functions/tree/lesson-18
 
