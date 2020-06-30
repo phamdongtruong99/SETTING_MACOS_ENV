@@ -403,6 +403,8 @@ cd ~ && bash ./INIT_ENVIRONMENT/step2.sh
    - **TOOL**:
      - https://ml5js.org/ ( Image Classification )
      - https://js.tensorflow.org/api/1.7.2/
+   - **Linear_Regression**:
+     - https://github.com/mk-gurucharan/Linear-Regression/blob/master/Simple_Linear_Regression.ipynb
 ## WINFORM
      - FASTFOOD: https://github.com/tranthaison1231/WINFORM_FASTFOOD
 
