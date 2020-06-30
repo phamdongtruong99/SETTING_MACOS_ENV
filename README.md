@@ -160,8 +160,7 @@ cd ~ && bash ./INIT_ENVIRONMENT/step2.sh
      - https://www.npmjs.com/package/query-string
 - **CHART**
      - http://recharts.org/en-US/
-- **
-ATION**: 
+- **ANIMAT**: 
      - https://github.com/airbnb/lottie-web ( EXAMPLE: https://github.com/codeaholicguy/lottie-sample )
      - https://lottiefiles.com/
      - SCROLL PERCENTAGE: https://github.com/thebuilder/react-scroll-percentage
