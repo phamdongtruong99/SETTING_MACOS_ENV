@@ -266,7 +266,8 @@ cd ~ && bash ./INIT_ENVIRONMENT/step2.sh
 
 - Typing game:  https://github.com/WebDevSimplified/JS-Speed-Typing-Game
 - ATOMIC CSS: https://gist.github.com/tranthaison1231/60cf5b98a8552a030d49cce84c237429
-- ANIMATE ON SCROLL: https://github.com/michalsnik/aos
+- [ANIMATE ON SCROLL](https://github.com/michalsnik/aos)
+     - https://scrollrevealjs.org/guide/customization.html
 - **AMAZING STYLE CSS**:
      - https://codesandbox.io/s/scroll-snap-spacer-kscrw
 
@@ -295,18 +296,14 @@ cd ~ && bash ./INIT_ENVIRONMENT/step2.sh
      - https://github.com/swiftpipe/RN_Covid19_UI
      - Netflix: https://github.com/Doha26/MetFlix
 - **FLOATING BUBBLE**:     https://github.com/hybriteq/react-native-floating-bubble
-- **HANDLE DEEPLINK**:
-     - https://reactnavigation.org/docs/en/use-linking.html
-- **CAMERA**
-     - https://github.com/nartc/react-native-camera
+- **[HANDLE DEEPLINK](https://reactnavigation.org/docs/en/use-linking.html)**:
+- **[CAMERA](https://github.com/nartc/react-native-camera)**
 - **SPLASH_SCREEN**:
      - https://github.com/crazycodeboy/react-native-splash-screen
      - https://medium.com/handlebar-labs/how-to-add-a-splash-screen-to-a-react-native-app-ios-and-android-30a3cec835ae
 - **PUSH-NOTIFICATION**:
-     - FIREBASE CLOUD
-          - https://www.youtube.com/watch?v=03-A9HdyB-Y
-     - ONE SIGNAL
-          - https://www.youtube.com/watch?v=Sx-KapT-_DU
+     - [FIREBASE CLOUD](https://www.youtube.com/watch?v=03-A9HdyB-Y)
+     - [ONE SIGNAL](https://www.youtube.com/watch?v=Sx-KapT-_DU)
      - LOCAL: 
           - https://www.youtube.com/watch?v=z6DEJXYQpP4
           - https://www.youtube.com/watch?v=Qf8OzB9qJq8&feature=emb_title
