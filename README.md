@@ -160,11 +160,12 @@ cd ~ && bash ./INIT_ENVIRONMENT/step2.sh
      - https://www.npmjs.com/package/query-string
 - **CHART**
      - http://recharts.org/en-US/
-- **ANIMATION**: 
+- **
+ATION**: 
      - https://github.com/airbnb/lottie-web ( EXAMPLE: https://github.com/codeaholicguy/lottie-sample )
      - https://lottiefiles.com/
      - SCROLL PERCENTAGE: https://github.com/thebuilder/react-scroll-percentage
-     - ANIMATE ON SCROLL: https://github.com/dbramwell/react-animate-on-scroll
+     - [ANIMATE ON SCROLL](https://github.com/dbramwell/react-animate-on-scroll)
 - **SEKELETON**
      -  https://github.com/danilowoz/react-content-loader
      - https://material-ui.com/components/skeleton/
