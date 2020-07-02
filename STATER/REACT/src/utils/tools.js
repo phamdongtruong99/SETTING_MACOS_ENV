@@ -227,6 +227,10 @@ export const copyStringToClipboard = (str) => {
   });
 };
 
+export const sleep = (milliseconds) => {
+  return new Promise(resolve => setTimeout(resolve, milliseconds))
+}
+
 export const isClient = typeof window === 'object';
 
 // https://github.com/streamich/react-use/blob/master/src/util.ts
