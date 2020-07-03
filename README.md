@@ -251,6 +251,7 @@ cd ~ && bash ./INIT_ENVIRONMENT/step2.sh
 - NEXT_FIREBASE_TS: https://github.com/rwieruch/nextjs-firebase-authentication
 - NEXT + GRAPHQL: https://github.com/garganurag893/Next.js_GraphQL_Express_Apollo_Boilerplate
 - NEXTJS + OPTIMAZED_IMAGES: https://github.com/cyrilwanner/next-optimized-images
+- NEXTJS + COOKIE: https://github.com/tokuda109/next-cookie
 
 
 ## FOR GATSBYJS
