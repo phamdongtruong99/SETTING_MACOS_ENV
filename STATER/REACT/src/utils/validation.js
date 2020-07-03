@@ -25,6 +25,7 @@ export const validateRegex = {
   fullName: /^[a-z0-9 ]{3,100}$/iu,
   number: /^[0-9]+$/iu,
   fileName: /\.(gif|jpg|jpeg|tiff|png)$/i,
+  isGithubURL: /https?:\/\/github.com\/.*/gi
 };
 
 export const validate2Passwords = (password, retypePassword) => {
