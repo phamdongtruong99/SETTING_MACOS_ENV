@@ -317,7 +317,9 @@ cd ~ && bash ./INIT_ENVIRONMENT/step2.sh
 - **GOOGLE_MAP**:
      - https://github.com/FaridSafi/react-native-google-places-autocomplete
 - **LINEAR GRADIENT**: 
-     https://github.com/react-native-community/react-native-linear-gradient
+     - https://github.com/react-native-community/react-native-linear-gradient
+- **PICK IMAGE**: 
+     - https://github.com/ivpusic/react-native-image-crop-picker
 - **Localization**:
 ## FLUTTER
 - **Google Map**: https://medium.com/flutter-community/flutter-creating-a-route-calculator-using-google-maps-71699dd96fb9
