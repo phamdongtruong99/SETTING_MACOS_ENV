@@ -275,6 +275,9 @@ cd ~ && bash ./INIT_ENVIRONMENT/step2.sh
 ---
 # MOBILE 
 ## REACT NATIVE
+- **APP 
+## REACT NATIVE
+- **APPICON**: https://kipalog.com/posts/Tao-App-Launcher-icon-cho-React-Native-app--Android---iOS https://kipalog.com/posts/Tao-App-Launcher-icon-cho-React-Native-app--Android---iOS https://kipalog.com/posts/Tao-App-Launcher-icon-cho-React-Native-app--Android---iOS
 - **BIG CALENDAR**: https://github.com/llotheo/react-native-big-calendar
 - **SCROLL BOTTOM SHEET**: https://github.com/rgommezz/react-native-scroll-bottom-sheet
 - **MULTIDEX**:
