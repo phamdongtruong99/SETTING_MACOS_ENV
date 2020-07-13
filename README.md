@@ -324,6 +324,8 @@ cd ~ && bash ./INIT_ENVIRONMENT/step2.sh
 - **PICK IMAGE**: 
      - https://github.com/ivpusic/react-native-image-crop-picker
 - **Localization**:
+- **FIREBASE**: 
+ - https://www.youtube.com/watch?v=pr1Mt1_YLyA&feature=youtu.be
 ## FLUTTER
 - **Google Map**: https://medium.com/flutter-community/flutter-creating-a-route-calculator-using-google-maps-71699dd96fb9
 - **VALIDATAE PHONENUMBER **
