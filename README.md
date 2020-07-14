@@ -77,6 +77,7 @@ cd ~ && bash ./INIT_ENVIRONMENT/step2.sh
 - **AWESOME**: 
      - https://github.com/juliandavidmr/awesome-nestjs
 - **STATER**: 
+     - https://github.com/NarHakobyan/awesome-nest-boilerplate
      - https://github.com/MohammedAl-Rowad/NestJs-youtube
      - https://github.com/MidoAhmed/nestjs-api-boilerplate
      - https://github.com/tranthaison1231/NESTJS_TYPEPORM
