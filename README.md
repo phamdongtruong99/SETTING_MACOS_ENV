@@ -134,7 +134,7 @@ cd ~ && bash ./INIT_ENVIRONMENT/step2.sh
 ### MONGODB
 
 - NESTJS + MONGODB: https://github.com/academind/nestjs-introduction
-
+- NESTJS + MONGOOSE: https://github.com/nestjs/nest/tree/master/sample/06-mongoose
 
 ---
 #  FRONT-END 
