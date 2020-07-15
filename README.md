@@ -334,6 +334,8 @@ cd ~ && bash ./INIT_ENVIRONMENT/step2.sh
 - **Google Map**: https://medium.com/flutter-community/flutter-creating-a-route-calculator-using-google-maps-71699dd96fb9
 - **VALIDATAE PHONENUMBER **
      - https://pub.dev/packages/libphonenumber
+- **AWSOME_TIP**:
+     https://github.com/erluxman/awesomefluttertips
 - **FACE DETECTION**:
      - https://bitbucket.org/mwitiderrick/image-labeler/src/master/
 - **KEYBOARD**:
