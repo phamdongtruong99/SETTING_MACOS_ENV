@@ -175,6 +175,8 @@ cd ~ && bash ./INIT_ENVIRONMENT/step2.sh
      - https://github.com/jquense/react-big-calendar
 - **LOADING IMAGE**
      - https://www.npmjs.com/package/react-progressive-image
+- **EDITOR**:
+     - https://github.com/react-monaco-editor/react-monaco-editor
 - **LAZY LOAD**
      - https://github.com/bvaughn/react-virtualized
      - https://github.com/bvaughn/react-window
