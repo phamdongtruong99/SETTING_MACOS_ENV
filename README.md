@@ -202,6 +202,7 @@ cd ~ && bash ./INIT_ENVIRONMENT/step2.sh
 - REACT + SSR: https://github.com/davidnguyen179/react-ssr-boilerplate
 - React + Google analytics: https://github.com/tranthaison1231/REACT_REACT-GA
 - REACT + CAPCHA: https://github.com/dozoisch/react-google-recaptcha
+- [REACT + STORYBOOK](https://github.com/thakursachin467/storybook-intro)
 - REACT + EMOJI: https://github.com/missive/emoji-mart
 - REACT + TS + ELECTRON + TAILWIND + PARCEL: https://github.com/huytd/electron-typescript-react-tailwind-parcel
 - REACT + PULL TO REFESH : https://github.com/CuongStf/pull-to-refresh-react
