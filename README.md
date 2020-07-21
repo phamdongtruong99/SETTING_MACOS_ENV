@@ -236,6 +236,9 @@ cd ~ && bash ./INIT_ENVIRONMENT/step2.sh
   - STATER: 
      - https://github.com/cuongnh-1139/recoil-demo
      - https://github.com/NVTri1010/recoil-example
+  ### STYLED_COMPONENT:
+     - https://github.com/jameslnewell/styled-components-spacing
+     - https://github.com/jameslnewell/styled-components-breakpoint
 
 ## FOR NEXTJS
 
