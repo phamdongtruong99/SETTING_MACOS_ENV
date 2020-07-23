@@ -199,6 +199,7 @@ cd ~ && bash ./INIT_ENVIRONMENT/step2.sh
 - REACT STATER: 
 - REACT_REDUX: https://github.com/magarcia/todomvc-redux-starter-kit
   - https://github.com/wellyshen/react-cool-starter
+- REACT MANIFIER: https://www.npmjs.com/package/react-magnifier
 - REACT + SSR: https://github.com/davidnguyen179/react-ssr-boilerplate
 - React + Google analytics: https://github.com/tranthaison1231/REACT_REACT-GA
 - REACT + CAPCHA: https://github.com/dozoisch/react-google-recaptcha
