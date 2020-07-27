@@ -1,9 +1,10 @@
 class TextValidator {
   bool validateUsername(String username) {
-    return false;
+    return username.length >= 8;
   }
 
   bool validatePassword(String password) {
-    return false;
+    String pattern = r'^(?=.*?[A-Z])(?=.*?[a-z])(?=.*?[0-9])(?=.*?[!@#\$&*~]).{8,}$';
+    return RegExp(pattern).hasMatch(password) && password.length >= 8;
   }
 }
