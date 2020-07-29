@@ -89,6 +89,7 @@ cd ~ && bash ./INIT_ENVIRONMENT/step2.sh
      - EXAMPLE: https://github.com/kelvin-mai/nest-space-exlporer
      - [MONGO-NESJS](https://github.com/msanvarov/nest-rest-mongo-boilerplate)
      - [SERVERLESS-AWS_NESTJS](https://medium.com/javascript-in-plain-english/nestjs-serverless-app-with-mongodb-atlas-e8dec9ae7405)
+     - [NESTJS-LAMBA](https://github.com/NarHakobyan/awesome-nest-lambda)
      - NESTJS-TYPEGOSEE
           - [Have resfresh token](https://github.com/abouroubi/nestjs-auth-jwt)
           - https://github.com/kpfromer/nestjs-typegoose
