@@ -86,11 +86,12 @@ cd ~ && bash ./INIT_ENVIRONMENT/step2.sh
      - NEST + CRUD: https://github.com/chnirt/nestjs-restful-best-practice
      - NESTJS + WEBSOCKET: https://github.com/brianjohnsonsr/nest.ws.tutorial
      - NESTJS + TYPEORM + POSTREGSQL: https://github.com/tranthaison1231/NESTJS_TYPEPORM
-     - NESTJS + TYPEGOOSE: https://github.com/kpfromer/nestjs-typegoose
      - EXAMPLE: https://github.com/kelvin-mai/nest-space-exlporer
      - [MONGO-NESJS](https://github.com/msanvarov/nest-rest-mongo-boilerplate)
      - [SERVERLESS-AWS_NESTJS](https://medium.com/javascript-in-plain-english/nestjs-serverless-app-with-mongodb-atlas-e8dec9ae7405)
-     - [NESTJS-TYPEGOSEE](https://github.com/abouroubi/nestjs-auth-jwt)
+     - NESTJS-TYPEGOSEE
+          - [Have resfresh token](https://github.com/abouroubi/nestjs-auth-jwt)
+          - https://github.com/kpfromer/nestjs-typegoose
 - **MIGRATION**: 
      - https://github.com/ambroiseRabier/typeorm-nestjs-migration-example
      - [MONGO - SEEDER - FAKER](https://viblo.asia/p/seeder-va-faker-de-tao-du-lieu-mau-cho-mongodb-nodejs-YWOZryANKQ0)
