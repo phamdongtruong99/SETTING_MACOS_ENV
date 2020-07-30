@@ -86,3 +86,5 @@ const useTextSelection = (target) {
 }
 
 export default useTextSelection;
+
+// https://ahooks.js.org/hooks/dom/use-text-selection#examples
