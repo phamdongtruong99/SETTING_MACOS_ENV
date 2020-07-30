@@ -41,6 +41,7 @@ cd ~ && bash ./INIT_ENVIRONMENT/step2.sh
      - CLI: https://github.com/benawad/create-graphql-api
 - EXPRESSJS + CACHE + MONGO: https://codeburst.io/implement-caching-with-redis-in-express-js-and-mongodb-9aa09f9146ce
 - EXPRESS + SPREADSHEET: https://github.com/theoephraim/node-google-spreadsheet
+- NODEJS + SPREADSHEET: https://github.com/nhim175/slack-analytics-to-googlesheet
 - RABBITMQ: https://medium.com/better-programming/implementing-rabbitmq-with-node-js-93e15a44a9cc
 
 ## DENO 
