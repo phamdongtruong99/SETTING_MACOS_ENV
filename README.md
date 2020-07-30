@@ -42,6 +42,7 @@ cd ~ && bash ./INIT_ENVIRONMENT/step2.sh
 - EXPRESSJS + CACHE + MONGO: https://codeburst.io/implement-caching-with-redis-in-express-js-and-mongodb-9aa09f9146ce
 - EXPRESS + SPREADSHEET: https://github.com/theoephraim/node-google-spreadsheet
 - NODEJS + SPREADSHEET: https://github.com/nhim175/slack-analytics-to-googlesheet
+- NODEJS + TRANSLATE API: https://github.com/googleapis/nodejs-translate
 - RABBITMQ: https://medium.com/better-programming/implementing-rabbitmq-with-node-js-93e15a44a9cc
 
 ## DENO 
