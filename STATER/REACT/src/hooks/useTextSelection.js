@@ -16,7 +16,7 @@ const initState = {
   ...initRect,
 };
 
-function getRectFromSelection(selection: Selection | null): IRect {
+function getRectFromSelection(selection) {
   if (!selection) {
     return initRect;
   }
