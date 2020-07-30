@@ -18,6 +18,29 @@ export const getScrollPosition = (el = window) => ({
 
 // getScrollPosition(); // {x: 0, y: 200}
 
+export const getTargetElement = (
+  target,
+  defaultElement,
+) => {
+  if (!target) {
+    return defaultElement;
+  }
+
+  let targetElement;
+
+  if (typeof target === 'function') {
+    targetElement = target();
+  } else if ('current' in target) {
+    targetElement = target.current;
+  } else {
+    targetElement = target;
+  }
+
+  return targetElement;
+}
+
+
+
 export const elementIsVisibleInViewport = (el, partiallyVisible = false) => {
   const { top, left, bottom, right } = el.getBoundingClientRect();
   const { innerHeight, innerWidth } = window;
