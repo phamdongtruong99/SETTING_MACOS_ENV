@@ -306,6 +306,7 @@ cd ~ && bash ./INIT_ENVIRONMENT/step2.sh
      - https://github.com/react-native-community/react-native-maps ( https://www.youtube.com/watch?v=AzjWv1X-uyg )
 - **ANIMATION**:
      - https://viblo.asia/p/react-native-animations-su-dung-animated-api-924lJPvmKPM
+     - https://wcandillon.github.io/react-native-redash/
 - **ROUTER**: 
      - REACT NAVIGATION 5: https://github.com/benawad/react-navigation-v5-tutorial/tree/master/src
 
