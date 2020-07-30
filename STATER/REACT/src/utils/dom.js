@@ -22,11 +22,11 @@ export const getTargetElement = (
   target,
   defaultElement,
 ) => {
+  let targetElement;
+
   if (!target) {
     return defaultElement;
   }
-
-  let targetElement;
 
   if (typeof target === 'function') {
     targetElement = target();
