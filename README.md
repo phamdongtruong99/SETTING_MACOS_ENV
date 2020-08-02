@@ -51,6 +51,7 @@ cd ~ && bash ./INIT_ENVIRONMENT/step2.sh
      - https://github.com/thaisonenouvo/deno-simple-server
      - https://github.com/OngDev/video-request-app/tree/master/server
      - [Deno-mongodb](https://github.com/thecodeholic/deno-mongodb-rest-api)
+     - [Deno-websocket](https://github.com/thecodeholic/deno-websocket-chat)
 ## FIREBASE 
 - FIREBASE FUNCTION: https://github.com/iamshaunjp/firebase-functions/tree/lesson-18
 
