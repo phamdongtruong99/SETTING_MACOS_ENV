@@ -1,7 +1,13 @@
 import { useRef, useEffect } from 'react';
 
-const useEventListener = (eventName, handler, element = global) => {
+const useEventListener = (
+  eventName,
+  handler,
+  element = global,
+  options = {}
+) => {
   const savedHandler = useRef();
+  const { capture, passive, once } = options;
 
   useEffect(() => {
     savedHandler.current = handler;
@@ -9,14 +15,17 @@ const useEventListener = (eventName, handler, element = global) => {
 
   useEffect(() => {
     const isSupported = element && element.addEventListener;
-    if (!isSupported) return;
+    if (!isSupported) {
+      return;
+    }
 
-    const eventListener = event => savedHandler.current(event);
-    element.addEventListener(eventName, eventListener);
+    const eventListener = (event) => savedHandler.current(event);
+    const opts = { capture, passive, once };
+    element.addEventListener(eventName, eventListener, opts);
     return () => {
-      element.removeEventListener(eventName, eventListener);
+      element.removeEventListener(eventName, eventListener, opts);
     };
-  }, [eventName, element]);
+  }, [eventName, element, capture, passive, once]);
 };
 
 export default useEventListener;
