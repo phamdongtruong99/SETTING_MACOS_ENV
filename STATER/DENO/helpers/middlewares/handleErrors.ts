@@ -1,3 +1,5 @@
+import { Context } from "https://deno.land/x/oak/mod.ts";
+
 export async function handleErrors(
   context: Context,
   next: () => Promise<void>
