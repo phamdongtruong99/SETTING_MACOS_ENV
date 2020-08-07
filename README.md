@@ -86,6 +86,7 @@ cd ~ && bash ./INIT_ENVIRONMENT/step2.sh
 - **STATER**: 
      - https://github.com/NarHakobyan/awesome-nest-boilerplate
      - [NESTJS-FACEBOOK-AUTH](https://github.com/baptisteArnaud/facebook-login-nestjs-example)
+          - https://github.com/ABZ0/nestjs-facebook-strategy
      - https://github.com/MohammedAl-Rowad/NestJs-youtube
      - https://github.com/MidoAhmed/nestjs-api-boilerplate
      - https://github.com/tranthaison1231/NESTJS_TYPEPORM
