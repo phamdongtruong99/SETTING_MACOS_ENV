@@ -113,7 +113,7 @@ cd ~ && bash ./INIT_ENVIRONMENT/step2.sh
     - NESTJS + GRAPHQL + MONGODB: https://github.com/TannerGabriel/Blog/tree/master/nest-graph-ql
     - NESTJS-PRISMA-GRAPHQL: https://github.com/EndyKaufman/typegraphql-prisma-nestjs-example
     - NESTJS_PRISMA_STARTER: https://github.com/fivethree-team/nestjs-prisma-starter
-    
+    - https://github.com/TrejGun/graphql-based-authorization-for-nestjs
 - NESTJS + PRISMA: https://github.com/fivethree-team/nestjs-prisma-starter
 - NESTJS + MONGODB: https://github.com/academind/nestjs-introduction/tree/02-mongodb
 - NESTJS + AUTOMAPPER + TYPEGOOSE: https://github.com/nartc/example-nest-automapper
