@@ -228,7 +228,9 @@ cd ~ && bash ./INIT_ENVIRONMENT/step2.sh
 - REACT + REDUX + FIREBASE: https://codesandbox.io/s/zrr0n5m2zp
 - REACT + SVG: https://www.youtube.com/watch?v=7bw56feIdh4
 - REACT IS IN VIEW PORT: https://github.com/davidnguyen179/react-is-in-viewport
-- ANIMATION: https://github.com/aholachek/mobile-first-animation
+- ANIMATION: 
+     - https://github.com/aholachek/mobile-first-animation
+     - [REACT-FLIP_MOVE](https://github.com/joshwcomeau/react-flip-move/blob/gh-pages/examples/components/1_Shuffle.jsx): 
 - [REACT_TYPESCRIPT_CHEATSHEET](https://github.com/typescript-cheatsheets/react-typescript-cheatsheet)
   ### SOCKET:
      - https://github.com/ManZzup/plguides/tree/master/11-using-websockets-in-your-react-redux-app/chat-app/src
