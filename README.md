@@ -378,6 +378,7 @@ cd ~ && bash ./INIT_ENVIRONMENT/step2.sh
      - https://pub.dev/packages/easy_localization ( https://www.youtube.com/watch?v=YTFPIujFUHc )
 - **WEBVIEW**: 
      - https://pub.dev/packages/webview_flutter ( https://www.youtube.com/watch?v=Wo0o0wSkn4k )
+- [**REACT-NATIVE-BOTTOM-SHEET**](https://github.com/gorhom/react-native-bottom-sheet)
 - **CLI**: 
 - **STATER**:
      - AWSOME FLUTTER: https://github.com/Solido/awesome-flutter
