@@ -1,0 +1,101 @@
+---
+# MOBILE 
+## REACT NATIVE
+- **APPICON**: https://kipalog.com/posts/Tao-App-Launcher-icon-cho-React-Native-app--Android---iOS https://kipalog.com/posts/Tao-App-Launcher-icon-cho-React-Native-app--Android---iOS https://kipalog.com/posts/Tao-App-Launcher-icon-cho-React-Native-app--Android---iOS
+- **BIG CALENDAR**: https://github.com/llotheo/react-native-big-calendar
+- **SCROLL BOTTOM SHEET**: https://github.com/rgommezz/react-native-scroll-bottom-sheet
+- **MULTIDEX**:
+     - https://www.youtube.com/watch?v=4oVGEgHR3KE&feature=youtu.be
+- **LOCATION**:
+    - REACT NATIVE LOCATION: https://github.com/timfpark/react-native-location
+- **TAILWIND**:
+    - REACT NATIVE TAILWIND: https://github.com/TVke/react-native-tailwindcss
+- [**REACT-NATIVE-OFFLINE**](https://github.com/rgommezz/react-native-offline)
+- **MAP**: 
+     - https://github.com/react-native-community/react-native-maps ( https://www.youtube.com/watch?v=AzjWv1X-uyg )
+- **ANIMATION**:
+     - https://viblo.asia/p/react-native-animations-su-dung-animated-api-924lJPvmKPM
+     - https://wcandillon.github.io/react-native-redash/
+- **ROUTER**: 
+     - REACT NAVIGATION 5: https://github.com/benawad/react-navigation-v5-tutorial/tree/master/src
+
+- **STARTER**:
+     - STATER-RN-NAVIGATION: https://github.com/tranthaison1231/stater_rn
+     - REACT NATIVE STATER: https://github.com/tranthaison1231/RN_STATER
+     - REACT_NATIVE_BOOKING: https://github.com/phamdongtruong99/RN_BASE_1
+     - https://github.com/swiftpipe/RN_Covid19_UI
+     - Netflix: https://github.com/Doha26/MetFlix
+- **FLOATING BUBBLE**:     https://github.com/hybriteq/react-native-floating-bubble
+- **[HANDLE DEEPLINK](https://reactnavigation.org/docs/en/use-linking.html)**:
+- **[CAMERA](https://github.com/nartc/react-native-camera)**
+- **SPLASH_SCREEN**:
+     - https://github.com/crazycodeboy/react-native-splash-screen
+     - https://medium.com/handlebar-labs/how-to-add-a-splash-screen-to-a-react-native-app-ios-and-android-30a3cec835ae
+- **PUSH-NOTIFICATION**:
+     - [FIREBASE CLOUD](https://www.youtube.com/watch?v=03-A9HdyB-Y)
+     - [ONE SIGNAL](https://www.youtube.com/watch?v=Sx-KapT-_DU)
+     - LOCAL: 
+          - https://www.youtube.com/watch?v=z6DEJXYQpP4
+          - https://www.youtube.com/watch?v=Qf8OzB9qJq8&feature=emb_title
+          - https://www.youtube.com/watch?v=VMti_GgKgwY
+     - [react-native-notifications](https://github.com/wix/react-native-notifications)
+- **WEBVIEW**: 
+     - https://github.com/amandeepmittal/react-native-examples/tree/master/rnWebViewCustomNav
+- **DEPLOY**:
+     - REACT_NATIVE_DEPLOY_BASH: https://github.com/louisneovi/React-Native-Deploy-bash
+- **GOOGLE_MAP**:
+     - https://github.com/FaridSafi/react-native-google-places-autocomplete
+- **LINEAR GRADIENT**: 
+     - https://github.com/react-native-community/react-native-linear-gradient
+- **PICK IMAGE**: 
+     - https://github.com/ivpusic/react-native-image-crop-picker
+- **Localization**:
+- **FIREBASE**: 
+ - https://www.youtube.com/watch?v=pr1Mt1_YLyA&feature=youtu.be
+## FLUTTER
+- **Google Map**: https://medium.com/flutter-community/flutter-creating-a-route-calculator-using-google-maps-71699dd96fb9
+- **VALIDATAE PHONENUMBER **
+     - https://pub.dev/packages/libphonenumber
+- **AWSOME_TIP**:
+     https://github.com/erluxman/awesomefluttertips
+- **FACE DETECTION**:
+     - https://bitbucket.org/mwitiderrick/image-labeler/src/master/
+- **KEYBOARD**:
+     - https://www.youtube.com/watch?v=ppUHGc845LA
+- **FIREBASE**: https://github.com/FirebaseExtended/flutterfire
+- **FONT**:
+     - https://github.com/material-foundation/google-fonts-flutter ( https://www.youtube.com/watch?v=CKw0aWRrQfI )
+     - [Config font](https://www.youtube.com/watch?v=G5hXICK7WK8)
+- **ROUTER**: 
+     - https://pub.dev/packages/auto_route
+- **Localization**:
+     - https://pub.dev/packages/easy_localization ( https://www.youtube.com/watch?v=YTFPIujFUHc )
+- **WEBVIEW**: 
+     - https://pub.dev/packages/webview_flutter ( https://www.youtube.com/watch?v=Wo0o0wSkn4k )
+- [**REACT-NATIVE-BOTTOM-SHEET**](https://github.com/gorhom/react-native-bottom-sheet)
+- **CLI**: 
+- **STATER**:
+     - AWSOME FLUTTER: https://github.com/Solido/awesome-flutter
+     - STARTER FLUTTER: https://github.com/tranthaison1231/STATER_FLUTTER
+     - BMI APP: https://github.com/themaaz32/bmi_app
+     - GOLD-SJC:  https://github.com/thanhniencung/gold-sjc
+     - DICTIONARY APP: https://github.com/samarthagarwal/flictionary
+     - MOTIVATION APP: https://github.com/anoobbava/motivation_on_the_go
+     - Discount tour: https://github.com/theindianappguy/discounttour
+     - TINDER: https://github.com/OdongoWaga/chill
+     - Covid 19: https://github.com/abuanwar072/C0VID-19-Flutter-UI
+     - FUNITOR APP: https://github.com/abuanwar072/furniture_app_flutter
+- **RESPONSIVE UI**:
+     - FLUTTER REPONSE UI: https://github.com/themaaz32/Flultter-Reponsive-UI
+- **DEEPLINKING**: https://medium.com/better-programming/deep-linking-in-flutter-with-firebase-dynamic-links-8a4b1981e1eb
+- **LINEAR GRADIENT**
+     - https://www.notion.so/LINEAR-GRADIENT-c90d862ef922412783e6c4fcc2244491
+- FLUTTER CONNECT FIREBASE: https://viblo.asia/p/lien-ket-firebase-den-app-flutter-cho-android-va-ios-RnB5p6zdZPG
+- FLUTTER PUSH NOTIFICATION: https://viblo.asia/p/push-notification-trong-flutter-su-dung-firebase-cloud-messaging-WAyK8ojk5xX
+- FLUTTER + GOOGLE SHEET: https://github.com/theindianappguy/flutter_google_sheets 
+- FLUTTER_LIQUID_SWIPE : https://github.com/sagarshende23/flutter_liquid_swipe
+- SPLASH-SCREEN: https://www.youtube.com/watch?v=BjV4RMkVY6w
+- PUSH NOTIFICATION: https://medium.com/flutter-community/push-notifications-in-flutter-using-firebase-c1ebaf45d62f
+- FLUTTER PDF TEXT: https://github.com/themaaz32/pdf_test
+- ** SPLASH SCREEN **: 
+     - https://medium.com/flutter-community/flutter-2019-real-splash-screens-tutorial-16078660c7a1
