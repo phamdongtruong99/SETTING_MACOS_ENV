@@ -240,7 +240,8 @@ cd ~ && bash ./INIT_ENVIRONMENT/step2.sh
   ### HOOK: 
      - useGeolocation: https://github.com/beautifulinteractions/beautiful-react-hooks/blob/master/docs/useGeolocation.md
   ### CALENDAR: 
-     - https://github.com/jquense/react-big-calendar
+     - [REACT_BIG_CALENDAR](https://github.com/jquense/react-big-calendar)
+     - [FULL CALENDAR](https://github.com/fullcalendar/fullcalendar)
   ### EXCEL 
      - REACT-CSV:  https://stackblitz.com/edit/react-csv-download
   ### FOR TAILWIND
