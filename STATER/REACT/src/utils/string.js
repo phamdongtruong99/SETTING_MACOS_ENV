@@ -117,6 +117,12 @@ export const isEmpty = value =>
 // isEmpty(null) // true
 // isEmpty('12') // false
 
+export const splitCamelCase = str => {
+  return str.replace(/([a-z0-9])([A-Z])/g, '$1 $2');
+}
+
+// splitCamelCase('camelCase') => 'camel Case'
+
 export const findLongestWord = str => {
   var longestWord = str.split(' ').sort(function(a, b) {
     return b.length - a.length;
