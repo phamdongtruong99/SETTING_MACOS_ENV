@@ -169,6 +169,8 @@ cd ~ && bash ./INIT_ENVIRONMENT/step2.sh
 - ** SOCKET **: https://codepen.io/Shyn1711/pen/xxbQgRM
 
 ## FOR REACT
+- **SEARCH**: 
+     - [FUZZY-SORT](https://github.com/farzher/fuzzysort)
 - **ULITY**
      - https://underscorejs.org/#zip
      - https://github.com/JedWatson/classnames
