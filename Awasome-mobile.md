@@ -3,6 +3,9 @@
 ## REACT NATIVE
 - **APPICON**: https://kipalog.com/posts/Tao-App-Launcher-icon-cho-React-Native-app--Android---iOS https://kipalog.com/posts/Tao-App-Launcher-icon-cho-React-Native-app--Android---iOS https://kipalog.com/posts/Tao-App-Launcher-icon-cho-React-Native-app--Android---iOS
 - **BIG CALENDAR**: https://github.com/llotheo/react-native-big-calendar
+- **READ TEXT FROM IMAGE**: 
+ - [PACKAGE](https://www.npmjs.com/package/react-native-tesseract-ocr)
+ - [VIDEO](https://www.youtube.com/watch?v=KAAS1oGddUk)
 - **SCROLL BOTTOM SHEET**: https://github.com/rgommezz/react-native-scroll-bottom-sheet
 - **MULTIDEX**:
      - https://www.youtube.com/watch?v=4oVGEgHR3KE&feature=youtu.be
