@@ -2,7 +2,7 @@
 # MOBILE 
 ## REACT NATIVE
 - **APPICON**: https://kipalog.com/posts/Tao-App-Launcher-icon-cho-React-Native-app--Android---iOS https://kipalog.com/posts/Tao-App-Launcher-icon-cho-React-Native-app--Android---iOS https://kipalog.com/posts/Tao-App-Launcher-icon-cho-React-Native-app--Android---iOS
-- **BIG CALENDAR**: https://github.com/llotheo/react-native-big-calendar
+- [**BIG CALENDAR**](https://github.com/llotheo/react-native-big-calendar)
 - **READ TEXT FROM IMAGE**: 
   - [PACKAGE](https://www.npmjs.com/package/react-native-tesseract-ocr)
   - [VIDEO](https://www.youtube.com/watch?v=KAAS1oGddUk)
