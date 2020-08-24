@@ -3,6 +3,8 @@
 ## REACT NATIVE
 - **APPICON**: https://kipalog.com/posts/Tao-App-Launcher-icon-cho-React-Native-app--Android---iOS https://kipalog.com/posts/Tao-App-Launcher-icon-cho-React-Native-app--Android---iOS https://kipalog.com/posts/Tao-App-Launcher-icon-cho-React-Native-app--Android---iOS
 - [**BIG CALENDAR**](https://github.com/llotheo/react-native-big-calendar)
+- [SCANNER](https://github.com/Shyn-packages/react-native-qrcode-scanner)
+  - [VIDEO](https://www.youtube.com/watch?v=e7qf9UJvoC0)
 - **READ TEXT FROM IMAGE**: 
   - [PACKAGE](https://www.npmjs.com/package/react-native-tesseract-ocr)
   - [VIDEO](https://www.youtube.com/watch?v=KAAS1oGddUk)
