@@ -196,6 +196,7 @@ cd ~ && bash ./INIT_ENVIRONMENT/step2.sh
      - https://www.npmjs.com/package/react-progressive-image
 - **EDITOR**:
      - https://github.com/react-monaco-editor/react-monaco-editor
+- **INTERGATION TEST**: https://github.com/sarahatwork/integration-tests
 - **LAZY LOAD**
      - https://github.com/bvaughn/react-virtualized
      - https://github.com/bvaughn/react-window
