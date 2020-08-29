@@ -26,4 +26,4 @@ export const redisProviders: Provider[] = [
     provide: REDIS_PUBLISHER_CLIENT,
   },
 ];
-© 2020 GitHub, Inc.
+
