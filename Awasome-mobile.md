@@ -11,6 +11,7 @@
 - **SCROLL BOTTOM SHEET**: https://github.com/rgommezz/react-native-scroll-bottom-sheet
 - **MULTIDEX**:
      - https://www.youtube.com/watch?v=4oVGEgHR3KE&feature=youtu.be
+- **SHARE**: https://github.com/react-native-community/react-native-share
 - **LOCATION**:
     - REACT NATIVE LOCATION: https://github.com/timfpark/react-native-location
 - **TAILWIND**:
