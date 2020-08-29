@@ -200,3 +200,18 @@ export const makeBreadCrumbFromPath = location => {
   });
   return BREADCRUMB_LIST;
 };
+
+export const uriToBlob = (uri: string) => {
+    return new Promise((resolve, reject) => {
+        const xhr = new XMLHttpRequest();
+        xhr.onload = function () {
+            resolve(xhr.response);
+        };
+        xhr.onerror = function () {
+            reject(new Error('uriToBlob failed'));
+        };
+        xhr.responseType = 'blob';
+        xhr.open('GET', uri, true);
+        xhr.send(null);
+    });
+}
