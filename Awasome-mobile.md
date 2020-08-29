@@ -14,6 +14,7 @@
 - **SHARE**: https://github.com/react-native-community/react-native-share
 - **LOCATION**:
     - REACT NATIVE LOCATION: https://github.com/timfpark/react-native-location
+- **DATABASE**: https://github.com/andpor/react-native-sqlite-storage
 - **TAILWIND**:
     - REACT NATIVE TAILWIND: https://github.com/TVke/react-native-tailwindcss
 - [**REACT-NATIVE-OFFLINE**](https://github.com/rgommezz/react-native-offline)
