@@ -1,4 +1,4 @@
-export function throttleFunction(func, delay) {
+export function throttle(func, delay) {
   return function (args) {
     let previousCall = this.lastCall;
     this.lastCall = Date.now();
