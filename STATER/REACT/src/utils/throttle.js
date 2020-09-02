@@ -1,24 +1,11 @@
-import debounce from './debounce.js';
-import { isObject } from './objUtils';
-
-function throttle(func, wait, options) {
-  let leading = true;
-  let trailing = true;
-
-  if (typeof func !== 'function') {
-    throw new TypeError('Expected a function');
+export function throttleFunction(func, delay) {
+  return function (args) {
+    let previousCall = this.lastCall;
+    this.lastCall = Date.now();
+    if (previousCall === undefined
+    || (this.lastCall - previousCall) > delay) { 
+     // function is being called for the first time or throttle time has elapsed
+      func(args);
+    }
   }
-  if (isObject(options)) {
-    leading = 'leading' in options ? !!options.leading : leading;
-    trailing = 'trailing' in options ? !!options.trailing : trailing;
-  }
-  return debounce(func, wait, {
-    leading,
-    trailing,
-    maxWait: wait,
-  });
 }
-
-export default throttle;
-
-// doc: https://lodash.com/docs/4.17.15#throttle
