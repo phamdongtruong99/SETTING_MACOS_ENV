@@ -188,6 +188,7 @@ cd ~ && bash ./INIT_ENVIRONMENT/step2.sh
 - **SEKELETON**
      -  https://github.com/danilowoz/react-content-loader
      - https://material-ui.com/components/skeleton/
+- **REACT_IMAGE_UPLOADING**: https://github.com/vutoan266/react-images-uploading
 - **DRAG DROP**:
      - https://github.com/react-dnd/react-dnd/
 - **CALENDAR**:
