@@ -1,18 +1,11 @@
-export default function debounce(func, wait = 166) {
-  let timeout;
-  function debounced(...args) {
-    // eslint-disable-next-line consistent-this
-    const that = this;
-    const later = () => {
-      func.apply(that, args);
-    };
-    clearTimeout(timeout);
-    timeout = setTimeout(later, wait);
+export function debounce(func, delay) {
+  return function (args) {
+    let previousCall = this.lastCall;
+    this.lastCall = Date.now();
+    if (previousCall&&((this.lastCall - previousCall)<=delay)) 
+      {
+        clearTimeout(this.lastCallTimer);
+      }
+    this.lastCallTimer = setTimeout(() => func(args), delay);
   }
-
-  debounced.clear = () => {
-    clearTimeout(timeout);
-  };
-
-  return debounced;
 }
