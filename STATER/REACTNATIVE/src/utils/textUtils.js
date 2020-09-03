@@ -45,6 +45,8 @@ export const onChangeAlias = (value: string | number): string => {
   return str;
 };
 
+// onChangeAlias('Chào bạn') => 'Chao ban'
+
 export const removeHtmlTag = (source = '') => {
   return source.replace(/<\/?[^>]+(>|$)/g, '');
 };
