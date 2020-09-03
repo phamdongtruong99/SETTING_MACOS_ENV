@@ -29,8 +29,9 @@
      - REACT NAVIGATION 5: https://github.com/benawad/react-navigation-v5-tutorial/tree/master/src
 
 - **STARTER**:
-     - STATER-RN-NAVIGATION: https://github.com/tranthaison1231/stater_rn
-     - REACT NATIVE STATER: https://github.com/tranthaison1231/RN_STATER
+     - REACT NATIVE STATER: 
+        - https://github.com/tranthaison1231/rn_ts
+        - https://github.com/hngocl/BoilerplateReactNative
      - REACT_NATIVE_BOOKING: https://github.com/phamdongtruong99/RN_BASE_1
      - https://github.com/swiftpipe/RN_Covid19_UI
      - Netflix: https://github.com/Doha26/MetFlix
