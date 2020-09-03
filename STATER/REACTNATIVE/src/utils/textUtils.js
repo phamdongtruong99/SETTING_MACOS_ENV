@@ -44,3 +44,7 @@ export const onChangeAlias = (value: string | number): string => {
   str = str.trim();
   return str;
 };
+
+export const removeHtmlTag = (source = '') => {
+  return source.replace(/<\/?[^>]+(>|$)/g, '');
+};
