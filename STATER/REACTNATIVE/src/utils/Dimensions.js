@@ -1,4 +1,4 @@
-import { Dimensions } from 'react-native';
+import { Dimensions, Platform } from 'react-native';
 
 export const windowWidth = Dimensions.get('window').width;
 export const windowHeight = Dimensions.get('window').height;
@@ -26,3 +26,22 @@ export const isPhone = () => {
     return !isTablet()
 };
 
+
+export function isIphoneX() {
+  const dim = Dimensions.get('window');
+  
+  return (
+    // This has to be iOS
+    Platform.OS === 'ios' &&
+    
+    (isIPhoneXSize(dim) || isIPhoneXrSize(dim))
+  );
+}
+
+export function isIPhoneXSize(dim) {
+  return dim.height == 812 || dim.width == 812;
+}
+
+export function isIPhoneXrSize(dim) {
+  return dim.height == 896 || dim.width == 896;
+}
