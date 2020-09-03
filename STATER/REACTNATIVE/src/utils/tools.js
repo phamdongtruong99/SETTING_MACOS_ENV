@@ -1,5 +1,16 @@
 /* eslint-disable */
 import { omitBy, isEmpty, keyBy } from 'lodash';
+import {StyleSheet} from 'react-native';
+
+export const enhance = (arrStyle: Array<any>) => {
+  return StyleSheet.flatten(arrStyle);
+};
+
+export const checkKeyInObject = (T: any, key: string) => {
+  return Object.keys(T).includes(key);
+};
+
+
 
 export const validateEmail = email => {
   const re = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
