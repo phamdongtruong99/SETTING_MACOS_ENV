@@ -26,6 +26,8 @@
 - **ANIMATION**:
      - https://viblo.asia/p/react-native-animations-su-dung-animated-api-924lJPvmKPM
      - https://wcandillon.github.io/react-native-redash/
+- **STORGAGE**:
+  - **REALM**: https://github.com/rocketseat-content/youtube-react-native-realmdb
 - **ROUTER**: 
      - REACT NAVIGATION 5: https://github.com/benawad/react-navigation-v5-tutorial/tree/master/src
 
