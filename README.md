@@ -180,6 +180,7 @@ cd ~ && bash ./INIT_ENVIRONMENT/step2.sh
      - [REACT_LEAFLET](https://github.com/PaulLeCam/react-leaflet)
 - **CHART**
      - http://recharts.org/en-US/
+- **DOC**: https://github.com/doczjs/docz/
 - **ANIMAT**: 
      - https://github.com/airbnb/lottie-web ( EXAMPLE: https://github.com/codeaholicguy/lottie-sample )
      - https://lottiefiles.com/
