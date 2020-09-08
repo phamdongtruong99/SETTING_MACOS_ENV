@@ -1,3 +1,5 @@
+import { memoize } from 'lodash';
+
 export const isNotAppleDevice = () =>
   !/iPhone|iPod|iPad/i.test(navigator.userAgent);
 
@@ -16,4 +18,5 @@ export const isFF = UA && UA.match(/firefox\/(\d+)/);
 
 // detect OS
 export const isAndroid = UA && UA.indexOf('android') > 0;
-export const isIOS = UA && /iphone|ipad|ipod|ios/.test(UA);
+export const isIOS = memoize(() => /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream);
+
