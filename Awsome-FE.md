@@ -21,6 +21,7 @@
      - https://github.com/JedWatson/classnames
      - https://lodash.com/docs/4.17.15
      - https://www.npmjs.com/package/query-string
+- **[Parallax_Scroll](https://github.com/rrutsche/react-parallax)**
 - **MAP**:
      - [REACT_LEAFLET](https://github.com/PaulLeCam/react-leaflet)
 - **CHART**
