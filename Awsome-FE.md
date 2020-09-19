@@ -16,7 +16,7 @@
 ## FOR REACT
 - **SEARCH**: 
      - [FUZZY-SORT](https://github.com/farzher/fuzzysort)
-- **[INFINITE_](https://github.com/onderonur/react-infinite-scroll-hook)**
+- **[INFINITE_]()**
 - **ULITY**
      - https://underscorejs.org/#zip
      - https://github.com/JedWatson/classnames
@@ -52,6 +52,7 @@
      - [Infinityscroll](https://www.youtube.com/watch?v=8nFNxnjoTZ4)
      - https://github.com/bvaughn/react-window-infinite-loader
      - LAZY LOAD IMAGE: https://levelup.gitconnected.com/lazy-loading-images-in-react-for-better-performance-5df73654ea05
+     - HOOK: https://github.com/onderonur/react-infinite-scroll-hook
 - **STARTER**:
      - **ADMIN**
           - https://github.com/tranthaison1231/STATER_REACT
