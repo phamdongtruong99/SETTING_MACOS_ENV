@@ -20,9 +20,6 @@ cd ~ && bash ./INIT_ENVIRONMENT/step2.sh
 - **MONITORING**:
      - https://www.datadoghq.com/
 ---
-
-
-
 ---
 # OTHER 
 ## OOP 
