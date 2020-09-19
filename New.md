@@ -9,3 +9,25 @@ let amount = 12345_00;  // 12,345 (1234500 cents, apparently)
 let amount = 123_4500;  // 123.45 (4-fixed financial)
 let amount = 1_234_500; // 1,234,500
 ```
+## [TS_Template Literal Types](https://devblogs.microsoft.com/typescript/announcing-typescript-4-1-beta/#template-literal-types)
+```
+function setVerticalAlignment(color: "top" | "middle" | "bottom") {
+    // ...
+}
+
+setVerticalAlignment("middel");
+//                   ~~~~~~~~
+// error: Argument of type '"middel"' is not assignable to
+//        parameter of type '"top" | "middle" | "bottom"'.
+```
+```
+type Options = {
+    [K in "noImplicitAny" | "strictNullChecks" | "strictFunctionTypes"]?: boolean
+};
+// same as
+//   type Options = {
+//       noImplicitAny?: boolean,
+//       strictNullChecks?: boolean,
+//       strictFunctionTypes?: boolean
+//   };
+```
