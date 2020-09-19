@@ -16,6 +16,7 @@
 ## FOR REACT
 - **SEARCH**: 
      - [FUZZY-SORT](https://github.com/farzher/fuzzysort)
+- **[INFINITE ](https://github.com/onderonur/react-infinite-scroll-hook)**
 - **ULITY**
      - https://underscorejs.org/#zip
      - https://github.com/JedWatson/classnames
