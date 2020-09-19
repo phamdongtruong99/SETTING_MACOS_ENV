@@ -45,3 +45,10 @@ setAlignment("top-left");   // works!
 setAlignment("top-middel"); // error!
 setAlignment("top-pot");    // error! but good doughnuts if you're ever in Seattle
 ```
+```
+type EnthusiasticGreeting<T extends string> = `${uppercase T}`
+
+type HELLO = EnthusiasticGreeting<"hello">;
+// same as
+//   type HELLO = "HELLO";
+```
