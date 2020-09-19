@@ -52,3 +52,33 @@ type HELLO = EnthusiasticGreeting<"hello">;
 // same as
 //   type HELLO = "HELLO";
 ```
+## [TS_Key Remapping in Mapped Types](https://devblogs.microsoft.com/typescript/announcing-typescript-4-1-beta/#key-remapping-mapped-types)
+```
+type RemoveKindField<T> = {
+    [K in keyof T as Exclude<K, "kind">]: T[K]
+};
+
+interface Circle {
+    kind: "circle";
+    radius: number;
+}
+
+type KindlessCircle = RemoveKindField<Circle>;
+// same as
+//   type KindlessCircle = {
+//       radius: number;
+//   };
+```
+## [TS_Recursive Conditional Types](https://devblogs.microsoft.com/typescript/announcing-typescript-4-1-beta/#recursive-conditional-types)
+```
+// Checking if it's really there first.
+if (opts.yadda) {
+    console.log(opts.yadda.toString());
+}
+
+
+// Basically saying "trust me I know what I'm doing"
+// with the '!' non-null assertion operator.
+opts.yadda!.toString();
+```
+
