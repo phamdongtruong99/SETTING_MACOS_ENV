@@ -1,4 +1,4 @@
-## Numeric separator(https://github.com/tc39/proposal-numeric-separator)
+## [Numeric separator](https://github.com/tc39/proposal-numeric-separator)
 ```
 1_000_000_000           // Ah, so a billion
 101_475_938.38          // And this is hundreds of millions
