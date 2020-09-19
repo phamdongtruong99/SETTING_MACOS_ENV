@@ -82,4 +82,4 @@ cd ~ && bash ./INIT_ENVIRONMENT/step2.sh
 ## MY PACKAGE 
 - ESLINT-CONFIG-REACT-SHYN: https://github.com/tranthaison1231/eslint-config-react-shyn
 
-#[MANAGER](https://github.com/tranthaison1231/SETTING_MACOS_ENV/blob/master/Awsome-PM.md)
+## [MANAGER](https://github.com/tranthaison1231/SETTING_MACOS_ENV/blob/master/Awsome-PM.md)
