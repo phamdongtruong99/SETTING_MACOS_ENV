@@ -82,8 +82,4 @@ cd ~ && bash ./INIT_ENVIRONMENT/step2.sh
 ## MY PACKAGE 
 - ESLINT-CONFIG-REACT-SHYN: https://github.com/tranthaison1231/eslint-config-react-shyn
 
-# MANAGER 
-## DIAGRAM (URL) 
-- SEQUEN DIAGRAM [Tutorial](https://www.youtube.com/watch?v=soadc5aXU1c&list=PLoaAbmGPgTSMS1p9vzrHM9SGonAhowEUp)
-## CHART 
-- FLOW CHAT: https://app.diagrams.net/#G1yB_SLMdlZ1D_VPG_sI3d6qcpeLCGQbmp
+#[MANAGER](https://github.com/tranthaison1231/SETTING_MACOS_ENV/blob/master/Awsome-PM.md)
