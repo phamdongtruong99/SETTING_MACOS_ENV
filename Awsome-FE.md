@@ -41,6 +41,8 @@
      - https://github.com/react-dnd/react-dnd/
 - **CALENDAR**:
      - https://github.com/jquense/react-big-calendar
+- **CAMERA**:
+     - [WEBCAM](https://www.npmjs.com/package/react-webcam)
 - **LOADING IMAGE**
      - https://www.npmjs.com/package/react-progressive-image
 - **EDITOR**:
