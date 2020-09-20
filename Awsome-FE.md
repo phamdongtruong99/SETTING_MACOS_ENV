@@ -43,6 +43,7 @@
      - https://github.com/jquense/react-big-calendar
 - **CAMERA**:
      - [WEBCAM](https://www.npmjs.com/package/react-webcam)
+     - [CAMERA-PHOTO](https://github.com/mabelanger/react-html5-camera-photo)
 - **LOADING IMAGE**
      - https://www.npmjs.com/package/react-progressive-image
 - **EDITOR**:
