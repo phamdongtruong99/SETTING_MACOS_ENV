@@ -9,6 +9,7 @@
   - [PACKAGE](https://www.npmjs.com/package/react-native-tesseract-ocr)
   - [VIDEO](https://www.youtube.com/watch?v=KAAS1oGddUk)
 - **SCROLL BOTTOM SHEET**: https://github.com/rgommezz/react-native-scroll-bottom-sheet
+- **SLIDER**: https://github.com/Jacse/react-native-app-intro-slider
 - **AWSOME**: https://www.awesome-react-native.com/
 - **MULTIDEX**:
      - https://www.youtube.com/watch?v=4oVGEgHR3KE&feature=youtu.be
