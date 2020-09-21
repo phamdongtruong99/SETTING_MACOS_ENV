@@ -19,6 +19,7 @@
     - REACT NATIVE LOCATION: https://github.com/timfpark/react-native-location
 - **DATABASE**: https://github.com/andpor/react-native-sqlite-storage
 - **RN_CONTACTS**: https://github.com/morenoh149/react-native-contacts
+- **RESPONSIVE**: https://github.com/marudy/react-native-responsive-screen
 - **TAILWIND**:
     - REACT NATIVE TAILWIND: https://github.com/TVke/react-native-tailwindcss
 - [**REACT-NATIVE-OFFLINE**](https://github.com/rgommezz/react-native-offline)
