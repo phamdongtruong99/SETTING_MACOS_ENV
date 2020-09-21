@@ -79,6 +79,8 @@ cd ~ && bash ./INIT_ENVIRONMENT/step2.sh
 - GOOGLE MAP STATIC API: https://developers.google.com/maps/documentation/maps-static/dev-guide#ImageFormats
 - ANALYTICS API: https://morioh.com/p/c6b63f22422d
 - HOW TO GET GOOGLE CLOUD SERVICE: https://gist.github.com/tranthaison1231/1b25b75e8724cc7c87822fe5d0637a60 
+## OPENSOURCE API 
+- FILM: http://www.omdbapi.com/
 ## MY PACKAGE 
 - ESLINT-CONFIG-REACT-SHYN: https://github.com/tranthaison1231/eslint-config-react-shyn
 
