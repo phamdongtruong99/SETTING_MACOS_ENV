@@ -98,6 +98,7 @@
     - NESTJS_PRISMA_STARTER: https://github.com/fivethree-team/nestjs-prisma-starter
     - https://github.com/TrejGun/graphql-based-authorization-for-nestjs
 - NESTJS + PRISMA: https://github.com/fivethree-team/nestjs-prisma-starter
+- NESTJS ROLE: https://github.com/nestjsx/nest-access-control
 - NESTJS + MONGODB: https://github.com/academind/nestjs-introduction/tree/02-mongodb
 - NESTJS + AUTOMAPPER + TYPEGOOSE: https://github.com/nartc/example-nest-automapper
 - **MICROSERVICE**:
