@@ -55,6 +55,7 @@
 
 
 ## FOR NESTJS
+- **AVATAR S3**: https://wanago.io/2020/08/03/api-nestjs-uploading-public-files-to-amazon-s3/
 - **CRAWL DATA**:
      - https://www.npmjs.com/package/nest-crawler
      - https://github.com/puppeteer/puppeteer
