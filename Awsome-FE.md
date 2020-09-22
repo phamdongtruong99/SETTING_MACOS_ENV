@@ -37,6 +37,7 @@
      -  https://github.com/danilowoz/react-content-loader
      - https://material-ui.com/components/skeleton/
 - **REACT_IMAGE_UPLOADING**: https://github.com/vutoan266/react-images-uploading
+- [**TOKEN IN COOKIE**:](https://medium.com/@ryanchenkie_40935/react-authentication-how-to-store-jwt-in-a-cookie-346519310e81)
 - **DRAG DROP**:
      - https://github.com/react-dnd/react-dnd/
 - **CALENDAR**:
