@@ -28,3 +28,4 @@ export class PermissionsGuard implements CanActivate {
     return hasPermission();
   }
 }
+// https://auth0.com/blog/developing-a-secure-api-with-nestjs-adding-role-based-access-control/
