@@ -59,6 +59,7 @@
      - https://www.npmjs.com/package/nest-crawler
      - https://github.com/puppeteer/puppeteer
      - https://github.com/jorgealmeidajr/hotel-crawler-nest
+- **MONO REPO**: https://github.com/BrunnerLivio/nestjs-monorepo-starter
 - **AWESOME**: 
      - https://github.com/juliandavidmr/awesome-nestjs
 - **STATER**: 
