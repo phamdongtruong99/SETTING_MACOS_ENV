@@ -1,4 +1,4 @@
-const createMySocketMiddleware = (url) => {
+export const createMySocketMiddleware = (url) => {
     return storeAPI => {
         let socket = createMyWebsocket(url);
 
@@ -20,4 +20,17 @@ const createMySocketMiddleware = (url) => {
     }
 }
 
-export default createMySocketMiddleware;
+export const onAuthSuccess = () => next => action => {
+  if (action.type === LOGIN_SUCCESS) {
+    const { token } = action.payload
+    console.debug('Setting default auth header', token)
+    axios.defaults.headers.common.Authorization = `${token.tokenType} ${
+      token.accessToken
+    }`
+    socket.emit('authenticate', { token: token.accessToken })
+  } else if (action.type === LOGIN_FAILURE) {
+    delete axios.defaults.headers.Authorization
+  }
+  return next(action)
+}
+
