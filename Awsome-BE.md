@@ -99,6 +99,7 @@
     - https://github.com/TrejGun/graphql-based-authorization-for-nestjs
 - NESTJS + PRISMA: https://github.com/fivethree-team/nestjs-prisma-starter
 - NESTJS ROLE: https://github.com/nestjsx/nest-access-control
+     - https://auth0.com/blog/developing-a-secure-api-with-nestjs-adding-role-based-access-control/
 - NESTJS + MONGODB: https://github.com/academind/nestjs-introduction/tree/02-mongodb
 - NESTJS + AUTOMAPPER + TYPEGOOSE: https://github.com/nartc/example-nest-automapper
 - **MICROSERVICE**:
