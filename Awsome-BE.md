@@ -22,6 +22,7 @@
 - NODEJS + SPREADSHEET: https://github.com/nhim175/slack-analytics-to-googlesheet
 - NODEJS + TRANSLATE API: https://github.com/googleapis/nodejs-translate
 - RABBITMQ: https://medium.com/better-programming/implementing-rabbitmq-with-node-js-93e15a44a9cc
+- **Microservice**: https://github.com/moleculerjs/moleculer-template-project-typescript
 
 ## DENO 
 - REST API: 
