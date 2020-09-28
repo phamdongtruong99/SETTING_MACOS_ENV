@@ -1,6 +1,7 @@
 #  FRONT-END 
 ## AXIOS
  - AXIOS INTERCEPTORS + REFESH TOKEN: https://medium.com/swlh/handling-access-and-refresh-tokens-using-axios-interceptors-3970b601a5da
+ - AXIOS LOAD PROGRESS PERCENT: https://github.com/axios/axios/issues/2175
 ## FOR VUE 
 - AWSOME HOOKS FOR VUE:
   - https://github.com/logaretm/vue-use-web 
