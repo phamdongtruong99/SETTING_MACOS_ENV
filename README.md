@@ -12,6 +12,7 @@ cd ~ && bash ./INIT_ENVIRONMENT/step2.sh
 ```
 ---
 # DEVOPS
+- **DEPLOY STATIC REACT APP TO AWS S3**: https://medium.com/dailyjs/a-guide-to-deploying-your-react-app-with-aws-s3-including-https-a-custom-domain-a-cdn-and-58245251f081
 - **VPS**:
      - AZURE (https://portal.azure.com/#blade/HubsExtension/BrowseResourceBlade/resourceType/Microsoft.Compute%2FVirtualMachines)
      - AWS EC2: https://github.com/tranthaison1231/Virtual-Machine
