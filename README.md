@@ -21,6 +21,7 @@ cd ~ && bash ./INIT_ENVIRONMENT/step2.sh
      - JENKINS: Install jenkins on EC2 AWS ( https://www.youtube.com/watch?v=v7tLaDJ-uqg )
 - **MONITORING**:
      - https://www.datadoghq.com/
+- **DEPLOY DOCKER AND IMAGES**: https://www.youtube.com/watch?v=XNz6xXxtKhQ&ab_channel=LTV
 ---
 ---
 # OTHER 
