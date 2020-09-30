@@ -143,6 +143,9 @@
 - NEXTJS + OPTIMAZED_IMAGES: https://github.com/cyrilwanner/next-optimized-images
 - NEXTJS + COOKIE: https://github.com/tokuda109/next-cookie
 
+## ELETRON
+
+- ELETRON BASE: https://github.com/alexdevero/electron-react-webpack-boilerplate
 
 ## FOR GATSBYJS
 - **PRACTICE**:
