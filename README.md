@@ -28,9 +28,7 @@ cd ~ && bash ./INIT_ENVIRONMENT/step2.sh
 ## OOP 
 - Utility Types: 
      - Typescript: https://www.typescriptlang.org/docs/handbook/utility-types.html
-## ELETRON
 
-- ELETRON BASE: https://github.com/alexdevero/electron-react-webpack-boilerplate
 
 ## TOOLING
 
