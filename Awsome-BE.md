@@ -8,6 +8,7 @@
 - COOKIE SESSION:
      - https://github.com/expressjs/cookie-session
      - https://github.com/expressjs/session
+- SWAGGER: https://www.npmjs.com/package/typescript-rest-swagger
 - Cloudinary + Multer:
      - https://github.com/jcottam/blog/tree/master/image-uploading-with-node-and-cloudinary
      - https://github.com/shoaibcode/express-handler/tree/upload-image-part1
