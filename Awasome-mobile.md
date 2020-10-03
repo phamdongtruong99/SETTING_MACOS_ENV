@@ -11,6 +11,7 @@
 - **SCROLL BOTTOM SHEET**: https://github.com/rgommezz/react-native-scroll-bottom-sheet
 - [**SET STATUS BAR TRANSLUCENT**:](//freakycoder.com/react-native-notes-23-how-to-translucent-statusbar-1b8b7a44139f)
 - **OTP INPUT**: https://github.com/dsznajder/react-native-otp-inputs
+                - https://www.youtube.com/watch?v=dOjGwLpRrOU&ab_channel=LirsTechTips
 - **SLIDER**: https://github.com/Jacse/react-native-app-intro-slider
 - **AWSOME**: https://www.awesome-react-native.com/
 - **MULTIDEX**:
