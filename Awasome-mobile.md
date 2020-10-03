@@ -68,6 +68,7 @@
      - https://github.com/react-native-community/react-native-linear-gradient
 - **PICK IMAGE**: 
      - https://github.com/ivpusic/react-native-image-crop-picker
+     - Youtube: https://www.youtube.com/watch?v=J0emr9pI9V4&ab_channel=LirsTechTips
 - **Localization**:
 - **FIREBASE**: 
  - https://www.youtube.com/watch?v=pr1Mt1_YLyA&feature=youtu.be
