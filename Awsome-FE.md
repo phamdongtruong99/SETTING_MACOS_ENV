@@ -34,6 +34,7 @@
      - [BUTTON](https://www.niemvuilaptrinh.com/article/Nhung-Hieu-Ung-Interaction-Cho-Button-Trong-Trang-Web?fbclid=IwAR11UMeNYTSbxh0o-aJphuY-55DMuUm0Wxrke6fit8jJEnDt5h546Pfu1wQ)
      - SCROLL PERCENTAGE: https://github.com/thebuilder/react-scroll-percentage
      - [ANIMATE ON SCROLL](https://github.com/dbramwell/react-animate-on-scroll)
+     - GSAP: https://bitworking.github.io/react-gsap/src-plugins-gsap
 - **SEKELETON**
      -  https://github.com/danilowoz/react-content-loader
      - https://material-ui.com/components/skeleton/
