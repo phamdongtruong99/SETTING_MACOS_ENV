@@ -59,6 +59,8 @@ cd ~ && bash ./INIT_ENVIRONMENT/step2.sh
      - https://js.tensorflow.org/api/1.7.2/
    - **Linear_Regression**:
      - https://github.com/mk-gurucharan/Linear-Regression/blob/master/Simple_Linear_Regression.ipynb
+   - **LSTM**: 
+          - https://github.com/thangnch/MiAI_Lang_Detect
 ## WINFORM
      - FASTFOOD: https://github.com/tranthaison1231/WINFORM_FASTFOOD
 
