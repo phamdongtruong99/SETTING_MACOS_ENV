@@ -143,6 +143,8 @@
 - NEXT + GRAPHQL: https://github.com/garganurag893/Next.js_GraphQL_Express_Apollo_Boilerplate
 - NEXTJS + OPTIMAZED_IMAGES: https://github.com/cyrilwanner/next-optimized-images
 - NEXTJS + COOKIE: https://github.com/tokuda109/next-cookie
+- NEXTJS + GHOST: https://github.com/mehulmpt/ghost-cms-nextjs
+                - https://www.youtube.com/watch?v=1SYU1GorO6Y&ab_channel=TraversyMedia
 
 ## ELETRON
 
