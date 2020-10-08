@@ -78,6 +78,7 @@
      - NESTJS + WEBSOCKET: https://github.com/brianjohnsonsr/nest.ws.tutorial
      - NESTJS + TYPEORM + POSTREGSQL: https://github.com/tranthaison1231/NESTJS_TYPEPORM
      - TYPEORM + TRANSACTION: https://github.com/typeorm/typeorm/blob/master/docs/transactions.md
+          - https://aaronboman.com/programming/2020/05/15/per-request-database-transactions-with-nestjs-and-typeorm/
      - EXAMPLE: https://github.com/kelvin-mai/nest-space-exlporer
      - [MONGO-NESJS](https://github.com/msanvarov/nest-rest-mongo-boilerplate)
      - [SERVERLESS-AWS_NESTJS](https://medium.com/javascript-in-plain-english/nestjs-serverless-app-with-mongodb-atlas-e8dec9ae7405)
