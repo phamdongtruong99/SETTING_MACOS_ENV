@@ -138,7 +138,7 @@
 - NESTJS + MONGODB: https://github.com/academind/nestjs-introduction
 - NESTJS + MONGOOSE: https://github.com/nestjs/nest/tree/master/sample/06-mongoose
 - Mongoose transaction: 
-```
+```javascript 
 const User = mongoose.model('Users', new mongoose.Schema({
   userId: String, wallet: Number
 }));
