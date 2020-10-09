@@ -28,3 +28,14 @@ export const showError = error => {
     //
   }
 };
+
+export function withToastForError<Args, Returned>(payloadCreator: (args: Args) => Promise<Returned>) {
+    return async (args: Args) => {
+        try {
+            return await payloadCreator(args);
+        } catch (err) {
+            showToastForError(err);
+            throw err; // throw error so createAsyncThunk will dispatch '/rejected'-action
+        }
+    };
+}
