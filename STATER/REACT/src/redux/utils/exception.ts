@@ -39,3 +39,4 @@ export function withToastForError<Args, Returned>(payloadCreator: (args: Args) =
         }
     };
 }
+// https://github.com/reduxjs/redux-toolkit/issues/520
