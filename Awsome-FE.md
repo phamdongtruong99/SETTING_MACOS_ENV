@@ -86,6 +86,7 @@
 - REACT FOR DRAG DROP IMAGE: https://github.com/react-dropzone/react-dropzone
 - REACT FIREBASE + GOOGLE MAP: https://gitlab.com/tranthaison1231/we-collect-we-share
      - https://github.com/jhuleatt/react-roads
+- REACT CANVAS DRAW: https://www.npmjs.com/package/react-canvas-draw
 - REACT + FIREBASE: https://stackblitz.com/edit/reactfire-sample-uhnxkb
 - [REAC-GRAPHCMS](https://github.com/GraphCMS/graphcms-event-app-demo)
 - REACT + REDUX + FIREBASE: https://codesandbox.io/s/zrr0n5m2zp
