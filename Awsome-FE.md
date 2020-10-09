@@ -169,3 +169,11 @@
      - https://scrollrevealjs.org/guide/customization.html
 - **AMAZING STYLE CSS**:
      - https://codesandbox.io/s/scroll-snap-spacer-kscrw
+
+
+- Debounce when dispatch thunk
+```javascript
+const debouncedDispatchMyThunk = useMemo(() => {
+  return debounce(() => dispatch(myThunk())
+}, [])
+```
