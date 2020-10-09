@@ -82,6 +82,7 @@
 - REACT + TS + ELECTRON + TAILWIND + PARCEL: https://github.com/huytd/electron-typescript-react-tailwind-parcel
 - REACT + PULL TO REFESH : https://github.com/CuongStf/pull-to-refresh-react
 - ESLINT CONFIG: https://www.npmjs.com/package/eslint-config-react-shyn
+- CLOUD FIREBASE NOTIFICATION: https://www.youtube.com/watch?v=PCYmdHpPLUs&ab_channel=AVDojo
 - REACT FOR DRAG DROP IMAGE: https://github.com/react-dropzone/react-dropzone
 - REACT FIREBASE + GOOGLE MAP: https://gitlab.com/tranthaison1231/we-collect-we-share
      - https://github.com/jhuleatt/react-roads
