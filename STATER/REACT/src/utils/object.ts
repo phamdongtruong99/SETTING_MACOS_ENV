@@ -110,3 +110,21 @@ const getKeys = (obj, arr = []) => {
 //     }
 //   }
 // }) => ['bedroom', 'area', 'bed', 'type', 'price'];
+
+export const hasKeys =
+  <T>(
+    obj: Record<string, any>,
+    properties: (keyof T)[]
+  ): obj is T =>
+    properties.filter(p => p in obj).length == properties.length;
+    // functional approach
+// https://dev.to/judehunter/the-caveats-and-solutions-to-generic-type-guards-in-typescript-2o7a?utm_source=dormosheio&utm_campaign=dormosheio
+
+export const hasAllKeys =
+  <T>(obj: Record<string, any>, cls: new () => T): obj is T => {
+    const properties = Object.keys(new cls());
+    for (const p of properties) {
+      if (!(p in obj)) return false;
+    }
+    return true;
+  };
