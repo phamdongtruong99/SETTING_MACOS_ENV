@@ -34,6 +34,17 @@ export const isObjectLike = (value) => {
 //isPlainObject({ a: 1 }); // true
 //isPlainObject(new Map()); // false
 
+export const hasAllKeys =
+  <T>(obj: Record<string, any>, cls: new () => T): obj is T => {
+    const properties = Object.keys(new cls());
+    for (const p of properties) {
+      if (!(p in obj)) return false;
+    }
+    return true;
+  };
+
+// https://dev.to/judehunter/the-caveats-and-solutions-to-generic-type-guards-in-typescript-2o7a?utm_source=dormosheio&utm_campaign=dormosheio
+
 const objectToArray = (object) => {
   return Object.keys(object).map((e) => object[e]);
 };
