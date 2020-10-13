@@ -52,6 +52,7 @@
 - **EDITOR**:
      - https://github.com/react-monaco-editor/react-monaco-editor
 - **INTERGATION TEST**: https://github.com/sarahatwork/integration-tests
+- **PDF PREVIEWER**: https://medium.com/how-to-react/create-pdf-viewer-in-react-js-d81c1563da3
 - **LAZY LOAD**
      - https://github.com/bvaughn/react-virtualized
      - https://github.com/bvaughn/react-window
