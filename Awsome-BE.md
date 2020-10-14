@@ -104,6 +104,7 @@
     - NESTJS_PRISMA_STARTER: https://github.com/fivethree-team/nestjs-prisma-starter
     - https://github.com/TrejGun/graphql-based-authorization-for-nestjs
 - NESTJS + PRISMA: https://github.com/fivethree-team/nestjs-prisma-starter
+- NESTS + RBAC: https://github.com/sergey-telpuk/nestjs-rbac
 - NESTJS ROLE: https://github.com/nestjsx/nest-access-control
      - https://auth0.com/blog/developing-a-secure-api-with-nestjs-adding-role-based-access-control/
 - NESTJS + MONGODB: https://github.com/academind/nestjs-introduction/tree/02-mongodb
