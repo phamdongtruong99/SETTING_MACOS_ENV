@@ -135,7 +135,7 @@
 - DOWLOAD MYSQL: https://dev.mysql.com/downloads/mysql/5.7.html
 
 ### MONGODB
-
+- FULL_TEXT_SEARCH: https://arianacosta.com/database/mongodb/mongodb-full-text-search-tutorial/
 - NESTJS + MONGODB: https://github.com/academind/nestjs-introduction
 - NESTJS + MONGOOSE: https://github.com/nestjs/nest/tree/master/sample/06-mongoose
 - Mongoose transaction: 
