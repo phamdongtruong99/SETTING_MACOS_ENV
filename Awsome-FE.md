@@ -93,6 +93,7 @@
 - REACT + FIREBASE: https://stackblitz.com/edit/reactfire-sample-uhnxkb
 - [REAC-GRAPHCMS](https://github.com/GraphCMS/graphcms-event-app-demo)
 - REACT + REDUX + FIREBASE: https://codesandbox.io/s/zrr0n5m2zp
+- Observable: https://stackblitz.com/edit/react-ts-7sarye?file=use-observable.ts
 - REACT + SVG: https://www.youtube.com/watch?v=7bw56feIdh4
 - VIDEO CHAT: https://medium.com/better-programming/build-a-video-chat-with-react-hooks-5f3337881327
 - REACT IS IN VIEW PORT: https://github.com/davidnguyen179/react-is-in-viewport
