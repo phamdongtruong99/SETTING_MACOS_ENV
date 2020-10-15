@@ -4,6 +4,7 @@
 
 ## EXPRESSJS
 
+- NODEJS RBAC: https://github.com/seeden/rbac
 - FEATHER JS + SOCKETIO: https://github.com/bradtraversy/livestreamer_project_ideas
 - COOKIE SESSION:
      - https://github.com/expressjs/cookie-session
