@@ -135,6 +135,7 @@
 - DOWLOAD MYSQL: https://dev.mysql.com/downloads/mysql/5.7.html
 
 ### MONGODB
+- PARTIAL_TEXT_SEARCH: https://kb.objectrocket.com/mongo-db/mongoose-partial-text-search-606
 - FULL_TEXT_SEARCH: https://arianacosta.com/database/mongodb/mongodb-full-text-search-tutorial/
 - NESTJS + MONGODB: https://github.com/academind/nestjs-introduction
 - NESTJS + MONGOOSE: https://github.com/nestjs/nest/tree/master/sample/06-mongoose
