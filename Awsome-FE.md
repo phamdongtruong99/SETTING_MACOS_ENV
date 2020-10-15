@@ -85,6 +85,8 @@
 - ESLINT CONFIG: https://www.npmjs.com/package/eslint-config-react-shyn
 - CLOUD FIREBASE NOTIFICATION: https://www.youtube.com/watch?v=PCYmdHpPLUs&ab_channel=AVDojo
 - REACT FOR DRAG DROP IMAGE: https://github.com/react-dropzone/react-dropzone
+- REACT HANDLE FOR IMAGE: 
+   -  FILTER AND CROP: https://github.com/scaleflex/filerobot-image-editor
 - REACT FIREBASE + GOOGLE MAP: https://gitlab.com/tranthaison1231/we-collect-we-share
      - https://github.com/jhuleatt/react-roads
 - REACT CANVAS DRAW: https://www.npmjs.com/package/react-canvas-draw
