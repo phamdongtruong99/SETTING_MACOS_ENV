@@ -159,6 +159,11 @@ function onConnect(socket){
 
   // sending to all clients on this node (when using multiple nodes)
   io.local.emit('hi', 'my lovely babies');
+  
+  // list socketid
+  for (var socketid in io.sockets.sockets) {}
+   OR
+  Object.keys(io.sockets.sockets).forEach((socketid) => {});
 
 };
 ```
