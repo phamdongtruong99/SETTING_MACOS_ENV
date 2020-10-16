@@ -122,7 +122,7 @@
      - E2E: https://github.com/kelvin-mai/nest-commerce/blob/master/test/auth.e2e-spec.ts
 
 ## SOCKET CHEATSHEET
-```
+```javascript
 io.on('connect', onConnect);
 
 function onConnect(socket){
