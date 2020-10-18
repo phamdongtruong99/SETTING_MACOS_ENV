@@ -95,6 +95,7 @@
      - https://github.com/adrien2p/nestjs-dialogflow
 - **NESTJS + SEQUELIZE**:
     - https://github.com/kentloog/nestjs-sequelize-typescript
+- **NESTJS COMPONENT**: https://github.com/algoan/nestjs-components
 - **NESTJS + GRAPHQL**: 
     - https://github.com/chnirt/nestjs-graphql-best-practice
     - https://github.com/kelvin-mai/nest-ideas-api
