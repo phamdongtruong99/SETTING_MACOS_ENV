@@ -15,7 +15,7 @@ cd ~ && bash ./INIT_ENVIRONMENT/step2.sh
 - **DEPLOY STATIC REACT APP TO AWS S3**: https://medium.com/dailyjs/a-guide-to-deploying-your-react-app-with-aws-s3-including-https-a-custom-domain-a-cdn-and-58245251f081
 - **GITHUB ACTION**
      - AWS S3: https://medium.com/trackstack/deploying-a-react-app-to-aws-s3-with-github-actions-b1cb9ba75c95
-     - NPM PUBLISH: https://github.com/marketplace/actions/publish-to-npm
+     - NPM PUBLISH: https://github.com/Shyn-Familys/express-rest
 - **VPS**:
      - AZURE (https://portal.azure.com/#blade/HubsExtension/BrowseResourceBlade/resourceType/Microsoft.Compute%2FVirtualMachines)
      - AWS EC2: https://github.com/tranthaison1231/Virtual-Machine
