@@ -98,6 +98,7 @@
 - REACT + SVG: https://www.youtube.com/watch?v=7bw56feIdh4
 - VIDEO CHAT: https://medium.com/better-programming/build-a-video-chat-with-react-hooks-5f3337881327
 - REACT IS IN VIEW PORT: https://github.com/davidnguyen179/react-is-in-viewport
+- Capacitor: https://medium.com/swlh/next-level-todo-app-using-react-typescript-capacitor-and-gcp-2429b1f7ef92
 - ANIMATION: 
      - https://github.com/aholachek/mobile-first-animation
      - [REACT-FLIP_MOVE](https://github.com/joshwcomeau/react-flip-move/blob/gh-pages/examples/components/1_Shuffle.jsx): 
