@@ -12,3 +12,5 @@ export type Join<T extends string[], D extends string> =
   T extends [infer U] ? U:
   T extends [unknown, ...infer U] ? `${T[0]}${D}${Join<U, D>}` :
   string;
+
+export type Maybe<T> = T | null;
