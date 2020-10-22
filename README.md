@@ -24,7 +24,9 @@ cd ~ && bash ./INIT_ENVIRONMENT/step2.sh
 - **MONITORING**:
      - https://www.datadoghq.com/
 - **DEPLOY DOCKER AND IMAGES**: https://www.youtube.com/watch?v=XNz6xXxtKhQ&ab_channel=LTV
-- **HOW TO REMOTE SSH**: https://www.youtube.com/watch?v=GyLBvVrlBXQ&ab_channel=%C3%94ngDev
+- **HOW TO REMOTE SSH**:
+     - https://www.youtube.com/watch?v=GyLBvVrlBXQ&ab_channel=%C3%94ngDev
+     - https://orientsoftware.udemy.com/course/aws-certified-solutions-architect-associate-saa-c02/learn/lecture/13528044#overview
 ---
 ---
 # OTHER 
