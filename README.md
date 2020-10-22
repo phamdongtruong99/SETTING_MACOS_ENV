@@ -64,7 +64,7 @@ cd ~ && bash ./INIT_ENVIRONMENT/step2.sh
      - https://github.com/mk-gurucharan/Linear-Regression/blob/master/Simple_Linear_Regression.ipynb
    - **LSTM**: 
           - https://github.com/thangnch/MiAI_Lang_Detect
-   - **FACE DETECTION*: https://github.com/justadudewhohacks/face-api.js
+   - **FACE DETECTION**: https://github.com/justadudewhohacks/face-api.js
 ## WINFORM
      - FASTFOOD: https://github.com/tranthaison1231/WINFORM_FASTFOOD
 
