@@ -122,6 +122,7 @@
 - NESTJS CACHE: https://www.youtube.com/watch?v=8OTm00NH4MQ
 - **-------TEST--------------**
      - E2E: https://github.com/kelvin-mai/nest-commerce/blob/master/test/auth.e2e-spec.ts
+- SEGAL DECORATOR: https://github.com/danrevah/segal-decorators
 
 ## SOCKET CHEATSHEET
 ```javascript
