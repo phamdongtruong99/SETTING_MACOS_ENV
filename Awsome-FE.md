@@ -179,6 +179,7 @@
 - **AMAZING STYLE CSS**:
      - https://codesandbox.io/s/scroll-snap-spacer-kscrw
 
+- REACT + NGINX: https://medium.com/dev-genius/using-nginx-to-serve-react-application-static-vs-proxy-69b85f368e6c
 
 - Debounce when dispatch thunk
 ```javascript
