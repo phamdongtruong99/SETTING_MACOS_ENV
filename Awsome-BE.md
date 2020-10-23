@@ -228,3 +228,32 @@ async function updateWallet(userId, amount) {
 ```
 
 ---
+- Puppeteer:
+```
+const puppeteer = require('puppeteer');
+
+let dhhUrl = 'https://student.husc.edu.vn/Statistics/HistoryOfStudying';
+(async () => {
+    const browser = await puppeteer.launch({ headless: true });
+    const page = await browser.newPage();
+    await page.goto(dhhUrl);
+
+    let dhhData = await page.evaluate(() => {
+        let result = [];
+        const table = document.getElementsByTagName('table')
+        const lines = table[0].children[1].children //Lấy mảng tr nằm trong tbody
+        [...lines].map(line => {
+            if(![...line.children].find(td => td.getAttribute('colspan'))){
+                const data = line // dòng dữ liệu chứa điểm của chúng ta ở đây rồi.
+                const name = data.children[2].children[0].innerText
+                const stc = data.children[3].innerText
+                const total = data.children[7].innerText
+                console.log(`Tên môn học: ${name} - Số tín chỉ ${stc} - Tổng điểm ${total}`)
+                result.push({name, stc, total})
+             }
+        })
+        return result;
+    });
+    await browser.close();
+})();
+```
