@@ -229,7 +229,7 @@ async function updateWallet(userId, amount) {
 
 ---
 - Puppeteer:
-```
+```javascript
 const puppeteer = require('puppeteer');
 
 let dhhUrl = 'https://student.husc.edu.vn/Statistics/HistoryOfStudying';
