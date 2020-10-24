@@ -12,4 +12,4 @@ CREATE FUNCTION translate_jp(value TEXT)
     END
   $BODY$
   LANGUAGE 'plpgsql' VOLATILE;
-// https://viblo.asia/p/giai-quyet-mot-so-bai-toan-tim-kiem-bang-translate-trong-sql-RnB5pM22KPG
+-- https://viblo.asia/p/giai-quyet-mot-so-bai-toan-tim-kiem-bang-translate-trong-sql-RnB5pM22KPG
