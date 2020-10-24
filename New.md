@@ -1,4 +1,4 @@
-## [JS_String.prototype.replaceAll()
+## [JS_String.prototype.replaceAll()](https://dev.to/maximization/node-js-15-is-out-what-does-it-mean-for-you-3fho)
 ```
 // Old 🙅🏻‍♀️
 'q=query+string+parameters'.replace(/\+/g, ' ');
