@@ -180,6 +180,7 @@
      - https://codesandbox.io/s/scroll-snap-spacer-kscrw
 
 - REACT + NGINX: https://medium.com/dev-genius/using-nginx-to-serve-react-application-static-vs-proxy-69b85f368e6c
+- REACT USE HTTPS IN DEVELOPMENT: https://medium.com/@steffodimfelt/how-to-make-react-js-use-https-in-development-4ead560eff10
 
 - Debounce when dispatch thunk
 ```javascript
