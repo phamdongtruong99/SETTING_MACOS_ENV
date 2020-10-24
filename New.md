@@ -1,3 +1,15 @@
+## [JS_String.prototype.replaceAll()
+```
+// Old 🙅🏻‍♀️
+'q=query+string+parameters'.replace(/\+/g, ' ');
+// 'q=query string parameters'
+
+// New 🎉, using `.replaceAll()`
+'q=query+string+parameters'.replaceAll('+', ' ');
+// 'q=query string parameters'
+``` 
+
+
 ## [JS_Numeric separator](https://github.com/tc39/proposal-numeric-separator)
 ```
 1_000_000_000           // Ah, so a billion
