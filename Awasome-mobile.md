@@ -22,6 +22,7 @@
 - **FILTER_IMAGE**: https://github.com/iyegoroff/react-native-image-filter-kit
 - **LOCATION**:
     - REACT NATIVE LOCATION: https://github.com/timfpark/react-native-location
+    - https://github.com/react-native-geolocation/react-native-geolocation
 - **DATABASE**: https://github.com/andpor/react-native-sqlite-storage
 - **RN_CONTACTS**: https://github.com/morenoh149/react-native-contacts
 - **RESPONSIVE**: https://github.com/marudy/react-native-responsive-screen
