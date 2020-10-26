@@ -36,6 +36,7 @@
      - SCROLL PERCENTAGE: https://github.com/thebuilder/react-scroll-percentage
      - [ANIMATE ON SCROLL](https://github.com/dbramwell/react-animate-on-scroll)
      - GSAP: https://bitworking.github.io/react-gsap/src-plugins-gsap
+- **REACT_QUERY**: https://github.com/Divergent-Design-Lab/Presence/tree/5b556abf465d472bc6ba6eb7f051074fe3005b13
 - **SEKELETON**
      -  https://github.com/danilowoz/react-content-loader
      - https://material-ui.com/components/skeleton/
