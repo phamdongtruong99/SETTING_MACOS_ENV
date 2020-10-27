@@ -19,6 +19,7 @@
      - https://www.youtube.com/watch?v=4oVGEgHR3KE&feature=youtu.be
 - **SHARE**: https://github.com/react-native-community/react-native-share
 - **CHAT**: https://github.com/FaridSafi/react-native-gifted-chat
+- **EDITOR IMAGE + VIDEO**: https://www.youtube.com/watch?v=e9JiCMQKrJY&ab_channel=img.ly
 - **FILTER_IMAGE**: https://github.com/iyegoroff/react-native-image-filter-kit
 - **LOCATION**:
     - REACT NATIVE LOCATION: https://github.com/timfpark/react-native-location
