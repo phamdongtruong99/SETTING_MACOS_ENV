@@ -134,6 +134,7 @@
 ## FOR NEXTJS
 
 - **SEO**: https://github.com/garmeeh/next-seo
+- **NEXTJS_IMAGE**: https://github.com/joe-bell/next-blurhash
 - **STARTER**:
      - https://github.com/bmvantunes/youtube-2020-march-nextjs-part7
      - https://github.com/tranthaison1231/NEXTJS_BUS_APP
