@@ -146,6 +146,7 @@
      - https://github.com/leighhalliday/nextjs-hooks-database
 - NEXTJS + PRISMA: https://github.com/leerob/next-prisma
 - NEXTJS + I18NEXT: 
+          - https://gitlab.com/kachkaev/website-frontend/-/blob/master/src/pages/_app.tsx
           - https://github.com/tranthaison1231/NEXTJS_I18N
           - https://github.com/isaachinman/next-i18next
 - (STATER ) NEXTJS + TAILWIND + TS: https://github.com/huytd/nextjs-tailwind-typescript
