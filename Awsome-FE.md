@@ -104,6 +104,7 @@
      - https://github.com/aholachek/mobile-first-animation
      - [REACT-FLIP_MOVE](https://github.com/joshwcomeau/react-flip-move/blob/gh-pages/examples/components/1_Shuffle.jsx): 
 - [REACT_TYPESCRIPT_CHEATSHEET](https://github.com/typescript-cheatsheets/react-typescript-cheatsheet)
+- SOCIALS BUTTON: https://www.npmjs.com/package/react-social-login-buttons
   ### SOCKET:
      - https://github.com/ManZzup/plguides/tree/master/11-using-websockets-in-your-react-redux-app/chat-app/src
   ### HOOK: 
