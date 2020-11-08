@@ -64,6 +64,7 @@
      - HOOK: https://github.com/onderonur/react-infinite-scroll-hook
 - **STARTER**:
      - **ADMIN**
+          - https://github.com/tranthaison1231/react-stater
           - https://github.com/tranthaison1231/STATER_REACT
           - https://github.com/tranthaison1231/REACT_ADMIN_2
 - **PWA**: 
