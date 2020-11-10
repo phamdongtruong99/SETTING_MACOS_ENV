@@ -161,6 +161,7 @@
 - NEXTJS + GHOST: https://github.com/mehulmpt/ghost-cms-nextjs
                 - https://www.youtube.com/watch?v=1SYU1GorO6Y&ab_channel=TraversyMedia
 - NEXT-COMPOSE-PLUGIN: https://github.com/cyrilwanner/next-compose-plugins
+- NEXTJS-STRAPI: https://dennisokeeffe.medium.com/taking-stripe-payments-with-next-js-10-typescript-4-react-17-and-vercel-bab929efdc9b
 
 ## ELETRON
 
