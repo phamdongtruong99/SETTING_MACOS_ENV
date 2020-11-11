@@ -180,6 +180,7 @@ function onConnect(socket){
 ## POSTGRES:
      - A spatial database: ( https://postgis.net/?fbclid=IwAR2Q47Znctd0roiaOzqtdtz0eEXMj_mzzaJhFQf53IZDk-ABPBG2PTVyXhA )  
      - Full text search: https://www.compose.com/articles/mastering-postgresql-tools-full-text-search-and-phrase-search/
+     - Handling Date: https://tapoueh.org/blog/2018/04/postgresql-data-types-date-timestamp-and-time-zones/
 
 ### MYSQL
 
