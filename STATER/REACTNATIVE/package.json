@@ -15,7 +15,7 @@
     "removeCachedFiles": "rm -rf $TMPDIR/react-* && watchman watch-del-all && rm -rf ios/build/ModuleCache/* && rm -rf ios/build/* && rm -rf node_modules/*",
     "removeCachedMetro": " npm cache clean --force && rm -rf ~/Library/Caches/com.facebook.ReactNativeBuild && yarn cache clean && rm -rf $TMPDIR/metro-bundler-cache-*",
     "newclear": "yarn run removeCachedFiles && yarn run removeCachedMetro && yarn add cache clean && yarn run android:clean && yarn run fix-xcode && yarn run createIconFont",
-    "clear": "clear": "watchman watch-del-all && npm start -- --reset-cache",
+    "clear": "watchman watch-del-all && npm start -- --reset-cache",
     "podInstall": "cd ios && rm -rf Pods/* && rm -rf Podfile.lock && pod install && cd ..",
     "doctor": "npx @react-native-community/cli doctor",
     "codePush": "code-push release-react app-ios ios && code-push release-react app-android android",
