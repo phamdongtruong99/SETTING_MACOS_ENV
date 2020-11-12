@@ -118,6 +118,7 @@
 - CONVECTOR +  https://medium.com/swlh/convector-with-nestjs-7e660322d927
 - ULITY FOR NESTJS: https://github.com/golevelup/nestjs
 - NESTJS COOKIE SESSION: https://github.com/iamolegga/nestjs-cookie-session
+- NESTJS SERVERLESS DYNAMODB: https://medium.com/javascript-in-plain-english/serverless-nestjs-with-aws-dynamodb-e7530ab33c78
 - NESTJS_STATER https://github.com/rjlopezdev
 - NESTJS CACHE: https://www.youtube.com/watch?v=8OTm00NH4MQ
 - **-------TEST--------------**
