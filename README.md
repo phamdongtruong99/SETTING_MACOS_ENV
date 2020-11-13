@@ -27,6 +27,7 @@ cd ~ && bash ./INIT_ENVIRONMENT/step2.sh
 - **HOW TO REMOTE SSH**:
      - https://www.youtube.com/watch?v=GyLBvVrlBXQ&ab_channel=%C3%94ngDev
      - https://orientsoftware.udemy.com/course/aws-certified-solutions-architect-associate-saa-c02/learn/lecture/13528044#overview
+- **REDUCE APP DOCKER**: https://medium.com/swlh/how-we-reduced-react-docker-image-by-17x-cd684898470f
 ---
 ---
 # OTHER 
