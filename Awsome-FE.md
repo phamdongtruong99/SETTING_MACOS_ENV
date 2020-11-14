@@ -61,6 +61,7 @@
      - [Infinityscroll](https://www.youtube.com/watch?v=8nFNxnjoTZ4)
      - https://github.com/bvaughn/react-window-infinite-loader
      - LAZY LOAD IMAGE: https://levelup.gitconnected.com/lazy-loading-images-in-react-for-better-performance-5df73654ea05
+     - Intersection-Observer: https://codesandbox.io/s/intersectionobserverreact-forked-ss86b 
      - HOOK: https://github.com/onderonur/react-infinite-scroll-hook
 - **STARTER**:
      - **ADMIN**
