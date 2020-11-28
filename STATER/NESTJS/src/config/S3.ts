@@ -95,7 +95,7 @@ export class S3Adapter {
         })
       })
     } catch (err) {
-      console.log('s3 upload failed')
+      console.error('s3 upload failed')
       throw new Error(err)
     }
   }
