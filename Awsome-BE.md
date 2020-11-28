@@ -26,7 +26,8 @@
 - RABBITMQ: https://medium.com/better-programming/implementing-rabbitmq-with-node-js-93e15a44a9cc
 - SEEDING: https://medium.com/@pkosiec/seeding-mongodb-database-the-right-way-32a8a0e75490
 - **Microservice**: https://github.com/moleculerjs/moleculer-template-project-typescript
-
+- Middleware: 
+     - https://github.com/helmetjs/helmet
 ## DENO 
 - REST API: 
      - https://github.com/thaisonenouvo/deno-paas
