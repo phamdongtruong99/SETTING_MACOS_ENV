@@ -1,0 +1,11 @@
+overwrite: true
+schema: '../linked-site-api/schema.gql'
+documents: 'src/**/*.graphql'
+generates:
+  src/generated/graphql.tsx:
+    plugins:
+      - 'typescript'
+      - 'typescript-operations'
+  src/generated/introspection-result.ts:
+    plugins:
+      - 'fragment-matcher'
