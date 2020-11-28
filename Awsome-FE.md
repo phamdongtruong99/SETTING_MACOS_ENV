@@ -141,6 +141,7 @@
 - **STARTER**:
      - https://github.com/bmvantunes/youtube-2020-march-nextjs-part7
      - https://github.com/tranthaison1231/NEXTJS_BUS_APP
+     - https://steveholgado.com/nginx-for-nextjs/
 - **TRACKING VIEW**: 
      - https://tagmanager.google.com/#/home
 - **NEXTJS - STRAPI**: 
