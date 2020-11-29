@@ -16,17 +16,29 @@ export const phoneFormat = value => {
   return false;
 };
 
+/* eslint-disable no-useless-escape */
 export const validateRegex = {
-  phone: /^(\+84|0)+([0-9]{9})$/gs,
-  email: /[a-zA-Z0-9]+[.]?([a-zA-Z0-9]+)?[@][a-z]{3,9}[.][a-z]{2,5}/g,
+  phone: /((\+84[0-9]{9})|(\b0[0-9]{9}))(?![0-9])/g,
   password: /^(?=.*[a-z])(?=.*[0-9])(?=.*\d).{6,}$/g,
   username: /^([a-z0-9A-Z_-]{3,100})$/g,
+  number: /^[-]?[0-9]*$/g,
+  numberUnsigned: /^[0-9]*$/g,
+  floatNumber: /^[-]?\d*\.?\d*$/,
+  floatNumberUnsigned: /^\d*\.?\d*$/, // negative sign (-) is allowed
   editBookingId: '#bookings/(.*)/edit',
   fullName: /^[a-z0-9 ]{3,100}$/iu,
-  number: /^[0-9]+$/iu,
+  hour: /^(2[0-3]|1[0-9]|[0-9])$/,
+  minute: /^[1-5]?[0-9]$/,
+  week: /^(5[0-3]|[1-4][0-9]|[1-9])$/,
+  percentage: /^(100|[1-9]?[0-9])$/,
+  email: /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/,
+  month: /^(1[0-2]|[1-9])$/,
+  day: /^(3[01]|[12][0-9]|[1-9])$/,
+  web: /((?:https\:\/\/)|(?:http\:\/\/)|(?:www\.))?([a-zA-Z0-9\-\.]+\.[a-zA-Z]{2,3}(?:\??)[a-zA-Z0-9\-\._\?\,\'\/\\\+&%\$#\=~]+)/gi,
   fileName: /\.(gif|jpg|jpeg|tiff|png)$/i,
   isGithubURL: /https?:\/\/github.com\/.*/gi
 };
+
 
 export const validate2Passwords = (password, retypePassword) => {
   return password === retypePassword;
