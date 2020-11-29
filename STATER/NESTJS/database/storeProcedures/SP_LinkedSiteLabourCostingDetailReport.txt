@@ -1,0 +1,96 @@
+/****** Object:  StoredProcedure [dbo].[SP_LinkedSiteLabourCostingDetailReport]    Script Date: 11/26/2020 10:21:51 AM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+-- =============================================
+-- Author:		<Author,,Name>
+-- Create date: <Create Date,,>
+-- Description:	<Description,,>
+--dbo.SP_LinkedSiteLabourCostingDetailReport '01-OCT-2020','31-OCT-2020',80621,'ALL',1,10000
+-- =============================================
+ ALTER PROCEDURE [dbo].[SP_LinkedSiteLabourCostingDetailReport]
+@StartDate DATE,
+@FinishDate DATE,
+@ProjectNo VARCHAR(50),
+@PersonType VARCHAR(50),
+
+@PageNumber int =1,-- NULL,
+@PageSize BIGINT =15-- NULL,
+AS
+BEGIN
+	SET NOCOUNT ON;
+
+	DECLARE	@RowStart int,@NoOfRecords FLOAT,@NoOfPages int
+
+	SELECT @NoOfRecords=COUNT(1) FROM dbo.vwLabourCostingDetail VWLabour 
+	WHERE VWLabour.ProjectNo = @ProjectNo AND
+		CAST(VWLabour.WorkDate AS DATE) >= @StartDate AND CAST(VWLabour.WorkDate AS DATE) <= @FinishDate
+		AND IIF(@PersonType='ALL','',VWLabour.PersonType) = IIF(@PersonType='ALL','',@PersonType)
+
+	IF @PageNumber > 0
+	BEGIN
+		SET @PageNumber = @PageNumber - 1
+		SET @RowStart = @PageSize * @PageNumber ;
+		SET @NoOfPages = CEILING(@NoOfRecords / @PageSize);
+
+		SELECT VWLabour.PersonType
+			,VWLabour.WorkDate
+			,VWLabour.EmployeeID
+			,VWLabour.WorkdayID
+			,P.Firstname
+			,P.Lastname
+			,VWLabour.EmployeeCompanyName
+			,VWLabour.SupplierName
+			,VWLabour.JobCompanyName
+			,VWLabour.ProjectNo AS JobNo
+			,VWLabour.ProjectName AS JobName
+			,VWLabour.CostCode
+			,VWLabour.CostCodeDescriptions
+			,VWLabour.StartDate
+			,VWLabour.StartTime
+			,VWLabour.FinishDate
+			,VWLabour.FinishTime
+			,VWLabour.LunchBreak
+			,dbo.udf_GetHoursWorked(CAST(VWLabour.StartTime AS DATETIME), CAST(VWLabour.FinishTime AS DATETIME), VWLabour.LunchBreak) AS TotalTime
+			,VWLabour.LeaveType
+			,VWLabour.LeaveDescription
+			,VWLabour.WorksDescription
+			,VWLabour.PayrollNotes
+			,VWLabour.ShiftType
+			,VWLabour.CreatedBy
+			,VWLabour.CreatedDate
+			,VWLabour.LastModifiedBy
+			,VWLabour.LastModifiedDate
+
+
+			,VWLabour.Department
+			,P.Firstname+' '+P.Lastname AS PersonName
+			--,CAST((VWLabour.TotalWorkedMinutes-(VWLabour.LunchBreak*60)) AS DECIMAL(6, 1)) AS TotalTime
+			,VWLabour.AllowanceType
+			,VWLabour.LAHAType
+			,VWLabour.ProjectType
+			,VWLabour.TravelAllowanceType
+			,VWLabour.BankSunday
+			,VWLabour.TakeSunday
+			,VWLabour.TunnelTravel
+			,VWLabour.LunchStartDate
+			,VWLabour.LunchStart
+			,VWLabour.WashTime
+			,VWLabour.UnagreedEarlyStart 
+			,@NoOfPages AS NoOfPages
+			,@NoOfRecords AS NoOfRecords
+			,@PageNumber+1 AS PageNumber
+		FROM dbo.vwLabourCostingDetail AS VWLabour
+		INNER JOIN dbo.Person AS P ON P.ID=VWLabour.PersonID
+		WHERE VWLabour.ProjectNo = @ProjectNo AND
+			CAST(VWLabour.WorkDate AS DATE) >= @StartDate AND CAST(VWLabour.WorkDate AS DATE) <= @FinishDate
+			AND IIF(@PersonType='ALL','',VWLabour.PersonType) = IIF(@PersonType='ALL','',@PersonType)
+		
+		ORDER BY  VWLabour.WorkDate DESC, VWLabour.StartTime DESC
+		OFFSET @RowStart ROWS FETCH NEXT @PageSize ROWS ONLY;
+	END
+	
+
+	
+END
