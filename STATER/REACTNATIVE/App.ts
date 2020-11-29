@@ -21,6 +21,7 @@ import { createMaterialBottomTabNavigator } from '@react-navigation/material-bot
 import { createMaterialTopTabNavigator } from '@react-navigation/material-top-tabs';
 import Icon from 'react-native-vector-icons/MaterialCommunityIcons';
 import { Appearance, useColorScheme, AppearanceProvider } from 'react-native-appearance';
+import FlashMessage from 'react-native-flash-message';
 
 const Drawer = createDrawerNavigator();
 const Stack = createStackNavigator();
@@ -97,6 +98,7 @@ const App = () => {
 
   return (
     <AppearanceProvider>
+      <FlashMessage style={{zIndex: 10000}} />
       <NavigationContainer theme={colorScheme == 'dark' ? DarkTheme : MyTheme}>
          <Stack.Navigator>
           <Stack.Screen
