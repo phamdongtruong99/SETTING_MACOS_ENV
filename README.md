@@ -11,26 +11,7 @@ cd ~  && git clone https://github.com/tranthaison1231/INIT_ENVIRONMENT && bash .
 cd ~ && bash ./INIT_ENVIRONMENT/step2.sh 
 ```
 ---
-# DEVOPS
-- **DEPLOY STATIC REACT APP TO AWS S3**: https://medium.com/dailyjs/a-guide-to-deploying-your-react-app-with-aws-s3-including-https-a-custom-domain-a-cdn-and-58245251f081
-- **GITHUB ACTION**
-     - AWS S3: https://medium.com/trackstack/deploying-a-react-app-to-aws-s3-with-github-actions-b1cb9ba75c95
-     - NPM PUBLISH: https://github.com/Shyn-Familys/express-rest
-- **VPS**:
-     - AZURE (https://portal.azure.com/#blade/HubsExtension/BrowseResourceBlade/resourceType/Microsoft.Compute%2FVirtualMachines)
-     - AWS EC2: https://github.com/tranthaison1231/Virtual-Machine
-- **CI/CD**:
-     - JENKINS: Install jenkins on EC2 AWS ( https://www.youtube.com/watch?v=v7tLaDJ-uqg )
-- **MONITORING**:
-     - https://www.datadoghq.com/
-- **DEPLOY DOCKER AND IMAGES**: https://www.youtube.com/watch?v=XNz6xXxtKhQ&ab_channel=LTV
-- **HOW TO REMOTE SSH**:
-     - https://www.youtube.com/watch?v=GyLBvVrlBXQ&ab_channel=%C3%94ngDev
-     - https://orientsoftware.udemy.com/course/aws-certified-solutions-architect-associate-saa-c02/learn/lecture/13528044#overview
-- **REDUCE APP DOCKER**: https://medium.com/swlh/how-we-reduced-react-docker-image-by-17x-cd684898470f
-- **AWS Amplify**: https://aws.amazon.com/getting-started/hands-on/build-react-app-amplify-graphql/module-one/?e=gs2020&p=build-a-react-app-intro
----
----
+
 # OTHER 
 ## OOP 
 - Utility Types: 
