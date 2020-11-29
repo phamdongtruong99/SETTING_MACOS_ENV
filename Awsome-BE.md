@@ -80,6 +80,18 @@
      - NEST + CRUD: https://github.com/chnirt/nestjs-restful-best-practice
      - NESTJS + WEBSOCKET: https://github.com/brianjohnsonsr/nest.ws.tutorial
      - NESTJS + TYPEORM + POSTREGSQL: https://github.com/tranthaison1231/NESTJS_TYPEPORM
+          - TYPEORM + PROCEDURE: 
+          ```
+                const res = await getManager().query(`
+                EXEC SP_LinkedSiteLabourCostingDetailReport 
+                       @StartDate='${startDate}', 
+                       @FinishDate='${finishDate}',
+                       @ProjectNo='${project.ProjectNo}',
+                       @PersonType='${PersonType}',
+                       @PageNumber='${pagination?.pageNumber ?? 1}',
+                       @PageSize='${pagination?.pageSize ?? 10}'
+           `)
+           ```
      - TYPEORM + TRANSACTION: https://github.com/typeorm/typeorm/blob/master/docs/transactions.md
           - https://aaronboman.com/programming/2020/05/15/per-request-database-transactions-with-nestjs-and-typeorm/
      - EXAMPLE: https://github.com/kelvin-mai/nest-space-exlporer
