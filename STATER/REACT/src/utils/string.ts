@@ -273,3 +273,21 @@ export const isPangram = str => {
 };
 
 // isPangram('qwertyuiopasdfghjklzxcvbnm') => true
+
+export const round10 = (number: number): number => Math.round(number * 10) / 10;
+// 10.423 => 10.42
+
+const STEP_GUTTER = 4;
+
+export const gutters = {
+  custom: (size: number): number => STEP_GUTTER * size,
+  xxxs: STEP_GUTTER,
+  xxs: STEP_GUTTER * 2,
+  xs: STEP_GUTTER * 3,
+  sm: STEP_GUTTER * 4,
+  md: STEP_GUTTER * 5,
+  lg: STEP_GUTTER * 6,
+  xl: STEP_GUTTER * 7,
+  xxl: STEP_GUTTER * 8,
+  xxxl: STEP_GUTTER * 9,
+};
