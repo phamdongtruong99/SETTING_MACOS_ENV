@@ -110,3 +110,5 @@ export const domainName = url => {
 };
 
 // domainName("http://www.youtube.com") => youtube
+
+export const getFirstPathParam = (path: string): string => path.split('/').filter((pathParam) => !!pathParam)[0];
