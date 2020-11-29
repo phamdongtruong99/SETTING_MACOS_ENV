@@ -238,3 +238,8 @@ export const isClient = typeof window === 'object';
 export const requiredParam = () => {
   throw new Error('This parameter is required');
 };
+
+export const getImageSizeBasedOnDeviceRatio = (size: number): number => {
+  const {devicePixelRatio} = window;
+  return size * devicePixelRatio;
+};
