@@ -36,7 +36,8 @@ export const validateRegex = {
   day: /^(3[01]|[12][0-9]|[1-9])$/,
   web: /((?:https\:\/\/)|(?:http\:\/\/)|(?:www\.))?([a-zA-Z0-9\-\.]+\.[a-zA-Z]{2,3}(?:\??)[a-zA-Z0-9\-\._\?\,\'\/\\\+&%\$#\=~]+)/gi,
   fileName: /\.(gif|jpg|jpeg|tiff|png)$/i,
-  isGithubURL: /https?:\/\/github.com\/.*/gi
+  isGithubURL: /https?:\/\/github.com\/.*/gi,
+  excludingNumber: /[^\d.]/g
 };
 
 
