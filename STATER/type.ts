@@ -21,3 +21,9 @@ export type Optional<T extends object, K extends keyof T = keyof T> = Omit<
 > & Partial<Pick<T, K>>;
 
 // https://github.com/piotrwitek/utility-types
+
+type ConditionalTypes<Base, Condition> =  {
+  [Key in keyof Base]: Base[Key] extends Condition ? never : Key;
+}
+
+// https://dev.to/nomoredeps/going-deeper-with-typescript-advanced-types-2ljn
