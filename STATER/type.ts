@@ -29,4 +29,12 @@ type ConditionalTypes<Base, Condition, Extract extends Boolean> =  Pick<Base, {
     Base[Key] extends Condition ? never : Key
 }[keyof Base]>;
 
+type ParameterType<T> = Partial<
+  ConditionalTypes<T, Function, false> // Properties that are not functions
+  & 
+  { 
+    [K in keyof ConditionalTypes<T, Function, true>]: Parameters<ConditionalTypes<T, Function, true>[K]> // Tuple
+  }
+>;
+
 // https://dev.to/nomoredeps/going-deeper-with-typescript-advanced-types-2ljn
