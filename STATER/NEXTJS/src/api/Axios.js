@@ -6,6 +6,7 @@ const langQueryParam = 'language=en-US';
 export const client = Axios.create({
   baseURL: 'https://api.themoviedb.org/3/',
   timeout: 10000,
+  withCredentials: true,
 });
 
 export const getUrl = (endpoint, ...extraParams) => {
