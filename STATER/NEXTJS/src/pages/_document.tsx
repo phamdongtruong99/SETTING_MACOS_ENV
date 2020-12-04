@@ -37,6 +37,12 @@ export default class MyDocument extends Document {
     return (
       <Html>
         <Head>
+          // PWA 
+          <meta name="theme-color" content={theme.palette.primary.main} />
+          // font
+          <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" />
+          // gtag
+          <script async src="https://www.googletagmanager.com/gtag/js?id=G-KV9M5FJRPF"></script>
           <link rel="shortcut icon" href="/favicon.png" />
         </Head>
         <body>
