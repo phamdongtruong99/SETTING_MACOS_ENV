@@ -136,7 +136,9 @@
 
 ## FOR NEXTJS
 
-- **SEO**: https://github.com/garmeeh/next-seo
+- **SEO**: 
+    - https://github.com/garmeeh/next-seo
+    - [NEXT ISSUE WITH REDUX PERIST](https://stackoverflow.com/questions/62041312/nextjs-dynamic-open-graph-meta-tags-not-rendering-for-facebook-debugger?fbclid=IwAR06VmnUkeGg4lS4VGmocf_qY10A7sbJhKm5_82iEYN8XBjnEInRgnZMtbw)
 - **NEXTJS_IMAGE**: https://github.com/joe-bell/next-blurhash
 - **STARTER**:
      - https://github.com/bmvantunes/youtube-2020-march-nextjs-part7
