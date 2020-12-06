@@ -41,3 +41,5 @@ export async function update(key: string, value: any) {
 export async function remove(key: string) {
   return AsyncStorage.removeItem(key);
 }
+
+// https://github.com/alacolang/kolbeh/blob/60ced62421f57039f5da9a5be651d9624e51bffc/packages/app/src/utils/storage.ts
