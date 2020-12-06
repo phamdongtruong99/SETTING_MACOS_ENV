@@ -3,7 +3,7 @@ import { Image, ImageProps } from "react-native";
 import { SvgXml, XmlProps } from "react-native-svg";
 
 import images from "./images";
-import svgs from "./images/svgs";
+import svgs from "./svgs";
 
 export type IconSvgName = keyof typeof svgs;
 
