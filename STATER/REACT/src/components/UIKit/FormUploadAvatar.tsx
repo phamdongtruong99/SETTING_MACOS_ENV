@@ -2,11 +2,12 @@ import { Avatar, Form, message, Upload } from 'antd';
 import { FC, useEffect, useState } from 'react';
 import { FormInstance } from 'antd/lib/form';
 import { uploadPhoto } from '@/api/upload';
+import { LoadingOutlined } from '@ant-design/icons';
 interface Props {
   name: string;
   label?: string;
   required?: boolean;
-  messageRequire?: string;
+  messageRequired?: string;
   initialValue?: string;
   disabled?: boolean;
   form: FormInstance<unknown>;
@@ -18,15 +19,15 @@ const FormUploadAvatar: FC<Props> = ({
   name,
   label,
   required,
-  messageRequire,
+  messageRequired,
   disabled,
   width,
   height,
   initialValue,
   form,
 }) => {
+  const [loading, setLoading] = useState(false);
   const [image, setImage] = useState(null);
-
   useEffect(() => {
     if (form.getFieldValue(name)) {
       setImage(form.getFieldValue(name));
@@ -35,10 +36,11 @@ const FormUploadAvatar: FC<Props> = ({
 
   const handleChange = (info) => {
     if (info.file.status === 'uploading') {
+      setLoading(true);
       return;
     }
     if (info.file.status === 'done') {
-      setImage(info.file.response);
+      setLoading(false);
       form.setFieldsValue({
         [name]: info.file.response,
       });
@@ -56,7 +58,7 @@ const FormUploadAvatar: FC<Props> = ({
       rules={[
         {
           required,
-          message: messageRequire,
+          message: messageRequired,
         },
       ]}
       initialValue={initialValue}
@@ -70,7 +72,21 @@ const FormUploadAvatar: FC<Props> = ({
         onChange={handleChange}
         withCredentials
       >
-        {image ? (
+        {loading ? (
+          <div
+            style={{
+              width: width,
+              height: height,
+              borderRadius: '50%',
+              display: 'flex',
+              justifyContent: 'center',
+              alignItems: 'center',
+              background: '#ccc',
+            }}
+          >
+            <LoadingOutlined />
+          </div>
+        ) : image ? (
           <Avatar style={{ width: width, height: height }} src={image} />
         ) : (
           <Avatar style={{ width: width, height: height }} />
