@@ -10,6 +10,8 @@ import { Router } from 'next/router';
 import { useState } from 'react';
 import { ConfigProvider } from 'antd';
 import { formConfig } from '@/configs/config';
+import { DefaultSeo } from "next-seo";
+import seo from "config/seo";
 
 function MyApp({ Component, pageProps }: AppProps) {
   const [loading, setLoading] = useState<boolean>(false);
@@ -30,6 +32,7 @@ function MyApp({ Component, pageProps }: AppProps) {
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
       <ThemeProvider theme={theme}>
+        <DefaultSeo {...seo} />
         <ConfigProvider form={formConfig}>
           <GlobalStyle />
           <Loading loading={loading} />
