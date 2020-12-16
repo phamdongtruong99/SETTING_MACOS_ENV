@@ -37,4 +37,10 @@ type ParameterType<T> = Partial<
   }
 >;
 
+export type JsonValue = string | number | boolean;
+
+export interface JsonObject {
+  [k: string]: JsonValue | JsonValue[] | JsonObject;
+}
+
 // https://dev.to/nomoredeps/going-deeper-with-typescript-advanced-types-2ljn
