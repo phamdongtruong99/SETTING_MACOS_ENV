@@ -16,5 +16,6 @@
      - https://orientsoftware.udemy.com/course/aws-certified-solutions-architect-associate-saa-c02/learn/lecture/13528044#overview
 - **REDUCE APP DOCKER**: https://medium.com/swlh/how-we-reduced-react-docker-image-by-17x-cd684898470f
 - **AWS Amplify**: https://aws.amazon.com/getting-started/hands-on/build-react-app-amplify-graphql/module-one/?e=gs2020&p=build-a-react-app-intro
+- **CLOUDFARE + SUBDOMAIN**: https://www.youtube.com/watch?v=w9eOvKdk5wM&ab_channel=SERTMedia-WordpressTutorials
 ---
 ---
