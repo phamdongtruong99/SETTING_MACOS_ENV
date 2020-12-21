@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/explicit-module-boundary-types */
 import {
   createAsyncThunk,
   createEntityAdapter,
@@ -5,26 +6,31 @@ import {
 } from '@reduxjs/toolkit';
 import axios from 'axios';
 
-const crudSlice = ({ baseUrl, name }) => {
-  const fetchAll = createAsyncThunk(`${name}/fetchAll`, (params) => {
+interface CrudSlice {
+  baseUrl: string;
+  name: string;
+}
+
+const crudSlice = ({ baseUrl, name }: CrudSlice) => {
+  const fetchAll = createAsyncThunk(`${name}/fetchAll`, ({ params }) => {
     const querystring = new URLSearchParams(params);
     return axios.get(`${baseUrl}?${querystring}`).then((res) => res.data.data);
   });
 
-  const fetchById = createAsyncThunk(`${name}/fetchById`, (id, params) =>
+  const fetchById = createAsyncThunk(`${name}/fetchById`, ({ id }) =>
     axios.get(`${baseUrl}/${id}`).then((res) => res.data),
   );
 
-  const deleteById = createAsyncThunk(`${name}/deleteById`, (id) =>
+  const deleteById = createAsyncThunk(`${name}/deleteById`, ({ id }) =>
     axios.get(`${baseUrl}/${id}`).then(() => id),
   );
 
-  const createOne = createAsyncThunk(`${name}/creatOne`, (data) =>
+  const createOne = createAsyncThunk(`${name}/creatOne`, ({ data }) =>
     axios.post(`${baseUrl}`, data).then((res) => res.data),
   );
 
-  const updateById = createAsyncThunk(`${name}/creatOne`, (id, data) =>
-    axios.patch(`${baseUrl}/${id}`, data).then((res) => res.data),
+  const updateById = createAsyncThunk(`${name}/creatOne`, ({ id, data }) =>
+    axios.put(`${baseUrl}/${id}`, data).then((res) => res.data),
   );
 
   const adapter = createEntityAdapter();
