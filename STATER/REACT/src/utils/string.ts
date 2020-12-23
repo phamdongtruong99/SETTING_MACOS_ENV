@@ -1,5 +1,6 @@
 /* eslint-disable */
-// import moment from 'moment';
+import moment from 'moment';
+import addMinutes from 'date-fns/addMinutes'
 
 export const formatUnixToDate = unit => moment.unix(unit).format();
 
@@ -305,7 +306,7 @@ export function slugify(text: string): string {
 
 // slugify("Chao ban") => chao-ban
 
- const checkOverlap = (timeSegments) =>{
+export const checkOverlap = (timeSegments) =>{
     if (timeSegments.length === 1) return false;
     timeSegments.sort((timeSegment1, timeSegment2) => {
       return timeSegment1[0].localeCompare(timeSegment2[0]);
@@ -323,4 +324,8 @@ export function slugify(text: string): string {
  // checkOverlap([["3:00", "5:00", ["4:00", "6:00"]) => true
   // checkOverlap([["3:00", "5:00", ["5:00", "7:00"]) => false
  
+ 
+export const toDisplayIsoDateTimeUtc = (date: Date) => {
+  return addMinutes(date, date.getTimezoneOffset())
+}
  
