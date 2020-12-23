@@ -9,10 +9,22 @@ interface Props {
   circle?: boolean;
   width?: number | string;
   height?: number | string;
+  overFlowY?: CSS.Property.OverflowY;
+  overFlowX?: CSS.Property.OverflowX;
 }
 
 const Flex = styled.div(
-  ({ direction, justify, align, bg, width, height, circle }: Props) => {
+  ({
+    direction,
+    justify,
+    align,
+    bg,
+    width,
+    height,
+    circle,
+    overFlowY,
+    overFlowX,
+  }: Props) => {
     const formatWidth = isNumber(width) ? `${width}px` : width;
     const formatHeight = isNumber(height) ? `${height}px` : height;
     return `
@@ -24,6 +36,8 @@ const Flex = styled.div(
       width: ${formatWidth};
       height: ${formatHeight};
       border-radius: ${circle ? 50 : 100}%;
+      overflow-y: ${overFlowY}
+      overflow-x: ${overFlowX}
   `;
   },
 );
@@ -35,6 +49,9 @@ Flex.defaultProps = {
   circle: false,
   width: 'auto',
   height: 'auto',
+  overFlowY: 'visible',
+  overFlowX: 'visible',
 };
 
 export default Flex;
+
