@@ -32,3 +32,5 @@ export const corsOptionsDelegate: unknown = (req: Request, callback: (err: Error
 
   callback(error, corsOptions);
 };
+
+// https://github.com/TimurRK/nestjs-example/blob/master/src/cors.option.ts
