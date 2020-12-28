@@ -1,3 +1,5 @@
+// https://github.com/TimurRK/nestjs-example/blob/master/src/graphql/upload/upload.resolver.ts
+
 import { Args, Mutation, Resolver } from '@nestjs/graphql';
 
 import { GraphQLUpload } from 'apollo-server-core';
