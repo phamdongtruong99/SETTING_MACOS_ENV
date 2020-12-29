@@ -37,7 +37,9 @@ export const validateRegex = {
   web: /((?:https\:\/\/)|(?:http\:\/\/)|(?:www\.))?([a-zA-Z0-9\-\.]+\.[a-zA-Z]{2,3}(?:\??)[a-zA-Z0-9\-\._\?\,\'\/\\\+&%\$#\=~]+)/gi,
   fileName: /\.(gif|jpg|jpeg|tiff|png)$/i,
   isGithubURL: /https?:\/\/github.com\/.*/gi,
-  excludingNumber: /[^\d.]/g
+  excludingNumber: /[^\d.]/g,
+  verifiedEmailCode: /^[0-9]{6}$/,
+  cardCVV: /\d{3}/
 };
 
 
