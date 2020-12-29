@@ -36,3 +36,10 @@ export const isValue = (val: any): boolean =>
 export const hasValue = (val: any): boolean =>
   isArrayFull(val) ? (val as any[]).every(o => isValue(o)) : isValue(val);
 export const isFunction = (val: any): boolean => typeof val === 'function';
+
+export const imageFileFilter = (req, file, callback) => {
+  if (!file.originalname.match(/\.(jpg|jpeg|png|gif)$/)) {
+    return callback(new Error('Only image files are allowed!'), false);
+  }
+  callback(null, true);
+};
