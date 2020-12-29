@@ -18,7 +18,7 @@ const FirebaseService {
       await AsyncStorage.setItem('fcmToken', fcmToken);
     }
   },
- requestUserPermission = async () => {
+ requestUserPermission: async () => {
     const authStatus = await messaging().requestPermission();
     const enabled = authStatus === messaging.AuthorizationStatus.AUTHORIZED
       || authStatus === messaging.AuthorizationStatus.PROVISIONAL;
