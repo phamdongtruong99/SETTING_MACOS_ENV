@@ -1,40 +1,43 @@
-import AsyncStorage from '@react-native-community/async-storage';
-import firebase from '@react-native-firebase/app';
-import messaging from '@react-native-firebase/messaging';
+import AsyncStorage from '@react-native-community/async-storage'
+import firebase from '@react-native-firebase/app'
+import messaging from '@react-native-firebase/messaging'
 
-const FirebaseService {
- getToken: async () => {
-    const fcmToken = await firebase.messaging().getToken();
-    console.log('fcmToken', fcmToken);
-    if (fcmToken) {
-      return fcmToken;
-    }
-    return '';
+const FirebaseService = {
+  getToken: async () => {
+    const fcmToken = await firebase.messaging().getToken()
+    return fcmToken || ''
   },
- setToken: async () => {
-    const fcmToken = await firebase.messaging().getToken();
-    console.log('fcmToken', fcmToken);
+  setToken: async () => {
+    const fcmToken = await firebase.messaging().getToken()
+    console.log('fcmToken', fcmToken)
     if (fcmToken) {
-      await AsyncStorage.setItem('fcmToken', fcmToken);
+      await AsyncStorage.setItem('fcmToken', fcmToken)
     }
   },
- requestUserPermission: async () => {
-    const authStatus = await messaging().requestPermission();
-    const enabled = authStatus === messaging.AuthorizationStatus.AUTHORIZED
-      || authStatus === messaging.AuthorizationStatus.PROVISIONAL;
+  requestUserPermission: async () => {
+    const authStatus = await messaging().requestPermission()
+    const enabled =
+      authStatus === messaging.AuthorizationStatus.AUTHORIZED ||
+      authStatus === messaging.AuthorizationStatus.PROVISIONAL
     if (enabled) {
-      await this.setToken();
+      this.setToken()
     }
   },
- revertFirebaseDatabasePathName: (text: string) => {
-    return text.replace(/\!/g, ".").replace(/\@/g, "#")
-        .replace(/\%/g, "$").replace(/\&/g, "[")
-        .replace(/\*/g, "]")
- },
- convertToFirebaseDatabasePathName: (text: string) => {
-    return text.replace(/\./g, "!").replace(/#/g, "@")
-        .replace(/\$/g, "%").replace(/\[/g, "&")
-        .replace(/\]/g, "*")
- }
+  revertFirebaseDatabasePathName: (text: string) => {
+    return text
+      .replace(/\!/g, '.')
+      .replace(/\@/g, '#')
+      .replace(/\%/g, '$')
+      .replace(/\&/g, '[')
+      .replace(/\*/g, ']')
+  },
+  convertToFirebaseDatabasePathName: (text: string) => {
+    return text
+      .replace(/\./g, '!')
+      .replace(/#/g, '@')
+      .replace(/\$/g, '%')
+      .replace(/\[/g, '&')
+      .replace(/\]/g, '*')
+  }
 }
-export default FirebaseService;
+export default FirebaseService
