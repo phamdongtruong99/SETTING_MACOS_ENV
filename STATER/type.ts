@@ -44,3 +44,9 @@ export interface JsonObject {
 }
 
 // https://dev.to/nomoredeps/going-deeper-with-typescript-advanced-types-2ljn
+
+export type GenericKeyObject<K extends keyof any, T> = {
+  [P in K]?: T;
+};
+
+// GenericKeyObject: https://medium.com/better-programming/mastering-typescripts-mapped-types-5fa5700385eb
