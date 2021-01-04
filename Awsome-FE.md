@@ -80,6 +80,7 @@
   - https://github.com/wellyshen/react-cool-starter
 - REACT MANIFIER: https://www.npmjs.com/package/react-magnifier
 - REACT + SSR: https://github.com/davidnguyen179/react-ssr-boilerplate
+- Handle div 100vh in ios: https://github.com/mvasin/react-div-100vh
 - React + Google analytics: https://github.com/tranthaison1231/REACT_REACT-GA
 - REACT + CAPCHA: https://github.com/dozoisch/react-google-recaptcha
 - [REACT + STORYBOOK](https://github.com/thakursachin467/storybook-intro)
