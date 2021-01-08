@@ -262,3 +262,10 @@ export function forceDownload(url: string, fileName: string) {
     xhr.send()
   }
 
+
+export const convertDataToSelectOptions = (data: unknown[], valueProp: string, labelProp: string) => {
+  return data?.map(item => ({
+    value: get(item, valueProp),
+    label: get(item, labelProp)
+  }))
+}
