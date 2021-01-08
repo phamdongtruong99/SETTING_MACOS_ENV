@@ -269,3 +269,13 @@ export const convertDataToSelectOptions = (data: unknown[], valueProp: string, l
     label: get(item, labelProp)
   }))
 }
+
+export function JSONParse<T>(text: string): T | undefined {
+  if (text) {
+    try {
+      return JSON.parse(text)
+    } catch (error) {
+      console.error(error.toString())
+    }
+  }
+}
