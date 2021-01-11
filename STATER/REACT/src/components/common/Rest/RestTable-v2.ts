@@ -1,12 +1,11 @@
 import { Button, Row, Table } from 'antd'
-import { ColumnsType } from 'antd/lib/table'
+import { ColumnsType, TablePaginationConfig } from 'antd/lib/table'
 import React from 'react'
 import { gutters } from 'utils/tools'
 import FormAction from './FormAction'
 
 interface Props<RecordType> {
   dataSource: RecordType[]
-  total: number
   loading: boolean
   columns: ColumnsType<RecordType>
   onCreate?: () => void
@@ -14,17 +13,18 @@ interface Props<RecordType> {
   onDelete?: (id: string) => void
   openCreate?: () => void
   primaryKey?: string
+  pagination?: false | TablePaginationConfig
 }
 
 function RestTable<RecordType extends {}>({
   dataSource,
   columns,
-  total,
   loading,
   onDelete,
   onCreate,
   onEdit,
-  primaryKey
+  primaryKey,
+  pagination
 }: Props<RecordType>) {
   return (
     <div>
@@ -53,11 +53,7 @@ function RestTable<RecordType extends {}>({
             )
           }
         ]}
-        pagination={{
-          total: total,
-          showQuickJumper: true,
-          showSizeChanger: true
-        }}
+        pagination={pagination}
         loading={loading}
       />
     </div>
