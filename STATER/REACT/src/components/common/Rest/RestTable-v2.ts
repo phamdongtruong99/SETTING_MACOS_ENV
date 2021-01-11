@@ -9,7 +9,7 @@ interface Props<RecordType> {
   loading: boolean
   columns: ColumnsType<RecordType>
   onCreate?: () => void
-  onEdit?: (row: unknown) => void
+  onEdit?: (row: RecordType) => void
   onDelete?: (id: string) => void
   openCreate?: () => void
   primaryKey?: string
