@@ -1,25 +1,25 @@
-import { useTranslation } from '@/i18n';
-import { Form, Input } from 'antd';
-import { SizeType } from 'antd/lib/config-provider/SizeContext';
-import { FC } from 'react';
+import React from 'react'
+import { Form, Input } from 'antd'
+import { SizeType } from 'antd/lib/config-provider/SizeContext'
+import { FC } from 'react'
 
 interface Props {
-  name: string;
-  label?: string;
-  required?: boolean;
-  messageRequire?: string;
-  messageValidate?: string;
-  initialValue?: string;
-  onChange?: (_value) => void;
-  pattern?: RegExp;
-  placeholder?: string;
-  style?: React.CSSProperties;
-  prefix?: React.ReactNode;
-  type?: string;
-  addonBefore?: React.ReactNode;
-  addonAfter?: React.ReactNode;
-  disabled?: boolean;
-  size?: SizeType;
+  name: string
+  label?: string
+  required?: boolean
+  messageRequire?: string
+  messageValidate?: string
+  initialValue?: string
+  onChange?: (_value: unknown) => void
+  pattern?: RegExp
+  placeholder?: string
+  style?: React.CSSProperties
+  prefix?: React.ReactNode
+  type?: string
+  addonBefore?: React.ReactNode
+  addonAfter?: React.ReactNode
+  disabled?: boolean
+  size?: SizeType
 }
 
 const FormInput: FC<Props> = ({
@@ -38,9 +38,8 @@ const FormInput: FC<Props> = ({
   addonAfter,
   disabled,
   initialValue,
-  size,
+  size
 }) => {
-  const { t } = useTranslation();
   return (
     <Form.Item
       label={label}
@@ -48,12 +47,12 @@ const FormInput: FC<Props> = ({
       rules={[
         {
           required,
-          message: messageRequire,
+          message: messageRequire
         },
         {
           pattern,
-          message: messageValidate || t(`validate:${name}UnValid`),
-        },
+          message: messageValidate
+        }
       ]}
       initialValue={initialValue}
     >
@@ -69,12 +68,12 @@ const FormInput: FC<Props> = ({
         addonBefore={addonBefore}
       />
     </Form.Item>
-  );
-};
+  )
+}
 
 FormInput.defaultProps = {
-  required: true,
-  type: 'text',
-};
+  required: false,
+  type: 'text'
+}
 
-export default FormInput;
+export default FormInput
