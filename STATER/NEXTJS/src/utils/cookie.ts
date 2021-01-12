@@ -42,3 +42,15 @@ export const setToken = value => setCookie('token', value);
 export const removeToken = () => removeCookie('token');
 
 export const isAuthenticated = ctx => !!getToken(ctx);
+
+export function parseCookie({ cookie, name = null }) {
+  const res = cookie.split('; ').reduce((acc, curr) => {
+    const cookie = curr.split('=');
+    acc[cookie[0]] = cookie[1];
+    return acc;
+  }, {});
+
+  if (name) return res[name];
+  return res;
+}
+
