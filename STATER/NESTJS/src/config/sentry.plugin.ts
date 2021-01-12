@@ -44,3 +44,4 @@ const apolloServerSentryPlugin = {
 };
 
 export default apolloServerSentryPlugin;
+// https://github.com/tomanagle/NextJS-NestJS-GraphQL-Starter/blob/master/server/src/sentry.plugin.ts
