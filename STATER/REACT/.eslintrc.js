@@ -44,7 +44,8 @@ module.exports = {
     'no-console': ['error'],
     'no-nested-ternary': ['error'],
     'no-unneeded-ternary': ['error'],
-    'no-else-return': ['error']
+    'no-else-return': ['error'],
+    'node/callback-return': ['error'],
     'import/no-extraneous-dependencies': [
       error,
       {
