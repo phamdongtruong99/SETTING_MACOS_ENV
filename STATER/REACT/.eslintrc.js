@@ -41,6 +41,8 @@ module.exports = {
     'react-hooks/exhaustive-deps': 'warn',
     'react/jsx-filename-extension': [1, { extensions: ['.js', '.ts'] }],
     'react/jsx-props-no-spreading': 0,
+    'no-nested-ternary': ['error'],
+    'no-unneeded-ternary': ['error']
     'import/no-extraneous-dependencies': [
       error,
       {
