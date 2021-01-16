@@ -2,6 +2,13 @@ import React from 'react';
 import { ThemeProvider, createGlobalStyle } from 'styled-components';
 import theme from '@/theme/theme';
 import Routes from '@/routes';
+import { browserHistory } from 'react-router';
+import { Modal } from 'antd'
+
+browserHistory.listen(() => {
+  Modal.destroyAll();
+});
+
 
 if (process.env.NODE_ENV !== 'production') {
   const whyDidYouRender = require('@welldone-software/why-did-you-render');
