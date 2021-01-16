@@ -134,6 +134,7 @@
   ### STYLED_COMPONENT:
      - https://github.com/jameslnewell/styled-components-spacing
      - https://github.com/jameslnewell/styled-components-breakpoint
+     - Material + styled component: https://codesandbox.io/s/styled-components-forked-hwi6k
 
 ## FOR NEXTJS
 
