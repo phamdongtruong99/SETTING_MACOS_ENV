@@ -45,6 +45,7 @@ module.exports = {
     'no-nested-ternary': ['error'],
     'no-unneeded-ternary': ['error'],
     'no-else-return': ['error'],
+    'max-params': ['error', 3],
     'node/callback-return': ['error'],
     'no-lonely-if': ['error'],
     'import/no-extraneous-dependencies': [
