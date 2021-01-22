@@ -16,6 +16,13 @@ export const getYesterday = () => {
   return yesterday;
 };
 
+export const getBeginDateOfTheMonth = (date: Date) => {
+  const _month = date.getMonth();
+  const _year = date.getFullYear();
+  return new Date(_year, _month, 1);
+};
+
+
 export const isLeapYear = (year) => {
   return year % 4 === 0 && year % 100 !== 0;
 };
