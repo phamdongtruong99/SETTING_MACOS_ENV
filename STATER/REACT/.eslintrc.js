@@ -48,6 +48,7 @@ module.exports = {
     'max-params': ['error', 3],
     'node/callback-return': ['error'],
     'no-lonely-if': ['error'],
+    'no-implicit-coercion': ['error'],
     'import/no-extraneous-dependencies': [
       error,
       {
