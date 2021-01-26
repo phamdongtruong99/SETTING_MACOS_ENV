@@ -153,6 +153,7 @@
 - **NEXTJS-KNEW-POSTGRES**:
      - https://github.com/leighhalliday/nextjs-hooks-database
 - NEXTJS + PRISMA: https://github.com/leerob/next-prisma
+- NEXT + S3 SERVICE: https://github.com/ryanto/next-s3-upload
 - NEXTJS + I18NEXT: 
           - https://gitlab.com/kachkaev/website-frontend/-/blob/master/src/pages/_app.tsx
           - https://github.com/tranthaison1231/NEXTJS_I18N
