@@ -187,6 +187,12 @@ export const CLASS_UTILITY = `
     bottom: auto;
     left: auto;
   }
+  .pointer-scale {
+    cursor: pointer;
+    &:hover {
+      transform: scale(1.1);
+    }
+  }
   /*-------------------Object-fit-----------------------------*/
   .object-contain {
     object-fit: contain;
@@ -330,24 +336,6 @@ export const CLASS_UTILITY = `
   }
   .w-screen {
     width: 100vw;
-  }
-  .w-400 {
-    width: 400px;
-  }
-  .w-62 {
-    width: 62px;
-  }
-  .h-22 {
-    height: 22px;
-  }
-  .h-405 {
-    height: 405px;
-  }
-  .h-368 {
-    height: 368px;
-  }
-  .h-400 {
-    height: 400px;
   }
   /*-------------------------Height-------------------------------*/
   .h-68 {
