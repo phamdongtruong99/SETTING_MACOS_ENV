@@ -1,0 +1,8 @@
+overwrite: true
+schema: '../linked-site-api/schemaAdmin.gql'
+documents: 'src/**/*.graphql'
+generates:
+  src/generated/graphql.tsx:
+    plugins:
+      - 'typescript'
+      - 'typescript-operations'
