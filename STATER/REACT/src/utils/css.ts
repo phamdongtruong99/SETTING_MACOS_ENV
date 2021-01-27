@@ -93,12 +93,12 @@ export const CLASS_UTILITY = `
   .flex {
     display: flex;
   }
-  .flex-center {
+  .f-center {
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  flex-center-column {
+  f-center-col {
     display: flex;
     align-items: center;
     justify-content: center;
