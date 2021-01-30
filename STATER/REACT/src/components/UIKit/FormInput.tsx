@@ -45,7 +45,7 @@ const FormInput: FC<Props> = ({
     <Form.Item
       label={label}
       name={name}
-      messageVariables={{ name: name }}
+      messageVariables={{ name: label }}
       rules={[
         {
           required
