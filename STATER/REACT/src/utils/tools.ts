@@ -281,3 +281,6 @@ export function JSONParse<T>(text: string): T | undefined {
 }
 
 export const delay = (n: number) => new Promise(resolve => setTimeout(resolve, n));
+
+export const getSubdomain = (): string => window.location.hostname.split('.')[0] || 'localhost';
+
