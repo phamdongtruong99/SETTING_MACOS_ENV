@@ -129,3 +129,9 @@ const reverseInt = n => {
 const average = (...args) => args.reduce((acc, el) => acc + el, 0) / args.length;
 
 // average(1,2,3,4) => 2.5
+
+export const roundToPrecision = (x: number, precision: number): number => {
+  const y = x + (precision === undefined ? 0.5 : precision / 2);
+  return y - (y % (precision === undefined ? 1 : precision)) || 0;
+};
+
