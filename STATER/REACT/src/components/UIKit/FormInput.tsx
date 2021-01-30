@@ -20,6 +20,7 @@ interface Props {
   addonAfter?: React.ReactNode
   disabled?: boolean
   size?: SizeType
+  messageVariables?: Record<string, string>
 }
 
 const FormInput: FC<Props> = ({
@@ -44,15 +45,12 @@ const FormInput: FC<Props> = ({
     <Form.Item
       label={label}
       name={name}
+      messageVariables={{ name: name }}
       rules={[
         {
-          required,
-          message: messageRequire
+          required
         },
-        {
-          pattern,
-          message: messageValidate
-        }
+        ...(rules as Rule[])
       ]}
       initialValue={initialValue}
     >
