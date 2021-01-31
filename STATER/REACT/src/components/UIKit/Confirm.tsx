@@ -5,10 +5,9 @@ import { useTranslation } from 'react-i18next';
 import styled from 'styled-components';
 import { ModalContent } from './styles';
 
-const ConfirmModal = React.forwardRef(
-  ({ title, description, acceptButtonTitle, onConfirm, loading, onCancel }, ref) => {
+const Confirm = React.forwardRef(
+  ({ title, description, acceptButtonTitle, cancelButtonTitle, onConfirm, loading, onCancel }, ref) => {
     const [visible, setVisible] = useState(false);
-    const { t } = useTranslation();
     const [selectId, setSelectID] = useState('');
 
     const toggleVisible = useCallback(
@@ -19,14 +18,17 @@ const ConfirmModal = React.forwardRef(
       [visible]
     );
 
-    useImperativeHandle(ref, () => ({
-      toggleVisible,
-    }));
-
     const onClose = () => {
       setVisible(false);
       onCancel && onCancel();
     };
+    
+    useImperativeHandle(ref, () => ({
+      toggleVisible,
+      onClose,
+    }));
+
+    
 
     return (
       <Modal
@@ -46,18 +48,16 @@ const ConfirmModal = React.forwardRef(
           <div className="row">
             <Button
               shape="round"
-              className="btn-cancel"
               onClick={onClose}
               type="ghost"
               size="large"
             >
-              {t('button.cancel')}
+              {cancelButtonTitle}
             </Button>
             <Button
               shape="round"
               loading={loading}
               size="large"
-              className="btn-confirm"
               onClick={() => onConfirm(selectId)}
               type="primary"
             >
@@ -69,13 +69,5 @@ const ConfirmModal = React.forwardRef(
     );
   }
 );
-ConfirmModal.propTypes = {
-  title: PropTypes.string,
-  description: PropTypes.string,
-  acceptButtonTitle: PropTypes.string,
-  onConfirm: PropTypes.func,
-  onCancel: PropTypes.func,
-  loading: PropTypes.bool,
-};
 
-export default ConfirmModal;
+export default Confirm;
