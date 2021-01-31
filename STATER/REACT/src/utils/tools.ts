@@ -284,3 +284,19 @@ export const delay = (n: number) => new Promise(resolve => setTimeout(resolve, n
 
 export const getSubdomain = (): string => window.location.hostname.split('.')[0] || 'localhost';
 
+export const showError = (error: Error) => {
+  return message.error({
+    content:
+      error && error.message ? error.message : 'Server Internall Error. Please try later !!!!',
+    className: 'message-error',
+  });
+};
+
+export const showSuccess = (content: string) => {
+  return message.success({
+    content: content,
+    className: 'message-success',
+  });
+};
+
+
