@@ -135,3 +135,6 @@ export const roundToPrecision = (x: number, precision: number): number => {
   return y - (y % (precision === undefined ? 1 : precision)) || 0;
 };
 
+export const round100 = (number: number): number => Math.round(number * 100) / 100
+
+
