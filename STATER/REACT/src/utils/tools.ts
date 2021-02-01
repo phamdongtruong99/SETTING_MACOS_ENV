@@ -270,11 +270,12 @@ export const convertDataToSelectOptions = (data: unknown[], valueProp: string, l
   }))
 }
 
-export function JSONParse<T>(text: string): T | undefined {
+export function JSONParse<T>(text: Maybe<string> | undefined): T | undefined {
   if (text) {
     try {
       return JSON.parse(text)
     } catch (error) {
+      // eslint-disable-next-line no-console
       console.error(error.toString())
     }
   }
