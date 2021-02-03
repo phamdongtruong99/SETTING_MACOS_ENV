@@ -76,6 +76,8 @@
      - REACT WINDOW COMMUNICATION: https://github.com/AvraamMavridis/react-window-communication-hook
      - REACT SCRIPT: https://www.npmjs.com/package/react-script-hook
      - MOUSE ACTION: https://github.com/dimitrinicolas/use-mouse-action
+- SELECT: 
+  - Custom antd: https://lifesaver.codes/answer/select-custom-dropdown-with-dropdownrender-property-not-respond-to-click
 - REACT STATER: 
 - REACT_REDUX: https://github.com/magarcia/todomvc-redux-starter-kit
   - https://github.com/wellyshen/react-cool-starter
