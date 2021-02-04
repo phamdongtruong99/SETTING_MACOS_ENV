@@ -1,9 +1,9 @@
-import { useEffect, useRef, useState } from 'react'
+import { RefObject, useEffect, useRef, useState } from 'react'
 
-function useHover() {
-  const [value, setValue] = useState(false)
+function useHover<T extends HTMLElement>(): [RefObject<T>, boolean] {
+  const [value, setValue] = useState<boolean>(false)
 
-  const ref = useRef<HTMLElement>(null)
+  const ref = useRef<T>(null)
 
   const handleMouseOver = () => setValue(true)
   const handleMouseOut = () => setValue(false)
