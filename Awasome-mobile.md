@@ -39,6 +39,7 @@
      - https://viblo.asia/p/react-native-animations-su-dung-animated-api-924lJPvmKPM
      - https://wcandillon.github.io/react-native-redash/
      - https://github.com/react-native-community/lottie-react-native
+     - https://github.com/nandorojo/moti
 - **STORGAGE**:
   - **REALM**: https://github.com/rocketseat-content/youtube-react-native-realmdb
 - **ROUTER**: 
