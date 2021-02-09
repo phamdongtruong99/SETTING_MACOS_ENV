@@ -2,16 +2,6 @@
 ## AXIOS
  - AXIOS INTERCEPTORS + REFESH TOKEN: https://medium.com/swlh/handling-access-and-refresh-tokens-using-axios-interceptors-3970b601a5da
  - AXIOS LOAD PROGRESS PERCENT: https://github.com/axios/axios/issues/2175
-## FOR VUE 
-- AWSOME HOOKS FOR VUE:
-  - https://github.com/logaretm/vue-use-web 
-  - https://github.com/logaretm/vue-use-form
-  - https://github.com/u3u/vue-hooks/blob/dev/src/useDate.ts
-- VUE STARTER FOR ADMIN: 
-     - https://github.com/trdbau/my-first-admin-web-by-vue
-- VUE + TAILWIND 
-- VUE TODOLIST: https://github.com/skysan87/vue-todolist
-- AWSOME HOOKS FOR VUE
 - ** SOCKET **: https://codepen.io/Shyn1711/pen/xxbQgRM
 
 ## FOR REACT
@@ -78,6 +68,8 @@
      - MOUSE ACTION: https://github.com/dimitrinicolas/use-mouse-action
 - SELECT: 
   - Custom antd: https://lifesaver.codes/answer/select-custom-dropdown-with-dropdownrender-property-not-respond-to-click
+- INPUT: 
+  - ANTD INPUT PASSWORD: https://github.com/Kombustor/antd-password-input-strength
 - REACT STATER: 
 - REACT_REDUX: https://github.com/magarcia/todomvc-redux-starter-kit
   - https://github.com/wellyshen/react-cool-starter
