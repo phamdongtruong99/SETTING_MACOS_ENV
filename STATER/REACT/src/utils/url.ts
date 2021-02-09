@@ -114,6 +114,8 @@ export const domainName = url => {
 
 // domainName("http://www.youtube.com") => youtube
 
+export const getSubdomain = (): string => window.location.hostname.split('.')[0] || 'localhost';
+
 export const getFirstPathParam = (path: string): string => path.split('/').filter((pathParam) => !!pathParam)[0];
 
 export const shortenURLS = async (
