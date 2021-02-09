@@ -1,5 +1,8 @@
 import { history } from 'redux/store';
 import { isObject } from './object';
+//@ts-ignore
+import TinyURL from 'tinyurl'
+
 
 export const updateHashUrl = (hash = '') => {
   if (!history) return;
@@ -112,3 +115,17 @@ export const domainName = url => {
 // domainName("http://www.youtube.com") => youtube
 
 export const getFirstPathParam = (path: string): string => path.split('/').filter((pathParam) => !!pathParam)[0];
+
+export const shortenURLS = async (
+  urls: string[]
+): Promise<{ original: string; shorten: string }[]> => {
+  const tinyURLS = []
+  for (let url of urls) {
+    const res = await TinyURL.shorten(url)
+    tinyURLS.push({
+      original: url,
+      shorten: res,
+    })
+  }
+  return tinyURLS
+}
