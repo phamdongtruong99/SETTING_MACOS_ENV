@@ -67,6 +67,8 @@
      - REACT WINDOW COMMUNICATION: https://github.com/AvraamMavridis/react-window-communication-hook
      - REACT SCRIPT: https://www.npmjs.com/package/react-script-hook
      - MOUSE ACTION: https://github.com/dimitrinicolas/use-mouse-action
+- HANDLE LIST: 
+  - https://virtuoso.dev/
 - SELECT: 
   - Custom antd: https://lifesaver.codes/answer/select-custom-dropdown-with-dropdownrender-property-not-respond-to-click
 - INPUT: 
