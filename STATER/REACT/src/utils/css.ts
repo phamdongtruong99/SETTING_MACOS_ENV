@@ -93,8 +93,7 @@ export const CLASS_UTILITY = `
   .flex {
     display: flex;
   }
-  .f-center {
-    display: flex;
+  .center2 {
     align-items: center;
     justify-content: center;
   }
@@ -110,7 +109,7 @@ export const CLASS_UTILITY = `
   .justify-center	{
     justify-content: center;
   }
-  .justify-between	{
+  .spaced	{
     justify-content: space-between;
   }
   .justify-around	{
@@ -119,19 +118,19 @@ export const CLASS_UTILITY = `
   .justify-end	{
     justify-content: flex-end;
   }
-  .flex-row {
+  .horiz {
     flex-direction: row;
   }
   .flex-wrap {
     flex-wrap: wrap;
   }
-  .flex-row-reverse {
+  .horiz-reverse {
     flex-direction: row-reverse;
   }
-  .flex-col {
+  .vert {
     flex-direction: column;
   }
-  .flex-col-reverse {
+  .vert-reverse {
     flex-direction: column-reverse;
   }
   /*----------Position------*/
