@@ -99,6 +99,7 @@
 - Observable: https://stackblitz.com/edit/react-ts-7sarye?file=use-observable.ts
 - REACT + SVG: https://www.youtube.com/watch?v=7bw56feIdh4
 - VIDEO CHAT: https://medium.com/better-programming/build-a-video-chat-with-react-hooks-5f3337881327
+- FORMAT NUMBER: https://github.com/gastonmesseri/numerable
 - VIDEO HANDLING: https://www.remotion.dev/
 - REACT IS IN VIEW PORT: https://github.com/davidnguyen179/react-is-in-viewport
 - Capacitor: https://medium.com/swlh/next-level-todo-app-using-react-typescript-capacitor-and-gcp-2429b1f7ef92
