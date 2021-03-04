@@ -341,3 +341,27 @@ export function formatPhoneNumber(phoneNumberString) {
 
 //formatPhoneNumber('+12345678900') // => "+1 (234) 567-8900"
 //formatPhoneNumber('2345678900'); // => "(234) 567-8900"
+
+const maxConsecutiveCharacters =  (s: string) => {
+  let prev = s[0];
+  let curr;
+  let maxLength = 1;
+  let count = 0;
+
+  for (let i = 0; i < s.length; i++) {
+    curr = s[i];
+
+    if (curr === prev) {
+      count++;
+    } else {
+      maxLength = Math.max(maxLength, count);
+      count = 1;
+      prev = curr;
+    }
+  }
+
+  return Math.max(maxLength, count);
+};
+
+// maxConsecutiveCharacters('ssson') => 3
+// maxConsecutiveCharacters('sssoooon') => 4
