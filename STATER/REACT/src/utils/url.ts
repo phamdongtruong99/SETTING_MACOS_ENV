@@ -141,3 +141,6 @@ export const replaceBrowserUrl = (url: string) => {
 		window.history.replaceState(null, '', url);
 	}
 };
+	     
+export const removeURLParrameter = (): void =>
+  global.history.replaceState(null, document.title, global.location.pathname)
