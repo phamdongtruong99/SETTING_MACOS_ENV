@@ -5,6 +5,7 @@ import createSagaMiddleware from 'redux-saga';
 import { createBrowserHistory, History } from 'history';
 import { routerMiddleware } from 'connected-react-router';
 import rootReducer from './rootReducer';
+import { useDispatch } from 'react-redux';
 import rootSagas from './rootSagas';
 
 export const history: History = createBrowserHistory();
@@ -19,6 +20,9 @@ const store = configureStore({
 });
 
 export type AppDispatch = typeof store.dispatch;
+export type AppState = ReturnType<typeof rootReducer>
+                                  
+export const useAppDispatch = (): AppDispatch => useDispatch<AppDispatch>();
 
 sagaMiddleware.run(rootSagas);
 
