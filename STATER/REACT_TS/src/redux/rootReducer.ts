@@ -8,5 +8,6 @@ const rootReducer = (history: History): any =>
   });
 
 export type RootState = ReturnType<typeof rootReducer>;
+export const useTypedSelector: TypedUseSelectorHook<RootState> = useSelector
 
 export default rootReducer;
