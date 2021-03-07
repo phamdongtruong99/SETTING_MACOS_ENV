@@ -12,6 +12,7 @@ import { ConfigProvider } from 'antd';
 import { formConfig } from '@/configs/config';
 import { DefaultSeo } from "next-seo";
 import seo from "config/seo";
+import NextNprogress from "nextjs-progressbar";
 
 function MyApp({ Component, pageProps }: AppProps) {
   const [loading, setLoading] = useState<boolean>(false);
@@ -36,6 +37,7 @@ function MyApp({ Component, pageProps }: AppProps) {
         <ConfigProvider form={formConfig}>
           <GlobalStyle />
           <Loading loading={loading} />
+          <NextNprogress options={{ easing: "ease", speed: 500 }} />
           <Component {...pageProps} />
         </ConfigProvider>
       </ThemeProvider>
