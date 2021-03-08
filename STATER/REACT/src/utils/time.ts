@@ -94,3 +94,7 @@ export function addDays(date: Date, days: number): Date {
   result.setDate(result.getDate() + days);
   return result;
 }
+
+export function timeToISOString(time: Moment, isEndTime?: boolean): string {
+  return `${ (!isEndTime ? time.add(-1, 'd') : time).toISOString().substr(0, 11) }${ !isEndTime ? '16:00:00' : '15:59:59' }.000Z`
+}
