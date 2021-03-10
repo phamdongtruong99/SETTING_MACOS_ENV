@@ -41,4 +41,8 @@ export class Browser {
 
 const browser = new Browser();
 
+export const openNewTab = (link: string) => {
+  const win = window.open(link, '_blank');
+  win && win.focus();
+
 export default browser;
