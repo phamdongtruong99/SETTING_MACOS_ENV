@@ -2,6 +2,7 @@ import Icon from '@ant-design/icons';
 import { FC } from 'react';
 import close from '@/public/svg/close.svg';
 import ticker from '@/public/svg/Ticker.svg';
+import { CustomIconComponentProps } from '@ant-design/icons/lib/components/Icon'
 
 const SVGS = {
   close,
@@ -22,7 +23,7 @@ const SVGIcon: FC<SvgProps> = ({ onClick, name, style, size, color }) => {
   return (
     <Icon
       onClick={onClick}
-      component={SVGS[name]}
+      component={SVGS[name] as React.ComponentType<CustomIconComponentProps | React.SVGProps<SVGSVGElement>>}
       style={{ fontSize: size, color: color, ...style }}
     />
   );
