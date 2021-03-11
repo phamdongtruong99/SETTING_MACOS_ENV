@@ -124,6 +124,7 @@
 - NESTS + RBAC: https://github.com/sergey-telpuk/nestjs-rbac
 - NESTJS ROLE: https://github.com/nestjsx/nest-access-control
      - https://auth0.com/blog/developing-a-secure-api-with-nestjs-adding-role-based-access-control/
+     - nest-access-control: https://github.com/nestjsx/nest-access-control
 - NESTJS + MONGODB: https://github.com/academind/nestjs-introduction/tree/02-mongodb
 - NESTJS + AUTOMAPPER + TYPEGOOSE: https://github.com/nartc/example-nest-automapper
 - **MICROSERVICE**:
