@@ -139,6 +139,7 @@
 - **-------TEST--------------**
      - E2E: https://github.com/kelvin-mai/nest-commerce/blob/master/test/auth.e2e-spec.ts
 - SEGAL DECORATOR: https://github.com/danrevah/segal-decorators
+- Code Generate: https://github.com/demetoir/nest-code-generator
 
 ## SOCKET CHEATSHEET
 ```javascript
