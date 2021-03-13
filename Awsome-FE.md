@@ -95,6 +95,7 @@
 - REACT CANVAS DRAW: https://www.npmjs.com/package/react-canvas-draw
 - REACT + FIREBASE: https://stackblitz.com/edit/reactfire-sample-uhnxkb
 - [REAC-GRAPHCMS](https://github.com/GraphCMS/graphcms-event-app-demo)
+- NOTIFICATION + SERVICE WORKER: https://rharshad.com/web-push-notifications-react-firebase/
 - REACT + REDUX + FIREBASE: https://codesandbox.io/s/zrr0n5m2zp
 - Observable: https://stackblitz.com/edit/react-ts-7sarye?file=use-observable.ts
 - REACT + SVG: https://www.youtube.com/watch?v=7bw56feIdh4
