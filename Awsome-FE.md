@@ -45,6 +45,8 @@
      - https://github.com/react-monaco-editor/react-monaco-editor
 - **INTERGATION TEST**: https://github.com/sarahatwork/integration-tests
 - **PDF PREVIEWER**: https://medium.com/how-to-react/create-pdf-viewer-in-react-js-d81c1563da3
+- **Masked Input**: https://github.com/antoniopresto/antd-mask-input
+    - https://codesandbox.io/s/antd-reproduction-template-forked-ybl3q?file=/index.js:156-167
 - **LAZY LOAD**
      - https://github.com/bvaughn/react-virtualized
      - https://github.com/bvaughn/react-window
