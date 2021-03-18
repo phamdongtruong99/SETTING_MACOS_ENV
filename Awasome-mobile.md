@@ -14,6 +14,7 @@
 - **OTP INPUT**: https://github.com/dsznajder/react-native-otp-inputs
                 - https://www.youtube.com/watch?v=dOjGwLpRrOU&ab_channel=LirsTechTips
 - **SLIDER**: https://github.com/Jacse/react-native-app-intro-slider
+- **OTP INPUT**: https://github.com/tttstudios/react-native-otp-input
 - **AWSOME**: https://www.awesome-react-native.com/
 - **MULTIDEX**:
      - https://www.youtube.com/watch?v=4oVGEgHR3KE&feature=youtu.be
