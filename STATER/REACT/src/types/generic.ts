@@ -15,4 +15,4 @@ export type Exact<T extends { [key: string]: unknown }> = { [K in keyof T]: T[K]
 export type MakeOptional<T, K extends keyof T> = Omit<T, K> & { [SubKey in K]?: Maybe<T[SubKey]> };
 export type MakeMaybe<T, K extends keyof T> = Omit<T, K> & { [SubKey in K]: Maybe<T[SubKey]> };
 export type Writeable<T> = { -readonly [P in keyof T]: T[P] };  // https://viblo.asia/p/4-tinh-nang-rat-hay-tu-typescript-vyDZOMn95wj
-type WithChildren<T = {}> = T & { children?: React.ReactNode }; 
+export type WithChildren<T = {}> = T & { children?: React.ReactNode }; 
