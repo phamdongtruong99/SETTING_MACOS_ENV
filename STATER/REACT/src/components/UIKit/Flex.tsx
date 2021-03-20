@@ -35,7 +35,7 @@ const Flex = styled.div(
       background-color: ${bg};
       width: ${formatWidth};
       height: ${formatHeight};
-      border-radius: ${circle ? 50 : 100}%;
+      border-radius: ${circle ? 50 : 0}%;
       overflow-y: ${overFlowY}
       overflow-x: ${overFlowX}
   `;
@@ -54,4 +54,3 @@ Flex.defaultProps = {
 };
 
 export default Flex;
-
