@@ -85,3 +85,7 @@ export const triggerEvent = (el, eventType, detail) =>
   el.dispatchEvent(new CustomEvent(eventType, { detail }));
 
 // triggerEvent(document.getElementById('myId'), 'click');
+  
+export const resetCursor = () => {
+  document.documentElement.style.cursor = "";
+}
