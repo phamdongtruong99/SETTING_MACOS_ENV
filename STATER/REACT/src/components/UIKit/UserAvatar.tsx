@@ -10,7 +10,7 @@ interface IUserAvatar {
 
 const UserAvatar: React.FC<IUserAvatar> = ({ url, name, style }) => {
   if(url){
-    return <Avatar style={style} src={user.avatarURL} />
+    return <Avatar style={style} src={url} />
   }
   return <Avatar style={style}>
         {name?.[0]?.toUpperCase() : ""}
